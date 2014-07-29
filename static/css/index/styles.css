@@ -123,18 +123,21 @@
 	 top: 0px; 
 	 position: absolute; 
 	 width: 100%;
-	 height: 130px;
+	 height: 180px;
 	 z-index:12;
 } 
 
  #preg 
 { 
-	 left: 560px; 
+	 left: 280px; 
 	 top: 30px; 
 	 position: absolute; 
 	 width: 135px;
 	 height: 138px;
 	 z-index:13;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 12px;
+	text-align:center;
 } 
 
  #newborn 
@@ -149,7 +152,7 @@
 
  #pnc 
 { 
-	 left: 306px; 
+	 left: 560px; 
 	 top: 30px; 
 	 position: absolute; 
 	 width: 155px;
@@ -169,7 +172,7 @@
 
  #ccm 
 { 
-	 left: 395px; 
+	 left: 644px; 
 	 top: 30px; 
 	 position: absolute; 
 	 width: 100px;
@@ -187,14 +190,17 @@
 	 z-index:17;
 } 
 
- #feeding 
+ #nutrition 
 { 
-	 left: 644px; 
+	 left: 380px; 
 	 top: 30px; 
 	 position: absolute; 
 	 width: 137px;
 	 height: 142px;
 	 z-index:18;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 12px;
+	text-align:center;
 } 
 
  #Layer18copy8 
