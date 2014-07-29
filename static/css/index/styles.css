@@ -24,7 +24,7 @@
 
  #Layer2 
 { 
-	background: url(images/Layer2.png) repeat-x;
+	background: url(../../images/index/Layer2.png) repeat-x;
 	 bottom: 0px; 
 	 position: absolute; 
 	 width: 100%;
@@ -118,7 +118,7 @@
 
  #Layer1copy 
 { 
-	background: url(images/banner_background.png) repeat-x;
+	background: url(../../images/index/banner_background.png) repeat-x;
 	 left: 0px; 
 	 top: 0px; 
 	 position: absolute; 
@@ -199,7 +199,7 @@
 
  #Layer18copy8 
 { 
-	background: url(images/Layer18copy8.png) repeat-x;
+	background: url(../../images/index/Layer18copy8.png) repeat-x;
 	 left: 0px; 
 	 top: 0px; 
 	 position: absolute; 
@@ -210,7 +210,7 @@
 
  #Layer19copy8 
 { 
-	background: url(images/Layer19copy8.png) repeat-x;
+	background: url(../../images/index/Layer19copy8.png) repeat-x;
 	 left: 0px; 
 	 top: 2px; 
 	 position: absolute; 
