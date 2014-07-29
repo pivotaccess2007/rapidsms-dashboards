@@ -3,7 +3,7 @@
 	padding: 0;
  }
  
- #background 
+ #background2 
 { 
 	 left: 0px; 
 	 top: 0px; 
@@ -11,7 +11,7 @@
 	 margin-left: auto; 
 	 margin-right: auto; 
 	 width: 1000px;
-	 height: 2118px; 
+	 height: 2518px; 
 	 overflow: hidden;
 	 z-index:0;
 	} 
@@ -34,7 +34,7 @@
 	 top: 0px; 
 	 position: absolute; 
 	 width: 100%;
-	 height: 2118px;
+	 height: 2518px;
 	 z-index:1;
 } 
 
@@ -425,7 +425,7 @@
 
  #Layer9 
 { 
-	 left: 424px; 
+	 left: 418px; 
 	 top: 249px; 
 	 position: absolute; 
 	 width: 199px;
@@ -533,6 +533,31 @@
 	 z-index:48;
 } 
 
+ #childbeingbreastfeed 
+{ 
+	 left: 178px; 
+	 top: 364px; 
+	 position: absolute; 
+	 width: 117px;
+	 height: 63px;
+	 z-index:49;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 15px;
+	
+} 
+
+ #layer_118 
+{ 
+	 left: 269px; 
+	 top: 419px; 
+	 position: absolute; 
+	 width: 70px;
+	 height: 31px;
+	 z-index:50;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 25px;
+} 
+
  #Childnotbebreastfeed 
 { 
 	 left: 406px; 
@@ -540,7 +565,31 @@
 	 position: absolute; 
 	 width: 193px;
 	 height: 105px;
-	 z-index:49;
+	 z-index:51;
+} 
+
+ #layer_34 
+{ 
+	 left: 523px; 
+	 top: 410px; 
+	 position: absolute; 
+	 width: 55px;
+	 height: 36px;
+	 z-index:52;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 25px;
+} 
+
+ #childnotbreastfeed 
+{ 
+	 left: 413px; 
+	 top: 362px; 
+	 position: absolute; 
+	 width: 104px;
+	 height: 39px;
+	 z-index:53;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 15px;
 } 
 
  #layer_11 
@@ -550,17 +599,65 @@
 	 position: absolute; 
 	 width: 176px;
 	 height: 96px;
-	 z-index:50;
+	 z-index:54;
 } 
 
- #layer_108 
+ #layer_1121
 { 
-	 left: 340px; 
+	 left: 765px; 
+	 top: 416px; 
+	 position: absolute; 
+	 width: 37px;
+	 height: 31px;
+	 z-index:55;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 25px;
+} 
+
+ #Thoseunknown 
+{ 
+	 left: 662px; 
+	 top: 371px; 
+	 position: absolute; 
+	 width: 87px;
+	 height: 39px;
+	 z-index:56;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 15px;
+} 
+
+ #WithinFirsthourPic 
+{ 
+	 left: 355px; 
 	 top: 477px; 
 	 position: absolute; 
 	 width: 326px;
 	 height: 94px;
-	 z-index:51;
+	 z-index:57;
+} 
+
+ #Breastfeedwithinthef 
+{ 
+	 left: 426px; 
+	 top: 488px; 
+	 position: absolute; 
+	 width: 225px;
+	 height: 43px;
+	 z-index:58;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 15px;
+} 
+
+ #layer_108 
+{ 
+	 left: 581px; 
+	 top: 525px; 
+	 position: absolute; 
+	 width: 79px;
+	 height: 36px;
+	 z-index:59;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 25px;
 } 
 
  #Layer11 
@@ -568,7 +665,7 @@
 	 left: 302px; 
 	 top: 744px; 
 	 position: absolute; 
-	 width: 374px;
+	 width: 500px;
 	 height: 14px;
 	 z-index:52;
 } 
@@ -578,69 +675,45 @@
 	 left: 301px; 
 	 top: 808px; 
 	 position: absolute; 
-	 width: 382px;
+	 width: 500px;
 	 height: 13px;
 	 z-index:53;
 } 
 
  #layer_112 
 { 
-	 left: 840px; 
-	 top: 712px; 
-	 position: absolute; 
-	 width: 28px;
-	 height: 13px;
-	 z-index:54;
+	 display: inline;
+	font-family: 'Open Sans', sans-serif;
 } 
 
  #layer_76 
 { 
-	 left: 686px; 
-	 top: 742px; 
-	 position: absolute; 
-	 width: 19px;
-	 height: 13px;
-	 z-index:55;
+	 display: inline;
+	font-family: 'Open Sans', sans-serif;
 } 
 
  #layer_84 
 { 
-	 left: 732px; 
-	 top: 771px; 
-	 position: absolute; 
-	 width: 20px;
-	 height: 13px;
-	 z-index:56;
+	 display: inline;
+	font-family: 'Open Sans', sans-serif;
 } 
 
  #layer_79 
 { 
-	 left: 693px; 
-	 top: 808px; 
-	 position: absolute; 
-	 width: 19px;
-	 height: 13px;
-	 z-index:57;
+	 display: inline;
+	font-family: 'Open Sans', sans-serif;
 } 
 
  #layer_55 
 { 
-	 left: 556px; 
-	 top: 835px; 
-	 position: absolute; 
-	 width: 19px;
-	 height: 13px;
-	 z-index:58;
+	 display: inline;
+	font-family: 'Open Sans', sans-serif;
 } 
 
  #layer_42 
 { 
-	 left: 483px; 
-	 top: 871px; 
-	 position: absolute; 
-	 width: 20px;
-	 height: 13px;
-	 z-index:59;
+	 display: inline;
+	font-family: 'Open Sans', sans-serif;
 } 
 
  #Layer1copy_0 
@@ -648,7 +721,7 @@
 	 left: 302px; 
 	 top: 774px; 
 	 position: absolute; 
-	 width: 415px;
+	 width: 500px;
 	 height: 13px;
 	 z-index:60;
 } 
@@ -658,7 +731,7 @@
 	 left: 301px; 
 	 top: 714px; 
 	 position: absolute; 
-	 width: 522px;
+	 width: 500px;
 	 height: 13px;
 	 z-index:61;
 } 
@@ -668,7 +741,7 @@
 	 left: 302px; 
 	 top: 837px; 
 	 position: absolute; 
-	 width: 243px;
+	 width: 500px;
 	 height: 13px;
 	 z-index:62;
 } 
@@ -678,12 +751,12 @@
 	 left: 301px; 
 	 top: 870px; 
 	 position: absolute; 
-	 width: 174px;
+	 width: 500px;
 	 height: 13px;
 	 z-index:63;
 } 
 
- #1stMonth 
+ #Month1 
 { 
 	 left: 197px; 
 	 top: 719px; 
@@ -691,56 +764,68 @@
 	 width: 81px;
 	 height: 14px;
 	 z-index:64;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 15px;
 } 
 
- #2ndMonth 
+ #Month2 
 { 
 	 left: 196px; 
 	 top: 750px; 
 	 position: absolute; 
-	 width: 89px;
+	 width: 109px;
 	 height: 14px;
 	 z-index:65;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 15px;
 } 
 
- #3rdMonth 
+ #Month3 
 { 
 	 left: 197px; 
 	 top: 778px; 
 	 position: absolute; 
-	 width: 85px;
+	 width: 105px;
 	 height: 14px;
 	 z-index:66;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 15px;
 } 
 
- #4thMonth 
+ #Month4 
 { 
 	 left: 196px; 
 	 top: 807px; 
 	 position: absolute; 
-	 width: 85px;
+	 width: 105px;
 	 height: 14px;
 	 z-index:67;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 15px;
 } 
 
- #5thMonth 
+ #Month5 
 { 
 	 left: 198px; 
 	 top: 837px; 
 	 position: absolute; 
-	 width: 84px;
+	 width: 104px;
 	 height: 14px;
 	 z-index:68;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 15px;
 } 
 
- #6thMonth 
+ #Month6 
 { 
 	 left: 199px; 
 	 top: 866px; 
 	 position: absolute; 
-	 width: 84px;
+	 width: 104px;
 	 height: 14px;
 	 z-index:69;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 15px;
 } 
 
  #Monthlybreastfeeding 
@@ -751,16 +836,21 @@
 	 width: 338px;
 	 height: 24px;
 	 z-index:70;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 20px;
 } 
 
- #ProportionofPregnant 
+ #ProportionofPregnant1 
 { 
 	 left: 293px; 
 	 top: 971px; 
 	 position: absolute; 
-	 width: 149px;
+	 width: 209px;
 	 height: 22px;
 	 z-index:71;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 12px;
+	color:#45b39a;
 } 
 
  #Proportionofpregnant 
@@ -768,9 +858,12 @@
 	 left: 558px; 
 	 top: 975px; 
 	 position: absolute; 
-	 width: 144px;
+	 width: 204px;
 	 height: 19px;
 	 z-index:72;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 12px;
+	color:#45b39a;
 } 
 
  #Proportionoflivebirt 
@@ -778,9 +871,12 @@
 	 left: 280px; 
 	 top: 1053px; 
 	 position: absolute; 
-	 width: 196px;
+	 width: 216px;
 	 height: 9px;
 	 z-index:73;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 12px;
+	color:#45b39a;
 } 
 
  #proportionoflivebirt 
@@ -791,6 +887,9 @@
 	 width: 235px;
 	 height: 9px;
 	 z-index:74;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 12px;
+	color:#45b39a;
 } 
 
  #Proportionofchildren 
@@ -798,9 +897,12 @@
 	 left: 284px; 
 	 top: 1122px; 
 	 position: absolute; 
-	 width: 168px;
+	 width: 218px;
 	 height: 19px;
 	 z-index:75;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 12px;
+	color:#45b39a;
 } 
 
  #proportionofchildren 
@@ -808,9 +910,12 @@
 	 left: 546px; 
 	 top: 1119px; 
 	 position: absolute; 
-	 width: 168px;
+	 width: 218px;
 	 height: 20px;
 	 z-index:76;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 12px;
+	color:#45b39a;
 } 
 
  #proportionofchildren_0 
@@ -818,9 +923,12 @@
 	 left: 282px; 
 	 top: 1214px; 
 	 position: absolute; 
-	 width: 172px;
+	 width: 212px;
 	 height: 19px;
 	 z-index:77;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 12px;
+	color:#45b39a;
 } 
 
  #layer_152 
@@ -831,17 +939,31 @@
 	 width: 54px;
 	 height: 14px;
 	 z-index:78;
-} 
+	font-family: 'Open Sans', sans-serif;
+	font-size: 30px;
+}
+#layer_152:hover
+{
+	color:#45b39a;
+	cursor:pointer;
+}
 
  #layer_44 
 { 
 	 left: 602px; 
-	 top: 1001px; 
+	 top: 1005px; 
 	 position: absolute; 
 	 width: 44px;
 	 height: 14px;
 	 z-index:79;
-} 
+	font-family: 'Open Sans', sans-serif;
+	font-size: 30px;
+}
+#layer_44:hover
+{
+	color:#45b39a;
+	cursor:pointer;
+}
 
  #layer_29 
 { 
@@ -851,7 +973,14 @@
 	 width: 43px;
 	 height: 14px;
 	 z-index:80;
-} 
+	font-family: 'Open Sans', sans-serif;
+	font-size: 30px;
+}
+#layer_29:hover
+{
+	color:#45b39a;
+	cursor:pointer;
+}
 
  #layer_822 
 { 
@@ -861,7 +990,14 @@
 	 width: 56px;
 	 height: 14px;
 	 z-index:81;
-} 
+	font-family: 'Open Sans', sans-serif;
+	font-size: 30px;
+}
+#layer_822:hover
+{
+	color:#45b39a;
+	cursor:pointer;
+}
 
  #layer_27 
 { 
@@ -871,7 +1007,14 @@
 	 width: 44px;
 	 height: 14px;
 	 z-index:82;
-} 
+	font-family: 'Open Sans', sans-serif;
+	font-size: 30px;
+}
+#layer_27:hover
+{
+	color:#45b39a;
+	cursor:pointer;
+}
 
  #layer_46 
 { 
@@ -881,7 +1024,14 @@
 	 width: 44px;
 	 height: 14px;
 	 z-index:83;
-} 
+	font-family: 'Open Sans', sans-serif;
+	font-size: 30px;
+}
+#layer_46:hover
+{
+	color:#45b39a;
+	cursor:pointer;
+}
 
  #layer_56 
 { 
@@ -891,7 +1041,14 @@
 	 width: 44px;
 	 height: 14px;
 	 z-index:84;
-} 
+	font-family: 'Open Sans', sans-serif;
+	font-size: 30px;
+}
+#layer_56:hover
+{
+	color:#45b39a;
+	cursor:pointer;
+}
 
  #layer_73 
 { 
@@ -901,16 +1058,26 @@
 	 width: 44px;
 	 height: 14px;
 	 z-index:85;
-} 
+	font-family: 'Open Sans', sans-serif;
+	font-size: 30px;
+}
+#layer_73:hover
+{
+	color:#45b39a;
+	cursor:pointer;
+}
 
  #proportionofchildren_1 
 { 
 	 left: 540px; 
 	 top: 1219px; 
 	 position: absolute; 
-	 width: 179px;
+	 width: 219px;
 	 height: 20px;
 	 z-index:86;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 12px;
+	color:#45b39a;
 } 
 
  #Layer12 
@@ -928,9 +1095,12 @@
 	 left: 373px; 
 	 top: 1360px; 
 	 position: absolute; 
-	 width: 96px;
+	 width: 226px;
 	 height: 16px;
 	 z-index:88;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 15px;
+	color:#45b39a;
 } 
 
  #OverWeight 
@@ -938,9 +1108,12 @@
 	 left: 678px; 
 	 top: 1360px; 
 	 position: absolute; 
-	 width: 88px;
+	 width: 228px;
 	 height: 16px;
 	 z-index:89;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 15px;
+	color:#45b39a;
 } 
 
  #layer_7869 
@@ -951,9 +1124,19 @@
 	 width: 76px;
 	 height: 21px;
 	 z-index:90;
-} 
+	font-family: 'Open Sans', sans-serif;
+	font-size: 30px;
+}
+#layer_7869:hover
+{
+	color:#45b39a;
+	cursor:pointer;
+}
+#underwieghtpercent{
+	font-size: 15px;
+}
 
- #7869copy 
+ #top 
 { 
 	 left: 680px; 
 	 top: 1390px; 
@@ -961,7 +1144,17 @@
 	 width: 76px;
 	 height: 21px;
 	 z-index:91;
-} 
+	font-family: 'Open Sans', sans-serif;
+	font-size: 30px;
+}
+#top:hover
+{
+	color:#45b39a;
+	cursor:pointer;
+}
+#overweightpercent{
+	font-size:15px;
+}
 
  #Layer13 
 { 
@@ -981,62 +1174,151 @@
 	 width: 139px;
 	 height: 13px;
 	 z-index:93;
+		font-family: 'Open Sans', sans-serif;
+	font-size: 55px;
+}
+
+ #layer_224 
+{ 
+	 left: 337px; 
+	 top: 1598px; 
+	 position: absolute; 
+	 width: 135px;
+	 height: 59px;
+	 z-index:102;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 50px;
+	color:#45b39a;
+}
+#layer_224:hover
+{
+	color:#000;
+	cursor:pointer;
+}
+
+ #layer_98 
+{ 
+	 left: 732px; 
+	 top: 1601px; 
+	 position: absolute; 
+	 width: 85px;
+	 height: 60px;
+	 z-index:103;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 50px;
+	color:#45b39a;
+}
+#layer_98:hover
+{
+	color:#000;
+	cursor:pointer;
+}
+
+
+ #waisting 
+{ 
+	 left: 230px; 
+	 top: 1617px; 
+	 position: absolute; 
+	 width: 136px;
+	 height: 35px;
+	 z-index:108;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 25px;
 } 
 
+ #stunting 
+{ 
+	 left: 619px; 
+	 top: 1622px; 
+	 position: absolute; 
+	 width: 137px;
+	 height: 35px;
+	 z-index:109;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 25px;
+} 
  #layer_11_0 
 { 
 	 left: 244px; 
-	 top: 1606px; 
+	 top: 1756px; 
 	 position: absolute; 
 	 width: 147px;
 	 height: 148px;
 	 z-index:94;
+}
+ #month1number 
+{ 
+	 left: 294px; 
+	 top: 1850px; 
+	 position: absolute; 
+	 width: 147px;
+	 height: 148px;
+	 z-index:96;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 38px;
+	color:#fff;
 } 
 
  #At1year 
 { 
 	 left: 395px; 
-	 top: 1606px; 
+	 top: 1756px; 
 	 position: absolute; 
 	 width: 149px;
 	 height: 149px;
 	 z-index:95;
+}
+ #year1number 
+{ 
+	 left: 455px; 
+	 top: 1850px; 
+	 position: absolute; 
+	 width: 149px;
+	 height: 149px;
+	 z-index:95;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 38px;
+	color:#fff;
 } 
 
  #At2years 
 { 
 	 left: 552px; 
-	 top: 1607px; 
+	 top: 1757px; 
 	 position: absolute; 
 	 width: 148px;
 	 height: 149px;
 	 z-index:96;
-} 
+}
+ #years2number 
+{ 
+	 left: 602px; 
+	 top: 1852px; 
+	 position: absolute; 
+	 width: 148px;
+	 height: 149px;
+	 z-index:96;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 38px;
+	color:#fff;
+}
 
  #Numberofmalnutrition 
 { 
 	 left: 288px; 
-	 top: 1557px; 
+	 top: 1697px; 
 	 position: absolute; 
 	 width: 414px;
 	 height: 32px;
 	 z-index:97;
 } 
 
- #Layer14 
-{ 
-	 left: 774px; 
-	 top: 1735px; 
-	 position: absolute; 
-	 width: 104px;
-	 height: 39px;
-	 z-index:98;
-} 
 
  #Layer15 
 { 
 	 left: 0px; 
-	 top: 1844px; 
+	 top: 1994px; 
 	 position: absolute; 
 	 width: 1000px;
 	 height: 6px;
@@ -1046,7 +1328,7 @@
  #ContactUsReachouttou 
 { 
 	 left: 276px; 
-	 top: 1895px; 
+	 top: 2045px; 
 	 position: absolute; 
 	 width: 162px;
 	 height: 171px;
@@ -1056,7 +1338,7 @@
  #FollowusonSocialNetw 
 { 
 	 left: 540px; 
-	 top: 1903px; 
+	 top: 2053px; 
 	 position: absolute; 
 	 width: 183px;
 	 height: 59px;
@@ -1066,7 +1348,7 @@
  #Layer16 
 { 
 	 left: 541px; 
-	 top: 1978px; 
+	 top: 2128px; 
 	 position: absolute; 
 	 width: 98px;
 	 height: 28px;
@@ -1076,7 +1358,7 @@
  #Layer17 
 { 
 	 left: 512px; 
-	 top: 2031px; 
+	 top: 2181px; 
 	 position: absolute; 
 	 width: 120px;
 	 height: 28px;
@@ -1086,7 +1368,7 @@
  #Layer18 
 { 
 	 left: 374px; 
-	 top: 1823px; 
+	 top: 1965px; 
 	 position: absolute; 
 	 width: 263px;
 	 height: 64px;
@@ -1096,7 +1378,7 @@
  #Layer19 
 { 
 	 left: 658px; 
-	 top: 1998px; 
+	 top: 2148px; 
 	 position: absolute; 
 	 width: 62px;
 	 height: 65px;
