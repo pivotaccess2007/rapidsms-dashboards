@@ -160,6 +160,18 @@
 	font-family: 'Open Sans', sans-serif;
 	font-size: 12px;
 	text-align:center;
+}
+ #anc 
+{ 
+	 left: 530px; 
+	 top: 30px; 
+	 position: absolute; 
+	 width: 92px;
+	 height: 127px;
+	 z-index:14;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 12px;
+	text-align:center;
 } 
 
  #pnc 
