@@ -1280,6 +1280,7 @@ font-family: 'Open Sans', sans-serif;
 	 height: 69px;
 	 z-index:108;
 } 
+/***************************************/
 
  #COUGHING24copy3 
 { 
@@ -1298,6 +1299,11 @@ font-family: 'Open Sans', sans-serif;
 	margin-left: 20px;
 	font-size: 20px;
 }
+ #COUGHING24copy3:hover
+{ 
+	color:#fff;
+	cursor:pointer;
+}
 
  #DIARRHEA33copy3 
 { 
@@ -1315,7 +1321,12 @@ font-family: 'Open Sans', sans-serif;
 { 
 	margin-left: 20px;
 	font-size: 20px;
-}  
+}
+ #DIARRHEA33copy3:hover
+{ 
+	color:#fff;
+	cursor:pointer;
+}
 
  #FEVER12copy3 
 { 
@@ -1334,6 +1345,11 @@ font-family: 'Open Sans', sans-serif;
 	margin-left: 5px;
 	font-size: 20px;
 }
+ #FEVER12copy3:hover
+{ 
+	color:#fff;
+	cursor:pointer;
+}
 
  #MALARIA09copy3 
 { 
@@ -1351,7 +1367,12 @@ font-family: 'Open Sans', sans-serif;
 { 
 	margin-left: 20px;
 	font-size: 20px;
-} 
+}
+ #MALARIA09copy3:hover
+{ 
+	color:#fff;
+	cursor:pointer;
+}
 
  #VOMITING18copy3 
 { 
@@ -1369,6 +1390,11 @@ font-family: 'Open Sans', sans-serif;
 { 
 	margin-left: 20px;
 	font-size: 20px;
+}
+ #VOMITING18copy3:hover
+{ 
+	color:#fff;
+	cursor:pointer;
 }
 
  #STILLBORN21copy3 
@@ -1388,6 +1414,11 @@ font-family: 'Open Sans', sans-serif;
 	margin-left: 20px;
 	font-size: 20px;
 }
+ #STILLBORN21copy3:hover
+{ 
+	color:#fff;
+	cursor:pointer;
+}
 
  #EDEMA13copy3 
 { 
@@ -1405,6 +1436,11 @@ font-family: 'Open Sans', sans-serif;
 { 
 	margin-left: 20px;
 	font-size: 20px;
+}
+ #EDEMA13copy3:hover
+{ 
+	color:#fff;
+	cursor:pointer;
 }
 
  #JAUNDICE09copy3 
@@ -1424,6 +1460,11 @@ font-family: 'Open Sans', sans-serif;
 	margin-left: 20px;
 	font-size: 20px;
 }
+ #JAUNDICE09copy3:hover
+{ 
+	color:#fff;
+	cursor:pointer;
+}
 
  #PNEUMONIA21copy3 
 { 
@@ -1442,6 +1483,11 @@ font-family: 'Open Sans', sans-serif;
 	margin-left: 20px;
 	font-size: 20px;
 }
+ #PNEUMONIA21copy3:hover
+{ 
+	color:#fff;
+	cursor:pointer;
+}
 
  #DISABILITY21copy3 
 { 
@@ -1459,7 +1505,12 @@ font-family: 'Open Sans', sans-serif;
 { 
 	margin-left: 20px;
 	font-size: 20px;
-}  
+}
+ #DISABILITY21copy3:hover
+{ 
+	color:#fff;
+	cursor:pointer;
+}
 
  #HYPOTHEMIA21copy3 
 { 
@@ -1478,6 +1529,11 @@ font-family: 'Open Sans', sans-serif;
 	margin-left: 20px;
 	font-size: 20px;
 }
+ #HYPOTHEMIA21copy3:hover
+{ 
+	color:#fff;
+	cursor:pointer;
+}
 
  #CLEFTPALATE21 
 { 
@@ -1495,7 +1551,12 @@ font-family: 'Open Sans', sans-serif;
 { 
 	margin-left: 5px;
 	font-size: 20px;
-}  
+}
+ #CLEFTPALATE21:hover
+{ 
+	color:#fff;
+	cursor:pointer;
+}
 
  #CORDINFECTION 
 { 
@@ -1513,7 +1574,12 @@ font-family: 'Open Sans', sans-serif;
 { 
 	margin-left: 10px;
 	font-size: 20px;
-}  
+}
+ #CORDINFECTION:hover
+{ 
+	color:#fff;
+	cursor:pointer;
+}
 
  #NECKSTIFFNESS 
 { 
@@ -1531,7 +1597,12 @@ font-family: 'Open Sans', sans-serif;
 { 
 	margin-left: 10px;
 	font-size: 20px;
-} 
+}
+ #NECKSTIFFNESS:hover
+{ 
+	color:#fff;
+	cursor:pointer;
+}
 
  #Layer2copy3 
 { 
@@ -1696,6 +1767,8 @@ font-family: 'Open Sans', sans-serif;
 	 z-index:138;
 } 
 
+
+/****************************************/
  #COUGHING24copy2 
 { 
 	 left: 382px; 
@@ -1704,7 +1777,20 @@ font-family: 'Open Sans', sans-serif;
 	 width: 58px;
 	 height: 41px;
 	 z-index:139;
-} 
+	font-family: 'Open Sans', sans-serif;
+	font-weight:bold;
+	font-size: 10px;
+}
+ #COUGHING24copy2 > strong
+{ 
+	margin-left: 20px;
+	font-size: 20px;
+}
+ #COUGHING24copy2:hover
+{ 
+	color:#fff;
+	cursor:pointer;
+}
 
  #DIARRHEA33copy2 
 { 
@@ -1714,7 +1800,20 @@ font-family: 'Open Sans', sans-serif;
 	 width: 54px;
 	 height: 44px;
 	 z-index:140;
-} 
+	font-family: 'Open Sans', sans-serif;
+	font-weight:bold;
+	font-size: 10px;
+}
+ #DIARRHEA33copy2 > strong
+{ 
+	margin-left: 20px;
+	font-size: 20px;
+}
+ #DIARRHEA33copy2:hover
+{ 
+	color:#fff;
+	cursor:pointer;
+}
 
  #FEVER12copy2 
 { 
@@ -1724,7 +1823,20 @@ font-family: 'Open Sans', sans-serif;
 	 width: 32px;
 	 height: 44px;
 	 z-index:141;
-} 
+	font-family: 'Open Sans', sans-serif;
+	font-weight:bold;
+	font-size: 10px;
+}
+ #FEVER12copy2 > strong
+{ 
+	margin-left: 20px;
+	font-size: 20px;
+}
+ #FEVER12copy2:hover
+{ 
+	color:#fff;
+	cursor:pointer;
+}
 
  #MALARIA09copy2 
 { 
@@ -1734,7 +1846,20 @@ font-family: 'Open Sans', sans-serif;
 	 width: 48px;
 	 height: 44px;
 	 z-index:142;
-} 
+	font-family: 'Open Sans', sans-serif;
+	font-weight:bold;
+	font-size: 10px;
+}
+ #MALARIA09copy2 > strong
+{ 
+	margin-left: 20px;
+	font-size: 20px;
+}
+ #MALARIA09copy2:hover
+{ 
+	color:#fff;
+	cursor:pointer;
+}
 
  #VOMITING18copy2 
 { 
@@ -1744,7 +1869,20 @@ font-family: 'Open Sans', sans-serif;
 	 width: 54px;
 	 height: 43px;
 	 z-index:143;
-} 
+	font-family: 'Open Sans', sans-serif;
+	font-weight:bold;
+	font-size: 10px;
+}
+ #VOMITING18copy2 > strong
+{ 
+	margin-left: 20px;
+	font-size: 20px;
+}
+ #VOMITING18copy2:hover
+{ 
+	color:#fff;
+	cursor:pointer;
+}
 
  #STILLBORN21copy2 
 { 
@@ -1754,7 +1892,20 @@ font-family: 'Open Sans', sans-serif;
 	 width: 59px;
 	 height: 44px;
 	 z-index:144;
-} 
+	font-family: 'Open Sans', sans-serif;
+	font-weight:bold;
+	font-size: 10px;
+}
+ #STILLBORN21copy2 > strong
+{ 
+	margin-left: 20px;
+	font-size: 20px;
+}
+ #STILLBORN21copy2:hover
+{ 
+	color:#fff;
+	cursor:pointer;
+}
 
  #EDEMA13copy2 
 { 
@@ -1764,7 +1915,20 @@ font-family: 'Open Sans', sans-serif;
 	 width: 38px;
 	 height: 43px;
 	 z-index:145;
-} 
+	font-family: 'Open Sans', sans-serif;
+	font-weight:bold;
+	font-size: 10px;
+}
+ #EDEMA13copy2 > strong
+{ 
+	margin-left: 20px;
+	font-size: 20px;
+}
+ #EDEMA13copy2:hover
+{ 
+	color:#fff;
+	cursor:pointer;
+}
 
  #JAUNDICE09copy2 
 { 
@@ -1774,7 +1938,20 @@ font-family: 'Open Sans', sans-serif;
 	 width: 54px;
 	 height: 44px;
 	 z-index:146;
-} 
+	font-family: 'Open Sans', sans-serif;
+	font-weight:bold;
+	font-size: 10px;
+}
+ #JAUNDICE09copy2 > strong
+{ 
+	margin-left: 20px;
+	font-size: 20px;
+}
+ #JAUNDICE09copy2:hover
+{ 
+	color:#fff;
+	cursor:pointer;
+}
 
  #PNEUMONIA21copy2 
 { 
@@ -1784,7 +1961,20 @@ font-family: 'Open Sans', sans-serif;
 	 width: 66px;
 	 height: 44px;
 	 z-index:147;
-} 
+	font-family: 'Open Sans', sans-serif;
+	font-weight:bold;
+	font-size: 10px;
+}
+ #PNEUMONIA21copy2 > strong
+{ 
+	margin-left: 20px;
+	font-size: 20px;
+}
+ #PNEUMONIA21copy2:hover
+{ 
+	color:#fff;
+	cursor:pointer;
+}
 
  #DISABILITY21copy2 
 { 
@@ -1794,7 +1984,20 @@ font-family: 'Open Sans', sans-serif;
 	 width: 57px;
 	 height: 44px;
 	 z-index:148;
-} 
+	font-family: 'Open Sans', sans-serif;
+	font-weight:bold;
+	font-size: 10px;
+}
+ #DISABILITY21copy2 > strong
+{ 
+	margin-left: 20px;
+	font-size: 20px;
+}
+ #DISABILITY21copy2:hover
+{ 
+	color:#fff;
+	cursor:pointer;
+}
 
  #HYPOTHEMIA21copy2 
 { 
@@ -1804,7 +2007,20 @@ font-family: 'Open Sans', sans-serif;
 	 width: 57px;
 	 height: 43px;
 	 z-index:149;
-} 
+	font-family: 'Open Sans', sans-serif;
+	font-weight:bold;
+	font-size: 10px;
+}
+ #HYPOTHEMIA21copy2 > strong
+{ 
+	margin-left: 20px;
+	font-size: 20px;
+}
+ #HYPOTHEMIA21copy2:hover
+{ 
+	color:#fff;
+	cursor:pointer;
+}
 
  #CLEFTPALATE21_0 
 { 
@@ -1814,8 +2030,20 @@ font-family: 'Open Sans', sans-serif;
 	 width: 32px;
 	 height: 53px;
 	 z-index:150;
-} 
-
+	font-family: 'Open Sans', sans-serif;
+	font-weight:bold;
+	font-size: 10px;
+}
+ #CLEFTPALATE21_0 > strong
+{ 
+	margin-left: 20px;
+	font-size: 20px;
+}  
+ #CLEFTPALATE21_0:hover
+{ 
+	color:#fff;
+	cursor:pointer;
+}
  #CORDINFECTION_0 
 { 
 	 left: 786px; 
@@ -1824,7 +2052,20 @@ font-family: 'Open Sans', sans-serif;
 	 width: 42px;
 	 height: 52px;
 	 z-index:151;
-} 
+	font-family: 'Open Sans', sans-serif;
+	font-weight:bold;
+	font-size: 10px;
+}
+ #CORDINFECTION_0 > strong
+{ 
+	margin-left: 20px;
+	font-size: 20px;
+}
+ #CORDINFECTION_0:hover
+{ 
+	color:#fff;
+	cursor:pointer;
+}
 
  #NECKSTIFFNESS_0 
 { 
@@ -1834,7 +2075,20 @@ font-family: 'Open Sans', sans-serif;
 	 width: 44px;
 	 height: 41px;
 	 z-index:152;
-} 
+	font-family: 'Open Sans', sans-serif;
+	font-weight:bold;
+	font-size: 10px;
+}
+ #NECKSTIFFNESS_0 > strong
+{ 
+	margin-left: 20px;
+	font-size: 20px;
+}
+ #NECKSTIFFNESS_0:hover
+{ 
+	color:#fff;
+	cursor:pointer;
+}
 
  #Layer2copy2 
 { 
@@ -1854,6 +2108,9 @@ font-family: 'Open Sans', sans-serif;
 	 width: 87px;
 	 height: 55px;
 	 z-index:154;
+	font-family: 'Open Sans', sans-serif;
+	font-weight:bold;
+	font-size: 20px;
 } 
 
  #Layer1copy14 
@@ -1994,7 +2251,9 @@ font-family: 'Open Sans', sans-serif;
 	 width: 61px;
 	 height: 69px;
 	 z-index:168;
-} 
+}
+
+/*******************************************/
 
  #COUGHING24copy 
 { 
@@ -2004,7 +2263,20 @@ font-family: 'Open Sans', sans-serif;
 	 width: 58px;
 	 height: 40px;
 	 z-index:169;
-} 
+	font-family: 'Open Sans', sans-serif;
+	font-weight:bold;
+	font-size: 10px;
+}
+ #COUGHING24copy > strong
+{ 
+	margin-left: 20px;
+	font-size: 20px;
+}
+ #COUGHING24copy:hover
+{ 
+	color:#fff;
+	cursor:pointer;
+}
 
  #DIARRHEA33copy 
 { 
@@ -2014,7 +2286,20 @@ font-family: 'Open Sans', sans-serif;
 	 width: 54px;
 	 height: 44px;
 	 z-index:170;
-} 
+	font-family: 'Open Sans', sans-serif;
+	font-weight:bold;
+	font-size: 10px;
+}
+ #DIARRHEA33copy > strong
+{ 
+	margin-left: 20px;
+	font-size: 20px;
+}
+ #DIARRHEA33copy:hover
+{ 
+	color:#fff;
+	cursor:pointer;
+}
 
  #FEVER12copy 
 { 
@@ -2024,7 +2309,20 @@ font-family: 'Open Sans', sans-serif;
 	 width: 32px;
 	 height: 44px;
 	 z-index:171;
-} 
+	font-family: 'Open Sans', sans-serif;
+	font-weight:bold;
+	font-size: 10px;
+}
+ #FEVER12copy > strong
+{ 
+	margin-left: 5px;
+	font-size: 20px;
+}
+ #FEVER12copy:hover
+{ 
+	color:#fff;
+	cursor:pointer;
+}
 
  #MALARIA09copy 
 { 
@@ -2034,8 +2332,20 @@ font-family: 'Open Sans', sans-serif;
 	 width: 48px;
 	 height: 44px;
 	 z-index:172;
-} 
-
+	font-family: 'Open Sans', sans-serif;
+	font-weight:bold;
+	font-size: 10px;
+}
+ #MALARIA09copy > strong
+{ 
+	margin-left: 10px;
+	font-size: 20px;
+}  
+ #MALARIA09copy:hover
+{ 
+	color:#fff;
+	cursor:pointer;
+}
  #VOMITING18copy 
 { 
 	 left: 482px; 
@@ -2044,8 +2354,20 @@ font-family: 'Open Sans', sans-serif;
 	 width: 54px;
 	 height: 44px;
 	 z-index:173;
-} 
-
+	font-family: 'Open Sans', sans-serif;
+	font-weight:bold;
+	font-size: 10px;
+}
+ #VOMITING18copy > strong
+{ 
+	margin-left: 15px;
+	font-size: 20px;
+}  
+ #VOMITING18copy:hover
+{ 
+	color:#fff;
+	cursor:pointer;
+}
  #STILLBORN21copy 
 { 
 	 left: 546px; 
@@ -2054,8 +2376,20 @@ font-family: 'Open Sans', sans-serif;
 	 width: 59px;
 	 height: 44px;
 	 z-index:174;
-} 
-
+	font-family: 'Open Sans', sans-serif;
+	font-weight:bold;
+	font-size: 10px;
+}
+ #STILLBORN21copy > strong
+{ 
+	margin-left: 20px;
+	font-size: 20px;
+}  
+ #STILLBORN21copy:hover
+{ 
+	color:#fff;
+	cursor:pointer;
+}
  #EDEMA13copy 
 { 
 	 left: 588px; 
@@ -2064,7 +2398,20 @@ font-family: 'Open Sans', sans-serif;
 	 width: 38px;
 	 height: 44px;
 	 z-index:175;
-} 
+	font-family: 'Open Sans', sans-serif;
+	font-weight:bold;
+	font-size: 10px;
+}
+ #EDEMA13copy > strong
+{ 
+	margin-left: 5px;
+	font-size: 20px;
+}
+ #EDEMA13copy:hover
+{ 
+	color:#fff;
+	cursor:pointer;
+}
 
  #JAUNDICE09copy 
 { 
@@ -2074,7 +2421,20 @@ font-family: 'Open Sans', sans-serif;
 	 width: 53px;
 	 height: 44px;
 	 z-index:176;
-} 
+	font-family: 'Open Sans', sans-serif;
+	font-weight:bold;
+	font-size: 10px;
+}
+ #JAUNDICE09copy > strong
+{ 
+	margin-left: 20px;
+	font-size: 20px;
+}
+ #JAUNDICE09copy:hover
+{ 
+	color:#fff;
+	cursor:pointer;
+}
 
  #PNEUMONIA21copy 
 { 
@@ -2084,7 +2444,20 @@ font-family: 'Open Sans', sans-serif;
 	 width: 65px;
 	 height: 44px;
 	 z-index:177;
-} 
+	font-family: 'Open Sans', sans-serif;
+	font-weight:bold;
+	font-size: 10px;
+}
+ #PNEUMONIA21copy > strong
+{ 
+	margin-left: 20px;
+	font-size: 20px;
+}
+ #PNEUMONIA21copy:hover
+{ 
+	color:#fff;
+	cursor:pointer;
+}
 
  #DISABILITY21copy 
 { 
@@ -2094,7 +2467,20 @@ font-family: 'Open Sans', sans-serif;
 	 width: 57px;
 	 height: 44px;
 	 z-index:178;
-} 
+	font-family: 'Open Sans', sans-serif;
+	font-weight:bold;
+	font-size: 10px;
+}
+ #DISABILITY21copy > strong
+{ 
+	margin-left: 15px;
+	font-size: 20px;
+}
+ #DISABILITY21copy:hover
+{ 
+	color:#fff;
+	cursor:pointer;
+}
 
  #HYPOTHEMIA21copy 
 { 
@@ -2104,7 +2490,20 @@ font-family: 'Open Sans', sans-serif;
 	 width: 57px;
 	 height: 43px;
 	 z-index:179;
-} 
+	font-family: 'Open Sans', sans-serif;
+	font-weight:bold;
+	font-size: 9px;
+}
+ #HYPOTHEMIA21copy > strong
+{ 
+	margin-left: 20px;
+	font-size: 20px;
+}
+ #HYPOTHEMIA21copy:hover
+{ 
+	color:#fff;
+	cursor:pointer;
+}
 
  #CLEFTPALATE21_1 
 { 
@@ -2114,8 +2513,20 @@ font-family: 'Open Sans', sans-serif;
 	 width: 32px;
 	 height: 53px;
 	 z-index:180;
-} 
-
+	font-family: 'Open Sans', sans-serif;
+	font-weight:bold;
+	font-size: 10px;
+}
+ #CLEFTPALATE21_1 > strong
+{ 
+	margin-left: 5px;
+	font-size: 20px;
+}  
+ #CLEFTPALATE21_1:hover
+{ 
+	color:#fff;
+	cursor:pointer;
+}
  #CORDINFECTION_1 
 { 
 	 left: 785px; 
@@ -2124,7 +2535,20 @@ font-family: 'Open Sans', sans-serif;
 	 width: 42px;
 	 height: 52px;
 	 z-index:181;
-} 
+	font-family: 'Open Sans', sans-serif;
+	font-weight:bold;
+	font-size: 10px;
+}
+ #CORDINFECTION_1 > strong
+{ 
+	margin-left: 5px;
+	font-size: 20px;
+}
+ #CORDINFECTION_1:hover
+{ 
+	color:#fff;
+	cursor:pointer;
+}
 
  #NECKSTIFFNESS_1 
 { 
@@ -2134,8 +2558,20 @@ font-family: 'Open Sans', sans-serif;
 	 width: 43px;
 	 height: 41px;
 	 z-index:182;
+	font-family: 'Open Sans', sans-serif;
+	font-weight:bold;
+	font-size: 10px;
+}
+ #NECKSTIFFNESS_1 > strong
+{ 
+	margin-left: 10px;
+	font-size: 20px;
 } 
-
+ #NECKSTIFFNESS_1:hover
+{ 
+	color:#fff;
+	cursor:pointer;
+}
  #Layer2copy 
 { 
 	 left: 178px; 
@@ -2154,6 +2590,9 @@ font-family: 'Open Sans', sans-serif;
 	 width: 88px;
 	 height: 55px;
 	 z-index:184;
+	font-family: 'Open Sans', sans-serif;
+	font-weight:bold;
+	font-size: 20px;
 } 
 
  #Layer31 
@@ -2296,6 +2735,8 @@ font-family: 'Open Sans', sans-serif;
 	 z-index:198;
 } 
 
+/**********************************/
+
  #COUGHING24 
 { 
 	 left: 380px; 
@@ -2304,7 +2745,20 @@ font-family: 'Open Sans', sans-serif;
 	 width: 58px;
 	 height: 40px;
 	 z-index:199;
-} 
+	font-family: 'Open Sans', sans-serif;
+	font-weight:bold;
+	font-size: 11px;
+}
+ #COUGHING24 > strong
+{ 
+	margin-left: 20px;
+	font-size: 20px;
+}
+ #COUGHING24:hover
+{ 
+	color:#fff;
+	cursor:pointer;
+}
 
  #DIARRHEA33 
 { 
@@ -2314,7 +2768,20 @@ font-family: 'Open Sans', sans-serif;
 	 width: 54px;
 	 height: 44px;
 	 z-index:200;
-} 
+	font-family: 'Open Sans', sans-serif;
+	font-weight:bold;
+	font-size: 11px;
+}
+ #DIARRHEA33 > strong
+{ 
+	margin-left: 20px;
+	font-size: 20px;
+}
+ #DIARRHEA33:hover
+{ 
+	color:#fff;
+	cursor:pointer;
+}
 
  #FEVER12 
 { 
@@ -2324,8 +2791,20 @@ font-family: 'Open Sans', sans-serif;
 	 width: 32px;
 	 height: 44px;
 	 z-index:201;
+	font-family: 'Open Sans', sans-serif;
+	font-weight:bold;
+	font-size: 12px;
+}
+ #FEVER12 > strong
+{ 
+	margin-left: 10px;
+	font-size: 20px;
 } 
-
+ #FEVER12:hover
+{ 
+	color:#fff;
+	cursor:pointer;
+}
  #MALARIA09 
 { 
 	 left: 418px; 
@@ -2334,8 +2813,20 @@ font-family: 'Open Sans', sans-serif;
 	 width: 48px;
 	 height: 44px;
 	 z-index:202;
+	font-family: 'Open Sans', sans-serif;
+	font-weight:bold;
+	font-size: 12px;
+}
+ #MALARIA09 > strong
+{ 
+	margin-left: 10px;
+	font-size: 20px;
 } 
-
+ #MALARIA09:hover
+{ 
+	color:#fff;
+	cursor:pointer;
+}
  #VOMITING18 
 { 
 	 left: 482px; 
@@ -2344,7 +2835,20 @@ font-family: 'Open Sans', sans-serif;
 	 width: 54px;
 	 height: 44px;
 	 z-index:203;
-} 
+	font-family: 'Open Sans', sans-serif;
+	font-weight:bold;
+	font-size: 10px;
+}
+ #VOMITING18 > strong
+{ 
+	margin-left: 15px;
+	font-size: 20px;
+}
+ #VOMITING18:hover
+{ 
+	color:#fff;
+	cursor:pointer;
+}
 
  #STILLBORN21 
 { 
@@ -2354,8 +2858,20 @@ font-family: 'Open Sans', sans-serif;
 	 width: 59px;
 	 height: 44px;
 	 z-index:204;
+	font-family: 'Open Sans', sans-serif;
+	font-weight:bold;
+	font-size: 10px;
+}
+ #STILLBORN21 > strong
+{ 
+	margin-left: 20px;
+	font-size: 20px;
 } 
-
+ #STILLBORN21:hover
+{ 
+	color:#fff;
+	cursor:pointer;
+}
  #EDEMA13 
 { 
 	 left: 588px; 
@@ -2364,8 +2880,20 @@ font-family: 'Open Sans', sans-serif;
 	 width: 38px;
 	 height: 44px;
 	 z-index:205;
-} 
-
+	font-family: 'Open Sans', sans-serif;
+	font-weight:bold;
+	font-size: 12px;
+}
+ #EDEMA13 > strong
+{ 
+	margin-left: 10px;
+	font-size: 20px;
+}  
+ #EDEMA13:hover
+{ 
+	color:#fff;
+	cursor:pointer;
+}
  #JAUNDICE09 
 { 
 	 left: 612px; 
@@ -2374,8 +2902,20 @@ font-family: 'Open Sans', sans-serif;
 	 width: 53px;
 	 height: 43px;
 	 z-index:206;
-} 
-
+	font-family: 'Open Sans', sans-serif;
+	font-weight:bold;
+	font-size: 12px;
+}
+ #JAUNDICE09 > strong
+{ 
+	margin-left: 20px;
+	font-size: 20px;
+}  
+ #JAUNDICE09:hover
+{ 
+	color:#fff;
+	cursor:pointer;
+}
  #PNEUMONIA21 
 { 
 	 left: 644px; 
@@ -2384,8 +2924,20 @@ font-family: 'Open Sans', sans-serif;
 	 width: 65px;
 	 height: 44px;
 	 z-index:207;
-} 
-
+	font-family: 'Open Sans', sans-serif;
+	font-weight:bold;
+	font-size: 10px;
+}
+ #PNEUMONIA21 > strong
+{ 
+	margin-left: 20px;
+	font-size: 20px;
+}  
+ #PNEUMONIA21:hover
+{ 
+	color:#fff;
+	cursor:pointer;
+}
  #DISABILITY21 
 { 
 	 left: 713px; 
@@ -2394,8 +2946,20 @@ font-family: 'Open Sans', sans-serif;
 	 width: 57px;
 	 height: 44px;
 	 z-index:208;
-} 
-
+	font-family: 'Open Sans', sans-serif;
+	font-weight:bold;
+	font-size: 11px;
+}
+ #DISABILITY21 > strong
+{ 
+	margin-left: 20px;
+	font-size: 20px;
+}  
+ #DISABILITY21:hover
+{ 
+	color:#fff;
+	cursor:pointer;
+}
  #HYPOTHEMIA21 
 { 
 	 left: 677px; 
@@ -2404,8 +2968,20 @@ font-family: 'Open Sans', sans-serif;
 	 width: 57px;
 	 height: 43px;
 	 z-index:209;
+	font-family: 'Open Sans', sans-serif;
+	font-weight:bold;
+	font-size: 9px;
+}
+ #HYPOTHEMIA21 > strong
+{ 
+	margin-left: 20px;
+	font-size: 20px;
 } 
-
+ #HYPOTHEMIA21:hover
+{ 
+	color:#fff;
+	cursor:pointer;
+}
  #CLEFTPALATE21_2 
 { 
 	 left: 758px; 
@@ -2414,8 +2990,20 @@ font-family: 'Open Sans', sans-serif;
 	 width: 32px;
 	 height: 53px;
 	 z-index:210;
+	font-family: 'Open Sans', sans-serif;
+	font-weight:bold;
+	font-size: 10px;
+}
+ #CLEFTPALATE21_2 > strong
+{ 
+	margin-left: 5px;
+	font-size: 20px;
 } 
-
+ #CLEFTPALATE21_2:hover
+{ 
+	color:#fff;
+	cursor:pointer;
+}
  #CORDINFECTION_2 
 { 
 	 left: 785px; 
@@ -2424,8 +3012,20 @@ font-family: 'Open Sans', sans-serif;
 	 width: 42px;
 	 height: 52px;
 	 z-index:211;
-} 
-
+	font-family: 'Open Sans', sans-serif;
+	font-weight:bold;
+	font-size: 9px;
+}
+ #CORDINFECTION_2 > strong
+{ 
+	margin-left: 10px;
+	font-size: 20px;
+}  
+ #CORDINFECTION_2:hover
+{ 
+	color:#fff;
+	cursor:pointer;
+}
  #NECKSTIFFNESS_2 
 { 
 	 left: 360px; 
@@ -2434,8 +3034,20 @@ font-family: 'Open Sans', sans-serif;
 	 width: 43px;
 	 height: 41px;
 	 z-index:212;
-} 
-
+	font-family: 'Open Sans', sans-serif;
+	font-weight:bold;
+	font-size: 10px;
+}
+ #NECKSTIFFNESS_2 > strong
+{ 
+	margin-left: 10px;
+	font-size: 20px;
+}  
+ #NECKSTIFFNESS_2:hover
+{ 
+	color:#fff;
+	cursor:pointer;
+}
  #Layer32 
 { 
 	 left: 178px; 
@@ -2454,6 +3066,9 @@ font-family: 'Open Sans', sans-serif;
 	 width: 88px;
 	 height: 55px;
 	 z-index:214;
+	font-family: 'Open Sans', sans-serif;
+	font-weight:bold;
+	font-size: 20px;
 } 
 
  #Layer33 
@@ -2474,6 +3089,8 @@ font-family: 'Open Sans', sans-serif;
 	 width: 161px;
 	 height: 170px;
 	 z-index:216;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 11px;
 } 
 
  #FollowusonSocialNetw 
@@ -2484,6 +3101,16 @@ font-family: 'Open Sans', sans-serif;
 	 width: 182px;
 	 height: 59px;
 	 z-index:217;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 11px;
+}
+ #ContactUsReachouttou > strong
+{ 
+	font-size: 15px;
+}
+ #FollowusonSocialNetw > strong
+{ 
+	font-size: 15px;
 } 
 
  #Layer34 
