@@ -1,12 +1,4 @@
-$(function()
-{
-  var thr = new ThousandQueries(document.location);
-  thr.makeReq('lmp_graph', f1);
-  thr.makeReq('monthavg_graph', f2);
-});
-
-var f1  =        function (thr) {
-
+$(function () {
         $('#lmpgraph').highcharts({
             chart: {
                 type: 'column'
@@ -48,14 +40,13 @@ var f1  =        function (thr) {
             },
             series: [{
                 name: 'LMP Known in terms of months',
-                data: thr.lmps([123, 111, 91, 87, 72, 64, 60, 21, 02])
+                data: [123, 111, 91, 87, 72, 64, 60, 21, 02]
     
             }]
         });
-    };
+    });
 
-var f2 = function (thr) {
-    $('#avgdest').text(thr.average());
+$(function () {
     $('#monthlyavggrph').highcharts({
         
         xAxis: {
@@ -78,10 +69,10 @@ var f2 = function (thr) {
         
         series: [{
             name: 'Pregnancies Per Month',
-            data: thr.fetch([70, 69, 95, 145, 102, 25, 52, 65, 33, 83, 39, 96])
+            data: [70, 69, 95, 145, 102, 25, 52, 65, 33, 83, 39, 96]
         }]
     });
-};
+});
 
 $(function () {
 	$('#layer_150').click(function(evt)
@@ -126,4 +117,3 @@ $(function () {
 	});
 });
    
-
