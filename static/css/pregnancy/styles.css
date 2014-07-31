@@ -436,7 +436,7 @@ body {
  #Layer3 
 { 
 	 left: 395px; 
-	 top: 456px; 
+	 top: 476px; 
 	 position: relative; 
 	 width: 67px;
 	 height: 77px;
@@ -446,7 +446,7 @@ body {
  #Layer1copy_1 
 { 
 	 left: 468px; 
-	 top: 380px; 
+	 top: 400px; 
 	 position: relative; 
 	 width: 68px;
 	 height: 78px;
@@ -456,7 +456,7 @@ body {
  #Layer1copy2 
 { 
 	 left: 541px; 
-	 top: 305px; 
+	 top: 325px; 
 	 position: relative; 
 	 width: 68px;
 	 height: 77px;
@@ -466,7 +466,7 @@ body {
  #Layer1copy6 
 { 
 	 left: 613px; 
-	 top: 229px; 
+	 top: 249px; 
 	 position: relative; 
 	 width: 67px;
 	 height: 77px;
@@ -476,7 +476,7 @@ body {
  #Layer1copy7 
 { 
 	 left: 650px; 
-	 top: 218px; 
+	 top: 238px; 
 	 position: relative; 
 	 width: 67px;
 	 height: 77px;
@@ -486,7 +486,7 @@ body {
  #Layer1copy8 
 { 
 	 left: 686px; 
-	 top: 80px; 
+	 top: 100px; 
 	 position: relative; 
 	 width: 68px;
 	 height: 77px;
@@ -496,7 +496,7 @@ body {
  #Layer1copy3 
 { 
 	 left: 431px; 
-	 top: 55px; 
+	 top: 75px; 
 	 position: relative; 
 	 width: 68px;
 	 height: 78px;
@@ -506,7 +506,7 @@ body {
  #Layer1copy31
 { 
 	 left: 300px; 
-	 top: 55px; 
+	 top: 75px; 
 	 position: absolute; 
 	 width: 68px;
 	 height: 78px;
@@ -516,7 +516,7 @@ body {
  #Layer1copy4 
 { 
 	 left: 504px; 
-	 top: -20px; 
+	 top: 0px; 
 	 position: relative; 
 	 width: 68px;
 	 height: 78px;
@@ -526,7 +526,7 @@ body {
  #Layer1copy5 
 { 
 	 left: 577px; 
-	 top: -95px; 
+	 top: -75px; 
 	 position: relative; 
 	 width: 67px;
 	 height: 78px;
@@ -536,7 +536,7 @@ body {
  #Layer1copy9 
 { 
 	 left: 720px; 
-	 top: -168px; 
+	 top: -148px; 
 	 position: relative; 
 	 width: 68px;
 	 height: 77px;
@@ -546,7 +546,7 @@ body {
  #Layer1copy10 
 { 
 	 left: 757px; 
-	 top: -306px; 
+	 top: -286px; 
 	 position: relative; 
 	 width: 67px;
 	 height: 77px;
@@ -556,7 +556,7 @@ body {
  #Layer1copy11 
 { 
 	 left: 829px; 
-	 top: -379px; 
+	 top: -359px; 
 	 position: relative; 
 	 width: 67px;
 	 height: 77px;
@@ -566,7 +566,7 @@ body {
  #Layer1copy12 
 { 
 	 left: 792px; 
-	 top: -396px; 
+	 top: -376px; 
 	 position: relative; 
 	 width: 67px;
 	 height: 77px;
@@ -580,7 +580,7 @@ alpha: 0.6;
  #Layer1copy13 
 { 
 	 left: 360px; 
-	 top: -486px; 
+	 top: -466px; 
 	 position: relative; 
 	 width: 284px;
 	 height: 144px;
@@ -590,7 +590,7 @@ alpha: 0.6;
  #COUGHING24 
 { 
 	 left: 396px; 
-	 top: -677px; 
+	 top: -657px; 
 	 position: relative; 
 	 width: 63px;
 	 height: 45px;
@@ -613,7 +613,7 @@ alpha: 0.6;
  #DIARRHEA33 
 { 
 	 left: 469px; 
-	 top: -720px; 
+	 top: -700px; 
 	 position: relative; 
 	 width: 59px;
 	 height: 49px;
@@ -635,7 +635,7 @@ alpha: 0.6;
  #FEVER12 
 { 
 	 left: 555px; 
-	 top: -770px; 
+	 top: -750px; 
 	 position: relative; 
 	 width: 36px;
 	 height: 49px;
@@ -657,7 +657,7 @@ alpha: 0.6;
  #MALARIA09 
 { 
 	 left: 437px; 
-	 top: -760px; 
+	 top: -740px; 
 	 position: relative; 
 	 width: 53px;
 	 height: 49px;
@@ -679,7 +679,7 @@ alpha: 0.6;
  #VOMITING18 
 { 
 	 left: 507px; 
-	 top: -805px; 
+	 top: -785px; 
 	 position: relative; 
 	 width: 59px;
 	 height: 49px;
@@ -701,7 +701,7 @@ alpha: 0.6;
  #STILLBORN21 
 { 
 	 left: 577px; 
-	 top: -850px; 
+	 top: -830px; 
 	 position: relative; 
 	 width: 65px;
 	 height: 48px;
@@ -723,7 +723,7 @@ alpha: 0.6;
  #EDEMA13 
 { 
 	 left: 624px; 
-	 top: -960px; 
+	 top: -940px; 
 	 position: relative; 
 	 width: 42px;
 	 height: 49px;
@@ -745,7 +745,7 @@ alpha: 0.6;
  #JAUNDICE09 
 { 
 	 left: 655px; 
-	 top: -945px; 
+	 top: -925px; 
 	 position: relative; 
 	 width: 59px;
 	 height: 48px;
@@ -767,7 +767,7 @@ alpha: 0.6;
  #PNEUMONIA21 
 { 
 	 left: 685px; 
-	 top: -1050px; 
+	 top: -1030px; 
 	 position: relative; 
 	 width: 72px;
 	 height: 48px;
@@ -789,7 +789,7 @@ alpha: 0.6;
  #DISABILITY21 
 { 
 	 left: 761px; 
-	 top: -1100px; 
+	 top: -1080px; 
 	 position: relative; 
 	 width: 62px;
 	 height: 48px;
@@ -811,7 +811,7 @@ alpha: 0.6;
  #HYPOTHEMIA21 
 { 
 	 left: 721px; 
-	 top: -1085px; 
+	 top: -1065px; 
 	 position: relative; 
 	 width: 63px;
 	 height: 47px;
@@ -833,7 +833,7 @@ alpha: 0.6;
  #CLEFTPALATE21 
 { 
 	 left: 795px; 
-	 top: -1130px; 
+	 top: -1110px; 
 	 position: relative; 
 	 width: 35px;
 	 height: 57px;
@@ -855,7 +855,7 @@ alpha: 0.6;
  #CORDINFECTION 
 { 
 	 left: 840px; 
-	 top: -1256px; 
+	 top: -1236px; 
 	 position: relative; 
 	 width: 46px;
 	 height: 56px;
@@ -877,7 +877,7 @@ alpha: 0.6;
  #NECKSTIFFNESS 
 { 
 	 left: 368px; 
-	 top: -1260px; 
+	 top: -1240px; 
 	 position: relative; 
 	 width: 48px;
 	 height: 44px;
@@ -899,7 +899,7 @@ alpha: 0.6;
  #motherssympotmpic 
 { 
 	 left: 174px; 
-	 top: -1353px; 
+	 top: -1333px; 
 	 position: relative; 
 	 width: 185px;
 	 height: 98px;
@@ -909,7 +909,7 @@ alpha: 0.6;
  #highriskpic 
 { 
 	 left: 416px; 
-	 top: -1283px; 
+	 top: -1263px; 
 	 position: relative; 
 	 width: 294px;
 	 height: 30px;
@@ -919,7 +919,7 @@ alpha: 0.6;
  #HighRisks 
 { 
 	 left: 446px; 
-	 top: -1310px; 
+	 top: -1290px; 
 	 position: relative; 
 	 width: 79px;
 	 height: 17px;
@@ -932,7 +932,7 @@ alpha: 0.6;
  #MothersSymptoms 
 { 
 	 left: 186px; 
-	 top: -1464px; 
+	 top: -1444px; 
 	 position: relative; 
 	 width: 137px;
 	 height: 61px;
@@ -945,7 +945,7 @@ alpha: 0.6;
  #LowRisks 
 { 
 	 left: 719px; 
-	 top: -1385px; 
+	 top: -1365px; 
 	 position: relative; 
 	 width: 74px;
 	 height: 13px;
