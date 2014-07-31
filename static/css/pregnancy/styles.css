@@ -607,6 +607,11 @@ alpha: 0.6;
 	margin-left: 20px;
 	font-size: 20px
 }
+ #COUGHING24:hover
+{ 
+	color:#fff;
+	cursor:pointer;
+}
 
  #DIARRHEA33 
 { 
@@ -625,6 +630,11 @@ alpha: 0.6;
 	margin-left: 20px;
 	font-size: 20px
 }
+ #DIARRHEA33:hover
+{ 
+	color:#fff;
+	cursor:pointer;
+}
  #FEVER12 
 { 
 	 left: 555px; 
@@ -642,7 +652,11 @@ alpha: 0.6;
 	margin-left: 10px;
 	font-size: 20px
 }	
-
+ #FEVER12:hover
+{ 
+	color:#fff;
+	cursor:pointer;
+}
  #MALARIA09 
 { 
 	 left: 437px; 
@@ -660,7 +674,11 @@ alpha: 0.6;
 	margin-left: 20px;
 	font-size: 20px
 }
-
+ #MALARIA09:hover
+{ 
+	color:#fff;
+	cursor:pointer;
+}
  #VOMITING18 
 { 
 	 left: 507px; 
@@ -678,7 +696,11 @@ alpha: 0.6;
 	margin-left: 20px;
 	font-size: 20px
 }
-
+ #VOMITING18:hover
+{ 
+	color:#fff;
+	cursor:pointer;
+}
  #STILLBORN21 
 { 
 	 left: 577px; 
@@ -696,7 +718,11 @@ alpha: 0.6;
 	margin-left: 20px;
 	font-size: 20px
 }
-
+ #STILLBORN21:hover
+{ 
+	color:#fff;
+	cursor:pointer;
+}
  #EDEMA13 
 { 
 	 left: 624px; 
@@ -714,7 +740,11 @@ alpha: 0.6;
 	margin-left: 10px;
 	font-size: 20px
 }
-
+ #EDEMA13:hover
+{ 
+	color:#fff;
+	cursor:pointer;
+}
  #JAUNDICE09 
 { 
 	 left: 655px; 
@@ -732,7 +762,11 @@ alpha: 0.6;
 	margin-left: 20px;
 	font-size: 20px
 }
-
+ #JAUNDICE09:hover
+{ 
+	color:#fff;
+	cursor:pointer;
+}
  #PNEUMONIA21 
 { 
 	 left: 685px; 
@@ -750,7 +784,11 @@ alpha: 0.6;
 	margin-left: 20px;
 	font-size: 20px
 }
-
+ #PNEUMONIA21:hover
+{ 
+	color:#fff;
+	cursor:pointer;
+}
  #DISABILITY21 
 { 
 	 left: 761px; 
@@ -768,7 +806,11 @@ alpha: 0.6;
 	margin-left: 20px;
 	font-size: 20px
 }
-
+ #DISABILITY21:hover
+{ 
+	color:#fff;
+	cursor:pointer;
+}
  #HYPOTHEMIA21 
 { 
 	 left: 721px; 
@@ -786,7 +828,11 @@ alpha: 0.6;
 	margin-left: 20px;
 	font-size: 20px
 }
-
+ #HYPOTHEMIA21:hover
+{ 
+	color:#fff;
+	cursor:pointer;
+}
  #CLEFTPALATE21 
 { 
 	 left: 795px; 
@@ -804,7 +850,11 @@ alpha: 0.6;
 	margin-left: 20px;
 	font-size: 20px
 }
-
+ #CLEFTPALATE21:hover
+{ 
+	color:#fff;
+	cursor:pointer;
+}
  #CORDINFECTION 
 { 
 	 left: 840px; 
@@ -822,7 +872,11 @@ alpha: 0.6;
 	margin-left: 13px;
 	font-size: 20px
 }
-
+ #CORDINFECTION:hover
+{ 
+	color:#fff;
+	cursor:pointer;
+}
  #NECKSTIFFNESS 
 { 
 	 left: 368px; 
@@ -840,7 +894,11 @@ alpha: 0.6;
 	margin-left: 15px;
 	font-size: 20px
 }
-
+ #NECKSTIFFNESS:hover
+{ 
+	color:#fff;
+	cursor:pointer;
+}
  #motherssympotmpic 
 { 
 	 left: 174px; 
