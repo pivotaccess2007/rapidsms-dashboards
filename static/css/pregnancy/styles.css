@@ -92,7 +92,7 @@
 	 z-index:6;
 } 
 
- #PregnanciesConfirmed 
+ #PregnanciesConfirmed1
 { 
 	 left: 278px; 
 	 top: 255px; 
@@ -137,7 +137,6 @@
 	 height: 53px;
 	 z-index:10;
 	font-family: 'Open Sans', sans-serif;
-	
 	font-size: 18px;
 } 
 
@@ -196,7 +195,7 @@
 
  #risks78 
 { 
-	 left: 790px; 
+	 left: 770px; 
 	 top: 753px; 
 	 position: relative; 
 	 width: 40px;
@@ -227,7 +226,7 @@
 
  #risks66 
 { 
-	 left: 700px; 
+	 left: 670px; 
 	 top: 720px; 
 	 position: relative; 
 	 width: 46px;
@@ -240,7 +239,7 @@
 
  #risks65 
 { 
-	 left: 648px; 
+	 left: 610px; 
 	 top: 710px; 
 	 position: relative; 
 	 width: 39px;

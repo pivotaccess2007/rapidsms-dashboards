@@ -1,0 +1,60 @@
+ #Layer18copy8 
+{ 
+	background: url(../../images/pregnancy/Layer18copy8.png) repeat-x;
+	 left: 0px; 
+	 top: 0px; 
+	 position: absolute; 
+	 width: 100%;
+	 height: 3px;
+	 z-index:70;
+} 
+
+ #Layer19copy8 
+{ 
+	background: url(../../images/pregnancy/Layer19copy8.png) repeat-x;
+	 left: 0px; 
+	 top: 3px; 
+	 position: absolute; 
+	 width: 100%;
+	 height: 25px;
+	 z-index:71;
+} 
+
+ #ENGLISH 
+{ 
+	 left: 792px; 
+	 top: 12px; 
+	 position: absolute; 
+	 width: 36px;
+	 height: 7px;
+	 z-index:72;
+	font-family: 'Open Sans', sans-serif;
+	font-weight:normal;
+	font-size: 10px;
+} 
+
+ #FRENCH 
+{ 
+	 left: 940px; 
+	 top: 12px; 
+	 position: absolute; 
+	 width: 34px;
+	 height: 7px;
+	 z-index:73;
+	font-family: 'Open Sans', sans-serif;
+	font-weight:normal;
+	font-size: 10px;
+} 
+
+ #KINYARWANDA 
+{ 
+	 left: 852px; 
+	 top: 12px; 
+	 position: absolute; 
+	 width: 66px;
+	 height: 7px;
+	 z-index:74;
+	font-family: 'Open Sans', sans-serif;
+	font-weight:normal;
+	font-size: 10px;
+} 

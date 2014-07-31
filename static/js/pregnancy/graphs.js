@@ -82,7 +82,8 @@ $(function () {
 		now	    = it.css('display');
 		if(now == 'none')
 		{
-			$.ajax('../static/js/pregnancy/pregnantmothers.json',
+			$.ajax('../static/js/pregnancy/pregnanctmothers.json',
+				//$.ajax(document.location.toString().replace('dashboards', 'json') + '.json',
 				{
 					success: function(dat, stt, obj)
 				 	{
