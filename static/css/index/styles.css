@@ -129,7 +129,7 @@
 
  #preg 
 { 
-	 left: 280px; 
+	 left: 250px; 
 	 top: 30px; 
 	 position: absolute; 
 	 width: 135px;
@@ -148,6 +148,18 @@
 	 width: 92px;
 	 height: 127px;
 	 z-index:14;
+}
+ #vaccination 
+{ 
+	 left: 450px; 
+	 top: 30px; 
+	 position: absolute; 
+	 width: 92px;
+	 height: 127px;
+	 z-index:14;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 12px;
+	text-align:center;
 } 
 
  #pnc 
@@ -192,7 +204,7 @@
 
  #nutrition 
 { 
-	 left: 380px; 
+	 left: 330px; 
 	 top: 30px; 
 	 position: absolute; 
 	 width: 137px;
