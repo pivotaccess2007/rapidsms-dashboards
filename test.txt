@@ -1,0 +1,1 @@
+static/js/library/tpt.py html pregnancy.html > preg.html && open -a safari preg.html
