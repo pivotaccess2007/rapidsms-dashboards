@@ -11,7 +11,18 @@ body {
  a:hover{
 	color:#fff;
  }
-
+ #background2 
+{ 
+	 left: 0px; 
+	 top: 0px; 
+	 position: relative; 
+	 margin-left: auto; 
+	 margin-right: auto; 
+	 width: 1000px;
+	 height: 2188px; 
+	 overflow: hidden;
+	 z-index:0;
+	}
 
  #wrap 
 { 
@@ -22,9 +33,11 @@ body {
 	 margin-left: auto; 
 	 margin-right: auto; 
 	 width: 1000px;
-	 height: 300px; 
+	 height: 700px; 
 	 overflow: hidden;
-}
+	 
+	 
+	}
 
  #Background 
 { 
@@ -37,9 +50,25 @@ body {
 	 z-index:1;
 } 
 
+ #Layer7copy 
+{ 
+	 left: 65px; 
+	 top: 319px; 
+	 position: absolute; 
+	 width: 857px;
+	 height: 516px;
+	 z-index:2;
+} 
 
-
-
+ #Layer7copy_0 
+{ 
+	 left: 63px; 
+	 top: 1067px; 
+	 position: absolute; 
+	 width: 857px;
+	 height: 272px;
+	 z-index:3;
+} 
 
 
 
@@ -450,36 +479,24 @@ body {
 
 
 /***************** FOOTER **********************/
- #footer 
-{ 
- 
-	 position: relative; 
-	 margin-left: auto; 
-	 margin-right: auto; 
-	 width: 1000px;
-	 height:300px;
-	 z-index:2;
-	 
-}
-
  #Layer16 
 { 
 	 left: 0px; 
-	 top: 0px; 
+	 top: 1918px; 
 	 position: absolute; 
 	 width: 996px;
 	 height: 6px;
-	 z-index:4;
+	 z-index:103;
 } 
 
  #ContactUsReachouttou 
 { 
 	 left: 276px; 
-	 top: 51px; 
+	 top: 1969px; 
 	 position: absolute; 
 	 width: 162px;
 	 height: 170px;
-	 z-index:4;
+	 z-index:104;
 	font-family: 'Open Sans', sans-serif;
 	font-size: 11px;
 	
@@ -488,11 +505,11 @@ body {
  #FollowusonSocialNetw 
 { 
 	 left: 540px; 
-	 top: 59px; 
+	 top: 1977px; 
 	 position: absolute; 
 	 width: 183px;
 	 height: 59px;
-	 z-index:4;
+	 z-index:105;
 	font-family: 'Open Sans', sans-serif;
 	font-size: 11px;
 }
@@ -508,41 +525,41 @@ body {
  #Layer17 
 { 
 	 left: 540px; 
-	 top: 133px; 
+	 top: 2051px; 
 	 position: absolute; 
 	 width: 98px;
 	 height: 29px;
-	 z-index:4;
+	 z-index:106;
 } 
 
  #Layer18 
 { 
 	 left: 513px; 
-	 top: 186px; 
+	 top: 2104px; 
 	 position: absolute; 
 	 width: 118px;
 	 height: 29px;
-	 z-index:4;
+	 z-index:107;
 } 
 
  #Layer19 
 { 
 	 left: 375px; 
-	 top: -21px; 
+	 top: 1897px; 
 	 position: absolute; 
 	 width: 261px;
 	 height: 65px;
-	 z-index:4;
+	 z-index:108;
 } 
 
  #Layer20 
 { 
 	 left: 658px; 
-	 top: 154px; 
+	 top: 2072px; 
 	 position: absolute; 
 	 width: 61px;
 	 height: 64px;
-	 z-index:4;
+	 z-index:109;
 } 
 /***********************************/
  

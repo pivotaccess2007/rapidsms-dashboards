@@ -11,12 +11,11 @@
     <script src="{{ static_path }}/js/pregnancy/graphs.js"></script>
 {% endblock %}
 {%  block   bodycontent %}
-			{% block tab %}
 			<div id="Layer1copy"><img src="{{ static_path }}/images/pregnancy/Layer1copy.png"></div>
 			<div id="Layer1"><img src="{{ static_path }}/images/pregnancy/Layer1.png"></div>
 			<div id="PregnanciesConfirmed1">Pregnancies Confirmed</div>
 			<div id="ExpectedDeliveries"><a>Expected Deliveries</a></div>
-			{% endblock %}
+			
 		<div id="background2">
 			<div id="Layer7copy"><img src="{{ static_path }}/images/pregnancy/Layer7copy.png"></div>
 			<div id="Layer7copy_0"><img src="{{ static_path }}/images/pregnancy/Layer7copy_0.png"></div>
@@ -52,24 +51,21 @@
 			
 			<!-- Risks -->
 			<div id="VectorSmartObject"><img src="{{ static_path }}/images/pregnancy/VectorSmartObject.png"></div>
-			
+			<div id="risks69">
+              {{  display.prpc  }}%
+			</div>
 			<div id="risks78">
               {{  display.pr  }}
-			<span id="risks69">
-			{{  display.prpc  }}%
-			</span>
 			</div>
 			<div id="numberofmotherpr">
 			Number of Mothers well by PR(Patient Directly Referred):
 			</div>
-			
+			<div id="risks66">
+              {{  display.aapc  }}%
+			</div>
 			<div id="risks65">
               {{  display.aa  }}
-			<span id="risks66">
-			 {{  display.aapc  }}%
-			</span>
 			</div>
-			
 			<div id="numberofmotherswell">
 			Number of Mothers well by AA(ASM):
 			</div>
