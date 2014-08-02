@@ -334,7 +334,7 @@
  #lmpgraph 
 { 
 	  
-	 top: 331px; 
+	 top: 271px; 
 	 position: relative; 
 	 width: 40%;
 	 padding-left:50px;
@@ -346,7 +346,7 @@
  #monthlyavggrph 
 { 
 	 
-	 top: 331px; 
+	 top: 271px; 
 	 position: relative; 
 	 width: 40%;
 	float:left;
@@ -358,7 +358,7 @@
  #LMPinrelativetopregn 
 { 
 	 
-	top: 60px; 
+	top: 10px; 
 	position: relative; 
 	width: 50%;
 	float:left;
@@ -374,7 +374,7 @@
  #MonthlyPregnancyAvg9 
 { 
 	  
-	top: 60px; 
+	top: 10px; 
 	position: relative; 
 	width: 50%;
 	float:right;
