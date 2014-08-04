@@ -41,11 +41,12 @@
 { 
 	background: url(../../images/pregnancy/Layer1copy.png) repeat-x;
 	 left: 0px; 
-	 top: 251px; 
+	 top: 240px; 
 	 position: absolute; 
 	 width: 100%;
 	 height: 44px;
 	 z-index:3;
+	border-radius:10px;
 } 
 
  #Layer1 

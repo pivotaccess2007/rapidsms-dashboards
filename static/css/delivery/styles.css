@@ -1,15 +1,4 @@
- body {
-	margin: 0;
-	padding: 0;
- }
- a{
-	color: #000;
- 	text-decoration:none;
- 	cursor: pointer;
- }
- a:hover{
-	color:#fff;
- }
+
  
  #background2 
 { 
@@ -19,34 +8,12 @@
 	 margin-left: auto; 
 	 margin-right: auto; 
 	 width: 1000px;
-	 height: 1764px; 
+	 height: 1200px; 
 	 overflow: hidden;
 	 z-index:0;
 	}
 
- #wrap 
-{ 
-	
-    left: 0px; 
-	 top: 0px; 
-	 position: relative; 
-	 margin-left: auto; 
-	 margin-right: auto; 
-	 width: 1000px;
-	 height: 700px; 
-	 overflow: hidden;
-}
 
- #Background 
-{ 
-	background: url(../../images/delivery/Background.png) repeat-x;
-	 left: 0px; 
-	 top: 0px; 
-	 position: absolute; 
-	 width: 100%;
-	 height: 1764px;
-	 z-index:1;
-} 
 
  #Layer22 
 { 
@@ -58,85 +25,14 @@
 	 z-index:2;
 } 
 
- #ContactUsReachouttou 
-{ 
-	 left: 283px; 
-	 top: 1556px; 
-	 position: absolute; 
-	 width: 161px;
-	 height: 170px;
-	 z-index:3;
-		font-family: 'Open Sans', sans-serif;
-	font-size: 11px;
-} 
 
- #FollowusonSocialNetw 
-{ 
-	 left: 546px; 
-	 top: 1565px; 
-	 position: absolute; 
-	 width: 182px;
-	 height: 58px;
-	 z-index:4;
-		font-family: 'Open Sans', sans-serif;
-	font-size: 11px;
-	
-}
 
- #ContactUsReachouttou > strong
-{ 
-	font-size: 15px;
-}
-
- #FollowusonSocialNetw > strong
-{ 
-	font-size: 15px;
-}
-
- #Layer23 
-{ 
-	 left: 546px; 
-	 top: 1639px; 
-	 position: absolute; 
-	 width: 98px;
-	 height: 28px;
-	 z-index:5;
-} 
-
- #Layer24 
-{ 
-	 left: 519px; 
-	 top: 1691px; 
-	 position: absolute; 
-	 width: 118px;
-	 height: 28px;
-	 z-index:6;
-} 
-
- #Layer25 
-{ 
-	 left: 382px; 
-	 top: 1485px; 
-	 position: absolute; 
-	 width: 260px;
-	 height: 64px;
-	 z-index:7;
-} 
-
- #Layer26 
-{ 
-	 left: 663px; 
-	 top: 1659px; 
-	 position: absolute; 
-	 width: 62px;
-	 height: 64px;
-	 z-index:8;
-} 
+/***************************************/
 
  #ccmvcmrcopy2 
 { 
 	 left: 145px; 
-	 top: 1142px; 
+	 top: 812px; 
 	 position: absolute; 
 	 width: 716px;
 	 height: 310px;
@@ -146,7 +42,7 @@
  #Layer4 
 { 
 	 left: 573px; 
-	 top: 1231px; 
+	 top: 901px; 
 	 position: absolute; 
 	 width: 172px;
 	 height: 163px;
@@ -156,7 +52,7 @@
  #ANCVISIT 
 { 
 	 left: 590px; 
-	 top: 1301px; 
+	 top: 971px; 
 	 position: absolute; 
 	 width: 132px;
 	 height: 19px;
@@ -169,7 +65,7 @@
  #Layer5 
 { 
 	 left: 690px; 
-	 top: 1243px; 
+	 top: 913px; 
 	 position: absolute; 
 	 width: 64px;
 	 height: 58px;
@@ -179,7 +75,7 @@
  #ANC443 
 { 
 	 left: 702px; 
-	 top: 1259px; 
+	 top: 929px; 
 	 position: absolute; 
 	 width: 51px;
 	 height: 10px;
@@ -192,7 +88,7 @@
  #layer_43 
 { 
 	 left: 712px; 
-	 top: 1279px; 
+	 top: 949px; 
 	 position: absolute; 
 	 width: 25px;
 	 height: 13px;
@@ -205,7 +101,7 @@
  #Layer6 
 { 
 	 left: 698px; 
-	 top: 1320px; 
+	 top: 990px; 
 	 position: absolute; 
 	 width: 72px;
 	 height: 73px;
@@ -215,7 +111,7 @@
  #ANC369 
 { 
 	 left: 709px; 
-	 top: 1341px; 
+	 top: 1011px; 
 	 position: absolute; 
 	 width: 50px;
 	 height: 12px;
@@ -228,7 +124,7 @@
  #layer_69 
 { 
 	 left: 724px; 
-	 top: 1360px; 
+	 top: 1030px; 
 	 position: absolute; 
 	 width: 28px;
 	 height: 16px;
@@ -241,7 +137,7 @@
  #Layer7 
 { 
 	 left: 568px; 
-	 top: 1347px; 
+	 top: 1017px; 
 	 position: absolute; 
 	 width: 91px;
 	 height: 93px;
@@ -251,7 +147,7 @@
  #ANC267 
 { 
 	 left: 583px; 
-	 top: 1374px; 
+	 top: 1044px; 
 	 position: absolute; 
 	 width: 60px;
 	 height: 14px;
@@ -264,7 +160,7 @@
  #layer_67 
 { 
 	 left: 598px; 
-	 top: 1400px; 
+	 top: 1070px; 
 	 position: absolute; 
 	 width: 32px;
 	 height: 19px;
@@ -277,7 +173,7 @@
  #Layer8 
 { 
 	 left: 503px; 
-	 top: 1249px; 
+	 top: 919px; 
 	 position: absolute; 
 	 width: 92px;
 	 height: 92px;
@@ -287,7 +183,7 @@
  #ANC198 
 { 
 	 left: 519px; 
-	 top: 1277px; 
+	 top: 947px; 
 	 position: absolute; 
 	 width: 58px;
 	 height: 14px;
@@ -300,7 +196,7 @@
  #layer_98 
 { 
 	 left: 533px; 
-	 top: 1304px; 
+	 top: 974px; 
 	 position: absolute; 
 	 width: 32px;
 	 height: 19px;
@@ -313,7 +209,7 @@
  #Layer9 
 { 
 	 left: 176px; 
-	 top: 1250px; 
+	 top: 920px; 
 	 position: absolute; 
 	 width: 242px;
 	 height: 163px;
@@ -323,7 +219,7 @@
  #ANCATTENDANCE 
 { 
 	 left: 213px; 
-	 top: 1262px; 
+	 top: 932px; 
 	 position: absolute; 
 	 width: 158px;
 	 height: 13px;
@@ -336,7 +232,7 @@
  #layer_72 
 { 
 	 left: 296px; 
-	 top: 1384px; 
+	 top: 1054px; 
 	 position: absolute; 
 	 width: 29px;
 	 height: 10px;
@@ -348,7 +244,7 @@
  #layer_21 
 { 
 	 left: 267px; 
-	 top: 1379px; 
+	 top: 1049px; 
 	 position: absolute; 
 	 width: 19px;
 	 height: 15px;
@@ -360,7 +256,7 @@
  #ANC4 
 { 
 	 left: 214px; 
-	 top: 1383px; 
+	 top: 1053px; 
 	 position: absolute; 
 	 width: 48px;
 	 height: 11px;
@@ -373,7 +269,7 @@
  #layer_98_0 
 { 
 	 left: 296px; 
-	 top: 1361px; 
+	 top: 1031px; 
 	 position: absolute; 
 	 width: 29px;
 	 height: 9px;
@@ -385,7 +281,7 @@
  #layer_32 
 { 
 	 left: 267px; 
-	 top: 1356px; 
+	 top: 1026px; 
 	 position: absolute; 
 	 width: 22px;
 	 height: 14px;
@@ -397,7 +293,7 @@
  #ANC3 
 { 
 	 left: 214px; 
-	 top: 1359px; 
+	 top: 1029px; 
 	 position: absolute; 
 	 width: 48px;
 	 height: 11px;
@@ -410,7 +306,7 @@
  #layer_31 
 { 
 	 left: 296px; 
-	 top: 1336px; 
+	 top: 1006px; 
 	 position: absolute; 
 	 width: 26px;
 	 height: 10px;
@@ -422,7 +318,7 @@
  #layer_54 
 { 
 	 left: 267px; 
-	 top: 1331px; 
+	 top: 1001px; 
 	 position: absolute; 
 	 width: 22px;
 	 height: 15px;
@@ -434,7 +330,7 @@
  #ANC2 
 { 
 	 left: 214px; 
-	 top: 1334px; 
+	 top: 1004px; 
 	 position: absolute; 
 	 width: 48px;
 	 height: 12px;
@@ -447,7 +343,7 @@
  #layer_51 
 { 
 	 left: 296px; 
-	 top: 1312px; 
+	 top: 982px; 
 	 position: absolute; 
 	 width: 25px;
 	 height: 9px;
@@ -459,7 +355,7 @@
  #layer_79 
 { 
 	 left: 267px; 
-	 top: 1307px; 
+	 top: 977px; 
 	 position: absolute; 
 	 width: 22px;
 	 height: 14px;
@@ -472,7 +368,7 @@
  #ANC1 
 { 
 	 left: 214px; 
-	 top: 1310px; 
+	 top: 980px; 
 	 position: absolute; 
 	 width: 48px;
 	 height: 11px;
@@ -484,7 +380,7 @@
  #layer_60 
 { 
 	 left: 336px; 
-	 top: 1285px; 
+	 top: 955px; 
 	 position: absolute; 
 	 width: 24px;
 	 height: 8px;
@@ -496,7 +392,7 @@
  #layer_74 
 { 
 	 left: 214px; 
-	 top: 1283px; 
+	 top: 953px; 
 	 position: absolute; 
 	 width: 122px;
 	 height: 14px;
@@ -513,7 +409,7 @@
  #4outo4 
 { 
 	 left: 214px; 
-	 top: 1210px; 
+	 top: 880px; 
 	 position: absolute; 
 	 width: 48px;
 	 height: 11px;
@@ -522,10 +418,14 @@
 	font-size: 16px;
 } 
 
+
+
+
+/********************************************/
  #Layer1 
 { 
 	 left: 255px; 
-	 top: 1062px; 
+	 top: 732px; 
 	 position: absolute; 
 	 width: 64px;
 	 height: 40px;
@@ -535,7 +435,7 @@
  #Layer2 
 { 
 	 left: 353px; 
-	 top: 1000px; 
+	 top: 670px; 
 	 position: absolute; 
 	 width: 64px;
 	 height: 102px;
@@ -545,7 +445,7 @@
  #Layer3 
 { 
 	 left: 440px; 
-	 top: 1075px; 
+	 top: 745px; 
 	 position: absolute; 
 	 width: 63px;
 	 height: 27px;
@@ -555,7 +455,7 @@
  #Lessthan45KGs 
 { 
 	 left: 246px; 
-	 top: 1047px; 
+	 top: 717px; 
 	 position: absolute; 
 	 width: 77px;
 	 height: 7px;
@@ -567,7 +467,7 @@
  #4565KGs 
 { 
 	 left: 365px; 
-	 top: 1047px; 
+	 top: 717px; 
 	 position: absolute; 
 	 width: 76px;
 	 height: 10px;
@@ -577,7 +477,7 @@
  #Morethan65KGs 
 { 
 	 left: 430px; 
-	 top: 1058px; 
+	 top: 728px; 
 	 position: absolute; 
 	 width: 100px;
 	 height: 7px;
@@ -590,7 +490,7 @@
  #layer_2315 
 { 
 	 left: 258px; 
-	 top: 1067px; 
+	 top: 737px; 
 	 position: absolute; 
 	 width: 54px;
 	 height: 17px;
@@ -609,7 +509,7 @@
  #layer_11477 
 { 
 	 left: 367px; 
-	 top: 1029px; 
+	 top: 699px; 
 	 position: absolute; 
 	 width: 31px;
 	 height: 28px;
@@ -627,7 +527,7 @@
  #PregnanyMotherWeight 
 { 
 	 left: 386px; 
-	 top: 961px; 
+	 top: 631px; 
 	 position: absolute; 
 	 width: 287px;
 	 height: 16px;
@@ -639,7 +539,7 @@
  #layer_188 
 { 
 	 left: 450px; 
-	 top: 1072px; 
+	 top: 742px; 
 	 position: absolute; 
 	 width: 47px;
 	 height: 17px;
@@ -657,7 +557,7 @@
  #MothersWieghtismonit 
 { 
 	 left: 523px; 
-	 top: 1034px; 
+	 top: 704px; 
 	 position: absolute; 
 	 width: 237px;
 	 height: 49px;
@@ -671,17 +571,22 @@
  #ccmvcmrcopy 
 { 
 	 left: 145px; 
-	 top: 913px; 
+	 top: 583px; 
 	 position: absolute; 
 	 width: 716px;
 	 height: 311px;
 	 z-index:4;
 } 
 
+
+
+
+
+/***************************************/
  #DeliveryLocations 
 { 
 	 left: 308px; 
-	 top: 601px; 
+	 top: 271px; 
 	 position: relative; 
 	 width: 315px;
 	 height: 38px;
@@ -694,7 +599,7 @@
  #layer_09 
 { 
 	 left: 669px; 
-	 top: 727px; 
+	 top: 397px; 
 	 position: relative; 
 	 width: 39px;
 	 height: 28px;
@@ -712,7 +617,7 @@
  #layer_23 
 { 
 	 left: 528px; 
-	 top: 700px; 
+	 top: 370px; 
 	 position: relative; 
 	 width: 39px;
 	 height: 27px;
@@ -730,7 +635,7 @@
  #layer_65 
 { 
 	 left: 388px; 
-	 top: 675px; 
+	 top: 345px; 
 	 position: relative; 
 	 width: 39px;
 	 height: 27px;
@@ -749,7 +654,7 @@
  #layer_112 
 { 
 	 left: 247px; 
-	 top: 648px; 
+	 top: 318px; 
 	 position: relative; 
 	 width: 59px;
 	 height: 27px;
@@ -767,7 +672,7 @@
  #Hospital 
 { 
 	 left: 500px; 
-	 top: 510px; 
+	 top: 180px; 
 	 position: relative; 
 	 width: 102px;
 	 height: 102px;
@@ -777,7 +682,7 @@
  #home 
 { 
 	 left: 216px; 
-	 top: 410px; 
+	 top: 80px; 
 	 position: relative; 
 	 width: 102px;
 	 height: 103px;
@@ -787,7 +692,7 @@
  #OnRoute 
 { 
 	 left: 646px; 
-	 top: 305px; 
+	 top: -25px; 
 	 position: relative; 
 	 width: 104px;
 	 height: 104px;
@@ -797,17 +702,20 @@
  #clinic 
 { 
 	 left: 360px; 
-	 top: 200px; 
+	 top: -130px; 
 	 position: relative; 
 	 width: 105px;
 	 height: 105px;
 	 z-index:3;
 } 
 
+
+
+/********************************/
  #ccmvcmr 
 { 
 	 left: 145px; 
-	 top: 338px; 
+	 top: 18px; 
 	 position: absolute; 
 	 width: 716px;
 	 height: 248px;
@@ -817,7 +725,7 @@
  #motherpic 
 { 
 	 left: 271px; 
-	 top: 393px; 
+	 top: 63px; 
 	 position: absolute; 
 	 width: 113px;
 	 height: 146px;
@@ -827,7 +735,7 @@
  #ExpectedDeliveries98 
 { 
 	 left: 433px; 
-	 top: 440px; 
+	 top: 110px; 
 	 position: absolute; 
 	 width: 215px;
 	 height: 22px;
@@ -840,7 +748,7 @@
  #layer_98_1 
 { 
 	 left: 617px; 
-	 top: 430px; 
+	 top: 100px; 
 	 position: absolute; 
 	 width: 40px;
 	 height: 87px;
@@ -856,7 +764,7 @@
  #UnknownDeliveries23 
 { 
 	 left: 433px; 
-	 top: 486px; 
+	 top: 156px; 
 	 position: relative; 
 	 width: 220px;
 	 height: 16px;
@@ -870,7 +778,7 @@
  #layer_23_0 
 { 
 	 left: 662px; 
-	 top: 465px; 
+	 top: 135px; 
 	 position: relative; 
 	 width: 40px;
 	 height: 27px;
@@ -883,21 +791,27 @@
  	color: #6e726f;
 }
 
+/*****************************************/
+
+
+
+
  #Layer1copy 
 { 
 	background: url(../../images/delivery/tab_background.png) repeat-x;
 	 left: 1px; 
-	 top: 266px; 
+	 top: 240px; 
 	 position: absolute; 
 	 width: 100%;
 	 height: 44px;
 	 z-index:68;
+	border-radius:10px;
 } 
 
  #Layer15 
 { 
 	 left: 503px; 
-	 top: 267px; 
+	 top: 241px; 
 	 position: absolute; 
 	 width: 379px;
 	 height: 41px;
@@ -907,7 +821,7 @@
  #PregnanciesConfirmed 
 { 
 	 left: 183px; 
-	 top: 280px; 
+	 top: 254px; 
 	 position: absolute; 
 	 width: 289px;
 	 height: 18px;
@@ -920,7 +834,7 @@
  #ExpectedDeliveries 
 { 
 	 left: 591px; 
-	 top: 280px; 
+	 top: 254px; 
 	 position: absolute; 
 	 width: 258px;
 	 height: 18px;
@@ -930,228 +844,11 @@
 	font-size: 20px;
 } 
 
- #Layer16 
-{ 
-	background: url(../../images/delivery/filter_background.png) repeat-x;
-	
-	 left: 1px; 
-	 top: 204px; 
-	 position: absolute; 
-	 width: 100%;
-	 height: 62px;
-	 z-index:72;
-} 
+/****************************************/
 
- #Layer17 
-{ 
-	 left: 658px; 
-	 top: 226px; 
-	 position: absolute; 
-	 width: 207px;
-	 height: 22px;
-	 z-index:73;
-} 
 
- #Layer18 
-{ 
-	 left: 845px; 
-	 top: 228px; 
-	 position: absolute; 
-	 width: 20px;
-	 height: 18px;
-	 z-index:74;
-} 
 
- #SelectHealthCare 
-{ 
-	 left: 681px; 
-	 top: 230px; 
-	 position: absolute; 
-	 width: 127px;
-	 height: 12px;
-	 z-index:75;
-} 
-
- #Layer19 
-{ 
-	 left: 640px; 
-	 top: 225px; 
-	 position: absolute; 
-	 width: 15px;
-	 height: 23px;
-	 z-index:76;
-} 
-
- #Layer20 
-{ 
-	 left: 431px; 
-	 top: 224px; 
-	 position: absolute; 
-	 width: 197px;
-	 height: 24px;
-	 z-index:77;
-} 
-
- #Layer4copy 
-{ 
-	 left: 186px; 
-	 top: 225px; 
-	 position: absolute; 
-	 width: 209px;
-	 height: 23px;
-	 z-index:78;
-} 
-
- #From 
-{ 
-	 left: 138px; 
-	 top: 227px; 
-	 position: absolute; 
-	 width: 40px;
-	 height: 11px;
-	 z-index:79;
-	font-family: 'Open Sans', sans-serif;
-	font-size: 15px;
-} 
-
- #Layer21 
-{ 
-	 left: 97px; 
-	 top: 223px; 
-	 position: absolute; 
-	 width: 24px;
-	 height: 26px;
-	 z-index:80;
-} 
-
- #To 
-{ 
-	 left: 402px; 
-	 top: 225px; 
-	 position: absolute; 
-	 width: 21px;
-	 height: 11px;
-	 z-index:81;
-	font-family: 'Open Sans', sans-serif;
-	font-size: 15px;
-} 
-
- #Layer1copy_0 
-{ 
-	background: url(../../images/delivery/banner_background.png) repeat-x;
-	 left: 0px; 
-	 top: 6px; 
-	 position: absolute; 
-	 width: 100%;
-	 height: 205px;
-	 z-index:80;
-} 
-
- #Layer10 
-{ 
-	 left: 146px; 
-	 top: 161px; 
-	 position: absolute; 
-	 width: 118px;
-	 height: 28px;
-	 z-index:83;
-} 
-
- #Preventingthedeathso 
-{ 
-	 left: 393px; 
-	 top: 89px; 
-	 position: absolute; 
-	 width: 325px;
-	 height: 77px;
-	 z-index:84;
-		font-family: 'Open Sans', sans-serif;
-	font-weight:lighter;
-	font-size: 20px;
-} 
-
- #Layer11 
-{ 
-	 left: 751px; 
-	 top: 66px; 
-	 position: absolute; 
-	 width: 116px;
-	 height: 118px;
-	 z-index:85;
-} 
-
- #Layer18copy8 
-{ 
-	background: url(../../images/delivery/Layer18copy8.png) repeat-x;
-	 left: 0px; 
-	 top: 0px; 
-	 position: absolute; 
-	 width: 100%;
-	 height: 3px;
-	 z-index:86;
-} 
-
- #Layer19copy8 
-{ 
-	background: url(../../images/delivery/Layer19copy8.png) repeat-x;
-	 left: 0px; 
-	 top: 3px; 
-	 position: absolute; 
-	 width: 100%;
-	 height: 25px;
-	 z-index:87;
-} 
-
- #ENGLISH 
-{ 
-	 left: 793px; 
-	 top: 13px; 
-	 position: absolute; 
-	 width: 36px;
-	 height: 7px;
-	 z-index:88;
-		font-family: 'Open Sans', sans-serif;
-	font-weight:normal;
-	font-size: 10px;
-} 
-
- #FRENCH 
-{ 
-	 left: 940px; 
-	 top: 13px; 
-	 position: absolute; 
-	 width: 34px;
-	 height: 7px;
-	 z-index:89;
-		font-family: 'Open Sans', sans-serif;
-	font-weight:normal;
-	font-size: 10px;
-} 
-
- #KINYARWANDA 
-{ 
-	 left: 852px; 
-	 top: 13px; 
-	 position: absolute; 
-	 width: 66px;
-	 height: 7px;
-	 z-index:90;
-		font-family: 'Open Sans', sans-serif;
-	font-weight:normal;
-	font-size: 10px;
-} 
-
- #Layer12 
-{ 
-	 left: 143px; 
-	 top: 81px; 
-	 position: absolute; 
-	 width: 118px;
-	 height: 55px;
-	 z-index:91;
-} 
-
- #Layer1copy17 
+#Layer1copy17 
 { 
 	 left: 140px; 
 	 top: 32px; 
@@ -1171,204 +868,7 @@
 	 z-index:93;
 } 
 
- #Layer1copy18 
-{ 
-	 left: 235px; 
-	 top: 39px; 
-	 position: absolute; 
-	 width: 624px;
-	 height: 16px;
-	 z-index:94;
-} 
 
- #PregnanciesNewBornCh 
-{ 
-	 left: 147px; 
-	 top: 41px; 
-	 position: absolute; 
-	 width: 784px;
-	 height: 14px;
-	 z-index:95;
-} 
-
- #Layer14 
-{ 
-	 left: 141px; 
-	 top: 63px; 
-	 position: absolute; 
-	 width: 294px;
-	 height: 123px;
-	 z-index:96;
-} 
-
- #dotscopy4 
-{ 
-	 left: 148px; 
-	 top: 73px; 
-	 position: absolute; 
-	 width: 201px;
-	 height: 76px;
-	 z-index:97;
-} 
-
- #SubmittedPregnancies 
-{ 
-	 left: 154px; 
-	 top: 77px; 
-	 position: absolute; 
-	 width: 273px;
-	 height: 68px;
-	 z-index:98;
-} 
-
- #Layer5copy 
-{ 
-	 left: 238px; 
-	 top: 63px; 
-	 position: absolute; 
-	 width: 155px;
-	 height: 81px;
-	 z-index:99;
-} 
-
- #dotscopy5 
-{ 
-	 left: 245px; 
-	 top: 73px; 
-	 position: absolute; 
-	 width: 18px;
-	 height: 46px;
-	 z-index:100;
-} 
-
- #TrackingNewBornPo 
-{ 
-	 left: 250px; 
-	 top: 77px; 
-	 position: absolute; 
-	 width: 118px;
-	 height: 38px;
-	 z-index:101;
-} 
-
- #Layer2copy8 
-{ 
-	 left: 333px; 
-	 top: 32px; 
-	 position: absolute; 
-	 width: 105px;
-	 height: 30px;
-	 z-index:102;
-} 
-
- #Layer2copy12 
-{ 
-	 left: 523px; 
-	 top: 32px; 
-	 position: absolute; 
-	 width: 118px;
-	 height: 30px;
-	 z-index:103;
-} 
-
- #Layer2copy14 
-{ 
-	 left: 861px; 
-	 top: 32px; 
-	 position: absolute; 
-	 width: 95px;
-	 height: 30px;
-	 z-index:104;
-} 
-
- #Layer2copy13 
-{ 
-	 left: 648px; 
-	 top: 32px; 
-	 position: absolute; 
-	 width: 205px;
-	 height: 30px;
-	 z-index:105;
-} 
-
- #Layer2copy11 
-{ 
-	 left: 441px; 
-	 top: 32px; 
-	 position: absolute; 
-	 width: 77px;
-	 height: 30px;
-	 z-index:106;
-} 
-
- #Layer2copy9 
-{ 
-	 left: 140px; 
-	 top: 32px; 
-	 position: absolute; 
-	 width: 95px;
-	 height: 30px;
-	 z-index:107;
-} 
-
- #Layer2copy10 
-{ 
-	 left: 240px; 
-	 top: 32px; 
-	 position: absolute; 
-	 width: 84px;
-	 height: 30px;
-	 z-index:108;
-}
- #Layer2copy9:hover
-{ 
-	background-color: #ffffff;
-	opacity: 0.7;
-	border-radius: 25px;
-	cursor: pointer;
-}
- #Layer2copy8:hover
-{ 
-	background-color: #ffffff;
-	opacity: 0.7;
-	border-radius: 25px;
-	cursor: pointer;
-}
- #Layer2copy12:hover
-{ 
-	background-color: #ffffff;
-	opacity: 0.7;
-	border-radius: 25px;
-	cursor: pointer;
-}
- #Layer2copy13:hover
-{ 
-	background-color: #ffffff;
-	opacity: 0.7;
-	border-radius: 25px;
-	cursor: pointer;
-}
- #Layer2copy14:hover
-{ 
-	background-color: #ffffff;
-	opacity: 0.7;
-	border-radius: 25px;
-	cursor: pointer;
-}
- #Layer2copy11:hover
-{ 
-	background-color: #ffffff;
-	opacity: 0.7;
-	border-radius: 25px;
-	cursor: pointer;
-}
- #Layer2copy10:hover
-{ 
-	background-color: #ffffff;
-	opacity: 0.7;
-	border-radius: 25px;
-	cursor: pointer;
-}
 
 
 .deeper

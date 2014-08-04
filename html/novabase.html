@@ -10,7 +10,15 @@
     <script src="{{ static_path }}/js/jquery-1.11.1.js"></script>
     <script src="{{ static_path }}/js/jqui/jquery-ui.min.js"></script>
 	 <script src="{{  static_path }}/js/library/clientside.js"></script>
-	
+	 <script src="{{  static_path }}/js/bgStretch.js"></script>
+	<script>
+			$(document).ready(function(){
+				$('#bgStretch')
+					.bgStretch({
+						align:'leftTop'
+				})
+			});
+		</script>
 	{% block scripts %}
 
     <script src="{{ static_path }}/js/highcharts.js"></script>
@@ -33,17 +41,17 @@
 		
 		<!-- banner -->
 			
-			<div id="Layer5"><img src="{{ static_path }}/images/pregnancy/Layer5.png"></div>
-			<div id="Preventingthedeathso">
+			<div id="topuniceflogo"><img src="{{ static_path }}/images/pregnancy/Layer5.png"></div>
+			<div id="bannertext">
 			<strong>Preventing</strong> the deaths of <strong>Pregnant Mothers</strong> and <strong>New Borns</strong> &amp; Improving <strong>Child Nutrition</strong>
 			</div>
-			<div id="Layer6"><img src="{{ static_path }}/images/pregnancy/Layer6.png"></div>
-			<div id="Layer7"><img src="{{ static_path }}/images/pregnancy/Layer7.png"></div>
+			<div id="bannericon"><img src="{{ static_path }}/images/pregnancy/Layer6.png"></div>
+			<div id="toprapidsmslogo"><img src="{{ static_path }}/images/pregnancy/Layer7.png"></div>
 			<!--  --> 
 		
 			<!-- menu -->
-			<div id="Layer8"></div>
-			<div id="Layer1copy18"><img src="{{ static_path }}/images/pregnancy/Layer1copy18.png"></div>
+			<div id="menubackground"></div>
+			<div id="menulines"><img src="{{ static_path }}/images/pregnancy/Layer1copy18.png"></div>
 			<div id="PregnanciesNewBornCh"><img src="{{ static_path }}/images/pregnancy/PregnanciesNewBornCh.png"></div>
 			<div id="Layer2copy8"></div>
 			<div id="Layer2copy12"></div>
@@ -54,24 +62,16 @@
 			<div id="Layer2copy10"></div>
 			<!--  -->	
 		
-			<!-- banner -->
-			<div id="Layer5"><img src="{{ static_path }}/images/pregnancy/Layer5.png"></div>
-			<div id="Preventingthedeathso">
-			<strong>Preventing</strong> the deaths of <strong>Pregnant Mothers</strong> and <strong>New Borns</strong> &amp; Improving <strong>Child Nutrition</strong>
-			</div>
-			<div id="Layer6"><img src="{{ static_path }}/images/pregnancy/Layer6.png"></div>
-			<div id="Layer7"><img src="{{ static_path }}/images/pregnancy/Layer7.png"></div>
-			<!--  -->
 			
 			<!-- filter -->
-			<div id="Layer11">
+			<div id="locations">
 			<select name="source" id="source" >
         {%  for area in filters.child_areas  %}
           <option name="link" value="{{  area.own_link }}">{{ area.name }}</option>
         {%  endfor %}
 			</select>
 			</div>
-			<div id="Layer13"><img src="{{ static_path }}/images/pregnancy/Layer13.png"></div>
+			<div id="locationpicture"><img src="{{ static_path }}/images/pregnancy/Layer13.png"></div>
 			<div id="todate">
 			<input class="activedate" type="date" name="name" id="name" style="border: 1px #000;border-radius:10px;font-size:16px;" /></input>
 			</div>
@@ -79,13 +79,13 @@
 			<input class="activedate" type="date" name="name" id="name" style="border: 1px #000;border-radius:10px;font-size:16px;" /></input>
 			</div>
 			<div id="From">From:</div>
-			<div id="Layer15"><img src="{{ static_path }}/images/pregnancy/Layer15.png"></div>
+			<div id="calenderpicture"><img src="{{ static_path }}/images/pregnancy/Layer15.png"></div>
 			<div id="To">To:</div>
 			<!--  -->
-		
+		{% block tab  %} {%  endblock  %}
 		</div>
 			
-			<div id="Background"></div>
+			<div id="bgStretch"><img src="{{ static_path }}/images/pregnancy/Background.png" alt=""></div>
       {%  block bodycontent %}{%  endblock  %}
 			<!-- footer -->
 			<div id="footer">
