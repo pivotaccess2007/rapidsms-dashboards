@@ -1,0 +1,710 @@
+
+ 
+ #background2 
+{ 
+	 left: 0px; 
+	 top: 0px; 
+	 position: relative; 
+	 margin-left: auto; 
+	 margin-right: auto; 
+	 width: 1000px;
+	 height: 1150px; 
+	 overflow: hidden;
+	 z-index:0;
+	} 
+	
+
+
+ #Layer1copy2 
+{ 
+	 left: 1px; 
+	 top: 0px; 
+	 position: absolute; 
+	 width: 999px;
+	 height: 268px;
+	 z-index:3;
+} 
+
+ #Layer1 
+{ 
+	 left: 699px; 
+	 top: 80px; 
+	 position: absolute; 
+	 width: 187px;
+	 height: 56px;
+	 z-index:4;
+} 
+
+ #Layer2 
+{ 
+	 left: 147px; 
+	 top: 154px; 
+	 position: absolute; 
+	 width: 119px;
+	 height: 28px;
+	 z-index:5;
+} 
+
+ #Healthybeginningsfor 
+{ 
+	 left: 345px; 
+	 top: 92px; 
+	 position: absolute; 
+	 width: 290px;
+	 height: 78px;
+	 z-index:6;
+} 
+
+
+#Layer3 
+{ 
+	 left: 144px; 
+	 top: 74px; 
+	 position: absolute; 
+	 width: 119px;
+	 height: 54px;
+	 z-index:12;
+} 
+
+ #Layer1copy17 
+{ 
+	 left: 141px; 
+	 top: 25px; 
+	 position: absolute; 
+	 width: 817px;
+	 height: 30px;
+	 z-index:13;
+} 
+
+ #Layer4 
+{ 
+	 left: 203px; 
+	 top: 25px; 
+	 position: absolute; 
+	 width: 596px;
+	 height: 30px;
+	 z-index:14;
+} 
+
+
+
+
+
+
+
+/*******************************************/
+
+ #ccmvcmrcopy2 
+{ 
+	 left: 130px; 
+	 top: 10px; 
+	 position: absolute; 
+	 width: 752px;
+	 height: 285px;
+	 z-index:43;
+} 
+
+ #Newbornsarevaccinate 
+{ 
+	 left: 328px; 
+	 top: 150px; 
+	 position: absolute; 
+	 width: 183px;
+	 height: 39px;
+	 z-index:44;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 12px;
+} 
+
+ #Immunisaion 
+{ 
+	 left: 188px; 
+	 top: 126px; 
+	 position: absolute; 
+	 width: 189px;
+	 height: 157px;
+	 z-index:45;
+} 
+
+ #Immunisationdroprate 
+{ 
+	 left: 226px; 
+	 top: 224px; 
+	 position: absolute; 
+	 width: 289px;
+	 height: 17px;
+	 z-index:46;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 12px;
+	color: #f79242;
+} 
+
+ #layer_34 
+{ 
+	 left: 470px; 
+	 top: 219px; 
+	 position: absolute; 
+	 width: 29px;
+	 height: 11px;
+	 z-index:47;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 18px;
+} 
+
+ #Vaccination 
+{ 
+	 left: 410px; 
+	 top: 30px; 
+	 position: absolute; 
+	 width: 200px;
+	 height: 29px;
+	 z-index:48;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 38px;
+	color:#45b39a;
+} 
+
+ #layer_700 
+{ 
+	 left: 551px; 
+	 top: 110px; 
+	 position: absolute; 
+	 width: 311px;
+	 height: 170px;
+	 z-index:49;
+} 
+
+ #ccmvcmrcopy3 
+{ 
+	 left: 130px; 
+	 top: 335px; 
+	 position: absolute; 
+	 width: 752px;
+	 height: 285px;
+	 z-index:50;
+} 
+
+ #layer_421 
+{ 
+	 left: 229px; 
+	 top: 412px; 
+	 position: absolute; 
+	 width: 32px;
+	 height: 15px;
+	 z-index:57;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 20px;
+	color:#989f9e;
+	
+} 
+
+ #layer_124 
+{ 
+	 left: 360px; 
+	 top: 412px; 
+	 position: absolute; 
+	 width: 34px;
+	 height: 15px;
+	 z-index:58;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 20px;
+	color:#989f9e;
+} 
+
+ #layer_217 
+{ 
+	 left: 512px; 
+	 top: 406px; 
+	 position: absolute; 
+	 width: 35px;
+	 height: 15px;
+	 z-index:59;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 20px;
+	color:#989f9e;
+} 
+
+ #layer_119 
+{ 
+	 left: 232px; 
+	 top: 534px; 
+	 position: absolute; 
+	 width: 34px;
+	 height: 15px;
+	 z-index:60;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 20px;
+	color:#989f9e;
+} 
+
+ #layer_234 
+{ 
+	 left: 368px; 
+	 top: 536px; 
+	 position: absolute; 
+	 width: 35px;
+	 height: 15px;
+	 z-index:68;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 20px;
+	color:#989f9e;
+} 
+
+ #layer_356 
+{ 
+	 left: 524px; 
+	 top: 532px; 
+	 position: absolute; 
+	 width: 35px;
+	 height: 15px;
+	 z-index:62;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 20px;
+	color:#989f9e;
+} 
+
+ #VectorSmartObject 
+{ 
+	 left: 195px; 
+	 top: 368px; 
+	 position: absolute; 
+	 width: 108px;
+	 height: 104px;
+	 z-index:51;
+} 
+
+ #VectorSmartObject_0 
+{ 
+	 left: 323px; 
+	 top: 368px; 
+	 position: absolute; 
+	 width: 113px;
+	 height: 108px;
+	 z-index:52;
+} 
+
+ #VectorSmartObject_1 
+{ 
+	 left: 474px; 
+	 top: 360px; 
+	 position: absolute; 
+	 width: 121px;
+	 height: 116px;
+	 z-index:53;
+} 
+
+ #VectorSmartObject_2 
+{ 
+	 left: 483px; 
+	 top: 491px; 
+	 position: absolute; 
+	 width: 119px;
+	 height: 114px;
+	 z-index:54;
+} 
+
+ #VectorSmartObject_3 
+{ 
+	 left: 197px; 
+	 top: 491px; 
+	 position: absolute; 
+	 width: 106px;
+	 height: 105px;
+	 z-index:55;
+} 
+
+ #VectorSmartObject_4 
+{ 
+	 left: 330px; 
+	 top: 492px; 
+	 position: absolute; 
+	 width: 113px;
+	 height: 113px;
+	 z-index:65;
+} 
+
+ #brown 
+{ 
+	 left: 695px; 
+	 top: 387px; 
+	 position: absolute; 
+	 width: 20px;
+	 height: 13px;
+	 z-index:63;
+} 
+
+ #red 
+{ 
+	 left: 694px; 
+	 top: 417px; 
+	 position: absolute; 
+	 width: 20px;
+	 height: 13px;
+	 z-index:64;
+} 
+
+ #green 
+{ 
+	 left: 695px; 
+	 top: 443px; 
+	 position: absolute; 
+	 width: 20px;
+	 height: 13px;
+	 z-index:65;
+} 
+
+ #yellow 
+{ 
+	 left: 695px; 
+	 top: 470px; 
+	 position: absolute; 
+	 width: 20px;
+	 height: 12px;
+	 z-index:66;
+} 
+
+ #blue 
+{ 
+	 left: 695px; 
+	 top: 497px; 
+	 position: absolute; 
+	 width: 20px;
+	 height: 13px;
+	 z-index:67;
+} 
+
+ #purple 
+{ 
+	 left: 695px; 
+	 top: 525px; 
+	 position: absolute; 
+	 width: 20px;
+	 height: 13px;
+	 z-index:68;
+} 
+
+ #Vaccinationlegend 
+{ 
+	 left: 690px; 
+	 top: 344px; 
+	 position: absolute; 
+	 width: 199px;
+	 height: 9px;
+	 z-index:69;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 12px;
+	
+} 
+
+
+ #InitialVaccination 
+{ 
+	 left: 722px; 
+	 top: 384px; 
+	 position: absolute; 
+	 width: 199px;
+	 height: 9px;
+	 z-index:69;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 12px;
+	
+} 
+
+ #SecondryVaccination 
+{ 
+	 left: 721px; 
+	 top: 413px; 
+	 position: absolute; 
+	 width: 141px;
+	 height: 112px;
+	 z-index:70;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 12px;
+} 
+
+ #ThridVaccination 
+{ 
+	 left: 721px; 
+	 top: 439px; 
+	 position: absolute; 
+	 width: 198px;
+	 height: 9px;
+	 z-index:71;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 12px;
+} 
+
+ #FourthVaccination 
+{ 
+	 left: 723px; 
+	 top: 464px; 
+	 position: absolute; 
+	 width: 205px;
+	 height: 9px;
+	 z-index:72;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 12px;
+} 
+
+ #FifthVaccination 
+{ 
+	 left: 724px; 
+	 top: 493px; 
+	 position: absolute; 
+	 width: 193px;
+	 height: 9px;
+	 z-index:73;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 12px;
+} 
+
+ #SixthVaccination 
+{ 
+	 left: 724px; 
+	 top: 521px; 
+	 position: absolute; 
+	 width: 196px;
+	 height: 9px;
+	 z-index:74;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 12px;
+} 
+
+ #ccmvcmrcopy4 
+{ 
+	 left: 130px; 
+	 top: 653px; 
+	 position: absolute; 
+	 width: 752px;
+	 height: 447px;
+	 z-index:75;
+} 
+
+ #complete 
+{ 
+	 left: 150px; 
+	 top: 674px; 
+	 position: absolute; 
+	 width: 405px;
+	 height: 28px;
+	 z-index:76;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 20px;
+}
+#complete > a
+{ 
+	font-size: 30px;
+		color:#3789d5;
+	cursor: pointer;
+}
+ #incomplete 
+{ 
+	 left: 550px; 
+	 top: 674px; 
+	 position: absolute; 
+	 width: 402px;
+	 height: 102px;
+	 z-index:77;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 20px;
+}
+ #incomplete>a
+{ 
+	font-size: 30px;
+	color:#42d537;
+	cursor: pointer;
+	
+}
+
+ #unimmunized 
+{ 
+	 left: 320px; 
+	 top: 734px; 
+	 position: absolute; 
+	 width: 403px;
+	 height: 102px;
+	 z-index:78;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 20px;
+} 
+ #unimmunized>a
+{ 
+	font-size: 30px;
+	color:#d56437;
+	cursor: pointer;
+	
+}
+ #ccmvcmrcopy5 
+{ 
+	 left: 130px; 
+	 top: 1127px; 
+	 position: absolute; 
+	 width: 752px;
+	 height: 314px;
+	 z-index:85;
+} 
+
+ #DropOutFrom2ndto6thV 
+{ 
+	 left: 310px; 
+	 top: 824px; 
+	 position: absolute; 
+	 width: 411px;
+	 height: 24px;
+	 z-index:86;
+} 
+
+ #Layer14 
+{ 
+	 left: 283px; 
+	 top: 874px; 
+	 position: absolute; 
+	 width: 500px;
+	 height: 17px;
+	 z-index:87;
+} 
+
+ #Layer1copy5 
+{ 
+	 left: 281px; 
+	 top: 958px; 
+	 position: absolute; 
+	 width: 500px;
+	 height: 17px;
+	 z-index:88;
+} 
+
+ #layer_76 
+{ 
+	display: inline;
+	font-family: 'Open Sans', sans-serif;
+	
+} 
+
+ #layer_84 
+{ 
+	display: inline;
+	font-family: 'Open Sans', sans-serif;
+	
+} 
+
+ #layer_79 
+{ 
+	 display: inline;
+	font-family: 'Open Sans', sans-serif;
+	
+} 
+
+ #layer_55 
+{ 
+	 display: inline;
+	font-family: 'Open Sans', sans-serif;
+	
+} 
+
+ #layer_42 
+{ 
+	display: inline;
+	font-family: 'Open Sans', sans-serif;
+	
+} 
+
+ #Layer1copy_0 
+{ 
+	 left: 283px; 
+	 top: 914px; 
+	 position: absolute; 
+	 width: 500px;
+	 height: 17px;
+	 z-index:94;
+} 
+
+ #Layer1copy3 
+{ 
+	 left: 283px; 
+	 top: 995px; 
+	 position: absolute; 
+	 width: 500px;
+	 height: 17px;
+	 z-index:95;
+} 
+
+ #Layer1copy4 
+{ 
+	 left: 282px; 
+	 top: 1037px; 
+	 position: absolute; 
+	 width: 500px;
+	 height: 17px;
+	 z-index:96;
+} 
+
+ #top
+{ 
+	 left: 147px; 
+	 top: 874px; 
+	 position: absolute; 
+	 width: 125px;
+	 height: 18px;
+	 z-index:97;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 15px;
+} 
+
+ #top2 
+{ 
+	 left: 148px; 
+	 top: 910px; 
+	 position: absolute; 
+	 width: 120px;
+	 height: 18px;
+	 z-index:98;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 15px;
+} 
+
+ #top3 
+{ 
+	 left: 146px; 
+	 top: 954px; 
+	 position: absolute; 
+	 width: 120px;
+	 height: 18px;
+	 z-index:99;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 15px;
+} 
+
+ #top4 
+{ 
+	 left: 148px; 
+	 top: 995px; 
+	 position: absolute; 
+	 width: 120px;
+	 height: 18px;
+	 z-index:100;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 15px;
+} 
+
+ #top5 
+{ 
+	 left: 150px; 
+	 top: 1038px; 
+	 position: absolute; 
+	 width: 120px;
+	 height: 18px;
+	 z-index:101;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 15px;
+} 
+
+ #Layer15 
+{ 
+	 left: 0px; 
+	 top: 1205px; 
+	 position: absolute; 
+	 width: 1000px;
+	 height: 6px;
+	 z-index:102;
+} 
