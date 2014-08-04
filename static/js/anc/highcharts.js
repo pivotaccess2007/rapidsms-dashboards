@@ -566,7 +566,7 @@
             spacing: [10, 10, 15,
                 10
             ],
-            backgroundColor: "#FFFFFF",
+            backgroundColor: "",
             plotBorderColor: "#C0C0C0",
             resetZoomButton: {
                 theme: {

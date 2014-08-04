@@ -444,7 +444,7 @@ body {
 	 
 }
 
- #Layer16 
+ #footerblueline 
 { 
 	 left: 0px; 
 	 top: 0px; 
@@ -487,7 +487,7 @@ body {
 	font-size: 15px;
 } 
 
- #Layer17 
+ #social 
 { 
 	 left: 540px; 
 	 top: 133px; 
@@ -497,7 +497,7 @@ body {
 	 z-index:4;
 } 
 
- #Layer18 
+ #uniceflogo 
 { 
 	 left: 513px; 
 	 top: 186px; 
@@ -507,7 +507,7 @@ body {
 	 z-index:4;
 } 
 
- #Layer19 
+ #rapidsmsfooterlogo 
 { 
 	 left: 375px; 
 	 top: -21px; 
@@ -517,7 +517,7 @@ body {
 	 z-index:4;
 } 
 
- #Layer20 
+ #ministrylogo 
 { 
 	 left: 658px; 
 	 top: 154px; 

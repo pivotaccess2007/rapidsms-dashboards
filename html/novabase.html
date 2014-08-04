@@ -3,7 +3,7 @@
 	<head>
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 	{% block title %}
-	<title>Pregnancies Confirmed</title>	
+		
 	{% endblock %}
 
 	<link href="{{ static_path }}/css/base/styles.css" rel="stylesheet" type="text/css">
@@ -42,10 +42,9 @@
 		<!-- banner -->
 			
 			<div id="topuniceflogo"><img src="{{ static_path }}/images/pregnancy/Layer5.png"></div>
-			<div id="bannertext">
-			<strong>Preventing</strong> the deaths of <strong>Pregnant Mothers</strong> and <strong>New Borns</strong> &amp; Improving <strong>Child Nutrition</strong>
-			</div>
-			<div id="bannericon"><img src="{{ static_path }}/images/pregnancy/Layer6.png"></div>
+			{% block banner  %}
+			
+			{% endblock  %}
 			<div id="toprapidsmslogo"><img src="{{ static_path }}/images/pregnancy/Layer7.png"></div>
 			<!--  --> 
 		
@@ -89,7 +88,7 @@
       {%  block bodycontent %}{%  endblock  %}
 			<!-- footer -->
 			<div id="footer">
-			<div id="Layer16"><img src="{{ static_path }}/images/pregnancy/Layer16.png"></div>
+			<div id="footerblueline"><img src="{{ static_path }}/images/pregnancy/Layer16.png"></div>
 			<div id="ContactUsReachouttou">
 			<strong>Contact Us</strong>
 			<br/>Reach out to us if you have any 
@@ -108,10 +107,10 @@
 			<strong>Follow us</strong>
 			<br></>Follow us on our soical networks and comment, interact and socailise with our community
 			</div>
-			<div id="Layer17"><img src="{{ static_path }}/images/pregnancy/Layer17.png"></div>
-			<div id="Layer18"><img src="{{ static_path }}/images/pregnancy/Layer18.png"></div>
-			<div id="Layer19"><img src="{{ static_path }}/images/pregnancy/Layer19.png"></div>
-			<div id="Layer20"><img src="{{ static_path }}/images/pregnancy/Layer20.png"></div>
+			<div id="social"><img src="{{ static_path }}/images/pregnancy/Layer17.png"></div>
+			<div id="uniceflogo"><img src="{{ static_path }}/images/pregnancy/Layer18.png"></div>
+			<div id="rapidsmsfooterlogo"><img src="{{ static_path }}/images/pregnancy/Layer19.png"></div>
+			<div id="ministrylogo"><img src="{{ static_path }}/images/pregnancy/Layer20.png"></div>
 			<!--  -->
 		</div>	
 		
