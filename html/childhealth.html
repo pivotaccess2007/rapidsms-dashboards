@@ -1,0 +1,186 @@
+{%  extends base_template %}
+
+{% block title %}
+<title>Vaccination</title>	
+{% endblock  %}
+
+
+           {% block banner %}
+			<div id="bannertext">
+			<strong>Healthy Beginnings</strong> for children under <strong>2 years</strong> buliding <strong>strong foundations</strong>
+			</div>
+			<div id="bannericon"><img src="{{ static_path }}/images/childhealth/childhealthicon.png"></div>
+			{%  endblock %}
+
+
+{% block scripts %}
+	<link href="{{ static_path }}/css/childhealth/styles.css" rel="stylesheet" type="text/css">
+	<script src="{{ static_path }}/js/childhealth/highcharts.js"></script>
+    <script src="{{ static_path }}/js/childhealth/graph.js"></script>
+    
+{% endblock %}
+{%  block   bodycontent %}
+
+			<div id="background2">
+			
+			<div id="ccmvcmr"><img src="{{ static_path }}/images/childhealth/ccmvcmr.png"></div>
+			<div id="newborncare">
+			New Born Care Visits(in relation to deliveries)
+			</div>
+			<div id="lightblue"><img src="{{ static_path }}/images/childhealth/lightblue.png"></div>
+			<div id="top">
+			48 days
+			</div>
+			<div id="layer_7807">
+			<strong>78</strong>07%</div>
+			<div id="purplecircle"><img src="{{ static_path }}/images/childhealth/purplecircle.png"></div>
+			<div id="top1">
+			36 days
+			</div>
+			<div id="layer_9812">
+			<strong>98</strong>12%</div>
+			<div id="greencircle"><img src="{{ static_path }}/images/childhealth/greencircle.png"></div>
+			<div id="top2">
+			24 days
+			</div>
+			<div id="layer_11243">
+			<strong>112</strong>43%</div>
+			<div id="bluecircle"><img src="{{ static_path }}/images/childhealth/bluecircle.png"></div>
+			<div id="top3">
+			12 days
+			</div>
+			<div id="layer_12347">
+			<strong>123</strong>47%
+			</div>
+			
+			
+			
+			<div id="ccmvcmrcopy"><img src="{{ static_path }}/images/childhealth/ccmvcmrcopy.png"></div>
+			<div id="ccmvcmrcopy2"><img src="{{ static_path }}/images/childhealth/ccmvcmrcopy2.png"></div>
+			<div id="Layer12"><img src="{{ static_path }}/images/childhealth/Layer12.png"></div>
+			<div id="Layer13"><img src="{{ static_path }}/images/childhealth/Layer13.png"></div>
+			<div id="Layer14"><img src="{{ static_path }}/images/childhealth/Layer14.png"></div>
+			<div id="Lessthan2KGs">
+			Less than 2kgs
+			</div>
+			
+			<div id="KGs23">
+			2 to 3 KGs
+			</div>
+			<div id="Morethan2KGs">
+			More Than 2kgs
+			</div>
+			<div id="layer_2315">
+			<strong>23</strong>15%
+			</div>
+			<div id="layer_11477">
+			<strong>114</strong><br>77%
+			</div>
+			<div id="Weightcomparisions">
+			Weight Comparisions
+			</div>
+			<div id="layer_188">
+			<strong>18</strong>8%
+			</div>
+			<div id="Childwieghtismonitor">
+			<strong>Child Weight</strong> is monitored by community health workers and comunity centers nationally 
+			to keep track of newborns and their health all while predicting possible infants risks 
+			</div>
+			
+			
+			
+			
+			<div id="Layer15"><img src="{{ static_path }}/images/childhealth/Layer15.png"></div>
+			<div id="Layer1copy_0"><img src="{{ static_path }}/images/childhealth/Layer1copy_0.png"></div>
+			<div id="Layer1copy2_0"><img src="{{ static_path }}/images/childhealth/Layer1copy2_0.png"></div>
+			<div id="Layer1copy6"><img src="{{ static_path }}/images/childhealth/Layer1copy6.png"></div>
+			<div id="Layer1copy7"><img src="{{ static_path }}/images/childhealth/Layer1copy7.png"></div>
+			<div id="Layer1copy8"><img src="{{ static_path }}/images/childhealth/Layer1copy8.png"></div>
+			<div id="Layer1copy3"><img src="{{ static_path }}/images/childhealth/Layer1copy3.png"></div>
+			<div id="Layer1copy4"><img src="{{ static_path }}/images/childhealth/Layer1copy4.png"></div>
+			<div id="Layer1copy5"><img src="{{ static_path }}/images/childhealth/Layer1copy5.png"></div>
+			<div id="Layer1copy9"><img src="{{ static_path }}/images/childhealth/Layer1copy9.png"></div>
+			<div id="Layer1copy10"><img src="{{ static_path }}/images/childhealth/Layer1copy10.png"></div>
+			<div id="Layer1copy11"><img src="{{ static_path }}/images/childhealth/Layer1copy11.png"></div>
+			<div id="Layer1copy12"><img src="{{ static_path }}/images/childhealth/Layer1copy12.png"></div>
+			<div id="Layer1copy13"><img src="{{ static_path }}/images/childhealth/Layer1copy13.png"></div>
+			<div id="COUGHING24">
+			COUGHING<br><strong>24</strong>
+			</div>
+			<div id="DIARRHEA33">
+			DIARRHEA<br><strong>33</strong>
+			</div>
+			<div id="FEVER12">
+			FEVER<br><strong>12</strong>
+			</div>
+			<div id="MALARIA09">
+			MALARIA<br><strong>09</strong>
+			</div>
+			<div id="VOMITING18">
+			VOMITTING<br><strong>18</strong>
+			</div>
+			<div id="STILLBORN21">
+			STILLBORN<br><strong>21</strong>
+			</div>
+			<div id="EDEMA13">
+			EDEMA<br><strong>13</strong>
+			</div>
+			<div id="JAUNDICE09">
+			JAUNDICE<br><strong>09</strong>
+			</div>
+			<div id="PNEUMONIA21">
+			PHEUMONIA<br><strong>21</strong>
+			</div>
+			<div id="DISABILITY21">
+			DISABILITY<br><strong>21</strong>
+			</div>
+			<div id="HYPOTHEMIA21">
+			HYPOTHEMIA<br><strong>21</strong>
+			</div>
+			<div id="CLEFTPALATE21">
+			CLEFT PALETE<br><strong>21</strong>
+			</div>
+			<div id="CORDINFECTION">
+			CORD<br>INFECTION<br><strong>06</strong>
+			</div>
+			<div id="NECKSTIFFNESS">
+			NECK STIFFNESS<br><strong>11</strong>
+			</div>
+			<div id="Layer16">
+			<img src="{{ static_path }}/images/childhealth/Layer16.png">
+			</div>
+			<div id="symptoms">
+			<img src="{{ static_path }}/images/childhealth/symptoms.png">
+			</div>
+			<div id="Layer17"><img src="{{ static_path }}/images/childhealth/Layer17.png"></div>
+			<div id="Layer18"><img src="{{ static_path }}/images/childhealth/Layer18.png"></div>
+			<div id="layer_12">
+			12
+			</div>
+			<div id="layer_54">
+			54
+			</div>
+			<div id="layer_98">
+			98
+			</div>
+			<div id="high">
+			<strong>High</strong>(5 cms)
+			</div>
+			<div id="low">
+			<strong>Low</strong>(2 cms)
+			</div>
+			<div id="normal">
+			<strong>Normal</strong>(3 cms)
+			</div>
+			<div id="avg29">
+			Avg: 2.9 Cms
+			</div>
+			<div id="MAUC">
+			MAUC
+			</div>
+			<div id="Layer19">
+			</div>
+			
+</div>
+
+{%  endblock  %}
