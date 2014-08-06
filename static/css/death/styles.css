@@ -1,0 +1,1174 @@
+  html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, blockquote,
+
+h1{font-size:14px;
+font-family:"Open Sans Extrabold Italic", "Open Sans Italic", "Open Sans Light", "Open Sans Light Italic", "Open Sans Semibold", "Open Sans", "Open Sans Bold", "Open Sans Extrabold";
+font-weight:bold; 
+color:#000;
+}
+h2 {font-size:12px;
+font-family:"Open Sans Extrabold Italic", "Open Sans Italic", "Open Sans Light", "Open Sans Light Italic", "Open Sans Semibold", "Open Sans", "Open Sans Bold", "Open Sans Extrabold";
+font-weight:bold;
+color:#000; 
+}
+h3{font-size:10px;
+font-family:"Open Sans Extrabold Italic", "Open Sans Italic", "Open Sans Light", "Open Sans Light Italic", "Open Sans Semibold", "Open Sans", "Open Sans Bold", "Open Sans Extrabold";
+color:#000
+}
+h4{font-size:10px;
+font-family:"Open Sans Extrabold Italic", "Open Sans Italic", "Open Sans Light", "Open Sans Light Italic", "Open Sans Semibold", "Open Sans", "Open Sans Bold", "Open Sans Extrabold";
+font-weight:bold; 
+}
+
+h5{font-size:20px;
+font-family:"Open Sans Extrabold Italic", "Open Sans Italic", "Open Sans Light", "Open Sans Light Italic", "Open Sans Semibold", "Open Sans", "Open Sans Bold", "Open Sans Extrabold";
+font-weight:bold; }
+
+ body {
+	margin: 0;
+	padding: 0;
+ }
+ 
+ #background 
+{ 
+	 left: 0px; 
+	 top: 0px; 
+	 position: relative; 
+	 margin-left: auto; 
+	 margin-right: auto; 
+	 width: 1000px;
+	 height: 2000px; 
+	 overflow: hidden;
+	 z-index:0;
+	 
+	} 
+
+ #Layer1 
+{ 
+	 left: 0px; 
+	 top: 0px; 
+	 position: absolute; 
+	 width: 100%;
+	 height: 2000px;
+	 z-index:1;
+	 
+} 
+
+ #Layer0 
+{ 
+	 left: 0px; 
+	 top: 0px; 
+	 position: absolute; 
+	 width: 100%;
+	 height: 2000px;
+	 z-index:2;
+	  background: url(images/Layer0.png) repeat-x;
+} 
+
+ #headerBg 
+{ 
+	 left: 0px; 
+	 top: 0px; 
+	 position: absolute; 
+	 width: 1000px;
+	 height: 208px;
+	 z-index:3;
+} 
+
+ #Layer1copy3 
+{ 
+	 left: 0px; 
+	 top: 0px; 
+	 position: absolute; 
+	 width: 100%;
+	 height: 268px;
+	 z-index:4;
+	 background: url(images/Layer1copy3.png) repeat-x;
+} 
+
+ #nbclogo 
+{ 
+	 left: 709px; 
+	 top: 88px; 
+	 position: absolute; 
+	 width: 121px;
+	 height: 105px;
+	 z-index:5;
+} 
+
+ #uniceflogo 
+{ 
+	 left: 145px; 
+	 top: 155px; 
+	 position: absolute; 
+	 width: 119px;
+	 height: 28px;
+	 z-index:6;
+} 
+
+ #TrackingMothersandch 
+{ 
+	 left: 346px; 
+	 top: 101px; 
+	 position: absolute; 
+	 width: 289px;
+	 height: 70px;
+	 z-index:7;
+} 
+
+ #toppink 
+{ 
+	 left: 0px; 
+	 top: 0px; 
+	 position: absolute; 
+	 width: 100%;
+	 height: 2px;
+	 z-index:8;
+	  background: url(images/toppink.png) repeat-x;
+} 
+
+ #topgrey 
+{ 
+	 left: 0px; 
+	 top: 1px; 
+	 position: absolute; 
+	 width: 100%;
+	 height: 25px;
+	 z-index:9;
+	  background: url(images/topgrey.png) repeat-x;
+} 
+
+ #ENGLISH 
+{ 
+	 left: 694px; 
+	 top: 11px; 
+	 position: absolute; 
+	 width: 35px;
+	 height: 6px;
+	 z-index:10;
+	 
+	  font-family: 'Open Sans', sans-serif;
+	font-weight:normal;
+	font-size: 10px;
+} 
+
+ #FRENCH 
+{ 
+	 left: 843px; 
+	 top: 11px; 
+	 position: absolute; 
+	 width: 33px;
+	 height: 6px;
+	 z-index:11;
+	 
+	  font-family: 'Open Sans', sans-serif;
+	font-weight:normal;
+	font-size: 10px;
+} 
+
+ #KINYARWANDA 
+{ 
+	 left: 755px; 
+	 top: 11px; 
+	 position: absolute; 
+	 width: 65px;
+	 height: 6px;
+	 z-index:12;
+	 
+	  font-family: 'Open Sans', sans-serif;
+	font-weight:normal;
+	font-size: 10px;
+} 
+
+ #ENGLISH: hover
+{ 
+	color: #fff;
+} 
+
+ #FRENCH 
+{ 
+} 
+
+ #KINYARWANDA 
+{ 
+}
+
+
+ #Rapidsmstoplogo 
+{ 
+	 left: 141px; 
+	 top: 74px; 
+	 position: absolute; 
+	 width: 119px;
+	 height: 55px;
+	 z-index:13;
+} 
+
+ #MenuBg 
+{ 
+	 left: 138px; 
+	 top: 25px; 
+	 position: absolute; 
+	 width: 820px;
+	 height: 30px;
+	 z-index:14;
+} 
+
+ #Layer32 
+{ 
+	 left: 200px; 
+	 top: 25px; 
+	 position: absolute; 
+	 width: 598px;
+	 height: 30px;
+	 z-index:15;
+} 
+
+ #menuseparators 
+{ 
+	 left: 233px; 
+	 top: 32px; 
+	 position: absolute; 
+	 width: 628px;
+	 height: 16px;
+	 z-index:16;
+} 
+
+ #MenuText 
+{ 
+	 left: 146px; 
+	 top: 34px; 
+	 position: absolute; 
+	 width: 787px;
+	 height: 15px;
+	 z-index:17;
+} 
+
+ #Layer33 
+{ 
+	 left: 140px; 
+	 top: 56px; 
+	 position: absolute; 
+	 width: 295px;
+	 height: 123px;
+	 z-index:18;
+} 
+
+ #dotscopy4 
+{ 
+	 left: 147px; 
+	 top: 66px; 
+	 position: absolute; 
+	 width: 203px;
+	 height: 77px;
+	 z-index:19;
+} 
+
+ #SubmittedPregnancies 
+{ 
+	 left: 153px; 
+	 top: 69px; 
+	 position: absolute; 
+	 width: 274px;
+	 height: 70px;
+	 z-index:20;
+	 
+	
+} 
+
+ #Layer5copy 
+{ 
+	 left: 236px; 
+	 top: 56px; 
+	 position: absolute; 
+	 width: 157px;
+	 height: 81px;
+	 z-index:21;
+} 
+
+ #dotscopy5 
+{ 
+	 left: 244px; 
+	 top: 66px; 
+	 position: absolute; 
+	 width: 18px;
+	 height: 46px;
+	 z-index:22;
+} 
+
+ #TrackingNewBornPo 
+{ 
+	 left: 250px; 
+	 top: 69px; 
+	 position: absolute; 
+	 width: 119px;
+	 height: 39px;
+	 z-index:23;
+} 
+
+ #Layer2copy8 
+{ 
+	 left: 333px; 
+	 top: 25px; 
+	 position: absolute; 
+	 width: 105px;
+	 height: 30px;
+	 z-index:24;
+} 
+
+ #Layer2copy12 
+{ 
+	 left: 524px; 
+	 top: 25px; 
+	 position: absolute; 
+	 width: 118px;
+	 height: 30px;
+	 z-index:25;
+} 
+
+ #Layer2copy14 
+{ 
+	 left: 863px; 
+	 top: 25px; 
+	 position: absolute; 
+	 width: 95px;
+	 height: 30px;
+	 z-index:26;
+} 
+
+ #Layer2copy13 
+{ 
+	 left: 649px; 
+	 top: 25px; 
+	 position: absolute; 
+	 width: 206px;
+	 height: 30px;
+	 z-index:27;
+} 
+
+ #Layer2copy11 
+{ 
+	 left: 441px; 
+	 top: 25px; 
+	 position: absolute; 
+	 width: 78px;
+	 height: 30px;
+	 z-index:28;
+} 
+
+ #Layer2copy9 
+{ 
+	 left: 139px; 
+	 top: 25px; 
+	 position: absolute; 
+	 width: 94px;
+	 height: 30px;
+	 z-index:29;
+} 
+
+ #Layer2copy10 
+{ 
+	 left: 239px; 
+	 top: 25px; 
+	 position: absolute; 
+	 width: 86px;
+	 height: 30px;
+	 z-index:30;
+} 
+
+ #Layer2copy8:hover
+{ 
+	background-color: #ffffff;
+	opacity: 0.7;
+	border-radius: 25px;
+	cursor: pointer;
+}
+ #Layer2copy12:hover
+{ 
+	background-color: #ffffff;
+	opacity: 0.7;
+	border-radius: 25px;
+	cursor: pointer;
+}
+ #Layer2copy14:hover
+{ 
+	background-color: #ffffff;
+	opacity: 0.7;
+	border-radius: 25px;
+	cursor: pointer;
+}
+ #Layer2copy13:hover
+{ 
+	background-color: #ffffff;
+	opacity: 0.7;
+	border-radius: 25px;
+	cursor: pointer;
+}
+ #Layer2copy11:hover
+{ 
+	background-color: #ffffff;
+	opacity: 0.7;
+	border-radius: 25px;
+	cursor: pointer;
+}
+ #Layer2copy9:hover
+{ 
+	background-color: #ffffff;
+	opacity: 0.7;
+	border-radius: 25px;
+	cursor: pointer;
+}
+ #Layer2copy10:hover
+{ 
+	background-color: #ffffff;
+	opacity: 0.7;
+	border-radius: 25px;
+	cursor: pointer;
+}
+
+
+ #Layer6 
+{ 
+	 left: 0px; 
+	 top: 202px; 
+	 position: absolute; 
+	 width: 100%;
+	 height: 63px;
+	 z-index:31;
+	  background: url(images/Layer6.png) repeat-x;
+} 
+
+ #Layer7 
+{ 
+	 left: 659px; 
+	 top: 225px; 
+	 position: absolute; 
+	 width: 207px;
+	 height: 21px;
+	 z-index:32;
+} 
+
+ #Layer8 
+{ 
+	 left: 846px; 
+	 top: 226px; 
+	 position: absolute; 
+	 width: 20px;
+	 height: 19px;
+	 z-index:33;
+} 
+
+ #SelectHealthCare 
+{ 
+	 left: 682px; 
+	 top: 229px; 
+	 position: absolute; 
+	 width: 128px;
+	 height: 13px;
+	 z-index:34;
+} 
+
+ #Layer9 
+{ 
+	 left: 636px; 
+	 top: 224px; 
+	 position: absolute; 
+	 width: 15px;
+	 height: 22px;
+	 z-index:35;
+} 
+
+ #Layer10 
+{ 
+	 left: 430px; 
+	 top: 223px; 
+	 position: absolute; 
+	 width: 198px;
+	 height: 23px;
+	 z-index:36;
+} 
+
+ #Layer4copy 
+{ 
+	 left: 186px; 
+	 top: 224px; 
+	 position: absolute; 
+	 width: 209px;
+	 height: 23px;
+	 z-index:37;
+} 
+
+ #From 
+{ 
+	 left: 138px; 
+	 top: 230px; 
+	 position: absolute; 
+	 width: 39px;
+	 height: 12px;
+	 z-index:38;
+} 
+
+ #Layer11 
+{ 
+	 left: 96px; 
+	 top: 222px; 
+	 position: absolute; 
+	 width: 24px;
+	 height: 26px;
+	 z-index:39;
+} 
+
+ #To 
+{ 
+	 left: 402px; 
+	 top: 228px; 
+	 position: absolute; 
+	 width: 21px;
+	 height: 12px;
+	 z-index:40;
+} 
+
+ #Layer7copy 
+{ 
+	 left: 74px; 
+	 top: 275px; 
+	 position: absolute; 
+	 width: 870px;
+	 height: 719px;
+	 z-index:41;
+} 
+
+ #Layer12 
+{ 
+	 left: 202px; 
+	 top: 283px; 
+	 position: absolute; 
+	 width: 198px;
+	 height: 199px;
+	 z-index:42;
+} 
+
+ #layer_33 
+{ 
+	 left: 649px; 
+	 top: 441px; 
+	 position: absolute; 
+	 width: 57px;
+	 height: 21px;
+	 z-index:43;
+	 
+	 font-family:"Open Sans";
+	font-size:20px;
+	color:#246a77;
+} 
+
+ #percentage 
+{
+	left: 470px;
+	top: 440px;
+	position: absolute;
+	width: 155px;
+	height: 28px;
+	z-index:44;
+	font-family:"Open Sans";
+	font-size:20px;
+	color:#333;
+} 
+
+ #layer_150 
+{
+	left: 648px;
+	top: 379px;
+	position: absolute;
+	width: 48px;
+	height: 21px;
+	z-index:45;
+	font-family:"Open Sans";
+	font-size:20px;
+	color:#246a77;
+} 
+
+ #newborns 
+{
+	left: 469px;
+	top: 377px;
+	position: absolute;
+	width: 150px;
+	height: 21px;
+	z-index:46;
+	font-family:"Open Sans";
+	font-size:20px;
+	color:#333;
+} 
+
+ #layer_50 
+{
+	left: 646px;
+	top: 307px;
+	position: absolute;
+	width: 39px;
+	height: 26px;
+	z-index:47;
+	font-family:"Open Sans";
+	font-size:20px;
+	color:#246a77;
+} 
+
+ #deathsreported 
+{
+	left: 467px;
+	top: 306px;
+	position: absolute;
+	width: 289px;
+	height: 37px;
+	z-index:48;
+	font-family:"Open Sans";
+	font-size:20px;
+	color:#333;
+} 
+
+ #deathimg 
+{ 
+	 left: 232px; 
+	 top: 304px; 
+	 position: absolute; 
+	 width: 142px;
+	 height: 139px;
+	 z-index:49;
+} 
+
+ #childGraph 
+{ 
+	 left: 102px; 
+	 top: 595px; 
+	 position: absolute; 
+	 width: 800px;
+	 height: 220px;
+	 z-index:50;
+} 
+
+ #DeathHistory 
+{
+	left: 354px;
+	top: 545px;
+	position: absolute;
+	width: 776px;
+	height: 27px;
+	z-index:51;
+	font-family:"Open Sans";
+	font-size:26px;
+	color:#333;
+} 
+
+ #Locationcopy 
+{
+	left: 422px;
+	top: 812px;
+	position: absolute;
+	width: 143px;
+	height: 27px;
+	z-index:52;
+	
+	 font-family: 'Open Sans', sans-serif;
+	font-weight:normal;
+	font-size: 20px;
+} 
+
+ #Hospitalimg 
+{ 
+	 left: 469px; 
+	 top: 852px; 
+	 position: absolute; 
+	 width: 102px;
+	 height: 102px;
+	 z-index:53;
+} 
+
+ #homeimg 
+{ 
+	 left: 185px; 
+	 top: 855px; 
+	 position: absolute; 
+	 width: 102px;
+	 height: 103px;
+	 z-index:54;
+} 
+
+ #OnRouteimg 
+{ 
+	 left: 615px; 
+	 top: 853px; 
+	 position: absolute; 
+	 width: 103px;
+	 height: 104px;
+	 z-index:55;
+} 
+
+ #clinicimg 
+{ 
+	 left: 329px; 
+	 top: 853px; 
+	 position: absolute; 
+	 width: 105px;
+	 height: 105px;
+	 z-index:56;
+} 
+
+ #V112V232V317V459V5 
+{ 
+	 left: 190px; 
+	 top: 976px; 
+	 position: absolute; 
+	 width: 86px;
+	 height: 201px;
+	 z-index:57;
+} 
+
+ #V165V254V387V432V5 
+{ 
+	 left: 342px; 
+	 top: 976px; 
+	 position: absolute; 
+	 width: 85px;
+	 height: 201px;
+	 z-index:58;
+} 
+
+ #V149V276V342V423V5 
+{ 
+	 left: 478px; 
+	 top: 974px; 
+	 position: absolute; 
+	 width: 84px;
+	 height: 200px;
+	 z-index:59;
+} 
+
+ #V112V215V309V403V5 
+{ 
+	 left: 625px; 
+	 top: 971px; 
+	 position: absolute; 
+	 width: 84px;
+	 height: 201px;
+	 z-index:60;
+} 
+
+ #layer_121 
+{ 
+	 left: 212px; 
+	 top: 961px; 
+	 position: absolute; 
+	 width: 39px;
+	 height: 22px;
+	 z-index:61;
+	 
+	font-family:"Open Sans";
+	font-size:24px;
+	color:#a4b609;
+	
+} 
+
+ #layer_96 
+{ 
+	 left: 370px; 
+	 top: 962px; 
+	 position: absolute; 
+	 width: 28px;
+	 height: 22px;
+	 z-index:62;
+	 
+	 font-family:"Open Sans";
+	font-size:24px;
+	color:#0b8127;
+} 
+
+ #layer_73 
+{ 
+	 left: 507px; 
+	 top: 960px; 
+	 position: absolute; 
+	 width: 28px;
+	 height: 22px;
+	 z-index:63;
+	 
+	  font-family:"Open Sans";
+	font-size:24px;
+	color:#0b1381;
+} 
+
+ #layer_7 
+{ 
+	 left: 661px; 
+	 top: 962px; 
+	 position: absolute; 
+	 width: 12px;
+	 height: 22px;
+	 z-index:64;
+	 
+	  font-family:"Open Sans";
+	font-size:24px;
+	color:#727d7b;
+} 
+
+ #Layer7copy_0 
+{ 
+	 left: 72px; 
+	 top: 1010px; 
+	 position: absolute; 
+	 width: 872px;
+	 height: 523px;
+	 z-index:65;
+} 
+
+ #deathbg 
+{ 
+	 left: 173px; 
+	 top: 994px; 
+	 position: absolute; 
+	 width: 827px;
+	 height: 250px;
+	 z-index:66;
+} 
+
+ #layer_33_0 
+{ 
+	 left: 622px; 
+	 top: 1178px; 
+	 position: absolute; 
+	 width: 57px;
+	 height: 21px;
+	 z-index:67;
+	 
+	 font-family:"Open Sans";
+	font-size:24px;
+	color:# font-family:"Open Sans";
+	font-size:24px;
+	color:#ef4545;;
+} 
+
+ #percentage_0 
+{ 
+	 left: 457px; 
+	 top: 1178px; 
+	 position: absolute; 
+	 width: 155px;
+	 height: 28px;
+	 z-index:68;
+	 
+	font-family:"Open Sans";
+	font-size:24px;
+	color:#333;
+
+} 
+
+ #layer_150_0 
+{ 
+	 left: 636px; 
+	 top: 1115px; 
+	 position: absolute; 
+	 width: 48px;
+	 height: 21px;
+	 z-index:69;
+	 
+	  font-family:"Open Sans";
+	font-size:24px;
+	color:#ef4545;
+	 
+} 
+
+ #pregnancies 
+{ 
+	 left: 457px; 
+	 top: 1115px; 
+	 position: absolute; 
+	 width: 167px;
+	 height: 28px;
+	 z-index:70;
+	 
+	  font-family:"Open Sans";
+	font-size:24px;
+	color:#333;
+} 
+
+ #layer_50_0 
+{
+	left: 677px;
+	top: 1046px;
+	position: absolute;
+	width: 39px;
+	height: 26px;
+	z-index:71;
+	font-family:"Open Sans";
+	font-size:24px;
+	color:#ef4545;
+} 
+
+ #deathreported 
+{ 
+	 left: 457px; 
+	 top: 1045px; 
+	 position: absolute; 
+	 width: 289px;
+	 height: 37px;
+	 z-index:72;
+	 
+	 font-family:"Open Sans";
+	font-size:24px;
+	color:#333;
+} 
+
+ #deathimg_0 
+{ 
+	 left: 205px; 
+	 top: 1041px; 
+	 position: absolute; 
+	 width: 142px;
+	 height: 139px;
+	 z-index:73;
+} 
+
+ #graph 
+{ 
+	 left: 117px; 
+	 top: 1224px; 
+	 position: absolute; 
+	 width: 776px;
+	 height: 276px;
+	 z-index:74;
+} 
+
+ #Layer7copy_1 
+{ 
+	 left: 71px; 
+	 top: 1545px; 
+	 position: absolute; 
+	 width: 873px;
+	 height: 200px;
+	 z-index:75;
+} 
+
+ #Location 
+{
+	left: 407px;
+	top: 1549px;
+	position: absolute;
+	width: 143px;
+	height: 27px;
+	z-index:76;
+	font-family: 'Open Sans', sans-serif;
+	font-weight:normal;
+	font-size: 20px;
+} 
+
+ #Hospital 
+{ 
+	 left: 469px; 
+	 top: 1597px; 
+	 position: absolute; 
+	 width: 102px;
+	 height: 102px;
+	 z-index:77;
+} 
+
+ #homeimg_0 
+{ 
+	 left: 185px; 
+	 top: 1600px; 
+	 position: absolute; 
+	 width: 102px;
+	 height: 102px;
+	 z-index:78;
+} 
+
+ #OnRoute 
+{ 
+	 left: 615px; 
+	 top: 1598px; 
+	 position: absolute; 
+	 width: 103px;
+	 height: 104px;
+	 z-index:79;
+} 
+
+ #clinicimg_0 
+{ 
+	 left: 329px; 
+	 top: 1598px; 
+	 position: absolute; 
+	 width: 105px;
+	 height: 105px;
+	 z-index:80;
+} 
+
+ #V112V232V317V459V5_0 
+{ 
+	 left: 190px; 
+	 top: 1721px; 
+	 position: absolute; 
+	 width: 86px;
+	 height: 201px;
+	 z-index:81;
+} 
+
+ #V165V254V387V432V5_0 
+{ 
+	 left: 342px; 
+	 top: 1721px; 
+	 position: absolute; 
+	 width: 85px;
+	 height: 201px;
+	 z-index:82;
+} 
+
+ #V149V276V342V423V5_0 
+{ 
+	 left: 478px; 
+	 top: 1718px; 
+	 position: absolute; 
+	 width: 84px;
+	 height: 201px;
+	 z-index:83;
+} 
+
+ #V112V215V309V403V5_0 
+{ 
+	 left: 625px; 
+	 top: 1716px; 
+	 position: absolute; 
+	 width: 84px;
+	 height: 201px;
+	 z-index:84;
+} 
+
+ #layer_94 
+{ 
+	 left: 223px; 
+	 top: 1711px; 
+	 position: absolute; 
+	 width: 28px;
+	 height: 22px;
+	 z-index:85;
+	 
+	 font-family:"Open Sans";
+	font-size:24px;
+	color:#a4b609;
+} 
+
+ #layer_131 
+{ 
+	 left: 360px; 
+	 top: 1713px; 
+	 position: absolute; 
+	 width: 39px;
+	 height: 22px;
+	 z-index:86;
+	 
+	 font-family:"Open Sans";
+	font-size:24px;
+	color:#0b8127;
+} 
+
+ #layer_69 
+{ 
+	 left: 508px; 
+	 top: 1711px; 
+	 position: absolute; 
+	 width: 27px;
+	 height: 22px;
+	 z-index:87;
+	 
+	  font-family:"Open Sans";
+	font-size:24px;
+	color:#0b1381;
+} 
+
+ #layer_4 
+{ 
+	 left: 665px; 
+	 top: 1709px; 
+	 position: absolute; 
+	 width: 13px;
+	 height: 22px;
+	 z-index:88;
+	 
+	  font-family:"Open Sans";
+	font-size:24px;
+	color:#727d7b;
+} 
+
+ #Layer13 
+{ 
+	 left: 0px; 
+	 top: 1765px; 
+	 position: absolute; 
+	 width: 1000px;
+	 height: 6px;
+	 z-index:89;
+} 
+
+ #ContactUsReachouttou 
+{ 
+	 left: 281px; 
+	 top: 1816px; 
+	 position: absolute; 
+	 width: 161px;
+	 height: 169px;
+	 z-index:90;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 11px;
+}
+ #ContactUsReachouttou > strong
+{ 
+	font-size: 15px;
+} 
+
+ #FollowusonSocialNetw 
+{ 
+	 left: 543px; 
+	 top: 1824px; 
+	 position: absolute; 
+	 width: 182px;
+	 height: 59px;
+	 z-index:91;
+} 
+
+ #Layer14 
+{ 
+	 left: 544px; 
+	 top: 1898px; 
+	 position: absolute; 
+	 width: 97px;
+	 height: 28px;
+	 z-index:92;
+} 
+
+ #Layer15 
+{ 
+	 left: 516px; 
+	 top: 1951px; 
+	 position: absolute; 
+	 width: 118px;
+	 height: 28px;
+	 z-index:93;
+} 
+
+ #Layer16 
+{ 
+	 left: 379px; 
+	 top: 1745px; 
+	 position: absolute; 
+	 width: 260px;
+	 height: 64px;
+	 z-index:94;
+} 
+
+ #Layer17 
+{ 
+	 left: 660px; 
+	 top: 1919px; 
+	 position: absolute; 
+	 width: 62px;
+	 height: 64px;
+	 z-index:95;
+} 

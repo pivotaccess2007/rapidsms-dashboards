@@ -1,0 +1,567 @@
+
+ #background2 
+{ 
+	  left: 0px; 
+	 top: 0px; 
+	 position: relative; 
+	 margin-left: auto; 
+	 margin-right: auto; 
+	 width: 1000px;
+	 height: 1700px; 
+	 overflow: hidden;
+	 z-index:0;
+	 background: url(images/Layer1.png) repeat-x;
+	}
+	
+
+ #Layer73939 
+{ 
+	 left: 24px; 
+	 top: 1417px; 
+	 position: absolute; 
+	 width: 950px;
+	 height: 192px;
+	 z-index:10;
+} 
+
+ #Layer73939copy 
+{ 
+	 left: 24px; 
+	 top: 30px; 
+	 position: absolute; 
+	 width: 950px;
+	 height: 994px;
+	 z-index:3;
+} 
+
+ #NumberofRedAlertRepo 
+{ 
+	 left: 198px; 
+	 top: 65px; 
+	 position: absolute; 
+	 width: 220px;
+	 height: 68px;
+	 z-index:4;
+	font-family: 'Open Sans', sans-serif;
+	font-size:20px;
+} 
+
+ #PatientDirectlyRefer 
+{ 
+	 left: 114px; 
+	 top: 593px; 
+	 position: absolute; 
+	 width: 350px;
+	 height: 31px;
+	 z-index:5;
+	font-family: 'Open Sans', sans-serif;
+	font-size:20px;
+} 
+
+ #ASMAdvice 
+{ 
+	 left: 550px; 
+	 top: 595px; 
+	 position: absolute; 
+	 width: 167px;
+	 height: 24px;
+	 z-index:6;
+	font-family: 'Open Sans', sans-serif;
+	font-size:20px;
+} 
+
+ #layer_500 
+{ 
+	 left: 446px; 
+	 top: 196px; 
+	 position: absolute; 
+	 width: 320px;
+	 height: 130px;
+	 z-index:7;
+}
+ #layer_5001 
+{ 
+	 left: 246px; 
+	 top: 196px; 
+	 position: absolute; 
+	 width: 320px;
+	 height: 130px;
+	 z-index:7;
+	font-family: 'Open Sans', sans-serif;
+	font-size:20px;
+}
+
+ #Layer1 
+{ 
+	 left: 452px; 
+	 top: 237px; 
+	 position: absolute; 
+	 width: 98px;
+	 height: 52px;
+	 z-index:8;
+} 
+
+ #Deathsfromredalert 
+{ 
+	 left: 208px; 
+	 top: 923px; 
+	 position: absolute; 
+	 width: 317px;
+	 height: 24px;
+	 z-index:9;
+	font-family: 'Open Sans', sans-serif;
+	font-size:20px;
+} 
+
+ #layer_41 
+{ 
+	 left: 546px; 
+	 top: 874px; 
+	 position: absolute; 
+	 width: 122px;
+	 height: 123px;
+	 z-index:10;
+} 
+
+ #Layer2 
+{ 
+	 left: 561px; 
+	 top: 908px; 
+	 position: absolute; 
+	 width: 88px;
+	 height: 59px;
+	 z-index:11;
+} 
+
+ #darkblue 
+{ 
+	 left: 143px; 
+	 top: 408px; 
+	 position: absolute; 
+	 width: 163px;
+	 height: 162px;
+	 z-index:12;
+} 
+
+ #Layer3 
+{ 
+	 left: 174px; 
+	 top: 457px; 
+	 position: absolute; 
+	 width: 97px;
+	 height: 68px;
+	 z-index:13;
+} 
+
+ #Layer4 
+{ 
+	 left: 550px; 
+	 top: 410px; 
+	 position: absolute; 
+	 width: 161px;
+	 height: 161px;
+	 z-index:14;
+} 
+
+ #Layer5 
+{ 
+	 left: 575px; 
+	 top: 462px; 
+	 position: absolute; 
+	 width: 106px;
+	 height: 59px;
+	 z-index:15;
+} 
+
+ #Layer6 
+{ 
+	 left: 521px; 
+	 top: 368px; 
+	 position: absolute; 
+	 width: 257px;
+	 height: 30px;
+	 z-index:16;
+	font-family: 'Open Sans', sans-serif;
+	font-size:20px;
+} 
+
+ #Layer7 
+{ 
+	 left: 103px; 
+	 top: 368px; 
+	 position: absolute; 
+	 width: 257px;
+	 height: 30px;
+	 z-index:17;
+	font-family: 'Open Sans', sans-serif;
+	font-size:20px;
+} 
+
+ #layer_543 
+{ 
+	 left: 450px; 
+	 top: 40px; 
+	 position: absolute; 
+	 width: 128px;
+	 height: 128px;
+	 z-index:18;
+} 
+
+ #Layer8 
+{ 
+	 left: 474px; 
+	 top: 83px; 
+	 position: absolute; 
+	 width: 76px;
+	 height: 54px;
+	 z-index:19;
+} 
+
+ #layer_121 
+{ 
+	 left: 537px; 
+	 top: 644px; 
+	 position: absolute; 
+	 width: 163px;
+	 height: 163px;
+	 z-index:20;
+} 
+
+ #Layer9 
+{ 
+	 left: 567px; 
+	 top: 701px; 
+	 position: absolute; 
+	 width: 95px;
+	 height: 61px;
+	 z-index:21;
+} 
+
+ #layer_333 
+{ 
+	 left: 148px; 
+	 top: 635px; 
+	 position: absolute; 
+	 width: 162px;
+	 height: 163px;
+	 z-index:22;
+} 
+
+ #Layer10 
+{ 
+	 left: 186px; 
+	 top: 694px; 
+	 position: absolute; 
+	 width: 88px;
+	 height: 57px;
+	 z-index:23;
+} 
+
+ #Layer1copy7 
+{ 
+	 left: 532px; 
+	 top: 1060px; 
+	 position: absolute; 
+	 width: 128px;
+	 height: 146px;
+	 z-index:24;
+} 
+
+ #Layer1copy8 
+{ 
+	 left: 666px; 
+	 top: 1060px; 
+	 position: absolute; 
+	 width: 127px;
+	 height: 146px;
+	 z-index:25;
+} 
+
+ #Layer1copy9 
+{ 
+	 left: 803px; 
+	 top: 1060px; 
+	 position: absolute; 
+	 width: 126px;
+	 height: 146px;
+	 z-index:26;
+} 
+
+ #Layer1copy10 
+{ 
+	 left: 734px; 
+	 top: 1181px; 
+	 position: absolute; 
+	 width: 127px;
+	 height: 147px;
+	 z-index:27;
+} 
+
+ #Layer1copy11 
+{ 
+	 left: 601px; 
+	 top: 1181px; 
+	 position: absolute; 
+	 width: 127px;
+	 height: 147px;
+	 z-index:28;
+} 
+
+ #Layer1copy12 
+{ 
+	 left: 467px; 
+	 top: 1181px; 
+	 position: absolute; 
+	 width: 128px;
+	 height: 147px;
+	 z-index:29;
+} 
+
+ #Layer11 
+{ 
+	 left: 123px; 
+	 top: 1073px; 
+	 position: absolute; 
+	 width: 350px;
+	 height: 182px;
+	 z-index:30;
+} 
+
+ #COUGHING24 
+{ 
+	 left: 536px; 
+	 top: 1096px; 
+	 position: absolute; 
+	 width: 117px;
+	 height: 85px;
+	 z-index:31;
+} 
+
+ #DIARRHEA33 
+{ 
+	 left: 676px; 
+	 top: 1097px; 
+	 position: absolute; 
+	 width: 109px;
+	 height: 91px;
+	 z-index:32;
+} 
+
+ #FEVER12 
+{ 
+	 left: 833px; 
+	 top: 1095px; 
+	 position: absolute; 
+	 width: 65px;
+	 height: 91px;
+	 z-index:33;
+} 
+
+ #MALARIA09 
+{ 
+	 left: 614px; 
+	 top: 1210px; 
+	 position: absolute; 
+	 width: 97px;
+	 height: 91px;
+	 z-index:34;
+} 
+
+ #VOMITING18 
+{ 
+	 left: 743px; 
+	 top: 1216px; 
+	 position: absolute; 
+	 width: 109px;
+	 height: 91px;
+	 z-index:35;
+} 
+
+ #NECKSTIFFNESS 
+{ 
+	 left: 493px; 
+	 top: 1207px; 
+	 position: absolute; 
+	 width: 88px;
+	 height: 82px;
+	 z-index:36;
+} 
+
+ #RedAlertReportSympto 
+{ 
+	 left: 149px; 
+	 top: 1100px; 
+	 position: absolute; 
+	 width: 203px;
+	 height: 141px;
+	 z-index:37;
+} 
+
+ #AmbulanceResponseOnt 
+{ 
+	 left: 443px; 
+	 top: 1566px; 
+	 position: absolute; 
+	 width: 4px;
+	 height: 15px;
+	 z-index:38;
+} 
+
+ #layer_20 
+{ 
+	 left: 450px; 
+	 top: 1555px; 
+	 position: absolute; 
+	 width: 38px;
+	 height: 26px;
+	 z-index:39;
+} 
+
+ #layer_43 
+{ 
+	 left: 344px; 
+	 top: 1512px; 
+	 position: absolute; 
+	 width: 40px;
+	 height: 26px;
+	 z-index:40;
+} 
+
+ #layer_90 
+{ 
+	 left: 396px; 
+	 top: 1471px; 
+	 position: absolute; 
+	 width: 38px;
+	 height: 25px;
+	 z-index:41;
+}
+ #layer_201 
+{ 
+	 left: 800px; 
+	 top: 1555px; 
+	 position: absolute; 
+	 width: 38px;
+	 height: 26px;
+	 z-index:39;
+} 
+
+ #layer_431 
+{ 
+	 left: 724px; 
+	 top: 1512px; 
+	 position: absolute; 
+	 width: 40px;
+	 height: 26px;
+	 z-index:40;
+} 
+
+ #layer_901 
+{ 
+	 left: 766px; 
+	 top: 1471px; 
+	 position: absolute; 
+	 width: 38px;
+	 height: 25px;
+	 z-index:41;
+}
+
+ #noresponse 
+{ 
+	 left: 267px; 
+	 top: 1561px; 
+	 position: absolute; 
+	 width: 166px;
+	 height: 27px;
+	 z-index:42;
+} 
+
+ #ontime 
+{ 
+	 left: 266px; 
+	 top: 1475px; 
+	 position: absolute; 
+	 width: 120px;
+	 height: 21px;
+	 z-index:43;
+} 
+
+ #ambulanceresponse 
+{ 
+	 left: 265px; 
+	 top: 1432px; 
+	 position: absolute; 
+	 width: 299px;
+	 height: 28px;
+	 z-index:44;
+} 
+
+ #late 
+{ 
+	 left: 267px; 
+	 top: 1518px; 
+	 position: absolute; 
+	 width: 68px;
+	 height: 20px;
+	 z-index:45;
+} 
+
+ #noresponse1 
+{ 
+	 left: 690px; 
+	 top: 1555px; 
+	 position: absolute; 
+	 width: 223px;
+	 height: 33px;
+	 z-index:46;
+} 
+
+ #late1 
+{ 
+	 left: 690px; 
+	 top: 1512px; 
+	 position: absolute; 
+	 width: 138px;
+	 height: 26px;
+	 z-index:47;
+} 
+
+ #ontime1 
+{ 
+	 left: 689px; 
+	 top: 1471px; 
+	 position: absolute; 
+	 width: 182px;
+	 height: 25px;
+	 z-index:48;
+} 
+
+ #chwresponse 
+{ 
+	 left: 689px; 
+	 top: 1432px; 
+	 position: absolute; 
+	 width: 214px;
+	 height: 28px;
+	 z-index:49;
+} 
+
+ #mobilefoneimg 
+{ 
+	 left: 615px; 
+	 top: 1454px; 
+	 position: absolute; 
+	 width: 44px;
+	 height: 89px;
+	 z-index:50;
+} 
+
+ #ambulanceimg 
+{ 
+	 left: 118px; 
+	 top: 1432px; 
+	 position: absolute; 
+	 width: 148px;
+	 height: 99px;
+	 z-index:51;
+} 
