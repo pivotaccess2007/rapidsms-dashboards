@@ -30,7 +30,7 @@
 			Expected Deliveries:
 			</div>
 			<div id="layer_98_1">
-			98
+			{{  display.expected|neat_numbers }}
 			</div>
 			<div class="deeper">
 			<div class="triangle-border top" id="here_table">
@@ -42,7 +42,7 @@
 			Unknown Deliveries:
 			</div>
 			<div id="layer_23_0">
-			23
+			{{  display.unknowns|neat_numbers }}
 			</div>
 			<div class="deeper1">
 			<div class="triangle-border1 top" id="here_table1">
@@ -76,29 +76,29 @@
 			
 			<!-- weight -->
 			<div id="ccmvcmrcopy"><img src="{{ static_path }}/images/delivery/ccmvcmrcopy.png"></div>
-			<div id="Layer1"><img src="{{ static_path }}/images/delivery/Layer1.png"></div>
-			<div id="Layer2"><img src="{{ static_path }}/images/delivery/Layer2.png"></div>
-			<div id="Layer3"><img src="{{ static_path }}/images/delivery/Layer3.png"></div>
-			<div id="Lessthan45KGs">
-			Less than 45 kgs
+			
+		
+			<div id="layer_2315">
+			Less than 45 Kgs<br>
+			<strong>{{ display.thins|neat_numbers }}</strong>{{  "%.2f" % display.thinpc}}%
+			</div>
+		
+			<div id="layer_11477">
+			45 - 65 kgs  <br>
+			<strong>{{ display.midweight|neat_numbers }}</strong><br>
+			{{  "%.2f" % display.midpc}}%
 			</div>
 			
-			<div id="Morethan65KGs">
-			More than 65 Kgs
+			<div id="layer_188">
+			More than 65 Kgs<br><br>
+			<strong>{{ display.fats|neat_numbers }}</strong>{{  "%.2f" % display.fatpc}}%
 			</div>
-			<div id="layer_2315">
-			<strong>23</strong>15%
-			</div>
-			<div id="layer_11477">
-			<strong>114</strong><br>
-			77%
-			</div>
+			
+			
 			<div id="PregnanyMotherWeight">
 			Pregnant Mothers' Weight
 			</div>
-			<div id="layer_188">
-			<strong>18</strong>8%
-			</div>
+			
 			<div id="MothersWieghtismonit">
 			<strong>Mothers' Weight</strong> is monitored by community health workers
 			and community centers nationally to keep track of mothers' nutrition statuses 

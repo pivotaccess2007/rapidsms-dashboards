@@ -427,7 +427,7 @@
 	 left: 255px; 
 	 top: 732px; 
 	 position: absolute; 
-	 width: 64px;
+	 width: 164px;
 	 height: 40px;
 	 z-index:41;
 } 
@@ -444,7 +444,7 @@
 
  #Layer3 
 { 
-	 left: 440px; 
+	 left: 437px; 
 	 top: 745px; 
 	 position: absolute; 
 	 width: 63px;
@@ -462,7 +462,18 @@
 	 z-index:44;
 	font-family: 'Open Sans', sans-serif;
 	font-size: 10px;
-} 
+}
+ #normal 
+{ 
+	 left: 300px; 
+	 top: 717px; 
+	 position: absolute; 
+	 width: 77px;
+	 height: 7px;
+	 z-index:44;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 10px;
+}
 
  #4565KGs 
 { 
@@ -477,7 +488,7 @@
  #Morethan65KGs 
 { 
 	 left: 430px; 
-	 top: 728px; 
+	 top: 650px; 
 	 position: absolute; 
 	 width: 100px;
 	 height: 7px;
@@ -489,11 +500,11 @@
 
  #layer_2315 
 { 
-	 left: 258px; 
-	 top: 737px; 
+	background-color:#092aa8;
+	 left: 280px; 
+	 top: 729px; 
 	 position: absolute; 
-	 width: 54px;
-	 height: 17px;
+	 height: 60px;
 	 z-index:47;
 	font-family: 'Open Sans', sans-serif;
 	font-size: 15px;
@@ -508,11 +519,11 @@
 
  #layer_11477 
 { 
-	 left: 367px; 
+	background-color:#25eda9;
+	 left: 400px; 
 	 top: 699px; 
 	 position: absolute; 
-	 width: 31px;
-	 height: 28px;
+	 height: 90px;
 	 z-index:48;
 	font-family: 'Open Sans', sans-serif;
 	font-size: 18px;
@@ -523,6 +534,25 @@
  font-weight: normal;
  font-size: 24px;
 } 
+ #layer_188 
+{ 
+	background-color:#7558df;
+	 left: 500px; 
+	 top: 670px; 
+	 position: absolute; 
+	 height: 120px;
+	 z-index:50;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 15px;
+	font-weight: lighter;
+	color: #fff;
+}
+ #layer_188 > strong
+{ 
+ font-weight: normal;
+	font-size: 22px;
+}
+
 
  #PregnanyMotherWeight 
 { 
@@ -536,28 +566,11 @@
 	font-size: 18px;
 } 
 
- #layer_188 
-{ 
-	 left: 450px; 
-	 top: 742px; 
-	 position: absolute; 
-	 width: 47px;
-	 height: 17px;
-	 z-index:50;
-	font-family: 'Open Sans', sans-serif;
-	font-size: 15px;
-	font-weight: lighter;
-	color: #fff;
-}
- #layer_188 > strong
-{ 
- font-weight: normal;
-	font-size: 22px;
-} 
+
  #MothersWieghtismonit 
 { 
-	 left: 523px; 
-	 top: 704px; 
+	 left: 623px; 
+	 top: 690px; 
 	 position: absolute; 
 	 width: 237px;
 	 height: 49px;

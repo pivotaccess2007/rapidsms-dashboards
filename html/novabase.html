@@ -64,11 +64,7 @@
 			
 			<!-- filter -->
 			<div id="locations">
-			<select name="source" id="source" >
-        {%  for area in filters.child_areas  %}
-          <option name="link" value="{{  area.own_link }}">{{ area.name }}</option>
-        {%  endfor %}
-			</select>
+			
 			</div>
 			<div id="locationpicture"><img src="{{ static_path }}/images/pregnancy/Layer13.png"></div>
 			<div id="todate">
