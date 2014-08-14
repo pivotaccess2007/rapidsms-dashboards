@@ -56,27 +56,27 @@
 			<div id="ccmvcmrcopy3"><img src="{{ static_path }}/images/nutrition/ccmvcmrcopy3.png"></div>
 			
 			<div id="Month1">First Month</div>
-			<div id="Layer1copy2_0" class="meter orange"><span id="firstmonth" style="width: {{ "%.2f" % display.firstpc  }}%"></span>
+			<div id="Layer1copy2_0" class="meter orange"><span id="firstmonth" style="width: {{ display.firstpc  }}%"></span>
 			<div id="layer_79">{{  display.bfirstm  }}</div>
 			</div>
 			<div id="Month2">second Month</div>
-			<div id="Layer11" class="meter orange"><span id="secondmonth" style="width: {{ "%.2f" % display.secondpc  }}%"></span>
+			<div id="Layer11" class="meter orange"><span id="secondmonth" style="width: {{ display.secondpc  }}%"></span>
 			<div id="layer_112">{{  display.bsecondm  }}</div>
 			</div>
 			<div id="Month3">Thrid Month</div>
-			<div id="Layer1copy_0" class="meter orange"><span id="thridmonth" style="width: {{ "%.2f" % display.thridpc  }}%"></span>
+			<div id="Layer1copy_0" class="meter orange"><span id="thridmonth" style="width: {{ display.thridpc  }}%"></span>
 			<div id="layer_84">{{  display.bthridm  }}</div>
 			</div>
 			<div id="Month4">Fourth Month</div>
-			<div id="Layer1copy5" class="meter orange"><span id="fourthmonth" style="width: {{ "%.2f" % display.fourthpc  }}%"></span>
+			<div id="Layer1copy5" class="meter orange"><span id="fourthmonth" style="width: {{ display.fourthpc  }}%"></span>
 			<div id="layer_76">{{  display.bfourthm  }}</div>
 			</div>
 			<div id="Month5">Fifth Month</div>
-			<div id="Layer1copy3" class="meter orange"><span id="fifthmonth" style="width: {{ "%.2f" % display.fifthpc  }}%"></span>
+			<div id="Layer1copy3" class="meter orange"><span id="fifthmonth" style="width: {{ display.fifthpc  }}%"></span>
 			<div id="layer_55">{{  display.bfifthm  }}</div>
 			</div>
 			<div id="Month6">Sixth Month</div>
-			<div id="Layer1copy4" class="meter orange"><span id="" style="width: {{ "%.2f" % display.sixthpc  }}%"></span>
+			<div id="Layer1copy4" class="meter orange"><span id="" style="width: {{ display.sixthpc  }}%"></span>
 			<div id="layer_42">{{  display.bsixthm  }}</div>
 			</div>
 			<div id="Monthlybreastfeeding">Monthly breast feeding patterns</div>
@@ -84,48 +84,47 @@
 			
 			<!--  -->
 			<div id="ProportionofPregnant1">proportion of pregnant women whose height &lt; 150cm at 1st ANC</div>
+			<div id="layer_152">{{ "%.2f" % display.protion1pc  }}%</div>
 			<div id="Proportionofpregnant">Proportion of pregnant women with BMI &lt; 18.5 at 1st ANC</div>
+			<div id="layer_44">{{ "%.2f" % display.protion2pc  }}%</div>
 			<div id="Proportionoflivebirt1">Proportion of live birth weights below 2.5kg</div>
+			<div id="layer_29">{{ "%.2f" % display.protion3pc  }}%</div>
 			<div id="proportionoflivebirt">Proportion of live births breastfed within 1st hours</div>
+			<div id="layer_822">{{ "%.2f" % display.protion4pc  }}%</div>
 			<div id="Proportionofchildren1">Proportion of children whose height is measured 6 months old</div>
+			<div id="layer_27">{{ "%.2f" % display.protion5pc  }}%</div>
 			<div id="proportionofchildren">Proportion of children whose height is measured 9 months old</div>
+			<div id="layer_46">{{ "%.2f" % display.protion6pc  }}%</div>
 			<div id="proportionofchildren_0">Proportion of children whose height is measured 18 months old</div>
-			<div id="layer_152">15.2%</div>
-			<div id="layer_44">4.4%</div>
-			<div id="layer_29">2.9%</div>
-			<div id="layer_822">82.2%</div>
-			<div id="layer_27">2.7%</div>
-			<div id="layer_46">4.6%</div>
-			<div id="layer_56">5.6%</div>
-			<div id="layer_73">7.3%</div>
+			<div id="layer_56">{{ "%.2f" % display.protion7pc  }}%</div>
 			<div id="proportionofchildren_1">Proportion of children whose height is measured 24 months old</div>
+			<div id="layer_73">{{ "%.2f" % display.protion8pc  }}%</div>
 			
 			<!--  -->
 			<div id="Layer12"><img src="{{ static_path }}/images/nutrition/Layer12.png"></div>
 			<div id="UnderWeight">Under Weight: </div>
 			<div id="OverWeight">Over Weight:</div>
-			<div id="layer_7869">78 <span id="underwieghtpercent"> 69%</span></div>
-			<div id="top">89<span id="overweightpercent"> 41%</span></div>
+			<div id="layer_7869">{{  display.under  }} <span id="underwieghtpercent"> {{ "%.2f" % display.underwpc  }}%</span></div>
+			<div id="top">{{  display.over  }}<span id="overweightpercent"> {{ "%.2f" % display.overwpc  }}%</span></div>
 			<div id="Layer13"><img src="{{ static_path }}/images/nutrition/Layer13.png"></div>
 			
 			
 			<!--  -->
 			<div id="MalnutritionCases">Malnutrition</div>
-			
-			<div id="layer_224">224</div>
-			<div id="layer_98">98</div>
 			<div id="waisting">Waisting:</div>
+			<div id="layer_224">{{  display.waisting  }}</div>
 			<div id="stunting">Stunting:</div>
+			<div id="layer_98">{{  display.stunting  }}</div>
 			
-			
-			<div id="layer_11_0"><img src="{{ static_path }}/images/nutrition/layer_11_0.png"></div>
-			<div id="month1number">11</div>
-			<div id="At1year"><img src="{{ static_path }}/images/nutrition/At1year.png"></div>
-			<div id="year1number">21</div>
-			<div id="At2years"><img src="{{ static_path }}/images/nutrition/At2years.png"></div>
-			<div id="years2number">43</div>
 			<div id="Numberofmalnutrition">
 			Number of malnutrition cases in <strong>first month, First Year</strong> and <strong>Second Year</strong>
 			</div>
+			<div id="layer_11_0"><img src="{{ static_path }}/images/nutrition/layer_11_0.png"></div>
+			<div id="month1number">{{  display.onemonth  }}</div>
+			<div id="At1year"><img src="{{ static_path }}/images/nutrition/At1year.png"></div>
+			<div id="year1number">{{  display.oneyear  }}</div>
+			<div id="At2years"><img src="{{ static_path }}/images/nutrition/At2years.png"></div>
+			<div id="years2number">{{  display.twoyears  }}</div>
+			
 </div>
 {%  endblock  %}
