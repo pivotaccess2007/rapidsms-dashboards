@@ -1070,7 +1070,7 @@ alpha: 0.6;
 
  #layer_21 
 { 
-	 left: 500px; 
+	 left: 480px; 
 	 top: 1459px; 
 	 position: absolute; 
 	 width: 40px;
@@ -1097,7 +1097,7 @@ alpha: 0.6;
 
  #layer_90 
 { 
-	 left: 210px; 
+	 left: 190px; 
 	 top: 1455px; 
 	 position: absolute; 
 	 width: 46px;
@@ -1126,9 +1126,9 @@ alpha: 0.6;
 	 position: absolute; 
 	 width: 275px;
 	 height: 44px;
-	 z-index:4;
+	 z-index: 4;
 	font-family: 'Open Sans', sans-serif;
-	font-weight:lighter;
+	font-weight: lighter;
 	font-size: 15px;
 	
 }

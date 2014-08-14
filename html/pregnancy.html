@@ -71,7 +71,7 @@
 			<div id="risks78">
               {{  display.pr  }}
 			<span id="risks69">
-			{{  display.prpc  }}%
+			{{  "%.2f" % display.prpc  }}%
 			</span>
 			</div>
 			<div id="numberofmotherpr">
@@ -81,7 +81,7 @@
 			<div id="risks65">
               {{  display.aa  }}
 			<span id="risks66">
-			 {{  display.aapc  }}%
+			 {{ "%.2f" % display.aapc  }}%
 			</span>
 			</div>
 			
@@ -97,7 +97,7 @@
               {{  display.risks }}
 			</div>
 			<div id="layer_89">
-              {{  display.riskpc  }}%
+              {{  "%.2f" % display.riskpc  }}%
 			</div>
 			<div id="ResultsReported">
 			Results Reported
@@ -106,7 +106,7 @@
               {{  display.rezes }}
 			</div>
 			<div id="layer_75">
-              {{  display.rezpc }}%
+              {{  "%.2f" % display.rezpc }}%
 			</div>
 			<!--  -->
 			<!-- Symptoms -->
@@ -191,10 +191,10 @@
 			Hand Washing Facilities
 			</div>
 			<div id="layer_12289">
-              <strong class="goodnum">{{  display.handw }}</strong>- {{ display.handpc  }}%
+              <strong class="goodnum">{{  display.handw }}</strong>- {{ "%.2f" % display.handpc  }}%
 			</div>
 			<div id="layer_10985">
-              <strong class="goodnum">{{  display.toilets }}</strong>- {{ display.toilpc  }}%
+              <strong class="goodnum">{{  display.toilets }}</strong>- {{ "%.2f" % display.toilpc  }}%
 			</div>
 			<div id="ToiletFacilities">
 			Toilet Facilities

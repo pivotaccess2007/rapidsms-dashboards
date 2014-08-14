@@ -24,7 +24,7 @@ $(function () {
         },
         series: [{
             type: 'pie',
-            name: 'Browser share',
+            name: 'Anc Visits',
             data: [
                 ['ANC 1',   45.0],
                 ['ANC 2',       26.8],
