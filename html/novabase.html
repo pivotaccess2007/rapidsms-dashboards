@@ -8,9 +8,11 @@
 
 	<link href="{{ static_path }}/css/base/styles.css" rel="stylesheet" type="text/css">
     <script src="{{ static_path }}/js/jquery-1.11.1.js"></script>
-    <script src="{{ static_path }}/js/jqui/jquery-ui.min.js"></script>
+    <script src="{{ static_path }}/js/jqui/jquery-ui.js"></script>
+    <link rel="stylesheet" href="//ajax.googleapis.com/ajax/libs/jqueryui/1.11.0/themes/smoothness/jquery-ui.css" />
 	 <script src="{{  static_path }}/js/library/clientside.js"></script>
 	 <script src="{{  static_path }}/js/bgStretch.js"></script>
+	 <script src="{{ static_path }}/js/base/filterDate.js" type="text/javascript"></script>
 	<script>
 			$(document).ready(function(){
 				$('#bgStretch')
@@ -52,19 +54,20 @@
 			<div id="menubackground"></div>
 			<!-- <div id="menulines"><img src="{{ static_path }}/images/pregnancy/Layer1copy18.png"></div>
 		 <!--   <div id="PregnanciesNewBornCh"><img src="{{ static_path }}/images/pregnancy/PregnanciesNewBornCh.png"></div>-->
-			<div id="pregnancy">Pregnancy  |</div>
-			<div id="anc">ANC  |</div>
-			<div id="birthreport">Birth Report |</div>
-			<div id="vaccination">Vaccination |</div>
-			<div id="childhealth">Child Health |</div>
-			<div id="nutrition">Nutrition |</div>
-			<div id="redalert">Red Alerts</div>
-			
+			<div class="menu">
+			<div id="pregnancy"><a href="/dashboards/pregnancy">Pregnancy  |</a></div>
+			<div id="anc"><a href="/dashboards/anc">ANC  |</a></div>
+			<div id="birthreport"><a href="/dashboards/birthreport">Birth Report |</a></div>
+			<div id="vaccination"><a href="/dashboards/vaccination">Vaccination |</a></div>
+			<div id="childhealth"><a href="/dashboards/childhealth">Child Health |</a></div>
+			<div id="nutrition"><a href="/dashboards/nutrition">Nutrition |</a></div>
+			<div id="redalert"><a href="/dashboards/redalert">Red Alerts</a></div>
+			</div>
 			
 			
 			
 			<!--  -->	
-		
+			
 			
 			<!-- filter -->
 			<form>
@@ -73,17 +76,21 @@
 			</div>
 			<div id="locationpicture"><img src="{{ static_path }}/images/pregnancy/Layer13.png"></div>
 			<div id="todate">
-			<input class="activedate" type="date" name="name" id="name" style="border: 1px #000;border-radius:10px;font-size:16px;" /></input>
+			<input value="{{  args.get('finish', '')  }}" class="activedate" type="date" name="finish" style="border: 1px #000;border-radius:10px;font-size:16px;" /></input>
 			</div>
 			<div id="fromdate">
-			<input class="activedate" type="date" name="name" id="name" style="border: 1px #000;border-radius:10px;font-size:16px;" /></input>
+			<input  value="{{  args.get('finish', '')  }}" class="activedate" type="date" name="start" style="border: 1px #000;border-radius:10px;font-size:16px;" /></input>
 			</div>
 			<div id="From">From:</div>
 			<div id="calenderpicture"><img src="{{ static_path }}/images/pregnancy/Layer15.png"></div>
 			<div id="To">To:</div>
-			<input type="submit" > 
+			<div id="submit">
+			<input type="submit" value="Apply Filter">
+			</div>
 			</form>
 			<!--  -->
+			
+			
 		{% block tab  %} {%  endblock  %}
 		</div>
 			

@@ -189,6 +189,15 @@ body {
 
 
 /**************************************************/
+.menu{
+	
+	font-family: 'Open Sans', sans-serif;
+	font-weight: ligher;
+	font-size: 18px;
+	
+}
+
+
  #menubackground 
 { 
 	background: url(../../images/base/menubackground.png) repeat-x;
@@ -229,9 +238,7 @@ body {
 	 width: 106px;
 	 height: 31px;
 	 z-index:86;
-	text-align:center;
-	font-family: 'Open Sans', sans-serif;
-	font-size: 18px;
+	
 } 
 
  #nutrition 
@@ -242,8 +249,7 @@ body {
 	 width: 118px;
 	 height: 31px;
 	 z-index:87;
-	font-family: 'Open Sans', sans-serif;
-	font-size: 18px;
+	
 } 
 
  #redalert 
@@ -254,8 +260,7 @@ body {
 	 width: 95px;
 	 height: 31px;
 	 z-index:88;
-	font-family: 'Open Sans', sans-serif;
-	font-size: 18px;
+	
 } 
 
  #childhealth 
@@ -266,8 +271,7 @@ body {
 	 width: 206px;
 	 height: 31px;
 	 z-index:89;
-	font-family: 'Open Sans', sans-serif;
-	font-size: 18px;
+	
 } 
 
  #vaccination 
@@ -278,8 +282,7 @@ body {
 	 width: 120px;
 	 height: 31px;
 	 z-index:90;
-	font-family: 'Open Sans', sans-serif;
-	font-size: 18px;
+	
 } 
 
  #birthreport 
@@ -290,8 +293,7 @@ body {
 	 width: 120px;
 	 height: 31px;
 	 z-index:91;
-	font-family: 'Open Sans', sans-serif;
-	font-size: 18px;
+	
 } 
 
  #anc 
@@ -302,8 +304,7 @@ body {
 	 width: 55px;
 	 height: 31px;
 	 z-index:92;
-	font-family: 'Open Sans', sans-serif;
-	font-size: 18px;
+	;
 }
  #pregnancy:hover
 { 
@@ -442,7 +443,33 @@ body {
 	font-family: 'Open Sans', sans-serif;
 	font-size: 15px;
 }
-
+ #submit
+{ 
+	 left: 798px; 
+	 top: 200px; 
+	 position: absolute; 
+	 width: 21px;
+	 height: 11px;
+	 z-index:102;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 15px;
+}
+#submit input[type=submit] {
+	cursor: pointer;
+	color: #FFFFFF;
+  	border:1px solid #34740e;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	padding: 10px 10px 10px 10px;
+ 	background-color: #5fdcd6;
+ 	background-image: -webkit-gradient(linear, left top, left bottom, from(#5fdcd6), to(#014b8b));
+ 	background-image: -webkit-linear-gradient(top, #5fdcd6, #014b8b);
+ 	background-image: -moz-linear-gradient(top, #5fdcd6, #014b8b);
+ 	background-image: -ms-linear-gradient(top, #5fdcd6, #014b8b);
+ 	background-image: -o-linear-gradient(top, #5fdcd6, #014b8b);
+ 	background-image: linear-gradient(to bottom, #5fdcd6, #014b8b);filter:progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#5fdcd6, endColorstr=#014b8b);
+}
 
 
 

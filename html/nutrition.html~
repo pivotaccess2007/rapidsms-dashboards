@@ -45,7 +45,7 @@
 			<div id="layer_34">{{  display.notbfeed  }}</div>
 			<div id="childnotbreastfeed">Children not being breastfed</div>
 			<div id="layer_11"><img src="{{ static_path }}/images/nutrition/layer_11.png"></div>
-			<div id="layer_1121">{{  display.bnuknown  }}</div>
+			<div id="layer_1121">{{  display.bunknown  }}</div>
 			<div id="Thoseunknown">those unknown:</div>
 			<div id="WithinFirsthourPic"><img src="{{ static_path }}/images/nutrition/WithinFirsthourPic.png"></div>
 			<div id="Breastfeedwithinthef">Breast fed within the first hour</div>

@@ -59,7 +59,7 @@
       <div id="MonthlyPregnancyAvg9">
               
         <!--  <img src="{{ static_path }}/images/pregnancy/MonthlyPregnancyAvg9.png">  -->
-        Monthly Pregnancy Avg: <strong id="avgdest">{{  "%.2f" % display.monthavg }}</strong>
+        Monthly Pregnancy Avg: <strong id="avgdest">{{  "%.0f" % display.monthavg }}</strong>
       
       </div>
 			<!--  -->
@@ -157,7 +157,7 @@
         HYPOTHEMIA<br><br><strong>{{  display.info.hypoth  }}</strong>
 			</div>
 			<div id="CLEFTPALATE21">
-        SEVERE ANEMIA<br><br><strong>{{ display.info.ibibari  }}</strong>
+        CLEFTPALATE<br><br><strong>{{ display.info.ibibari  }}</strong>
 			</div>
 			<div id="CORDINFECTION">
         CORD<br></>INFECTION<br><br><strong>{{  display.info.cordi  }}</strong>
