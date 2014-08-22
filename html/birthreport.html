@@ -28,20 +28,20 @@
 			<!-- newborns -->
 			<div id="ccmvcmr"><img src="{{ static_path }}/images/birthreport/ccmvcmr.png"></div>
 			<div id="layer_19">
-			19
+			{{ display.premature }}
 			</div>
 			<div id="premature">
 			Premature:
 			</div>
 			<div id="prematurepic"><img src="{{ static_path }}/images/birthreport/prematurepic.png"></div>
 			<div id="layer_133">
-			133
+			{{ display.female }}
 			</div>
 			<div id="female">
 			Female:
 			</div>
 			<div id="layer_98">
-			98
+			{{ display.male }}
 			</div>
 			<div id="male">
 			Male:
@@ -51,7 +51,7 @@
 			NEW BORNS
 			</div>
 			<div id="layer_231">
-			231
+			{{ display.newborns }}
 			</div>
 			
 			
@@ -59,16 +59,16 @@
 			<div id="DeliveryLocations">
 			Delivery locations</div>
 			<div id="layer_09">
-			09
+			{{ display.inroute }}
 			</div>
 			<div id="layer_23">
-			23
+			{{ display.hospital }}
 			</div>
 			<div id="layer_65">
-			65
+			{{ display.clinic }}
 			</div>
 			<div id="layer_112">
-			112
+			{{ display.home }}
 			</div>
 			<div id="Hospital"><img src="{{ static_path }}/images/birthreport/Hospital.png"></div>
 			<div id="Layer14"><img src="{{ static_path }}/images/birthreport/Layer14.png"></div>
@@ -93,16 +93,16 @@
 			More than 2kgs
 			</div>
 			<div id="layer_2315">
-			<strong>23</strong> 15%
+			<strong>{{ display.lessthan }}</strong> {{ display.lessthanpc }}%
 			</div>
 			<div id="layer_11477">
-			<strong>114</strong> 77%
+			<strong>{{ display.normal }}</strong> {{ display.normalpc }}%
 			</div>
 			<div id="Weightcomparisions">
 			Weight comparisions
 			</div>
 			<div id="layer_188">
-			<strong>18</strong> 8%
+			<strong>{{ display.morethan }}</strong> {{ display.morethanpc }}%
 			</div>
 			<div id="Childwieghtismonitor">
 			<strong>Child Weight</strong> is monitored by community health workers and 
@@ -116,13 +116,13 @@
 			<!-- breast feeding -->
 			<div id="ccmvcmrcopy2"><img src="{{ static_path }}/images/birthreport/ccmvcmrcopy2.png"></div>
 			<div id="layer_21">
-			21
+			{{ display.notbfeed }}
 			</div>
 			<div id="notbreastfeeding">
 			Not breast feeding:
 			</div>
 			<div id="layer_321">
-			321
+			{{ display.bfeed }}
 			</div>
 			<div id="breastfeed">
 			Breast feeding:
@@ -135,12 +135,13 @@
 			<div id="Layer20"><img src="{{ static_path }}/images/birthreport/Layer20.png"></div>
 			<div id="Layer21"><img src="{{ static_path }}/images/birthreport/Layer21.png"></div>
 			<div id="layer_12">
-			12
+			{{ display.maucnormal }}
 			</div>
 			<div id="layer_54">
-			54</div>
+			{{ display.mauclow }}
+			</div>
 			<div id="layer_98_0">
-			12
+			{{ display.mauchigh }}
 			</div>
 			<div id="high">
 			<strong>High</strong>(5 cms)
