@@ -30,12 +30,15 @@
             <!--Reports-->
 			<div id="Layer7copy"><img src="{{ static_path }}/images/death/Layer7copy.png"></div>
 			<div id="Layer12"><img src="{{ static_path }}/images/death/Layer12.png"></div>
-			<div id="layer_33">33%</div>
-			<div id="percentage">Percentage :</div>
-			<div id="layer_150">150</div>
+			<div id="childdeaths">Child Deaths</div>
+			<div id="deathsreported">Reported :</div>
+			<div id="layer_50">{{ display.candnbdeaths }}</div>
 			<div id="newborns">New Borns:</div>
-			<div id="layer_50">50</div>
-			<div id="deathsreported">Death Reported :</div>
+			<div id="layer_150"><strong>{{ display.nbdeaths }}</strong> - {{ display.nbdeathspc }}%</div>
+			<div id="children">Child deaths:</div>
+			<div id="layer_33"><strong>{{ display.cdeaths }}</strong> - {{ display.cdeathspc }}%</div>
+			
+			
 			<div id="deathimg"><img src="{{ static_path }}/images/death/deathimg.png"></div>
 			<div id="childGraph"><img src="{{ static_path }}/images/death/childGraph.png"></div>
             
@@ -47,20 +50,26 @@
 			<div id="OnRouteimg"><img src="{{ static_path }}/images/death/OnRouteimg.png"></div>
 			<div id="clinicimg"><img src="{{ static_path }}/images/death/clinicimg.png"></div>
 			
-			<div id="layer_121">121</div>
-			<div id="layer_96">96</div>
-			<div id="layer_73">73</div>
-			<div id="layer_7">7</div>
+			<div id="layer_121">{{ display.childdeathhome }}</div>
+			<div id="layer_96">{{ display.childdeathclinic }}</div>
+			<div id="layer_73">{{ display.childdeathhospital }}</div>
+			<div id="layer_7">{{ display.childdeathonroute }}</div>
             
             <!-- Reports2 -->
 			<div id="Layer7copy_0"><img src="{{ static_path }}/images/death/Layer7copy_0.png"></div>
 			<div id="deathbg"><img src="{{ static_path }}/images/death/deathbg.png"></div>
-			<div id="layer_33_0">33%</div>
-			<div id="percentage_0">Percentage :</div>
-			<div id="layer_150_0">150</div>
+			<div id="pregnancydeaths">Pregnancy Deaths</div>
+			<div id="deathreported">Reported :</div>
+			<div id="layer_50_0">{{ display.pregdeaths }}</div>
 			<div id="pregnancies">Pregnancies :</div>
-			<div id="layer_50_0">50</div>
-			<div id="deathreported">Death Reported :</div>
+			<div id="layer_150_0">{{ display.pregnumber }}</div>
+			<div id="percentage_0">Percentage :</div>
+			<div id="layer_33_0">{{ display.pregdeathspc }}%</div>
+			
+			
+			
+			
+			
 			<div id="deathimg_0"><img src="{{ static_path }}/images/death/deathimg_0.png"></div>
 			<div id="graph"><img src="{{ static_path }}/images/death/graph.png"></div>
 			<div id="Layer7copy_1"><img src="{{ static_path }}/images/death/Layer7copy_1.png"></div>
@@ -70,10 +79,10 @@
 			<div id="OnRoute"><img src="{{ static_path }}/images/death/OnRoute.png"></div>
 			<div id="clinicimg_0"><img src="{{ static_path }}/images/death/clinicimg_0.png"></div>
 			
-			<div id="layer_94">94</div>
-			<div id="layer_131">131</div>
-			<div id="layer_69">69</div>
-			<div id="layer_4">4</div>
+			<div id="layer_94">{{ display.pregdeathhome }}</div>
+			<div id="layer_131">{{ display.pregdeathclinic }}</div>
+			<div id="layer_69">{{ display.pregdeathhospital }}</div>
+			<div id="layer_4">{{ display.pregdeathonroute }}</div>
         </div>
 
 {%  endblock %}    

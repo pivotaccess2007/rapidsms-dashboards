@@ -7,7 +7,7 @@
 	 margin-left: auto; 
 	 margin-right: auto; 
 	 width: 1000px;
-	 height: 2000px; 
+	 height: 1600px; 
 	 overflow: hidden;
 	 z-index:0;
 	 
@@ -39,46 +39,59 @@
  #layer_33 
 { 
 	 left: 619px; 
-	 top: 161px; 
+	 top: 160px; 
 	 position: absolute; 
-	 width: 57px;
+	 width: 157px;
 	 height: 21px;
 	 z-index:43;
 	 font-family: 'Open Sans', sans-serif;
-	font-size:35px;
+	font-size:20px;
 	color:#246a77;
-} 
+}
+ #layer_33 > strong 
+{ 
+  font-size: 30px;	
+	font-weight: normal;
+}
 
- #percentage 
-{
-	left: 470px;
-	top: 170px;
-	position: absolute;
-	width: 155px;
-	height: 28px;
-	z-index:44;
-	font-family: 'Open Sans', sans-serif;
-	font-size:24px;
-	color:#333;
-} 
+
+ 
 
  #layer_150 
 {
-	left: 618px;
-	top: 100px;
+	left: 600px;
+	top: 105px;
 	position: absolute;
-	width: 48px;
+	width: 148px;
 	height: 21px;
 	z-index:45;
 	font-family: 'Open Sans', sans-serif;
-	font-size: 35px;
+	font-size: 20px;
 	color:#246a77;
 } 
+ #layer_150 > strong 
+{
+ font-size: 30px;
+	font-weight: normal;
+} 
+
 
  #newborns 
 {
 	left: 469px;
-	top: 107px;
+	top: 110px;
+	position: absolute;
+	width: 150px;
+	height: 21px;
+	z-index:46;
+	font-family: 'Open Sans', sans-serif;
+	font-size:24px;
+	color:#333;
+}
+#children 
+{
+	left: 469px;
+	top: 165px;
 	position: absolute;
 	width: 150px;
 	height: 21px;
@@ -90,29 +103,42 @@
 
  #layer_50 
 {
-	left: 666px;
-	top: 30px;
+	left: 580px;
+	top: 45px;
 	position: absolute;
 	width: 39px;
 	height: 26px;
 	z-index:47;
 	font-family: 'Open Sans', sans-serif;
-	font-size:35px;
+	font-size:30px;
 	color:#246a77;
 } 
 
  #deathsreported 
 {
 	left: 467px;
-	top: 36px;
+	top: 50px;
 	position: absolute;
 	width: 289px;
 	height: 37px;
 	z-index:48;
 	font-family: 'Open Sans', sans-serif;
-	font-size:24px;
+	font-size:22px;
 	color:#333;
-} 
+}
+
+#childdeaths 
+{
+	left: 467px;
+	top: 0px;
+	position: absolute;
+	width: 289px;
+	height: 37px;
+	z-index:48;
+	font-family: 'Open Sans', sans-serif;
+	font-size:28px;
+	color:#333;
+}
 
  #deathimg 
 { 
@@ -277,8 +303,8 @@
 
  #layer_33_0 
 { 
-	 left: 622px; 
-	 top: 908px; 
+	 left: 600px; 
+	 top: 900px; 
 	 position: absolute; 
 	 width: 57px;
 	 height: 21px;
@@ -305,8 +331,8 @@
 
  #layer_150_0 
 { 
-	 left: 636px; 
-	 top: 845px; 
+	 left: 600px; 
+	 top: 840px; 
 	 position: absolute; 
 	 width: 48px;
 	 height: 21px;
@@ -325,7 +351,6 @@
 	 width: 167px;
 	 height: 28px;
 	 z-index:70;
-	 
 	  font-family: 'Open Sans', sans-serif;
 	font-size:24px;
 	color:#333;
@@ -333,8 +358,8 @@
 
  #layer_50_0 
 {
-	left: 677px;
-	top: 776px;
+	left: 580px;
+	top: 770px;
 	position: absolute;
 	width: 39px;
 	height: 26px;
@@ -356,7 +381,19 @@
 	 font-family: 'Open Sans', sans-serif;
 	font-size:24px;
 	color:#333;
-} 
+}
+ #pregnancydeaths
+{ 
+	 left: 457px; 
+	 top: 735px; 
+	 position: absolute; 
+	 width: 289px;
+	 height: 37px;
+	 z-index:72;
+	 font-family: 'Open Sans', sans-serif;
+	font-size:24px;
+	color:#333;
+}
 
  #deathimg_0 
 { 

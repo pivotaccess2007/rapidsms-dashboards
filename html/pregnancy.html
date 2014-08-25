@@ -1,4 +1,4 @@
-{%  extends base_template %}
+{%  extends "novabase.html" %}
 
 {% block title %}
 <title>Pregnancies Confirmed</title>	
@@ -44,7 +44,7 @@
 			Pregnancies Confirmed
 			</div>
 			<div id="layer_150" class="goodnum">
-              {{  display.total  }}
+             <a href="/dashboards/pregtotal"> {{  display.total  }}</a>
 			</div>
 			<!-- Graphs -->
 			<div id="lmpgraph">

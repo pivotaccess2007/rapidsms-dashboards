@@ -44,25 +44,25 @@
 			
 			<div id="Layer36"><img src="{{ static_path }}/images/ccm/Layer36.png"></div>
 			<div id="FEVER12">
-			Fever<br><span id="number">  12</span>
-			</div>
-			<div id="CW33">
-			CW<br><span id="number">  33</span>
-			</div>
-			<div id="CW33_0">
-			CW<br><span id="number">  33</span>
-			</div>
-			<div id="PRA33">
-			PRA<br><span id="number">  33</span>
+			Diarrhea<br><span id="number">  {{ display.diarrhea }}</span>
 			</div>
 			<div id="AA33">
-			AA<br><span id="number">  33</span>
+			AA<br><span id="number">  {{ display.diarrheaaa }}</span>
+			</div>
+			<div id="CW33">
+			CW<br><span id="number">  {{ display.diarrheaaacw }}</span>
 			</div>
 			<div id="CS33">
-			CS<br><span id="number">  33</span>
+			CS<br><span id="number">  {{ display.diarrheaaacs }}</span>
+			</div>
+			<div id="PRA33">
+			PRA<br><span id="number">  {{ display.diarrheapr }}</span>
+			</div>
+			<div id="CW33_0">
+			CW<br><span id="number">  {{ display.diarrheaprcw }}</span>
 			</div>
 			<div id="CS33copy">
-			CS<br><span id="number">  33</span>
+			CS<br><span id="number">  {{ display.diarrheaprcs }}</span>
 			</div>
 			
 			
@@ -74,26 +74,28 @@
 			<img src="{{ static_path }}/images/ccm/Layer37.png">
 			</div>
 			<div id="FEVER12copy">
-			Fever<br><span id="number"> 12</span>
-			</div>
-			<div id="CW33copy">
-			CW<br><span id="number">  33</span>
-			</div>
-			<div id="CW33copy2">
-			CW<br><span id="number">  33</span>
-			</div>
-			<div id="PRA33copy">
-			PRA<br><span id="number">  33</span>
+			Malaria<br><span id="number">{{ display.malaria }}</span>
 			</div>
 			<div id="AA33copy">
-			AA<br><span id="number">  33</span>
+			AA<br><span id="number">  {{ display.malariaaa }}</span>
+			</div>
+			<div id="CW33copy">
+			CW<br><span id="number">  {{ display.malariaaacw }}</span>
+			</div>
+			<div id="CS33copy3">  
+			CS<br><span id="number">  {{ display.malariaaacs }}</span>
+			</div>
+			
+			<div id="PRA33copy">
+			PRA<br><span id="number">  {{ display.malariapr }}</span>
+			</div>
+			<div id="CW33copy2">
+			CW<br><span id="number">  {{ display.malariaprcw }}</span>
 			</div>
 			<div id="CS33copy2">
-			CS<br><span id="number">  33</span>
+			CS<br><span id="number">  {{ display.malariaprcs }}</span>
 			</div>
-			<div id="CS33copy3">
-			CS<br><span id="number">  33</span>
-			</div>
+			
 			
 			
 			
@@ -104,25 +106,25 @@
 			<img src="{{ static_path }}/images/ccm/FEVER12_0.png">
 			</div>
 			<div id="FEVER12copy2">
-			Fever<br><span id="number">  12</span>
-			</div>
-			<div id="CW33copy3">
-			CW<br><span id="number">  33</span>
-			</div>
-			<div id="CW33copy4">
-			CW<br><span id="number">  33</span>
-			</div>
-			<div id="PRA33copy2">
-			PRA<br><span id="number">  33</span>
+			Pneumonia<br><span id="number">  {{ display.pneumonia }}</span>
 			</div>
 			<div id="AA33copy2">
-			AA<br><span id="number">  33</span>
+			AA<br><span id="number">  {{ display.pneumoniaaa }}</span>
+			</div>
+			<div id="CW33copy3">
+			CW<br><span id="number">  {{ display.pneumoniaaacw }}</span>
 			</div>
 			<div id="CS33copy4">
-			CS<br><span id="number">  33</span>
+			CS<br><span id="number">  {{ display.pneumoniaaacs }}</span>
+			</div>
+			<div id="PRA33copy2">
+			PRA<br><span id="number">  {{ display.pneumoniapr }}</span>
+			</div>
+			<div id="CW33copy4">
+			CW<br><span id="number">  {{ display.pneumoniaprcw }}</span>
 			</div>
 			<div id="CS33copy5">
-			CS<br><span id="number">  33</span>
+			CS<br><span id="number">  {{ display.pneumoniaprcs }}</span>
 			</div>
 			
 			
@@ -146,7 +148,7 @@
 			
 			
 			<div id="CCM_number">
-			3456
+			{{ display.ccmnumber }}
 			</div>
 			
 			
@@ -156,12 +158,12 @@
 			
 			
 			<div id="CMR_number">
-			3012
+			{{ display.crmnumber }}
 			</div>
 			
 			
 			<div id="CMR_percent">
-			87%
+			{{ display.crmnumberpc }}%
 			</div>
 			
 			

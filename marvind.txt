@@ -1,2 +1,2 @@
 #pg_ctl -D /usr/local/var/postgres -l /usr/local/var/postgres/server.log {start|stop|restart}
-#cd ~/Deskop/rapidsms-nova && python wa.py ~/rapidsms-dashboards/html ~/rapidsms-dashboards/static /static 8000
+#cd ~/Desktop/rapidsms-nova && python wa.py ~/rapidsms-dashboards/html ~/rapidsms-dashboards/static /static 8000

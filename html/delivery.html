@@ -56,16 +56,16 @@
 			Delivery Locations:
 			</div>
 			<div id="layer_09">
-			09
+			{{ display.deliveryonroute }}
 			</div>
 			<div id="layer_23">
-			23
+			{{ display.deliveryhospital }}
 			</div>
 			<div id="layer_65">
-			65
+			{{ display.deliveryclinic }}
 			</div>
 			<div id="layer_112">
-			112
+			{{ display.deliveryhome }}
 			</div>
 			<div id="Hospital"><img src="{{ static_path }}/images/delivery/Hospital.png"></div>
 			<div id="home"><img src="{{ static_path }}/images/delivery/home.png"></div>
@@ -118,7 +118,7 @@
 			ANC 4
 			</div>
 			<div id="layer_43">
-			43
+			{{display.anc4}}
 			</div>
 			
 			<div id="Layer6"><img src="{{ static_path }}/images/delivery/Layer6.png"></div>
@@ -126,66 +126,42 @@
 			ANC 3
 			</div>
 			<div id="layer_69">
-			69
+			{{display.anc3}}
 			</div>
 			<div id="Layer7"><img src="{{ static_path }}/images/delivery/Layer7.png"></div>
 			<div id="ANC267">
 			ANC 2
 			</div>
 			<div id="layer_67">
-			67
+			{{display.anc2}}
 			</div>
 			<div id="Layer8"><img src="{{ static_path }}/images/delivery/Layer8.png"></div>
 			<div id="ANC198">
 			ANC 1
 			</div>
 			<div id="layer_98">
-			98
+			{{display.anc1}}
 			</div>
 			<div id="Layer9"><img src="{{ static_path }}/images/delivery/Layer9.png"></div>
 			<div id="ANCATTENDANCE">
 			ANC ATTENDANCE
 			</div>
-			<div id="layer_72">
-			7.2%
-			</div>
-			<div id="layer_21">
-			21
-			</div>
-			<div id="ANC4">
-			ANC 4
-			</div>
-			<div id="layer_98_0">
-			9.8%</div>
-			<div id="layer_32">
-			32
-			</div>
-			<div id="ANC3">
-			ANC 3
-			</div>
-			<div id="layer_31">
-			31%
-			</div>
-			<div id="layer_54">
-			54
-			</div>
-			<div id="ANC2">
-			ANC 2
-			</div>
-			<div id="layer_51">
-			51%
-			</div>
-			<div id="layer_79">
-			79
+			
+			<div id="layer_74">
+			4 out of 4: <strong>{{ display.allanc }}</strong> {{ display.allancpc }}%
 			</div>
 			<div id="ANC1">
-			ANC 1
+			ANC 1: <strong>{{ display.anc1pc }}%</strong> 
 			</div>
-			<div id="layer_60">
-			60%
+			<div id="ANC2">
+			ANC 2: <strong>{{ display.anc3pc }}%</strong> 
 			</div>
-			<div id="layer_74">
-			<strong>4 OUT OF 4</strong> 74
-			</div>	
+			<div id="ANC3">
+			ANC 3: <strong>{{ display.anc2pc }}%</strong>
+			</div>
+			<div id="ANC4">
+			ANC 4: <strong>{{ display.anc1pc }}%</strong> 
+			</div>
+				
 </div>
 {%  endblock  %}
