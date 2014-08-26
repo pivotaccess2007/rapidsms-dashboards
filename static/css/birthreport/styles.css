@@ -171,63 +171,73 @@
 	font-size: 32px;
 } 
 
- #layer_09 
+ #Route 
 { 
-	 left: 650px; 
+	 left: 640px; 
 	 top: 621px; 
 	 position: absolute; 
 	 width: 40px;
 	 height: 28px;
 	 z-index:52;
 	font-family: 'Open Sans', sans-serif;
-	font-weight:normal;
-	font-size: 38px;
+	font-size: 32px;
 	color: #727d7b;
-} 
+}
+#Route:hover{
+	color:#000;
+	cursor:pointer;
+}
 
- #layer_23 
+ #Hospital 
 { 
-	 left: 507px; 
+	 left: 487px; 
 	 top: 621px; 
 	 position: absolute; 
 	 width: 40px;
 	 height: 28px;
 	 z-index:53;
 	font-family: 'Open Sans', sans-serif;
-	font-weight:normal;
-	font-size: 38px;
+	font-size: 32px;
 	color: #0b1381;
-} 
+}
+#Hospital:hover{
+	color:#000;
+	cursor:pointer;
+}
 
- #layer_65 
+ #Clinic 
 { 
-	 left: 366px; 
+	 left: 346px; 
 	 top: 621px; 
 	 position: absolute; 
 	 width: 40px;
 	 height: 28px;
 	 z-index:54;
-	font-family: 'Open Sans', sans-serif;
-	font-weight:normal;
-	font-size: 38px;
+	font-family: 'Open Sans', sans-serif;	
+	font-size: 32px;
 	color: #0b8127;
 } 
-
- #layer_112 
+#Clinic:hover{
+	color:#000;
+	cursor:pointer;
+}
+ #Home 
 { 
-	 left: 223px; 
+	 left: 203px; 
 	 top: 621px; 
 	 position: absolute; 
 	 width: 60px;
 	 height: 28px;
 	 z-index:55;
 	font-family: 'Open Sans', sans-serif;
-	font-weight:normal;
-	font-size: 38px;
+	font-size: 32px;
 	color: #a4b609;
 } 
-
- #Hospital 
+#Home:hover{
+	color:#000;
+	cursor:pointer;
+}
+ #Hospital1 
 { 
 	 left: 480px; 
 	 top: 499px; 

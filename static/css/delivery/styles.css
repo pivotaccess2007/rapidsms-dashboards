@@ -75,7 +75,7 @@
  #ANC443 
 { 
 	 left: 702px; 
-	 top: 929px; 
+	 top: 924px; 
 	 position: absolute; 
 	 width: 51px;
 	 height: 10px;
@@ -85,10 +85,10 @@
 	color:#fff;
 } 
 
- #layer_43 
+ #anc4number 
 { 
-	 left: 712px; 
-	 top: 949px; 
+	 left: 702px; 
+	 top: 940px; 
 	 position: absolute; 
 	 width: 25px;
 	 height: 13px;
@@ -121,9 +121,9 @@
 	color:#fff;
 } 
 
- #layer_69 
+ #anc3number
 { 
-	 left: 724px; 
+	 left: 714px; 
 	 top: 1030px; 
 	 position: absolute; 
 	 width: 28px;
@@ -157,9 +157,9 @@
 	color:#fff;
 } 
 
- #layer_67 
+ #anc2number 
 { 
-	 left: 598px; 
+	 left: 588px; 
 	 top: 1070px; 
 	 position: absolute; 
 	 width: 32px;
@@ -193,7 +193,7 @@
 	color:#fff;
 } 
 
- #layer_98 
+ #anc1number 
 { 
 	 left: 533px; 
 	 top: 974px; 
@@ -500,10 +500,10 @@
 	font-size: 30px;
 } 
 
- #layer_09 
+ #Route 
 { 
-	 left: 669px; 
-	 top: 397px; 
+	 left: 660px; 
+	 top: 320px; 
 	 position: relative; 
 	 width: 39px;
 	 height: 28px;
@@ -513,15 +513,15 @@
 	font-size:32px;
 	color: #727d7b;
 }
-#layer_09:hover{
+#Route:hover{
 	color:#000;
 	cursor:pointer;
 }
 
- #layer_23 
+ #Hospital 
 { 
-	 left: 528px; 
-	 top: 370px; 
+	 left: 500px; 
+	 top: 345px; 
 	 position: relative; 
 	 width: 39px;
 	 height: 27px;
@@ -531,15 +531,16 @@
 	font-size:32px;
 	color: #0b1381;
 }
-#layer_23:hover{
+
+#Hospital:hover{
 	color:#000;
 	cursor:pointer;
 }
 
- #layer_65 
+ #Clinic 
 { 
-	 left: 388px; 
-	 top: 345px; 
+	 left: 370px; 
+	 top: 370px; 
 	 position: relative; 
 	 width: 39px;
 	 height: 27px;
@@ -550,15 +551,15 @@
 	color: #0b8127;
 	
 }
-#layer_65:hover{
+#Clinic:hover{
 	color:#000;
 	cursor:pointer;
 }
 
- #layer_112 
+ #home 
 { 
-	 left: 247px; 
-	 top: 318px; 
+	 left: 220px; 
+	 top: 398px; 
 	 position: relative; 
 	 width: 59px;
 	 height: 27px;
@@ -568,12 +569,12 @@
 	font-size:32px;
 	color: #a4b609;
 }
-#layer_112:hover{
+#home:hover{
 	color:#000;
 	cursor:pointer;
 }
 
- #Hospital 
+ #Hospital1
 { 
 	 left: 500px; 
 	 top: 180px; 
@@ -583,7 +584,7 @@
 	 z-index:3;
 } 
 
- #home 
+ #home1 
 { 
 	 left: 216px; 
 	 top: 80px; 

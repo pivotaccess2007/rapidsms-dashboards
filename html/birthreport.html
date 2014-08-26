@@ -1,4 +1,4 @@
-	{%  extends base_template %}
+	{%  extends "novabase.html" %}
 
 {% block title %}
 <title>Birth Report</title>	
@@ -35,13 +35,13 @@
 			</div>
 			<div id="prematurepic"><img src="{{ static_path }}/images/birthreport/prematurepic.png"></div>
 			<div id="layer_133">
-			{{ display.female }}
+			{{  display.girls|neat_numbers }}
 			</div>
 			<div id="female">
 			Female:
 			</div>
 			<div id="layer_98">
-			{{ display.male }}
+			{{  display.boys|neat_numbers }}
 			</div>
 			<div id="male">
 			Male:
@@ -58,19 +58,13 @@
 			<!-- location -->
 			<div id="DeliveryLocations">
 			Delivery locations</div>
-			<div id="layer_09">
-			{{ display.inroute }}
+			{%  for nom, loc in [('Home', 'home'), ('Clinic', 'clinic'), ('Hospital', 'hospital'), ('Route', 'enroute')] %}
+			<div id="{{ nom }}">
+			{{ display.locations[loc]|neat_numbers }}
 			</div>
-			<div id="layer_23">
-			{{ display.hospital }}
-			</div>
-			<div id="layer_65">
-			{{ display.clinic }}
-			</div>
-			<div id="layer_112">
-			{{ display.home }}
-			</div>
-			<div id="Hospital"><img src="{{ static_path }}/images/birthreport/Hospital.png"></div>
+			{%  endfor  %}
+			
+			<div id="Hospital1"><img src="{{ static_path }}/images/birthreport/Hospital.png"></div>
 			<div id="Layer14"><img src="{{ static_path }}/images/birthreport/Layer14.png"></div>
 			<div id="OnRoute"><img src="{{ static_path }}/images/birthreport/OnRoute.png"></div>
 			<div id="Layer15"><img src="{{ static_path }}/images/birthreport/Layer15.png"></div>
@@ -116,13 +110,13 @@
 			<!-- breast feeding -->
 			<div id="ccmvcmrcopy2"><img src="{{ static_path }}/images/birthreport/ccmvcmrcopy2.png"></div>
 			<div id="layer_21">
-			{{ display.notbfeed }}
+			{{  display.delivs[0].bfeed|neat_numbers }}
 			</div>
 			<div id="notbreastfeeding">
 			Not breast feeding:
 			</div>
 			<div id="layer_321">
-			{{ display.bfeed }}
+			{{  display.delivs[0].nbfeed|neat_numbers }}
 			</div>
 			<div id="breastfeed">
 			Breast feeding:

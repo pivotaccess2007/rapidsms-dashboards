@@ -1,4 +1,4 @@
-{%  extends base_template %}
+{%  extends "novabase.html" %}
 
 {% block title %}
 <title>Vaccination</title>	
@@ -34,17 +34,17 @@
 			Immunisation drop down rate for V1 to V3:
 			
 			</div>
-			<div id="layer_34">34%</div>
+			<div id="layer_34">{{ "%.2f" % (display.vaccs[0].rpc - display.vaccs[2].rpc) }}%</div>
 			<div id="Vaccination">Vaccination:</div>
 			<div id="layer_700"></div>
 			<!--  -->
 			<div id="ccmvcmrcopy3"><img src="{{ static_path }}/images/vaccination/ccmvcmrcopy3.png"></div>
-			<div id="layer_421">421</div>
-			<div id="layer_124">124</div>
-			<div id="layer_217">217</div>
-			<div id="layer_119">119</div>
-			<div id="layer_234">234</div>
-			<div id="layer_356">356</div>
+			<div id="v1">{{ display.vaccs[0].value }}<br>{{ "%.0f" %  display.vaccs[0].rpc }}%</div>
+			<div id="v2">{{ display.vaccs[1].value }}<br>{{ "%.0f" %  display.vaccs[1].rpc }}%</div>
+			<div id="v3">{{ display.vaccs[2].value }}<br>{{ "%.0f" %  display.vaccs[2].rpc }}%</div>
+			<div id="v4">{{ display.vaccs[3].value }}<br>{{ "%.0f" %  display.vaccs[3].rpc }}%</div>
+			<div id="v5">{{ display.vaccs[4].value }}<br>{{ "%.0f" %  display.vaccs[4].rpc }}%</div>
+			<div id="v6">{{ display.vaccs[5].value }}<br>{{ "%.0f" %  display.vaccs[5].rpc }}%</div>
 			
 			<div id="VectorSmartObject"></div>
 			<div id="VectorSmartObject_0"></div>
@@ -69,27 +69,28 @@
 			<div id="SixthVaccination">V6: Measle2</div>
 			<!--  -->
 			<div id="ccmvcmrcopy4"><img src="{{ static_path }}/images/vaccination/ccmvcmrcopy4.png"></div>
-			<div id="complete">Vaccine complete: <a>213</a></div>
-			<div id="incomplete">Vaccine incomplete: <a>98</a></div>
-			<div id="unimmunized">Unimmunized children: <a>300</a></div>
+			<div id="complete">Vaccine complete: <a>{{  display.fully|neat_numbers  }}</a></div>
+			<div id="incomplete">Vaccine incomplete: <a>{{  display.partly|neat_numbers  }}</a></div>
+			<div id="unimmunized">Unimmunized children: <a>{{ display.none }}</a></div>
 			<!--  -->
 			<div id="DropOutFrom2ndto6thV">
 			Drop Out from 2nd to 6th Vaccination
 			</div>
-			<div id="Layer14" class="meter orange"><span style="width: 70%"></span>
-			<div id="layer_76">76</div>
+			<div id="Layer14" class="meter orange"><span style="width: {{ display.vaccs[1:][0].dpc }}%"></span>
+			<div id="layer_76">{{ display.vaccs[1:][0].diff }}</div>
 			</div>
-			<div id="Layer1copy5"class="meter orange"><span style="width: 30%"></span>
-			<div id="layer_84">84</div>
+			<div id="Layer1copy5"class="meter orange"><span style="width: {{ display.vaccs[1:][1].dpc }}%"></span>
+			<div id="layer_84">{{ display.vaccs[1:][1].diff }}</div>
+			
 			</div>
-			<div id="Layer1copy_0"class="meter orange"><span style="width: 70%"></span>
-			<div id="layer_79">79</div>
+			<div id="Layer1copy_0"class="meter orange"><span style="width: {{ display.vaccs[1:][2].dpc }}%"></span>
+			<div id="layer_79">{{ display.vaccs[1:][2].diff }}</div>
 			</div>
-			<div id="Layer1copy3"class="meter orange"><span style="width: 10%"></span>
-			<div id="layer_55">55</div>
+			<div id="Layer1copy3"class="meter orange"><span style="width: {{ display.vaccs[1:][3].dpc }}%"></span>
+			<div id="layer_55">{{ display.vaccs[1:][3].diff }}</div>
 			</div>
-			<div id="Layer1copy4"class="meter orange"><span style="width: 15%"></span>
-			<div id="layer_42">42</div>
+			<div id="Layer1copy4"class="meter orange"><span style="width: {{ display.vaccs[1:][4].dpc }}%"></span>
+			<div id="layer_42">{{ display.vaccs[1:][4].diff }}</div>
 			</div>
 			
 			
@@ -104,4 +105,68 @@
 			
 			
 </div>
+<script>
+$(function () {
+    $('#layer_700').highcharts({
+        chart: {
+            type: 'column'
+        },
+       
+        xAxis: {
+            categories: [
+                '',
+            ]
+        },
+        yAxis: {
+            min: 0,
+            title: {
+                text: '<span style="font-size:10px">Percent of Vaccination</span>'
+            }
+        },
+        tooltip: {
+            headerFormat: '<span style="font-size:5px">{point.key}</span><table>',
+            pointFormat: '<tr><td style="color:{series.color};padding:0">{series.name}: </td>' +
+                '<td style="padding:0"><b>{point.y:.1f} %</b></td></tr>',
+            footerFormat: '</table>',
+            shared: true,
+            useHTML: true
+        },
+        plotOptions: {
+            column: {
+                pointPadding: 0.2,
+                borderWidth: 0
+            }
+        },
+        series: [{
+            name: 'Fully Vaccinated',
+            data: [{{  "%.2f" % display.fullypc  }}]
+		},{
+            name: 'Not Fully Vaccinated',
+            data: [{{  "%.2f" % display.partlypc  }}]
+		}]
+    });
+});
+
+</script>
+<script>
+$(function()
+		{
+			var a = document.getElementById('VectorSmartObject');
+			var b = document.getElementById('VectorSmartObject_0');
+			var c = document.getElementById('VectorSmartObject_1');
+			var d = document.getElementById('VectorSmartObject_2');
+			var e = document.getElementById('VectorSmartObject_3');
+			var f = document.getElementById('VectorSmartObject_4');
+			
+			//alert(a);
+			//if(!c) return;
+			a.appendChild( firstvaccine({{ display.vaccs[0].rpc }}, 110 ) );
+			b.appendChild( secondvaccine({{ display.vaccs[1].rpc }}, 110 ) );
+			c.appendChild( thridvaccine({{ display.vaccs[2].rpc }}, 110 ) );
+			d.appendChild( fourthvaccine({{ display.vaccs[3].rpc }}, 110 ) );
+			e.appendChild( fifthvaccine({{ display.vaccs[4].rpc }}, 110 ) );
+			f.appendChild( sixthvaccine({{ display.vaccs[5].rpc }}, 110 ) );
+			
+		});
+</script>
 {%  endblock  %}

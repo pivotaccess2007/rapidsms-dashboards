@@ -318,22 +318,3 @@ function sixthvaccine(percentage, size, color) {
     return chart;
 }
 
-$(function()
-{
-	var a = document.getElementById('VectorSmartObject');
-	var b = document.getElementById('VectorSmartObject_0');
-	var c = document.getElementById('VectorSmartObject_1');
-	var d = document.getElementById('VectorSmartObject_2');
-	var e = document.getElementById('VectorSmartObject_3');
-	var f = document.getElementById('VectorSmartObject_4');
-	
-	//alert(a);
-	//if(!c) return;
-	a.appendChild( firstvaccine(40, 110 ) );
-	b.appendChild( secondvaccine(70, 110 ) );
-	c.appendChild( thridvaccine(70, 110 ) );
-	d.appendChild( fourthvaccine(70, 110 ) );
-	e.appendChild( fifthvaccine(70, 110 ) );
-	f.appendChild( sixthvaccine(70, 110 ) );
-	
-});
