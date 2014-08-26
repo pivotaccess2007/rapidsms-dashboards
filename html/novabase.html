@@ -8,9 +8,10 @@
 
 	<link href="{{ static_path }}/css/base/styles.css" rel="stylesheet" type="text/css">
 	<link href="{{ static_path }}/css/base/menu.css" rel="stylesheet" type="text/css">
-    <script src="{{ static_path }}/js/jquery-1.11.1.js"></script>
-    <script src="{{ static_path }}/js/jqui/jquery-ui.js"></script>
     <link rel="stylesheet" href="//ajax.googleapis.com/ajax/libs/jqueryui/1.11.0/themes/smoothness/jquery-ui.css" />
+    
+    <script src="{{ static_path }}/js/jquery-1.11.1.js"></script>
+    <script src="{{ static_path }}/js/jqui/jquery-ui.js"></script>    
 	 <script src="{{  static_path }}/js/library/clientside.js"></script>
 	 <script src="{{  static_path }}/js/bgStretch.js"></script>
 	 <script src="{{ static_path }}/js/base/filterDate.js" type="text/javascript"></script>
@@ -57,7 +58,7 @@
 			<!-- <div id="menulines"><img src="{{ static_path }}/images/pregnancy/Layer1copy18.png"></div>
 		 <!--   <div id="PregnanciesNewBornCh"><img src="{{ static_path }}/images/pregnancy/PregnanciesNewBornCh.png"></div>-->
 			<!-- <div class="menu">
-			<div id="pregnancy"><a href="/dashboards/pregnancy">Pregnancy  |</a></div>
+			<div id="pregnancy"><a href="/dashboards/{{ nav.link("pregnancy") }}">Pregnancy  |</a></div>
 			<div id="anc"><a href="/dashboards/anc">ANC  |</a></div>
 			<div id="birthreport"><a href="/dashboards/birthreport">Birth Report |</a></div>
 			<div id="vaccination"><a href="/dashboards/vaccination">Vaccination |</a></div>
@@ -65,20 +66,23 @@
 			<div id="nutrition"><a href="/dashboards/nutrition">Nutrition |</a></div>
 			<div id="redalert"><a href="/dashboards/redalert">Red Alerts</a></div>
 			</div>
-			 -->
+			-->
+			 
+
 			 <div id='cssmenu'>
 <ul>
 
-   <li class="{%  if  ref == 'pregnancy' %} active{%  endif %}"><a href='/dashboards/pregnancy'><span>Pregnancy</span></a></li>
-   <li class="{%  if  ref == 'anc' %} active{%  endif %}"><a href='/dashboards/anc'><span>ANC</span></a></li>
-   <li class="{%  if  ref == 'brithreport' %} active{%  endif %}"><a href='/dashboards/birthreport'><span>Birth Report</span></a></li>
-   <li class="{%  if  ref == 'vaccination' %} active{%  endif %}"><a href='/dashboards/vaccination'><span>Vaccination</span></a></li>
-   <li class="{%  if  ref == 'nutrition' %} active{%  endif %}"><a href='/dashboards/nutrition'><span>Nutrition</span></a></li>
-   <li class="{%  if  ref == 'childhealth' %} active{%  endif %}"><a href='/dashboards/childhealth'><span>Child Health</span></a></li>
-   <li class="{%  if  ref == 'ccm' %} active{%  endif %}"><a href='/dashboards/ccm'><span>CCM</span></a></li>
-   <li class="{%  if  ref == 'pnc' %} active{%  endif %}"><a href='/dashboards/pnc'><span>PNC</span></a></li>
-   <li class="{%  if  ref == 'redalert' %} active{%  endif %}"><a href='/dashboards/redalert'><span>Red Alert</span></a></li>
-   <li class='last'><a href='/dashboards/death'><span>Death Report</span></a></li>
+   <li class="{%  if  ref == 'pregnancy' %} active{%  endif %}"><a href='/dashboards/{{ nav.link("pregnancy") }}'><span>Pregnancy</span></a></li>
+   <li class="{%  if  ref == 'anc' %} active{%  endif %}"><a href='/dashboards/{{ nav.link("anc") }}'><span>ANC</span></a></li>
+   <li class="{%  if  ref == 'brithreport' %} active{%  endif %}"><a href='/dashboards/{{ nav.link("birthreport") }}'><span>Birth Report</span></a></li>
+   <li class="{%  if  ref == 'vaccination' %} active{%  endif %}"><a href='/dashboards/{{ nav.link("vaccination") }}'><span>Vaccination</span></a></li>
+   <li class="{%  if  ref == 'nutrition' %} active{%  endif %}"><a href='/dashboards/{{ nav.link("nutrition") }}'><span>Nutrition</span></a></li>
+   <li class="{%  if  ref == 'childhealth' %} active{%  endif %}"><a href='/dashboards/{{ nav.link("childhealth") }}'><span>Child Health</span></a></li>
+   <li class="{%  if  ref == 'ccm' %} active{%  endif %}"><a href='/dashboards/{{ nav.link("ccm") }}'><span>CCM</span></a></li>
+   <li class="{%  if  ref == 'nbc' %} active{%  endif %}"><a href='/dashboards/{{ nav.link("nbc") }}'><span>NBC</span></a></li>
+   <li class="{%  if  ref == 'pnc' %} active{%  endif %}"><a href='/dashboards/{{ nav.link("pnc") }}'><span>PNC</span></a></li>
+   <li class="{%  if  ref == 'redalert' %} active{%  endif %}"><a href='/dashboards/{{ nav.link("redalert") }}'><span>Red Alert</span></a></li>
+   <li class='last'><a href='/dashboards/{{ nav.link("death") }}'><span>Death Report</span></a></li>
 </ul>
 </div>
 			
@@ -93,10 +97,10 @@
 			</div>
 			<div id="locationpicture"><img src="{{ static_path }}/images/pregnancy/Layer13.png"></div>
 			<div id="todate">
-			<input value="{{  args.get('finish', '')  }}" class="activedate" type="date" name="finish" style="border: 1px #000;border-radius:10px;font-size:16px;" /></input>
+			<input value="{{  args.get('finish', '')  }}" class="activedate" type="text" name="finish" style="border: 1px #000;border-radius:10px;font-size:16px;" /></input>
 			</div>
 			<div id="fromdate">
-			<input  value="{{  args.get('start', '')  }}" class="activedate" type="date" name="start" style="border: 1px #000;border-radius:10px;font-size:16px;" /></input>
+			<input  value="{{  args.get('start', '')  }}" class="activedate" type="text" name="start" style="border: 1px #000;border-radius:10px;font-size:16px;" /></input>
 			</div>
 			<div id="From">From:</div>
 			<div id="calenderpicture"><img src="{{ static_path }}/images/pregnancy/Layer15.png"></div>
