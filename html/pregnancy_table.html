@@ -1,0 +1,60 @@
+{%  extends "novabase.html" %}
+
+{% block title %}
+<title>Pregnancies Confirmed</title>	
+{% endblock  %}
+
+
+           {% block banner %}
+			<div id="bannertext">
+			<strong>Preventing</strong> the deaths of <strong>Pregnant Mothers</strong> and <strong>New Borns</strong> &amp; Improving <strong>Child Nutrition</strong>
+			</div>
+			<div id="bannericon"><img src="{{ static_path }}/images/pregnancy/Layer6.png"></div>
+			{%  endblock %}
+
+
+{% block scripts %}
+	
+	<link href="{{ static_path }}/css/tables/styles.css" rel="stylesheet" type="text/css">
+	
+{% endblock %}
+{%  block   bodycontent %}
+   
+     <div id="background2" style=" margin-left: auto; margin-right: auto; width: 1000px; height: 700px; ">
+<div style="height: 650px; overflow: scroll;">
+{{  display.nat.count() }}<br>
+
+{%  for row in display.nat.list() %}
+{{ row[display.cols[1]] }}
+    {%  endfor  %}
+<br>
+
+<table>
+  <thead>
+    <tr>
+      <th>#</th>
+      {%  for col in display.cols %}
+        <th>{{  col[1] }}</th>
+      {%  endfor  %}
+    </tr>
+  </thead>
+  <tbody>
+    {%  for row in display.nat.list() %}
+      <tr>
+        <td>{{  loop.index  }}</td>
+        {%  for col in display.cols %}
+          <td>{{  row[col[0]]  }}</td>
+        {%  endfor  %}
+      </tr>
+    {%  endfor  %}
+  </tbody>
+</table>
+
+  <div id="graphic">
+  
+  </div>
+	</div>
+	</div>
+</body>
+</html>
+ {% endblock  %}

@@ -2,5 +2,5 @@
 
 #cd ~/Desktop/rapidsms-nova && python wa.py ~/rapidsms-dashboards/html ~/rapidsms-dashboards/static /static 8000
 
- ./rwabugiri.py webservice ~/rapidsms-dashboards/{html,static} /static 8088
+ ./rwa.py webservice ~/rapidsms-dashboards/{html,static} /static 8088
 

@@ -39,6 +39,8 @@
 	
 		<div id="wrap">
 		<!-- top and Language -->
+     		<div id="HOME"><a href="/">HOME</a></div>
+     		
      		<div id="ENGLISH"><a href="">ENGLISH</a></div>
 			<div id="FRENCH"><a href="">FRENCH</a></div>
 			<div id="KINYARWANDA"><a href="">KINYARWANDA</a></div>
@@ -94,6 +96,34 @@
 			<form>
 			<div id="locations">
 			
+              
+              {%  for hie in nav.hierarchy  %}
+                {%  for k in hie %}
+                  <input type="hidden" value="{{  hie[k].indexcol }}" name="{{  k }}" />
+                {%  endfor  %}
+              {%  endfor %}
+              
+              
+              
+              
+              {%  set ca  = nav.childareas  %}
+              {%  if  ca  %}
+                <select name="{{  nav.child  }}">
+                  {%  for area in ca|reverse %}
+                    <option{% if area.selected  %} selected="selected"{%  endif %} value="{{ area.indexcol }}">{{  area.name  }}</option>
+                  {%  endfor  %}
+                </select>
+              {%  endif %}
+              
+              
+              <select name="listing">
+                {%  for el in nav.listing %}
+                  <option class="loc"><a href="/dashboards/{{  el.link(ref) }}">{{ el.name }} {{ el.title  }}</a></option>
+                {%  endfor  %}
+                
+              </select>
+              
+            
 			</div>
 			<div id="locationpicture"><img src="{{ static_path }}/images/pregnancy/Layer13.png"></div>
 			<div id="todate">

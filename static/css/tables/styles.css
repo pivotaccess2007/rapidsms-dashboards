@@ -1,0 +1,13 @@
+table{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 15px;
+}
+
+td{
+	text-align: center;
+}
+
+tr:hover {
+	background: #5bb8f9;
+	cursor: pointer;
+}
