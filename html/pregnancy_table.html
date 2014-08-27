@@ -20,14 +20,12 @@
 {% endblock %}
 {%  block   bodycontent %}
    
-     <div id="background2" style=" margin-left: auto; margin-right: auto; width: 1000px; height: 700px; ">
-<div style="height: 650px; overflow: scroll;">
-{{  display.nat.count() }}<br>
-
-{%  for row in display.nat.list() %}
-{{ row[display.cols[1]] }}
-    {%  endfor  %}
+     <div id="background2" style=" margin-left: auto; margin-right: auto; width: 1000px; height: 700px; font-family: 'Open Sans', sans-serif; font-size: 15px;">
+{{  display.nat.count() }} Records
+<button type="button">Export</button>
 <br>
+<br>
+<div style="height: 650px; overflow: scroll;" >
 
 <table>
   <thead>

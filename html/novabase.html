@@ -22,7 +22,19 @@
 						align:'leftTop'
 				})
 			});
-		</script>
+
+			
+			function start() {
+				myform.tx.disabled = true;
+				}
+				onload = start;
+				function chgtx() {
+				myform.tx.disabled = !myform.cb.checked;
+				}
+
+	</script>
+
+
 	{% block scripts %}
 
     <script src="{{ static_path }}/js/highcharts.js"></script>
@@ -93,7 +105,7 @@
 			
 			
 			<!-- filter -->
-			<form>
+			<form name="myform">
 			<div id="locations">
 			
               
@@ -104,25 +116,24 @@
               {%  endfor %}
               
               
-              
+              <input type="checkbox" name="cb" onchange="chgtx();" />
               
               {%  set ca  = nav.childareas  %}
               {%  if  ca  %}
-                <select name="{{  nav.child  }}">
-                  {%  for area in ca|reverse %}
+                <select id="tx" name="{{  nav.child  }}" >
+                  {%  for area in ca %}
                     <option{% if area.selected  %} selected="selected"{%  endif %} value="{{ area.indexcol }}">{{  area.name  }}</option>
                   {%  endfor  %}
                 </select>
               {%  endif %}
               
+              <a style="font-family: 'Open Sans', sans-serif; font-size: 15px; color:#fff;" href="{{  nav.listing[(nav.listing|length-2)].link(ref) }}">{{  nav.listing[(nav.listing|length-1)] }}</a>
               
-              <select name="listing">
-                {%  for el in nav.listing %}
-                  <option class="loc"><a href="/dashboards/{{  el.link(ref) }}">{{ el.name }} {{ el.title  }}</a></option>
+              <!--  
+               {%  for el in nav.listing %}
+                  <a href="/dashboards/{{  el.link(ref) }}">{{ el.name }} {{ el.title  }}</a>
                 {%  endfor  %}
-                
-              </select>
-              
+              -->
             
 			</div>
 			<div id="locationpicture"><img src="{{ static_path }}/images/pregnancy/Layer13.png"></div>
