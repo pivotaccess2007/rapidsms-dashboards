@@ -1,6 +1,0 @@
-static/js/library/tpt.py html pregnancy.html > preg.html && open -a safari preg.html
-
-env STATIC_PATH=static static/js/library/tpt.py html pregnancy.html > preg.html && open -a safari preg.html
-
-python tp2000.py ../../../html/ pregnancy.html > p1.html && open -a safari p1.html
-
