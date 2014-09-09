@@ -51,16 +51,15 @@
 	
 		<div id="wrap">
 		<!-- top and Language -->
-     		<div id="HOME"><a href="/">HOME</a></div>
-     		
-     		<div id="ENGLISH"><a href="">ENGLISH</a></div>
-			<div id="FRENCH"><a href="">FRENCH</a></div>
-			<div id="KINYARWANDA"><a href="">KINYARWANDA</a></div>
+     		<a href="/"><div id="HOME">LOGIN</div></a>
+     		<div id="ENGLISH">ENGLISH</div>
+			<div id="FRENCH">FRENCH</div>
+			<div id="KINYARWANDA">KINYARWANDA</div>
 			<!--  -->
 		
 		<!-- banner -->
 			
-			<div id="topuniceflogo"><img src="{{ static_path }}/images/pregnancy/Layer5.png"></div>
+			
 			{% block banner  %}
 			
 			{% endblock  %}
@@ -107,7 +106,12 @@
 			<!-- filter -->
 			<form name="myform">
 			<div id="locations">
-			
+			 <div>
+               {%  for el in nav.listing %}
+                 <a style="font-family: 'Open Sans', sans-serif; font-size: 15px; color:#fff;" href="/dashboards/{{  el.link(ref) }}">{{ el.name }} {{ el.title  }}</a>-
+                {%  endfor  %}
+              </div>
+             
               
               {%  for hie in nav.hierarchy  %}
                 {%  for k in hie %}
@@ -127,13 +131,9 @@
                 </select>
               {%  endif %}
               
-              <a style="font-family: 'Open Sans', sans-serif; font-size: 15px; color:#fff;" href="{{  nav.listing[(nav.listing|length-2)].link(ref) }}">{{  nav.listing[(nav.listing|length-1)] }}</a>
+            <!--   <a style="font-family: 'Open Sans', sans-serif; font-size: 15px; color:#fff;" href="{{  nav.listing[(nav.listing|length-2)].link(ref) }}">{{  nav.listing[(nav.listing|length-1)] }}</a>-->
               
-              <!--  
-               {%  for el in nav.listing %}
-                  <a href="/dashboards/{{  el.link(ref) }}">{{ el.name }} {{ el.title  }}</a>
-                {%  endfor  %}
-              -->
+             
             
 			</div>
 			<div id="locationpicture"><img src="{{ static_path }}/images/pregnancy/Layer13.png"></div>
@@ -153,7 +153,7 @@
 			<!--  -->
 			
 			
-		{% block tab  %} {%  endblock  %}
+		
 		</div>
 			
 			<div id="bgStretch"><img src="{{ static_path }}/images/pregnancy/Background.png" alt=""></div>

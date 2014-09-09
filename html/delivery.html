@@ -11,26 +11,34 @@
 {% endblock %}
 
 
-			{% block tab %}
-			<div id="Layer1copy"></div>
-			<div id="Layer15"><img src="{{ static_path }}/images/pregnancy/Layer1.png"></div>
-			<div id="PregnanciesConfirmed">
-			<a href='/dashboards/{{ nav.link("Pregnancy") }}'>Pregnancies Confirmed</a></div>
-			<div id="ExpectedDeliveries">Expected Deliveries</div>
-			{% endblock %}
+{% block banner %}
+			<div id="bannertext">
+			<strong>Preventing</strong> the deaths of <strong>Pregnant Mothers</strong> and <strong>New Borns</strong> &amp; Improving <strong>Child Nutrition</strong>
+			</div>
+			<!-- <div id="bannericon"><img src="{{ static_path }}/images/pregnancy/Layer6.png"></div>-->
+			{%  endblock %}
+
+			
 
 {%  block   bodycontent %}
 		
 		<div id="background2">
 		
+			<div id="Layer1copy">
+			<div id="Layer15"></div>
+			<div id="PregnanciesConfirmed"><a href='/dashboards/{{ nav.link("pregnancy") }}'>Pregnancies Confirmed</a></div>
+			</div>
+			<div id="ExpectedDeliveries"><a href='/dashboards/{{ nav.link("delivery") }}'>Expected Deliveries</a></div>
+			
+		
 		<!-- preg -->
 			<div id="ccmvcmr"><img src="{{ static_path }}/images/delivery/ccmvcmr.png"></div>
 			<div id="motherpic"><img src="{{ static_path }}/images/delivery/motherpic.png"></div>
 			<div id="ExpectedDeliveries98">
-			Expected Deliveries:
+			 Deliveries:
 			</div>
 			<div id="layer_98_1">
-			{{  display.expected|neat_numbers }}
+			<a href="{{ nav.link("/tables/delivery") }}">{{  display.expected|neat_numbers }}</a>
 			</div>
 			<div class="deeper">
 			<div class="triangle-border top" id="here_table">
@@ -39,10 +47,10 @@
 			
 			
 			<div id="UnknownDeliveries23">
-			Unknown Deliveries:
+			Expected Deliveries:
 			</div>
 			<div id="layer_23_0">
-			{{  display.unknowns|neat_numbers }}
+		<!-- {{  display.unknowns|neat_numbers }}-->
 			</div>
 			<div class="deeper1">
 			<div class="triangle-border1 top" id="here_table1">
@@ -143,7 +151,7 @@
 			</div>
 			
 			<div id="layer_74">
-			4 out of 4: <strong>{{ display.allanc }}</strong> {{ display.allancpc }}%
+			4 standard visits: <strong>{{ display.allanc }}</strong> {{ display.allancpc }}%
 			</div>
 			<div id="ANC1">
 			ANC 1: <strong>{{ "%.2f" %  display.ancs[0].rpc}}%</strong> 

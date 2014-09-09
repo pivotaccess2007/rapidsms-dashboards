@@ -1,4 +1,4 @@
-	{%  extends "novabase.html" %}
+{%  extends "novabase.html" %}
 
 {% block title %}
 <title>CCM</title>	
@@ -16,7 +16,7 @@
 			<div id="bannertext">
 			<strong>Tracking Mothers</strong> and <strong>Children</strong> in the whole <strong>Rapid SMS</strong> system
 			</div>
-			<div id="bannericon"><img src="{{ static_path }}/images/ccm/Layer29.png"></div>
+			<!--  <div id="bannericon"><img src="{{ static_path }}/images/ccm/Layer29.png"></div>-->
 			{%  endblock %}
 
 
@@ -26,25 +26,34 @@
 		
 			<div id="ccmbackground"><img src="{{ static_path }}/images/ccm/ccmbackground.png"></div>
 			<div id="CCMReportsGenerated3">
-			CCM Reports Generated: <strong>{{ display.ccmnumber }}</strong>
+			CCM Reports Generated: <strong>355</strong>
 			</div>
 			
 			
 			<div id="ComparingCMRreported">
 			Comparing CMR report from CCM report 
 			</div>
-			<!--  -->
 			<div id="ccmvcmr"><img src="{{ static_path }}/images/ccm/ccmvcmr.png"></div>
+			
+			
+			
 			<div id="symptomsbackground"><img src="{{ static_path }}/images/ccm/symptomsbackground.png"></div>
 			
 			<div id="Layer34copy">
 			<img src="{{ static_path }}/images/ccm/bluehex.png">
 			</div>
-			
-			
+			<div id="diatreatedhex">
+			<img src="{{ static_path }}/images/ccm/bluehex.png">
+			</div>
+			<div id="diatreated">
+			TREATED
+			</div>
 			<div id="Layer36"><img src="{{ static_path }}/images/ccm/Layer36.png"></div>
-			<div id="FEVER12">
+			<div id="diarrhea">
 			Diarrhea<br><span id="number">  {{ display.diarrhea }}</span>
+			</div>
+			<div id="diaprtreated">
+			PR after Treatment:
 			</div>
 			<div id="AA33">
 			AA<br><span id="number">  {{ display.diarrheaaa }}</span>
@@ -70,11 +79,20 @@
 			<div id="Layer35">
 			<img src="{{ static_path }}/images/ccm/bluehex.png">
 			</div>
+			<div id="maltreatedhex">
+			<img src="{{ static_path }}/images/ccm/bluehex.png">
+			</div>
+			<div id="maltreated">
+			TREATED
+			</div>
 			<div id="Layer37">
 			<img src="{{ static_path }}/images/ccm/Layer37.png">
 			</div>
-			<div id="FEVER12copy">
+			<div id="malaria">
 			Malaria<br><span id="number">{{ display.malaria }}</span>
+			</div>
+			<div id="malprtreated">
+			PR after Treatment:
 			</div>
 			<div id="AA33copy">
 			AA<br><span id="number">  {{ display.malariaaa }}</span>
@@ -102,11 +120,20 @@
 			<div id="Layer34">
 			<img src="{{ static_path }}/images/ccm/bluehex.png">
 			</div>
+			<div id="pnetreatedhex">
+			<img src="{{ static_path }}/images/ccm/bluehex.png">
+			</div>
+			<div id="pnetreated">
+			TREATED
+			</div>
 			<div id="FEVER12_0">
 			<img src="{{ static_path }}/images/ccm/FEVER12_0.png">
 			</div>
-			<div id="FEVER12copy2">
+			<div id="pneumonia">
 			Pneumonia<br><span id="number">  {{ display.pneumonia }}</span>
+			</div>
+			<div id="pneprtreated">
+			PR after Treatment:
 			</div>
 			<div id="AA33copy2">
 			AA<br><span id="number">  {{ display.pneumoniaaa }}</span>
@@ -148,7 +175,7 @@
 			
 			
 			<div id="CCM_number">
-			{{ display.ccmnumber }}
+			355
 			</div>
 			
 			
@@ -158,12 +185,12 @@
 			
 			
 			<div id="CMR_number">
-			{{ display.crmnumber }}
+			200
 			</div>
 			
 			
 			<div id="CMR_percent">
-			{{ display.crmnumberpc }}%
+			60%
 			</div>
 			
 			

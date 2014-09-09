@@ -14,19 +14,23 @@
 			<div id="bannertext">
 			<strong>Preventing</strong> the deaths of <strong>Pregnant Mothers</strong> and <strong>New Borns</strong> &amp; Improving <strong>Child Nutrition</strong>
 			</div>
-			<div id="bannericon"><img src="{{ static_path }}/images/pregnancy/Layer6.png"></div>
+			<!-- <div id="bannericon"><img src="{{ static_path }}/images/pregnancy/Layer6.png"></div>-->
 			{%  endblock %}
 
-			{% block tab %}
-			<div id="Layer1copy"></div>
-			<div id="Layer1"><img src="{{ static_path }}/images/pregnancy/Layer1.png"></div>
-			<div id="PregnanciesConfirmed1">Pregnancies Confirmed</div>
-			<div id="ExpectedDeliveries"><a href='/dashboards/{{ nav.link("delivery") }}'>Expected Deliveries</a></div>
-			{% endblock %}
+			
 
 
 {%  block   bodycontent %}
 		<div id="background2">
+			
+			<div id="Layer1copy">
+			<div id="Layer1"></div>
+			<div id="PregnanciesConfirmed1">Pregnancies Confirmed</div>
+			</div>
+			
+			<div id="ExpectedDeliveries"><a href='/dashboards/{{ nav.link("delivery") }}'>Expected Deliveries</a></div>
+			
+			
 			<div id="Layer7copy"><img src="{{ static_path }}/images/pregnancy/Layer7copy.png"></div>
 			<div id="Layer7copy_0"><img src="{{ static_path }}/images/pregnancy/Layer7copy_0.png"></div>
 			<div id="Layer7copy_1"><img src="{{ static_path }}/images/pregnancy/Layer7copy_1.png"></div>
@@ -48,12 +52,12 @@
 			</div>
       <div id="LMPinrelativetopregn">
         <!--  <img src="{{ static_path }}/images/pregnancy/LMPinrelativetopregn.png">  -->
-        LMP Relative to Pregnancy Confirmation      
+        Pregnancy Confirmation Delay (in Months)      
       </div>
       <div id="MonthlyPregnancyAvg9">
               
         <!--  <img src="{{ static_path }}/images/pregnancy/MonthlyPregnancyAvg9.png">  -->
-        Monthly Pregnancy Avg: <strong id="avgdest">{{  "%.2f" % display.monthavg }}</strong>
+        Monthly Pregnancy Confirmed Vs Monthyly Expected Pregnancy
       
       </div>
 			<!--  -->
@@ -63,26 +67,26 @@
 			
 			<div id="risks78">
               {{  display.pr  }}
-			<span id="risks69">
+			<div id="risks69">
 			{{  "%.2f" % display.prpc  }}%
-			</span>
+			</div>
 			</div>
 			<div id="numberofmotherpr">
-			Number of Mothers well by PR(Patient Directly Referred):
+			PR
 			</div>
 			
 			<div id="risks65">
               {{  display.aa  }}
-			<span id="risks66">
+			<div id="risks66">
 			 {{ "%.2f" % display.aapc  }}%
-			</span>
+			</div>
 			</div>
 			
 			<div id="numberofmotherswell">
-			Number of Mothers well by AA(ASM):
+			AA(ASM):
 			</div>
-			<div id="Layer2"><img src="{{ static_path }}/images/pregnancy/redriskdot.png"></div>
-			<div id="Layer1copy_0"><img src="{{ static_path }}/images/pregnancy/redriskdot.png"></div>
+			<div id="Layer2"><img src="{{ static_path }}/images/pregnancy/redriskdot2.png"></div>
+			<div id="Layer1copy_0"><img src="{{ static_path }}/images/pregnancy/redriskdot3.png"></div>
 			<div id="ReportedRisks">
 			Reported Risks
 			</div>
@@ -93,7 +97,7 @@
               {{  "%.2f" % display.riskpc  }}%
 			</div>
 			<div id="ResultsReported">
-			Results Reported
+			Risk Response
 			</div>
 			<div id="layer_89_0">
               {{  display.rezes }}
@@ -103,20 +107,20 @@
 			</div>
 			<!--  -->
 			<!-- Symptoms -->
-			<div id="Layer3"><img src="{{ static_path }}/images/pregnancy/redhex.png"></div>
-			<div id="Layer1copy_1"><img src="{{ static_path }}/images/pregnancy/redhex.png"></div>
-			<div id="Layer1copy2"><img src="{{ static_path }}/images/pregnancy/redhex.png"></div>
-			<div id="Layer1copy6"><img src="{{ static_path }}/images/pregnancy/redhex.png"></div>
-			<div id="Layer1copy7"><img src="{{ static_path }}/images/pregnancy/bluehex.png"></div>
+			<div id="Layer3"><img src="{{ static_path }}/images/pregnancy/bluehex.png"></div>
+			<div id="Layer1copy_1"><img src="{{ static_path }}/images/pregnancy/bluehex.png"></div>
+			<div id="Layer1copy2"><img src="{{ static_path }}/images/pregnancy/bluehex.png"></div>
+			<div id="Layer1copy6"><img src="{{ static_path }}/images/pregnancy/bluehex.png"></div>
+			<div id="Layer1copy7"></div>
 			<div id="Layer1copy8"><img src="{{ static_path }}/images/pregnancy/bluehex.png"></div>
-			<div id="Layer1copy3"><img src="{{ static_path }}/images/pregnancy/redhex.png"></div>
-			<div id="Layer1copy4"><img src="{{ static_path }}/images/pregnancy/redhex.png"></div>
-			<div id="Layer1copy5"><img src="{{ static_path }}/images/pregnancy/redhex.png"></div>
-			<div id="Layer1copy9"><img src="{{ static_path }}/images/pregnancy/bluehex.png"></div>
-			<div id="Layer1copy10"><img src="{{ static_path }}/images/pregnancy/bluehex.png"></div>
-			<div id="Layer1copy11"><img src="{{ static_path }}/images/pregnancy/bluehex.png"></div>
-			<div id="Layer1copy12"><img src="{{ static_path }}/images/pregnancy/bluehex.png"></div>
-			<div id="Layer1copy13"><img src="{{ static_path }}/images/pregnancy/redhex.png"></div>
+			<div id="Layer1copy3"><img src="{{ static_path }}/images/pregnancy/bluehex.png"></div>
+			<div id="Layer1copy4"><img src="{{ static_path }}/images/pregnancy/bluehex.png"></div>
+			<div id="Layer1copy5"><img src="{{ static_path }}/images/pregnancy/bluehex.png"></div>
+			<div id="Layer1copy9"></div>
+			<div id="Layer1copy10"></div>
+			<div id="Layer1copy11"></div>
+			<div id="Layer1copy12"></div>
+			<div id="Layer1copy13"><img src="{{ static_path }}/images/pregnancy/bluehex.png"></div>
 			
 			<a href="{{ nav.link("/tables/pregcough") }}"><div id="COUGHING24">
          COUGHING <br><br><strong>{{ display.info.coughing }}</strong>
@@ -139,56 +143,39 @@
 			</div></a>
 		
 		<a href="{{ nav.link("/tables/pregstill") }}"> 	<div id="STILLBORN21">
-        STILLBORN<br><br><strong>{{ display.info.stillb  }}</strong>
+        FRACCID PARALYSIS<br><strong>{{ display.info.stillb  }}</strong>
 			</div></a>
 		
 		<a href="{{ nav.link("/tables/pregedema") }}">  	<div id="EDEMA13">
        EDEMA<br><br><strong>{{ display.info.oedema  }}</strong>
 			</div></a>
 			
-		<a href="{{ nav.link("/tables/pregjaundice") }}"> 	<div id="JAUNDICE09">
-        JAUNDICE<br><br><strong>{{  display.info.jaun  }}</strong>
-			</div></a>
-			
 			<a href="{{ nav.link("/tables/pregpneumonia") }}">  <div id="PNEUMONIA21">
        PNEUMONIAM<br><br><strong>{{  display.info.pneumo  }}</strong>
 			</div></a>
-			
-			 <a href="{{ nav.link("/tables/pregdisability") }}"> <div id="DISABILITY21">
-       DISABILITY<br><br><strong>{{  display.info.disab  }}</strong>
-			</div></a>
-			
-			<a href="{{ nav.link("/tables/preghypothemia") }}">  <div id="HYPOTHEMIA21">
-       HYPOTHEMIA<br><br><strong>{{  display.info.hypoth  }}</strong>
-			</div></a>
-			
+	
 		<a href="{{ nav.link("/tables/preganemia") }}"> 	<div id="CLEFTPALATE21">
         SEVERE ANEMIA<br><br><strong>{{ display.info.ibibari  }}</strong>
-			</div></a>
-			
-		<a href="{{ nav.link("/tables/pregcord") }}"> <div id="CORDINFECTION">
-        CORD<br></>INFECTION<br><br><strong>{{  display.info.cordi  }}</strong>
 			</div></a>
 			
 			<a href="{{ nav.link("/tables/pregneck") }}"> <div id="NECKSTIFFNESS">
        NECK<br>STIFFNESS<br><strong>{{ display.info.necks  }}</strong>
 			</div></a>
 			
+			<a href="{{ nav.link("/tables/pregneck") }}"> <div id="NOPROBLEM">
+       NO SYMPTOMS: <strong>{{ display.info.necks  }}</strong>
+			</div></a>
+			
+			
+			
 			<div id="motherssympotmpic">
 			<img src="{{ static_path }}/images/pregnancy/motherssympotmpic.png">
 			</div>
-			<div id="highriskpic">
-			<img src="{{ static_path }}/images/pregnancy/highriskpic.png">
-			</div>
-			<div id="HighRisks">
-			High Risks
-			</div>
+			
 			<div id="MothersSymptoms">
-			Mothers' symptoms
+			SYMPTOMS
 			</div>
-			<div id="LowRisks">
-			Low Risks
-			</div>
+			
 			<!--  -->
 			
 			
@@ -236,6 +223,44 @@
 			<strong>BMI</strong> (Body Mass Index) is monitored in mothers to avoid complications pregnancies Healthy BMI is 
 			considers from 19 - 25
 			</div>
+			
+			
+			<!-- weight -->
+			<div id="ccmvcmrcopy"><img src="{{ static_path }}/images/birthreport/ccmvcmrcopy.png"></div>
+			<div id="Layer16">
+			<img src="{{ static_path }}/images/birthreport/Layer16.png">
+			</div>
+			<div id="Layer17"></div>
+			<div id="Layer18"><img src="{{ static_path }}/images/birthreport/Layer18.png"></div>
+			<div id="Lessthan2KGs">
+			Less than 45kg<br>
+			<strong>{{ display.thins|neat_numbers }}</strong>
+			</div>
+			<div id="kgs23">
+			45 to 55 Kgs<br>
+			<strong>{{ display.midweight|neat_numbers }}</strong>
+			</div>
+			<div id="Morethan2KGs">
+			More than 65kgs
+			<br><strong>{{ display.fats|neat_numbers }}</strong>
+			</div>
+			<div id="layer_2315">
+			<strong>{{ display.lessthan }}</strong> {{ display.lessthanpc }}%
+			</div>
+			<div id="layer_11477">
+			<strong>{{ display.midweight|neat_numbers }}</strong> {{ display.normalpc }}%
+			</div>
+			<div id="Weightcomparisions">
+			Weight comparisions
+			</div>
+			<div id="layer_188">
+			 54%
+			</div>
+			<div id="Childwieghtismonitor">
+			<strong>Mothers' Weight</strong> is monitored by community health workers
+			and community centers nationally to keep track of mothers' nutrition statuses 
+			</div>
+			
 			</div>
 <script type="text/javascript" >
 //REVENCE                                                                                     
@@ -319,8 +344,11 @@ $(function () {
         },
         
         series: [{
-            name: 'Pregnancies Per Month',
+            name: 'Pregnancies Confirmed',
             data: monthavgs
+        }, {
+            name: 'Expected Pregnancies',
+            data: [20, 80, 57, 63, 170, 80, 38, 71, 111, 93, 134, 90]
         }]
     });
 });

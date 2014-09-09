@@ -9,7 +9,7 @@
 			<div id="bannertext">
 			Attending to <strong>Mothers</strong> in <strong>Critical Need</strong> and those in <strong>Emergenies</strong>
 			</div>
-			<!--  <div id="bannericon"><img src="{{ static_path }}/images/redalert/redalerticon.png"></div>-->
+			<div id="bannericon"><img src="{{ static_path }}/images/redalert/redalerticon.png"></div>
 			{%  endblock %}
 
 
@@ -21,15 +21,20 @@
 	<div id="background2">
 			
 			<div id="Layer73939"><img src="{{ static_path }}/images/redalert/Layer73939.png"></div>
-			<div id="Layer73939copy"><img src="{{ static_path }}/images/redalert/Layer73939copy.png"  ></div>
+			<div id="Layer73939copy"><img src="{{ static_path }}/images/redalert/Layer73939copy.png"></div>
 			<div id="NumberofRedAlertRepo">Number of Red Alerts</div>
-			
+			<div id="PatientDirectlyRefer">Patients Directly Referred</div>
+			<div id="ASMAdvice">ASM Advice</div>
 			<div id="layer_500"><img src="{{ static_path }}/images/redalert/layer_500.png"></div>
 			<div id="layer_5001">Responsed</div>
 			<div id="Layer1">
 			{{display.total_res}}
 			</div>
-			
+			<div id="Deathsfromredalert">Deaths After Red Alert</div>
+			<div id="layer_41"><img src="{{ static_path }}/images/redalert/layer_41.png"></div>
+			<div id="Layer2">
+			{{display.death_after_alert}}
+			</div>
 			<div id="darkblue"><img src="{{ static_path }}/images/redalert/darkblue.png"></div>
 			<div id="Layer3">
 			{{display.positive_res}}
@@ -38,13 +43,20 @@
 			<div id="Layer5">
 			{{display.negative_res}}
 			</div>
-			<div id="Layer6">Deaths After Red Alert</div>
-			<div id="Layer7">Patients Directly Referred</div>
+			<div id="Layer6">Negative Response</div>
+			<div id="Layer7">Positive Response</div>
 			<div id="layer_543"><img src="{{ static_path }}/images/redalert/layer_543.png"></div>
 			<div id="Layer8">
 			{{display.total}}
 			</div>
-			
+			<div id="layer_121"><img src="{{ static_path }}/images/redalert/layer_121.png"></div>
+			<div id="Layer9">
+			{{display.asm_advice_res}}
+			</div>
+			<div id="layer_333"><img src="{{ static_path }}/images/redalert/layer_333.png"></div>
+			<div id="Layer10">
+			{{display.patient_referred_res}}
+			</div>
 			<div id="Layer1copy7"><img src="{{ static_path }}/images/redalert/hex.png"></div>
 			<div id="Layer1copy8"><img src="{{ static_path }}/images/redalert/hex.png"></div>
 			<div id="Layer1copy9"><img src="{{ static_path }}/images/redalert/hex.png"></div>

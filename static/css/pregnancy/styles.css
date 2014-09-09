@@ -9,7 +9,7 @@
 	 margin-left: auto; 
 	 margin-right: auto; 
 	 width: 1000px;
-	 height:1600px;
+	 height:2000px;
 	 overflow: hidden;
 	 z-index:2;
 	}
@@ -39,43 +39,52 @@
 
  #Layer1copy 
 { 
-	background: url(../../images/pregnancy/Layer1copy.png) repeat-x;
+	background: url(../../images/pregnancy/banner_background1.png) repeat-x;
 	 left: 0px; 
-	 top: 240px; 
+	 top: 0px; 
 	 position: absolute; 
 	 width: 100%;
 	 height: 44px;
 	 z-index:3;
-	border-radius:10px;
+	border-radius:5px;
 } 
 
  #Layer1 
 { 
-	 left: 217px; 
-	 top: 252px; 
+	 left: 0px; 
+	 top: 0px; 
+	background-color: #fff;
 	 position: absolute; 
-	 width: 380px;
-	 height: 42px;
+	 width: 50%;
+	opacity: 0.5;
+	 height: 44px;
 	 z-index:4;
 } 
 
  #PregnanciesConfirmed1
 { 
-	 left: 278px; 
-	 top: 255px; 
+	 left: 0px; 
+	 top: 10px; 
 	 position: absolute; 
-	 width: 389px;
+	 width: 50%;
 	 height: 18px;
 	 z-index:5;
 	font-family: 'Open Sans', sans-serif;
 	font-weight:lighter;
 	font-size: 20px;
+	text-align: center;
 } 
+
+ #PregnanciesConfirmed1:hover
+{ 
+	color: #fff;
+	cursor: pointer;
+}
 
  #ExpectedDeliveries 
 { 
 	 left: 687px; 
-	 top: 255px; 
+	 top: 15px; 
 	 position: absolute; 
 	 width: 359px;
 	 height: 18px;
@@ -83,6 +92,12 @@
 	font-family: 'Open Sans', sans-serif;
 	font-weight:lighter;
 	font-size: 20px;
+}
+
+ #ExpectedDeliveries:hover
+{ 
+	color: #fff;
+	cursor: pointer;
 }
 
 
@@ -157,36 +172,36 @@
 	
 	font-family: 'Open Sans', sans-serif;
 	font-weight: lighter;
-	font-size: 20px;
+	font-size: 16px;
 } 
 
  #risks78 
 { 
-	 left: 770px; 
-	 top: 473px; 
+	 left: 640px; 
+	 top: 443px; 
 	 position: relative; 
 	 width: 150px;
 	 height: 27px;
-	 z-index:3;
+	 z-index:4;
 	font-family: 'Open Sans', sans-serif;
 	font-weight: lighter;
-	font-size: 35px;
+	font-size: 25px;
 	
 	
 } 
 
  #numberofmotherpr 
 { 
-	 left: 291px; 
-	 top: 485px; 
+	 left: 650px; 
+	 top: 430px; 
 	 position: relative; 
 	 width: 494px;
 	 height: 19px;
-	 z-index:3;
+	 z-index:4;
 	font-family: 'Open Sans', sans-serif;
 	font-weight: lighter;
 	font-size: 19px;
-	color: #b30000;
+	color: #fff;
 	
 	
 } 
@@ -196,40 +211,40 @@
 	  
 	font-family: 'Open Sans', sans-serif;
 	font-weight: lighter;
-	font-size: 20px;
+	font-size: 16px;
 } 
 
  #risks65 
 { 
-	 left: 610px; 
-	 top: 430px; 
+	 left: 540px; 
+	 top: 445px; 
 	 position: relative; 
 	 width: 159px;
 	 height: 28px;
-	 z-index:3;
+	 z-index:4;
 	font-family: 'Open Sans', sans-serif;
 	font-weight: lighter;
-	font-size: 35px;
+	font-size: 25px;
 } 
 
  #numberofmotherswell 
 { 
-	 left: 291px; 
-	 top: 440px; 
+	 left: 515px; 
+	 top: 430px; 
 	 position: relative; 
 	 width: 348px;
 	 height: 20px;
-	 z-index:3;
+	 z-index:4;
 	font-family: 'Open Sans', sans-serif;
 	font-weight: lighter;
 	font-size: 19px;
-	color: #b30000;
+	color: #FFF;
 } 
 
  #Layer2 
 { 
 	 left: 487px; 
-	 top: 300px; 
+	 top: 270px; 
 	 position: relative; 
 	 width: 128px;
 	 height: 129px;
@@ -238,7 +253,7 @@
 
  #Layer1copy_0 
 { 
-	 left: 291px; 
+	 left: 250px; 
 	 top: 190px; 
 	 position: relative; 
 	 width: 129px;
@@ -248,8 +263,8 @@
 
  #ReportedRisks 
 { 
-	 left: 301px; 
-	 top: 85px; 
+	 left: 320px; 
+	 top: 150px; 
 	 position: relative; 
 	 width: 107px;
 	 height: 17px;
@@ -262,8 +277,8 @@
 
  #layer_129 
 { 
-	 left: 301px; 
-	 top: 85px; 
+	 left: 310px; 
+	 top: 150px; 
 	 position: relative; 
 	 width: 110px;
 	 height: 27px;
@@ -277,8 +292,8 @@
 
  #layer_89 
 { 
-	 left: 301px; 
-	 top: 105px; 
+	 left: 320px; 
+	 top: 170px; 
 	 position: relative; 
 	 width: 100px;
 	 height: 14px;
@@ -292,8 +307,8 @@
 
  #ResultsReported 
 { 
-	 left: 495px; 
-	 top: 50px; 
+	 left: 570px; 
+	 top: 30px; 
 	 position: relative; 
 	 width: 115px;
 	 height: 16px;
@@ -306,8 +321,8 @@
 
  #layer_89_0 
 { 
-	 left: 495px; 
-	 top: 50px; 
+	 left: 550px; 
+	 top: 30px; 
 	 position: relative; 
 	 width: 110px;
 	 height: 27px;
@@ -320,8 +335,8 @@
 
  #layer_75 
 { 
-	 left: 500px; 
-	 top: 65px; 
+	 left: 570px; 
+	 top: 45px; 
 	 position: relative; 
 	 width: 100px;
 	 height: 14px;
@@ -384,7 +399,8 @@
 	z-index:3;
 	font-family: 'Open Sans', sans-serif;
 	font-weight:lighter;
-	font-size: 20px;
+	font-size: 14px;
+	text-align: left;
 	color: #f79242;
 }
  #MonthlyPregnancyAvg9 > strong 
@@ -711,32 +727,11 @@ alpha: 0.6;
 	color:#fff;
 	cursor:pointer;
 }
- #JAUNDICE09 
-{ 
-	 left: 655px; 
-	 top: -1205px; 
-	 position: relative; 
-	 width: 59px;
-	 height: 48px;
-	 z-index:3;
-	font-family: 'Open Sans', sans-serif;
-	font-weight: normal;
-	font-size: 12px;
-}
-#JAUNDICE09 > strong
-{
-	margin-left: 20px;
-	font-size: 20px
-}
- #JAUNDICE09:hover
-{ 
-	color:#fff;
-	cursor:pointer;
-}
+
  #PNEUMONIA21 
 { 
 	 left: 685px; 
-	 top: -1310px; 
+	 top: -1260px; 
 	 position: relative; 
 	 width: 72px;
 	 height: 48px;
@@ -755,98 +750,10 @@ alpha: 0.6;
 	color:#fff;
 	cursor:pointer;
 }
- #DISABILITY21 
-{ 
-	 left: 761px; 
-	 top: -1360px; 
-	 position: relative; 
-	 width: 62px;
-	 height: 48px;
-	 z-index:3;
-	font-family: 'Open Sans', sans-serif;
-	font-weight: normal;
-	font-size: 12px;
-}
-#DISABILITY21 > strong
-{
-	margin-left: 20px;
-	font-size: 20px
-}
- #DISABILITY21:hover
-{ 
-	color:#fff;
-	cursor:pointer;
-}
- #HYPOTHEMIA21 
-{ 
-	 left: 721px; 
-	 top: -1345px; 
-	 position: relative; 
-	 width: 63px;
-	 height: 47px;
-	 z-index:3;
-	font-family: 'Open Sans', sans-serif;
-	font-weight: normal;
-	font-size: 10px;
-}
-#HYPOTHEMIA21 > strong
-{
-	margin-left: 20px;
-	font-size: 20px
-}
- #HYPOTHEMIA21:hover
-{ 
-	color:#fff;
-	cursor:pointer;
-}
- #CLEFTPALATE21 
-{ 
-	 left: 795px; 
-	 top: -1390px; 
-	 position: relative; 
-	 width: 35px;
-	 height: 57px;
-	 z-index:3;
-	font-family: 'Open Sans', sans-serif;
-	font-weight: normal;
-	font-size: 10px;
-}
-#CLEFTPALATE21 > strong
-{
-	margin-left: 20px;
-	font-size: 20px
-}
- #CLEFTPALATE21:hover
-{ 
-	color:#fff;
-	cursor:pointer;
-}
- #CORDINFECTION 
-{ 
-	 left: 840px; 
-	 top: -1516px; 
-	 position: relative; 
-	 width: 46px;
-	 height: 56px;
-	 z-index:3;
-	font-family: 'Open Sans', sans-serif;
-	font-weight: normal;
-	font-size:10px;
-}
-#CORDINFECTION > strong
-{
-	margin-left: 13px;
-	font-size: 20px
-}
- #CORDINFECTION:hover
-{ 
-	color:#fff;
-	cursor:pointer;
-}
  #NECKSTIFFNESS 
 { 
 	 left: 368px; 
-	 top: -1520px; 
+	 top: -1300px; 
 	 position: relative; 
 	 width: 48px;
 	 height: 44px;
@@ -865,63 +772,40 @@ alpha: 0.6;
 	color:#fff;
 	cursor:pointer;
 }
- #motherssympotmpic 
+
+ #NOPROBLEM 
+{ 
+	 left: 150px; 
+	 top: -1200px; 
+	 position: relative; 
+	 width: 200px;
+	 height: 44px;
+	 z-index:3;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: normal;
+	font-size: 20px;
+}
+
+#motherssympotmpic 
 { 
 	 left: 174px; 
-	 top: -1613px; 
+	 top: -1390px; 
 	 position: relative; 
 	 width: 185px;
 	 height: 98px;
 	 z-index:3;
 } 
-
- #highriskpic 
-{ 
-	 left: 416px; 
-	 top: -1543px; 
-	 position: relative; 
-	 width: 294px;
-	 height: 30px;
-	 z-index:3;
-} 
-
- #HighRisks 
-{ 
-	 left: 446px; 
-	 top: -1570px; 
-	 position: relative; 
-	 width: 79px;
-	 height: 17px;
-	 z-index:3;
-	font-family: 'Open Sans', sans-serif;
-	font-weight: normal;
-	font-size: 12px;
-} 
-
  #MothersSymptoms 
 { 
 	 left: 186px; 
-	 top: -1724px; 
+	 top: -1450px; 
 	 position: relative; 
 	 width: 137px;
 	 height: 61px;
 	 z-index:3;
 	font-family: 'Open Sans', sans-serif;
 	font-weight: normal;
-	font-size: 20px;
-} 
-
- #LowRisks 
-{ 
-	 left: 719px; 
-	 top: -1645px; 
-	 position: relative; 
-	 width: 74px;
-	 height: 13px;
-	 z-index:3;
-		font-family: 'Open Sans', sans-serif;
-	font-weight: normal;
-	font-size: 12px;
+	font-size: 25px;
 } 
 
 
@@ -931,7 +815,7 @@ alpha: 0.6;
  #handwashpic 
 { 
 	 left: 232px; 
-	 top: -1490px; 
+	 top: -1190px; 
 	 position: relative; 
 	 width: 89px;
 	 height: 90px;
@@ -941,7 +825,7 @@ alpha: 0.6;
  #handwashfacilities 
 { 
 	 left: 192px; 
-	 top: -1631px; 
+	 top: -1331px; 
 	 position: relative; 
 	 width: 286px;
 	 height: 25px;
@@ -954,7 +838,7 @@ alpha: 0.6;
  #layer_12289 
 { 
 	 left: 340px; 
-	 top: -1596px; 
+	 top: -1296px; 
 	 position: relative; 
 	 width: 127px;
 	 height: 31px;
@@ -972,7 +856,7 @@ alpha: 0.6;
  #layer_10985 
 { 
 	 left: 712px; 
-	 top: -1630px; 
+	 top: -1330px; 
 	 position: relative; 
 	 width: 126px;
 	 height: 31px;
@@ -990,7 +874,7 @@ alpha: 0.6;
  #ToiletFacilities 
 { 
 	 left: 633px; 
-	 top: -1716px; 
+	 top: -1416px; 
 	 position: relative; 
 	 width: 214px;
 	 height: 25px;
@@ -1003,7 +887,7 @@ alpha: 0.6;
  #Availabilityof 
 { 
 	 left: 440px; 
-	 top: -1790px; 
+	 top: -1490px; 
 	 position: relative; 
 	 width: 213px;
 	 height: 33px;
@@ -1016,7 +900,7 @@ alpha: 0.6;
  #toiletpic 
 { 
 	 left: 591px; 
-	 top: -1730px; 
+	 top: -1430px; 
 	 position: relative; 
 	 width: 102px;
 	 height: 102px;
@@ -1140,4 +1024,160 @@ alpha: 0.6;
 #pregnantmothers
 {
 	display: none;
+}
+
+
+/********************************/
+ #Layer16 
+{ 
+	 left: 168px; 
+	 top: 1621px; 
+	 position: absolute; 
+	 width: 582px;
+	 height: 218px;
+	 z-index:61;
+} 
+
+ #Layer17 
+{ 
+	background-color: #25eda9;
+	 left: 311px; 
+	 top: 1725px; 
+	 position: absolute; 
+	 width: 88px;
+	 height: 100px;
+	 z-index:62;
+} 
+
+ #Layer18 
+{ 
+	 left: 432px; 
+	 top: 1787px; 
+	 position: absolute; 
+	 width: 88px;
+	 height: 36px;
+	 z-index:63;
+} 
+
+ #Lessthan2KGs 
+{ 
+	 left: 174px; 
+	 top: 1752px; 
+	 position: absolute; 
+	 width: 100px;
+	 height: 9px;
+	 z-index:64;
+	font-family: 'Open Sans', sans-serif;
+	font-weight:normal;
+	font-size: 12px;
+} 
+
+ #kgs23 
+{ 
+	 left: 328px; 
+	 top: 1665px; 
+	 position: absolute; 
+	 width: 149px;
+	 height: 9px;
+	 z-index:65;
+	font-family: 'Open Sans', sans-serif;
+	font-weight:normal;
+	font-size: 12px;
+} 
+
+ #Morethan2KGs 
+{ 
+	 left: 431px; 
+	 top: 1740px; 
+	 position: absolute; 
+	 width: 120px;
+	 height: 9px;
+	 z-index:66;
+	font-family: 'Open Sans', sans-serif;
+	font-weight:normal;
+	font-size: 12px;
+}
+ #Morethan2KGs > strong
+{
+	font-size: 18px;
+}
+
+ #layer_2315 
+{ 
+	 left: 180px; 
+	 top: 1781px; 
+	 position: absolute; 
+	 width: 76px;
+	 height: 22px;
+	 z-index:67;
+	font-family: 'Open Sans', sans-serif;
+	font-weight:normal;
+	font-size: 18px;
+	color:#fff;
+}
+ #layer_2315 > strong
+{ 
+	font-size: 28px;
+}
+
+ #layer_11477 
+{ 
+	 left: 330px; 
+	 top: 1723px; 
+	 position: absolute; 
+	 width: 43px;
+	 height: 38px;
+	 z-index:68;
+	font-family: 'Open Sans', sans-serif;
+	font-weight:normal;
+	font-size: 18px;
+	color:#fff;	
+}
+#layer_11477 > strong 
+{ 
+	font-size: 25px;
+} 
+
+ #Weightcomparisions 
+{ 
+	 left: 276px; 
+	 top: 1627px; 
+	 position: absolute; 
+	 width: 213px;
+	 height: 21px;
+	 z-index:69;
+	font-family: 'Open Sans', sans-serif;
+	font-weight:bold;
+	font-size: 20px;
+} 
+
+ #layer_188 
+{ 
+	 left: 445px; 
+	 top: 1785px; 
+	 position: absolute; 
+	 width: 86px;
+	 height: 22px;
+	 z-index:70;
+	font-family: 'Open Sans', sans-serif;
+	font-weight:normal;
+	font-size: 18px;
+	color:#fff;	
+}
+#layer_188 > strong 
+{ 
+	font-size: 25px;
+} 
+
+ #Childwieghtismonitor 
+{ 
+	 left: 548px; 
+	 top: 1728px; 
+	 position: absolute; 
+	 width: 301px;
+	 height: 92px;
+	 z-index:71;
+	font-family: 'Open Sans', sans-serif;
+	font-weight:normal;
+	font-size: 15px;
 }

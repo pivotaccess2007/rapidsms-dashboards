@@ -285,7 +285,7 @@
 	 left: 214px; 
 	 top: 953px; 
 	 position: absolute; 
-	 width: 122px;
+	 width: 200px;
 	 height: 14px;
 	 z-index:39;
 	font-family: 'Open Sans', sans-serif;
@@ -502,7 +502,7 @@
 
  #Route 
 { 
-	 left: 660px; 
+	left: 500px;  
 	 top: 320px; 
 	 position: relative; 
 	 width: 39px;
@@ -520,7 +520,7 @@
 
  #Hospital 
 { 
-	 left: 500px; 
+	left: 220px; 
 	 top: 345px; 
 	 position: relative; 
 	 width: 39px;
@@ -558,7 +558,8 @@
 
  #home 
 { 
-	 left: 220px; 
+	
+	 left: 660px; 
 	 top: 398px; 
 	 position: relative; 
 	 width: 59px;
@@ -576,7 +577,7 @@
 
  #Hospital1
 { 
-	 left: 500px; 
+	 left: 216px;
 	 top: 180px; 
 	 position: relative; 
 	 width: 102px;
@@ -586,7 +587,8 @@
 
  #home1 
 { 
-	 left: 216px; 
+	
+	 left: 646px; 
 	 top: 80px; 
 	 position: relative; 
 	 width: 102px;
@@ -596,7 +598,7 @@
 
  #OnRoute 
 { 
-	 left: 646px; 
+	left: 500px;   
 	 top: -25px; 
 	 position: relative; 
 	 width: 104px;
@@ -703,51 +705,67 @@
 
  #Layer1copy 
 { 
-	background: url(../../images/delivery/tab_background.png) repeat-x;
-	 left: 1px; 
-	 top: 240px; 
+	background: url(../../images/pregnancy/banner_background1.png) repeat-x;
+	 left: 0px; 
+	 top: 0px; 
 	 position: absolute; 
 	 width: 100%;
 	 height: 44px;
-	 z-index:68;
-	border-radius:10px;
+	 z-index:3;
+	border-radius:5px;
 } 
 
  #Layer15 
 { 
-	 left: 503px; 
-	 top: 241px; 
+	  right: 0px; 
+	 top: 0px; 
+	background-color: #fff;
 	 position: absolute; 
-	 width: 379px;
-	 height: 41px;
-	 z-index:69;
+	 width: 50%;
+	opacity: 0.5;
+	 height: 44px;
+	 z-index:4;
 } 
 
  #PregnanciesConfirmed 
 { 
-	 left: 183px; 
-	 top: 254px; 
+	left: 0px; 
+	 top: 10px; 
 	 position: absolute; 
-	 width: 289px;
+	 width: 50%;
 	 height: 18px;
-	 z-index:70;
+	 z-index:5;
 	font-family: 'Open Sans', sans-serif;
 	font-weight:lighter;
 	font-size: 20px;
-} 
+	text-align: center;
+}
+
+ #PregnanciesConfirmed:hover
+{ 
+	color: #fff;
+	cursor: pointer;
+}
 
  #ExpectedDeliveries 
 { 
-	 left: 591px; 
-	 top: 254px; 
+	left: 687px; 
+	 top: 15px; 
 	 position: absolute; 
-	 width: 258px;
+	 width: 359px;
 	 height: 18px;
-	 z-index:71;
+	 z-index:5;
 	font-family: 'Open Sans', sans-serif;
 	font-weight:lighter;
 	font-size: 20px;
-} 
+}
+
+ #ExpectedDeliveries:hover
+{ 
+	color: #fff;
+	cursor: pointer;
+}
+
 
 /****************************************/
 

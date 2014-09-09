@@ -20,14 +20,16 @@
 {% endblock %}
 {%  block   bodycontent %}
    
-     <div id="background2" style=" margin-left: auto; margin-right: auto; width: 1000px; height: 900px; font-family: 'Open Sans', sans-serif; font-size: 15px;">
+     <div id="background2" style=" margin-left: auto; margin-right: auto; width: 1000px; height: 700px; font-family: 'Open Sans', sans-serif; font-size: 15px;">
 {{  display.nat.count() }} Records
 <button type="button">Export</button>
 {%  set cpg, rng, pgs = nav.pages(display.nat) %}
 
+
+ 
 <br>
 <br>
-<div style="height: 650px; overflow: scroll; " >
+<div style="height: 500px; overflow: scroll; " >
 
 <table>
   <thead>
