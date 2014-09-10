@@ -1062,7 +1062,7 @@ alpha: 0.6;
  #Lessthan2KGs 
 { 
 	 left: 174px; 
-	 top: 1752px; 
+	 top: 1720px; 
 	 position: absolute; 
 	 width: 100px;
 	 height: 9px;
@@ -1070,7 +1070,12 @@ alpha: 0.6;
 	font-family: 'Open Sans', sans-serif;
 	font-weight:normal;
 	font-size: 12px;
-} 
+}
+
+ #Lessthan2KGs > strong
+{
+	font-size: 20px;
+}
 
  #kgs23 
 { 
@@ -1083,7 +1088,12 @@ alpha: 0.6;
 	font-family: 'Open Sans', sans-serif;
 	font-weight:normal;
 	font-size: 12px;
-} 
+}
+
+ #kgs23 > strong
+{
+	font-size: 20px;
+}
 
  #Morethan2KGs 
 { 
@@ -1123,7 +1133,7 @@ alpha: 0.6;
  #layer_11477 
 { 
 	 left: 330px; 
-	 top: 1723px; 
+	 top: 1743px; 
 	 position: absolute; 
 	 width: 43px;
 	 height: 38px;

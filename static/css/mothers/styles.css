@@ -1,0 +1,459 @@
+
+
+
+ #background2 
+{ 
+	 left: 0px; 
+	 top: 0px; 
+	 position: relative; 
+	 margin-left: auto; 
+	 margin-right: auto; 
+	 width: 1000px;
+	 height:1000px;
+	 overflow: hidden;
+	 z-index:2;
+	}
+
+
+ #Layer7copy 
+{ 
+	 left: 65px; 
+	 top: 20px; 
+	 position: absolute; 
+	 width: 857px;
+	 height: 516px;
+	 z-index:2;
+}
+
+ #Layer7copy_0 
+{ 
+	 left: 63px; 
+	 top: 787px; 
+	 position: absolute; 
+	 width: 857px;
+	 height: 272px;
+	 z-index:3;
+} 
+
+
+
+ #Layer1copy 
+{ 
+	background: url(../../images/pregnancy/banner_background1.png) repeat-x;
+	 left: 0px; 
+	 top: 0px; 
+	 position: absolute; 
+	 width: 100%;
+	 height: 44px;
+	 z-index:3;
+	border-radius:5px;
+} 
+
+ #Layer1 
+{ 
+	 left: 0px; 
+	 top: 0px; 
+	background-color: #fff;
+	 position: absolute; 
+	 width: 50%;
+	opacity: 0.5;
+	 height: 44px;
+	 z-index:4;
+} 
+
+
+
+/*********************************/
+
+ #pregnancies 
+{ 
+	 left: 262px; 
+	 top: 50px; 
+	 position: absolute; 
+	 width: 83px;
+	 height: 163px;
+	 z-index:9;
+} 
+
+ #Pregnanciesconfirmed 
+{ 
+	 left: 560px; 
+	 top: 120px; 
+	 position: absolute; 
+	 width: 320px;
+	 height: 53px;
+	 z-index:10;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 25px;
+	color: #f79242;
+}
+
+ #Pregnanciesconfirmednumber 
+{ 
+	 left: 660px; 
+	 top: 170px; 
+	 position: absolute; 
+	 width: 320px;
+	 height: 53px;
+	 z-index:10;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: bold;
+	font-size: 30px;
+	
+}
+
+
+ #Pregnanciesconfirmed_0 
+{ 
+	 left: 376px; 
+	 top: 110px; 
+	 position: absolute; 
+	 width: 118px;
+	 height: 44px;
+	 z-index:11;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 25px;
+	color: #f79242;
+} 
+
+ #layer_150 
+{ 
+	 left: 393px; 
+	 top: 157px; 
+	 position: absolute; 
+	 width: 62px;
+	 height: 28px;
+	 z-index:12;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 30px;
+	font-weight:bold;
+}
+#layer_150 > a
+{
+	color:#493913;
+}
+
+
+/***************************************/
+
+ #LMPinrelativetopregn 
+{ 
+	 left: 100px;
+	top: 300px; 
+	position: absolute; 
+	width: 50%;
+	float:left;
+	text-align: center;
+	height: 17px;
+	z-index:3;
+	font-family: 'Open Sans', sans-serif;
+	font-weight:lighter;
+	font-size: 30px;
+	color: #f79242;
+} 
+
+ #LMPinrelativetopregn > strong 
+{ 
+	color: #000;
+	font-weight: lighter;
+	font-size: 35px;
+}
+
+ #MonthlyPregnancyAvg9 
+{ 
+	 left: 500px;
+	top: 300px; 
+	position: absolute; 
+	width: 50%;
+	float:right;
+	text-align: center;
+	height: 24px;
+	z-index:3;
+	font-family: 'Open Sans', sans-serif;
+	font-weight:lighter;
+	font-size: 30px;
+	text-align: left;
+	color: #f79242;
+}
+ #MonthlyPregnancyAvg9 > strong 
+{ 
+	color: #000;
+	font-weight:lighter;
+	padding-left: 35px;
+		
+} 
+
+
+
+
+
+
+/*********************/
+
+
+ #handwashpic 
+{ 
+	 left: 232px; 
+	 top: 820px; 
+	 position: absolute; 
+	 width: 89px;
+	 height: 90px;
+	 z-index:3;
+} 
+
+ #handwashfacilities 
+{ 
+	 left: 192px; 
+	 top: 780px; 
+	 position: absolute; 
+	 width: 286px;
+	 height: 25px;
+	 z-index:3;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: lighter;
+	font-size: 20px;
+} 
+
+ #layer_12289 
+{ 
+	 left: 340px; 
+	 top: 810px; 
+	 position: absolute; 
+	 width: 250px;
+	 height: 31px;
+	 z-index:3;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: lighter;
+	font-size: 18px;
+}
+ #layer_12289>strong
+{ 
+	font-weight: lighter;
+	font-size: 45px; 
+} 
+
+ #layer_10985 
+{ 
+	 left: 712px; 
+	 top: 810px; 
+	 position: absolute; 
+	 width: 250px;
+	 height: 31px;
+	 z-index:3;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: lighter;
+	font-size: 18px;
+}
+#layer_10985 > strong
+{ 
+	font-weight: lighter;
+	font-size: 45px; 
+} 
+
+ #ToiletFacilities 
+{ 
+	 left: 633px; 
+	 top: 780px; 
+	 position: absolute; 
+	 width: 214px;
+	 height: 25px;
+	 z-index:3;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: lighter;
+	font-size: 20px;
+} 
+
+ #Availabilityof 
+{ 
+	 left: 440px; 
+	 top: 750px; 
+	 position: absolute; 
+	 width: 213px;
+	 height: 33px;
+	 z-index:3;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: bold;
+	font-size: 25px;
+} 
+
+ #toiletpic 
+{ 
+	 left: 591px; 
+	 top: 820px; 
+	 position: absolute; 
+	 width: 102px;
+	 height: 102px;
+	 z-index:3;
+	
+}
+
+
+/********************************/
+
+
+
+/********************************/
+ #Layer1copy7 
+{ 
+	 left: 563px; 
+	 top: 461px; 
+	 position: absolute; 
+	 width: 92px;
+	 height: 106px;
+	 z-index:24;
+} 
+
+
+
+ #Layer1copy9 
+{ 
+	 left: 758px; 
+	 top: 461px; 
+	 position: absolute; 
+	 width: 92px;
+	 height: 106px;
+	 z-index:26;
+} 
+
+ #Layer1copy10 
+{ 
+	 left: 709px; 
+	 top: 549px; 
+	 position: absolute; 
+	 width: 92px;
+	 height: 106px;
+	 z-index:27;
+} 
+
+ #Layer1copy11 
+{ 
+	 left: 612px; 
+	 top: 549px; 
+	 position: absolute; 
+	 width: 92px;
+	 height: 106px;
+	 z-index:28;
+} 
+
+
+ #Layer11 
+{ 
+	 left: 266px; 
+	 top: 471px; 
+	 position: absolute; 
+	 width: 253px;
+	 height: 132px;
+	 z-index:30;
+} 
+
+ #COUGHING24 
+{ 
+	 left: 565px; 
+	 top: 487px; 
+	 position: absolute; 
+	 width: 85px;
+	 height: 61px;
+	 z-index:31;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: normal;
+	font-size: 17px;
+}
+#COUGHING24 > strong
+{
+	margin-left: 20px;
+	font-size: 30px
+}
+ #COUGHING24:hover
+{ 
+	color:#fff;
+	cursor:pointer;
+} 
+
+
+
+ #FEVER12 
+{ 
+	 left: 780px; 
+	 top: 486px; 
+	 position: absolute; 
+	 width: 47px;
+	 height: 66px;
+	 z-index:33;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: normal;
+	font-size: 17px;
+}
+#FEVER12 > strong
+{
+	margin-left: 20px;
+	font-size: 30px
+}
+ #FEVER12:hover
+{ 
+	color:#fff;
+	cursor:pointer;
+}  
+
+ #MALARIA09 
+{ 
+	 left: 621px; 
+	 top: 570px; 
+	 position: absolute; 
+	 width: 71px;
+	 height: 65px;
+	 z-index:34;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: normal;
+	font-size: 17px;
+}
+#MALARIA09 > strong
+{
+	margin-left: 20px;
+	font-size: 30px
+}
+ #MALARIA09:hover
+{ 
+	color:#fff;
+	cursor:pointer;
+} 
+
+ #VOMITING18 
+{ 
+	 left: 715px; 
+	 top: 574px; 
+	 position: absolute; 
+	 width: 79px;
+	 height: 66px;
+	 z-index:35;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: normal;
+	font-size: 17px;
+}
+#VOMITING18 > strong
+{
+	margin-left: 20px;
+	font-size: 30px
+}
+ #VOMITING18:hover
+{ 
+	color:#fff;
+	cursor:pointer;
+}  
+
+
+ #RedAlertReportSympto 
+{ 
+	 left: 285px; 
+	 top: 490px; 
+	 position: absolute; 
+	 width: 147px;
+	 height: 102px;
+	 z-index:37;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: normal;
+	font-size: 27px;
+	color:#fff;
+} 
+
+
+

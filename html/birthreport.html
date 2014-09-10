@@ -108,49 +108,21 @@
 			
 			
 			<!-- breast feeding -->
-			<div id="ccmvcmrcopy2"><img src="{{ static_path }}/images/birthreport/ccmvcmrcopy2.png"></div>
+			
 			<div id="layer_21">
 			{{  display.delivs[0].bfeed|neat_numbers }}
 			</div>
 			<div id="notbreastfeeding">
-			Not breast feeding:
+			Not breast feeding in first hour:
 			</div>
 			<div id="layer_321">
 			{{  display.delivs[0].nbfeed|neat_numbers }}
 			</div>
 			<div id="breastfeed">
-			Breast feeding:
+			Breast feeding in first hour:
 			</div>
 			<div id="Layer19"><img src="{{ static_path }}/images/birthreport/Layer19.png"></div>
 			
 			
-			
-			<!-- mauc -->
-			<div id="Layer20"><img src="{{ static_path }}/images/birthreport/Layer20.png"></div>
-			<div id="Layer21"><img src="{{ static_path }}/images/birthreport/Layer21.png"></div>
-			<div id="layer_12">
-			{{ display.maucnormal }}
-			</div>
-			<div id="layer_54">
-			{{ display.mauclow }}
-			</div>
-			<div id="layer_98_0">
-			{{ display.mauchigh }}
-			</div>
-			<div id="high">
-			<strong>High</strong>(5 cms)
-			</div>
-			<div id="low">
-			<strong>Low</strong>(2 cms)
-			</div>
-			<div id="normal">
-			<strong>Normal</strong>(3 cms)
-			</div>
-			<div id="avg29">
-			Avg: 2.9 Cms
-			</div>
-			<div id="MAUC">
-			MAUC
-			</div>
 </div>
 {%  endblock  %}

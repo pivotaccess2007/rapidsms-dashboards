@@ -11,26 +11,93 @@
     <link rel="stylesheet" href="//ajax.googleapis.com/ajax/libs/jqueryui/1.11.0/themes/smoothness/jquery-ui.css" />
     
     <script src="{{ static_path }}/js/jquery-1.11.1.js"></script>
+        <script src="{{ static_path }}/js/zdmin.js"></script>
     <script src="{{ static_path }}/js/jqui/jquery-ui.js"></script>    
 	 <script src="{{  static_path }}/js/library/clientside.js"></script>
 	 <script src="{{  static_path }}/js/bgStretch.js"></script>
 	 <script src="{{ static_path }}/js/base/filterDate.js" type="text/javascript"></script>
 	<script>
 			$(document).ready(function(){
+				
 				$('#bgStretch')
 					.bgStretch({
 						align:'leftTop'
-				})
+					});
 			});
 
 			
 			function start() {
-				myform.tx.disabled = true;
+				myform.ca.checked = true;
+				myform.cb.checked = true;
+				myform.cc.checked = true;
+				myform.provchoose.disabled = false;
+				myform.distchoose.disabled = false;
+				myform.locchoose.disabled = false;
 				}
 				onload = start;
 				function chgtx() {
-				myform.tx.disabled = !myform.cb.checked;
-				}
+					myform.provchoose.disabled = !myform.ca.checked;
+					}
+				function chgty() {
+					myform.distchoose.disabled = !myform.cb.checked;
+					}
+				function chgtz() {
+					myform.locchoose.disabled = !myform.cc.checked;
+					}
+				
+				
+				
+				
+				//START FILTERING LOCATIONS
+				var locations = [];
+
+				$.getJSON( "/locs" , function( result ){
+				
+						var provinces = _.map(_.indexBy(result, 'province_id'), function(obj){return obj});
+					
+						for ( var i=0; i<provinces.length; i++ ){
+							province = provinces[i]
+							document.getElementById('provchoose').options.length= provinces.length;
+							document.getElementById('provchoose').options[i] = new Option(province.province_name, province.province_id);
+							}
+
+				
+						locations = result;
+
+	    					});
+					
+
+				function changeDistrict(value){
+
+					var districts = _.map(_.indexBy(locations, 'district_id'), function(obj){ return obj });
+
+					var selected_districts = _.filter(districts, function(item) {  return item.province_id == value;  });
+			
+					for ( var i=0; i<selected_districts.length; i++ ){
+								district = selected_districts[i]
+								document.getElementById('distchoose').options.length = selected_districts.length;
+								document.getElementById('distchoose').options[i] = new Option(district.district_name, district.district_id);
+								}
+
+					var sel = document.getElementById('distchoose').value;	
+					changeLocation(sel);
+
+					}
+
+				function changeLocation(value){
+
+					var selected_locations = _.filter(locations, function(item) {  return item.district_id == value; });
+			
+					for ( var i=0; i<selected_locations.length; i++ ){
+								hc = selected_locations[i]
+								document.getElementById('locchoose').options.length = selected_locations.length;
+								document.getElementById('locchoose').options[i] = new Option(hc.name, hc.id);
+								}
+
+					}
+
+				// END FILTERING
+				
 
 	</script>
 
@@ -92,7 +159,7 @@
    <li class="{%  if  ref == 'nutrition' %} active{%  endif %}"><a href='/dashboards/{{ nav.link("nutrition") }}'><span>Nutrition</span></a></li>
    <li class="{%  if  ref == 'childhealth' %} active{%  endif %}"><a href='/dashboards/{{ nav.link("childhealth") }}'><span>Child Health</span></a></li>
    <li class="{%  if  ref == 'ccm' %} active{%  endif %}"><a href='/dashboards/{{ nav.link("ccm") }}'><span>CCM</span></a></li>
-   <li class="{%  if  ref == 'nbc' %} active{%  endif %}"><a href='/dashboards/{{ nav.link("nbc") }}'><span>NBC</span></a></li>
+  <!--  <li class="{%  if  ref == 'nbc' %} active{%  endif %}"><a href='/dashboards/{{ nav.link("nbc") }}'><span>NBC</span></a></li>-->
    <li class="{%  if  ref == 'pnc' %} active{%  endif %}"><a href='/dashboards/{{ nav.link("pnc") }}'><span>PNC</span></a></li>
    <li class="{%  if  ref == 'redalert' %} active{%  endif %}"><a href='/dashboards/{{ nav.link("redalert") }}'><span>Red Alert</span></a></li>
    <li class='last'><a href='/dashboards/{{ nav.link("death") }}'><span>Death Report</span></a></li>
@@ -106,6 +173,18 @@
 			<!-- filter -->
 			<form name="myform">
 			<div id="locations">
+			
+		<div>
+		<input type="checkbox" name="ca" onchange="chgtx();" />
+		<select name="province" id="provchoose" onChange="changeDistrict(this.value);"><option> </option> </select>
+		<input type="checkbox" name="cb" onchange="chgty();" />
+		<select name="district" id="distchoose" onChange="changeLocation(this.value);"><option >  </option>  </select>
+		<input type="checkbox" name="cc" onchange="chgtz();" />
+		<select name="location" id="locchoose"><option > </option></select> 
+		</div>
+			
+			
+			<!--  
 			 <div>
                {%  for el in nav.listing %}
                  <a style="font-family: 'Open Sans', sans-serif; font-size: 15px; color:#fff;" href="/dashboards/{{  el.link(ref) }}">{{ el.name }} {{ el.title  }}</a>-
@@ -130,7 +209,7 @@
                   {%  endfor  %}
                 </select>
               {%  endif %}
-              
+              -->
             <!--   <a style="font-family: 'Open Sans', sans-serif; font-size: 15px; color:#fff;" href="{{  nav.listing[(nav.listing|length-2)].link(ref) }}">{{  nav.listing[(nav.listing|length-1)] }}</a>-->
               
              

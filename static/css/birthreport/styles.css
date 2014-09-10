@@ -8,7 +8,7 @@
 	 margin-left: auto; 
 	 margin-right: auto; 
 	 width: 1000px;
-	 height: 1550px; 
+	 height: 1400px; 
 	 overflow: hidden;
 	 z-index:0;
 	} 
@@ -451,8 +451,8 @@
 
  #layer_21 
 { 
-	 left: 677px; 
-	 top: 1211px; 
+	 left: 460px; 
+	 top: 1260px; 
 	 position: absolute; 
 	 width: 39px;
 	 height: 33px;
@@ -465,21 +465,21 @@
  #notbreastfeeding 
 { 
 	 left: 361px; 
-	 top: 1200px; 
+	 top: 1230px; 
 	 position: absolute; 
-	 width: 310px;
+	 width: 400px;
 	 height: 38px;
 	 z-index:74;
 	font-family: 'Open Sans', sans-serif;
 	font-weight:lighter;
-	font-size: 35px;
+	font-size: 25px;
 	color: #2f2c9b;
 } 
 
  #layer_321 
 { 
-	 left: 614px; 
-	 top: 1156px; 
+	 left: 500px; 
+	 top: 1190px; 
 	 position: absolute; 
 	 width: 65px;
 	 height: 34px;
@@ -494,12 +494,12 @@
 	 left: 361px; 
 	 top: 1160px; 
 	 position: absolute; 
-	 width: 238px;
+	 width: 350px;
 	 height: 38px;
 	 z-index:76;
 	font-family: 'Open Sans', sans-serif;
 	font-weight:lighter;
-	font-size: 35px;
+	font-size: 25px;
 	color: #2f2c9b;
 } 
 

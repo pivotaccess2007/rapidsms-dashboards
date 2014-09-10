@@ -49,6 +49,12 @@
 			<div id="UnknownDeliveries23">
 			Expected Deliveries:
 			</div>
+			
+			<div id="unreported">
+			Unreported Deliveries: 
+			</div>
+			
+			
 			<div id="layer_23_0">
 		<!-- {{  display.unknowns|neat_numbers }}-->
 			</div>
@@ -75,96 +81,6 @@
 			<div id="OnRoute"><img src="{{ static_path }}/images/delivery/OnRoute.png"></div>
 			<div id="clinic"><img src="{{ static_path }}/images/delivery/clinic.png"></div>
 			
-			
-			
-			<!-- weight -->
-			<div id="ccmvcmrcopy"><img src="{{ static_path }}/images/delivery/ccmvcmrcopy.png"></div>
-			
-		
-			<div id="layer_2315">
-			Less than 45 Kgs<br>
-			<strong>{{ display.thins|neat_numbers }}</strong>{{  "%.2f" % display.thinpc}}%
-			</div>
-		
-			<div id="layer_11477">
-			45 - 65 kgs  <br>
-			<strong>{{ display.midweight|neat_numbers }}</strong><br>
-			{{  "%.2f" % display.midpc}}%
-			</div>
-			
-			<div id="layer_188">
-			More than 65 Kgs<br><br>
-			<strong>{{ display.fats|neat_numbers }}</strong>{{  "%.2f" % display.fatpc}}%
-			</div>
-			
-			
-			<div id="PregnanyMotherWeight">
-			Pregnant Mothers' Weight
-			</div>
-			
-			<div id="MothersWieghtismonit">
-			<strong>Mothers' Weight</strong> is monitored by community health workers
-			and community centers nationally to keep track of mothers' nutrition statuses 
-			</div>
-			
-			
-			
-		
-			<!-- ANC -->
-			<div id="ccmvcmrcopy2"><img src="{{ static_path }}/images/delivery/ccmvcmrcopy2.png"></div>
-			<div id="Layer4"><img src="{{ static_path }}/images/delivery/Layer4.png"></div>
-			<div id="ANCVISIT">
-			ANC VISITS
-			</div>
-			<div id="Layer5"><img src="{{ static_path }}/images/delivery/Layer5.png"></div>
-			<div id="ANC443">
-			ANC 4
-			</div>
-			<div id="anc4number">
-			{{display.ancs[3].total}}
-			</div>
-			
-			<div id="Layer6"><img src="{{ static_path }}/images/delivery/Layer6.png"></div>
-			<div id="ANC369">
-			ANC 3
-			</div>
-			<div id="anc3number">
-			{{display.ancs[2].total}}
-			</div>
-			<div id="Layer7"><img src="{{ static_path }}/images/delivery/Layer7.png"></div>
-			<div id="ANC267">
-			ANC 2
-			</div>
-			<div id="anc2number">
-			{{display.ancs[1].total}}
-			</div>
-			<div id="Layer8"><img src="{{ static_path }}/images/delivery/Layer8.png"></div>
-			<div id="ANC198">
-			ANC 1
-			</div>
-			<div id="anc1number">
-			{{ display.ancs[0].total }}
-			</div>
-			<div id="Layer9"><img src="{{ static_path }}/images/delivery/Layer9.png"></div>
-			<div id="ANCATTENDANCE">
-			ANC ATTENDANCE
-			</div>
-			
-			<div id="layer_74">
-			4 standard visits: <strong>{{ display.allanc }}</strong> {{ display.allancpc }}%
-			</div>
-			<div id="ANC1">
-			ANC 1: <strong>{{ "%.2f" %  display.ancs[0].rpc}}%</strong> 
-			</div>
-			<div id="ANC2">
-			ANC 2: <strong>{{ "%.2f" %  display.ancs[1].rpc}}%</strong> 
-			</div>
-			<div id="ANC3">
-			ANC 3: <strong>{{ "%.2f" %  display.ancs[2].rpc}}%</strong>
-			</div>
-			<div id="ANC4">
-			ANC 4: <strong>{{ "%.2f" %  display.ancs[3].rpc}}%</strong> 
-			</div>
-				
+					
 </div>
 {%  endblock  %}

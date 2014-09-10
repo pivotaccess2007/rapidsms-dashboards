@@ -13,202 +13,201 @@
 	 z-index:0;
 	} 
 
- 
-	
-	 #ccmvcmr 
+
+ #Layer7copy 
 { 
-	 left: 138px; 
-	 top: 0px; 
+	 left: 70px; 
+	 top: 5px; 
 	 position: absolute; 
-	 width: 752px;
-	 height: 261px;
+	 width: 851px;
+	 height: 528px;
+	 z-index:41;
+} 
+
+ #POSTNATALCARE 
+{ 
+	 left: 50px; 
+	 top: 10px; 
+	 position: absolute; 
+	 width: 208px;
+	 height: 209px;
 	 z-index:42;
 } 
 
- #newborncare 
+ #NewBornCarevisits 
 { 
-	 left: 248px; 
-	 top: 36px; 
+	 left: 412px; 
+	 top: 20px; 
 	 position: absolute; 
-	 width: 498px;
-	 height: 21px;
+	 width: 140px;
+	 height: 42px;
 	 z-index:43;
-	 font-family: 'Open Sans', sans-serif;
-	 font-size: 20px;
-	
 } 
 
- #lightblue 
+ #NumberofNewBorncarev 
 { 
-	 left: 647px; 
-	 top: 74px; 
+	 left: 303px; 
+	 top: 30px; 
 	 position: absolute; 
-	 width: 144px;
-	 height: 146px;
+	 width: 306px;
+	 height: 17px;
 	 z-index:44;
+	 font-family:"Open Sans";
+	font-size:16px;
+	font-weight:bold;
+	color:#333;
 } 
 
- #top 
-{ 
-	 left: 687px; 
-	 top: 89px; 
-	 position: absolute; 
-	 width: 93px;
-	 height: 35px;
-	 z-index:45;
-	font-family: 'Open Sans', sans-serif;
-	 font-size: 18px;
-	color: #fff;
-} 
+ #layer_321 
+{
+	left: 580px;
+	top: 20px;
+	position: absolute;
+	width: 110px;
+	height: 26px;
+	z-index:45;
+	font-family:"Open Sans";
+	font-size:20px;
+	font-weight:bold;
+	color:#333;
+}
 
- #layer_7807 
+ #layer_321 > strong 
+{
+	font-size: 30px;	
+}
+ #Firstncb 
 { 
-	 left: 660px; 
-	 top: 129px; 
+	 left: 300px; 
+	 top: 78px; 
 	 position: absolute; 
-	 width: 126px;
-	 height: 53px;
+	 width: 480px;
+	 height: 60px;
 	 z-index:46;
 	font-family: 'Open Sans', sans-serif;
-	font-weight:lighter;
-	 font-size: 28px;
-	color: #7558df;
+	font-size: 18px;
+	color: #9125ed;
 }
- #layer_7807 > strong
+#Firstncb > strong
 { 
-	color: #fff;
-	font-weight:normal;
-	font-size: 42px;
+	color: #000;
+	font-size: 22px;
 }
 
-
- #purplecircle 
+ #secondncb 
 { 
-	 left: 497px; 
-	 top: 73px; 
+	 left: 430px; 
+	 top: 78px; 
 	 position: absolute; 
-	 width: 145px;
-	 height: 147px;
+	 width: 480px;
+	 height: 60px;
+	 z-index:46;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 18px;
+	color: #9125ed;
+}
+#secondncb > strong
+{ 
+	color: #000;
+	font-size: 22px;
+}
+
+ #third1ncb 
+{ 
+	 left: 580px; 
+	 top: 78px; 
+	 position: absolute; 
+	 width: 480px;
+	 height: 60px;
+	 z-index:46;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 18px;
+	color: #9125ed;
+} 
+#third1ncb > strong
+{ 
+	color: #000;
+	font-size: 22px;
+}
+
+ #fourth1ncb 
+{ 
+	 left: 700px; 
+	 top: 78px; 
+	 position: absolute; 
+	 width: 480px;
+	 height: 60px;
+	 z-index:46;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 18px;
+	color: #9125ed;
+}
+#fourth1ncb > strong
+{ 
+	color: #000;
+	font-size: 22px;
+}
+
+
+ #FithNBC 
+{ 
+	 left: 672px; 
+	 top: 220px; 
+	 position: absolute; 
+	 width: 98px;
+	 height: 17px;
 	 z-index:47;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 18px;
 } 
 
- #top1 
+ #layer_28 
 { 
-	 left: 537px; 
-	 top: 91px; 
+	 left: 699px; 
+	 top: 253px; 
 	 position: absolute; 
-	 width: 88px;
-	 height: 33px;
+	 width: 35px;
+	 height: 25px;
 	 z-index:48;
 	font-family: 'Open Sans', sans-serif;
-	 font-size: 18px;
-	color: #fff;
-	
+	font-size: 18px;
 } 
 
- #layer_9812 
+ #forpremature 
 { 
-	 left: 514px; 
-	 top: 129px; 
+	 left: 434px; 
+	 top: 193px; 
 	 position: absolute; 
-	 width: 121px;
-	 height: 48px;
+	 width: 219px;
+	 height: 17px;
 	 z-index:49;
 	font-family: 'Open Sans', sans-serif;
-	font-weight:lighter;
-	 font-size: 28px;
-	color:#62d8ed;
-}
- #layer_9812 > strong
-{ 
-	color: #fff;
-	font-weight:normal;
-	font-size: 42px;
-}
-
- #greencircle 
-{ 
-	 left: 350px; 
-	 top: 76px; 
-	 position: absolute; 
-	 width: 144px;
-	 height: 144px;
-	 z-index:50;
+	font-size: 20px;
 } 
 
- #top2 
+ #layer_32 
 { 
-	 left: 388px; 
-	 top: 91px; 
+	 left: 324px; 
+	 top: 253px; 
 	 position: absolute; 
-	 width: 93px;
-	 height: 38px;
+	 width: 36px;
+	 height: 25px;
+	 z-index:50;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 18px;
+} 
+
+ #fourthNBC 
+{ 
+	 left: 299px; 
+	 top: 220px; 
+	 position: absolute; 
+	 width: 110px;
+	 height: 17px;
 	 z-index:51;
 	font-family: 'Open Sans', sans-serif;
 	font-size: 18px;
-	color: #fff;
 } 
-
- #layer_11243 
-{ 
-	 left: 358px; 
-	 top: 124px; 
-	 position: absolute; 
-	 width: 136px;
-	 height: 55px;
-	 z-index:52;
-	font-family: 'Open Sans', sans-serif;
-	font-weight:lighter;
-	 font-size: 28px;
-	color:#092aa8;
-}
- #layer_11243 > strong
-{ 
-	color: #fff;
-	font-weight:normal;
-	font-size: 42px;
-}
-
- #bluecircle 
-{ 
-	 left: 200px; 
-	 top: 78px; 
-	 position: absolute; 
-	 width: 145px;
-	 height: 147px;
-	 z-index:53;
-} 
- #top3 
-{ 
-	 left: 229px; 
-	 top: 94px; 
-	 position: absolute; 
-	 width: 99px;
-	 height: 35px;
-	 z-index:54;
-	font-family: 'Open Sans', sans-serif;
-	font-size: 18px;
-	color: #fff;
-} 
- #layer_12347 
-{ 
-	 left: 202px; 
-	 top: 126px; 
-	 position: absolute; 
-	 width: 141px;
-	 height: 51px;
-	 z-index:55;
-	font-family: 'Open Sans', sans-serif;
-	font-weight:lighter;
-	 font-size: 28px;
-	color:#25eda9;
-}
- #layer_12347 > strong
-{ 
-	color: #fff;
-	font-weight:normal;
-	font-size: 42px;
-}
 
 
 
@@ -875,9 +874,9 @@ font-size: 20px;
 	 width: 125px;
 	 height: 17px;
 	 z-index:105;
-	font-family: 'Open Sans', sans-serif;
-	font-weight:lighter;
-	font-size: 12px;
+	 font-family: 'Open Sans', sans-serif;
+	 font-weight:lighter;
+	 font-size: 12px;
 }
  #low > strong
 { 
@@ -893,9 +892,9 @@ font-size: 20px;
 	 width: 116px;
 	 height: 18px;
 	 z-index:106;
-	font-family: 'Open Sans', sans-serif;
-	font-weight:lighter;
-	font-size: 12px;
+	 font-family: 'Open Sans', sans-serif;
+	 font-weight:lighter;
+	 font-size: 12px;
 }
  #normal > strong
 { 
@@ -911,8 +910,8 @@ font-size: 20px;
 	 width: 139px;
 	 height: 23px;
 	 z-index:107;
-	font-family: 'Open Sans', sans-serif;
-	font-size: 20px;
+	 font-family: 'Open Sans', sans-serif;
+	 font-size: 20px;
 } 
 
  #MAUC 
@@ -923,10 +922,10 @@ font-size: 20px;
 	 width: 66px;
 	 height: 17px;
 	 z-index:108;
-	font-family: 'Open Sans', sans-serif;
-	font-weight:lighter;
-	font-size: 20px;
-	color:#fff;
+	 font-family: 'Open Sans', sans-serif;
+	 font-weight:lighter;
+	 font-size: 20px;
+	 color:#fff;
 } 
 
  #Layer19 

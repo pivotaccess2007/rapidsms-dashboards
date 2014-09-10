@@ -1,0 +1,104 @@
+{%  extends "novabase.html" %}
+{% set dat = display.nat[0] %}
+
+{% block title %}
+<title>Mothers</title>	
+{% endblock  %}
+
+
+{% block scripts %}
+<link href="{{ static_path }}/css/mothers/styles.css" rel="stylesheet" type="text/css">
+
+{% endblock %}
+
+			{% block banner %}
+			<div id="bannertext">
+			<strong>Preventing</strong> the deaths of <strong>Pregnant Mothers</strong> and <strong>New Borns</strong> &amp; Improving <strong>Child Nutrition</strong>
+			</div>
+			<!-- <div id="bannericon"><img src="{{ static_path }}/images/pregnancy/Layer6.png"></div>-->
+			{%  endblock %}
+
+			
+
+
+{%  block   bodycontent %}
+		<div id="background2">
+			
+		
+			
+			
+			<div id="pregnancies"><img src="{{ static_path }}/images/pregnancy/pregnancies.png"></div>
+			<div id="Pregnanciesconfirmed">
+			With Previous Pregnancy:</div>
+			<div id="Pregnanciesconfirmednumber">
+			{{  (display.pregs - display.total)|neat_numbers  }}</div>
+			<div id="Pregnanciesconfirmed_0">
+			Mothers
+			</div>
+			<div id="layer_150" class="goodnum">
+             <a href="{{ nav.link("/tables/pregnancy") }}">{{  display.total|neat_numbers }} </a>
+			</div>
+			<!-- Graphs -->
+			
+      <div id="LMPinrelativetopregn">
+        <!--  <img src="{{ static_path }}/images/pregnancy/LMPinrelativetopregn.png">  -->
+		under 18:   <strong>{{ dat.young_mother }}</strong>
+		</div>
+      <div id="MonthlyPregnancyAvg9">
+      Over 35: <strong>{{ dat.old }}</strong> 
+      </div>
+			<!--  -->
+			
+			<div id="Layer1copy7"><img src="{{ static_path }}/images/redalert/hex.png"></div>
+			
+			<div id="Layer1copy9"><img src="{{ static_path }}/images/redalert/hex.png"></div>
+			<div id="Layer1copy10"><img src="{{ static_path }}/images/redalert/hex.png"></div>
+			<div id="Layer1copy11"><img src="{{ static_path }}/images/redalert/hex.png"></div>
+			
+			<div id="Layer11"><img src="{{ static_path }}/images/redalert/Layer11.png"></div>
+			<div id="COUGHING24">
+			OBSTETRIC SURGERY <br><strong>{{dat.surgeries}}</strong>
+			</div>
+			<div id="FEVER12">
+			MISSCARRIED<br><strong>{{dat.miscarries}}</strong>
+			</div>
+			<div id="MALARIA09">
+			HOME DELIVERY<br><strong>{{dat.prev_home_deliv}}</strong>
+			</div>
+			<div id="VOMITING18">
+			CHRONIC DISEASE<br><strong>{{dat.chronic_disease}}</strong>
+			</div>
+			
+			<div id="RedAlertReportSympto">
+			Red Alert Report Symptoms
+			</div>
+			
+			
+						
+			<!-- handwash Toilet -->
+			<div id="handwashpic"><img src="{{ static_path }}/images/pregnancy/handwashpic.png"></div>
+			<div id="handwashfacilities">
+			Hand Washing Facilities
+			</div>
+			<a href="{{ nav.link("/tables/handwash") }}"><div id="layer_12289">
+            Those With:  <strong class="goodnum"> {{ dat.handwashing }}</strong>
+            Those Without:  <strong class="goodnum"> {{ dat.no_handwashing }}</strong>
+			</div></a>
+			
+			<a href="{{ nav.link("/tables/toilets") }}"><div id="layer_10985">
+             Those With: <strong class="goodnum">{{ dat.toilet }}</strong><br>
+               Those Without: <strong class="goodnum">{{ dat.no_toilet }}</strong>
+			</div></a>
+			
+			<div id="ToiletFacilities">
+			Toilet Facilities
+			</div>
+			<div id="Availabilityof">
+			Availability of:</div>
+			<div id="toiletpic"><img src="{{ static_path }}/images/pregnancy/toiletpic.png"></div>
+			<!--  -->
+			
+			
+			</div>
+			      {%  endblock  %}
+

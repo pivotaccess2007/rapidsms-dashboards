@@ -8,7 +8,7 @@
 	 margin-left: auto; 
 	 margin-right: auto; 
 	 width: 1000px;
-	 height: 1200px; 
+	 height: 650px; 
 	 overflow: hidden;
 	 z-index:0;
 	}
@@ -679,7 +679,18 @@
 	font-family: 'Open Sans', sans-serif;
 	font-size: 22px;
 	color: #6e726f;
-	
+}
+
+ #unreported 
+{ 
+	 left: 433px; 
+	 top: 180px; 
+	 position: relative; 
+	 height: 16px;
+	 z-index:3;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 22px;
+	color: #6e726f;
 } 
 
  #layer_23_0 
