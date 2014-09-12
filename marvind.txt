@@ -6,3 +6,4 @@
 
 
 
+./rw.py subjectivise thousanddays_reports pre_table 

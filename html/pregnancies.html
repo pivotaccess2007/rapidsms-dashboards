@@ -1,0 +1,69 @@
+{%  extends "novabase.html" %}
+{% set dat = display.nat[0] %}
+
+{% block title %}
+<title>Pregnancies</title>	
+{% endblock  %}
+
+
+{% block scripts %}
+<link href="{{ static_path }}/css/pregnancies/styles.css" rel="stylesheet" type="text/css">
+
+{% endblock %}
+
+			{% block banner %}
+			<div id="bannertext">
+			<strong>Preventing</strong> the deaths of <strong>Pregnant Mothers</strong> and <strong>New Borns</strong> &amp; Improving <strong>Child Nutrition</strong>
+			</div>
+			<!-- <div id="bannericon"><img src="{{ static_path }}/images/pregnancy/Layer6.png"></div>-->
+			{%  endblock %}
+
+			
+
+
+{%  block   bodycontent %}
+		<div id="background2">
+			
+		
+			
+			
+			<div id="pregnancies"><img src="{{ static_path }}/images/pregnancy/pregnancies.png"></div>
+			
+			<div id="Pregnanciesconfirmed_0">
+			Pregnancies
+			</div>
+			<div id="layer_150" class="goodnum">
+             <a href="{{ nav.link("/tables/mothers") }}">{{  display.total|neat_numbers }} </a>
+			
+			</div>
+			<!-- Graphs -->
+			
+      <div id="LMPinrelativetopregn">
+        <!--  <img src="{{ static_path }}/images/pregnancy/LMPinrelativetopregn.png">  -->
+		under 18:   <a href="{{ nav.link("/tables/mothers?subcat=young_mother") }}"><strong>{{ dat.young_mother }}</strong></a>
+		</div>
+     
+     <!-- location -->
+     
+			
+			<div id="Hospital"><img src="{{ static_path }}/images/birthreport/Hospital.png"></div>
+			<div id="Home"><img src="{{ static_path }}/images/birthreport/Layer14.png"></div>
+			<div id="OnRoute"><img src="{{ static_path }}/images/birthreport/OnRoute.png"></div>
+			<div id="Clinic"><img src="{{ static_path }}/images/birthreport/Layer15.png"></div>
+			
+			<div id="Hospitalnumber">656</div>
+			<div id="Homenumber">578</div>
+			<div id="OnRoutenumber">021</div>
+			<div id="Clinicnumber">8697</div>
+			
+	<!--  -->
+     
+     <!--  -->
+     <div id="aa"><img src="{{ static_path }}/images/redalert/hex.png"></div>
+     <!--  -->
+     
+     
+     
+			</div>
+			      {%  endblock  %}
+

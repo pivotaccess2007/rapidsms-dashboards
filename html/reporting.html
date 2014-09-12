@@ -2,7 +2,7 @@
 {% set dat = display.nat[0] %}
 
 {% block title %}
-<title>Mothers</title>	
+<title>Reporting</title>	
 {% endblock  %}
 
 
@@ -39,7 +39,67 @@
 			<div id="layer_150" class="goodnum">
              <a href="{{ nav.link("/tables/pregnancy") }}">{{  display.total|neat_numbers }} </a>
 			</div>
-		
+			
+			
+			<!--  
+			<div id="ancreports">
+			ANC Reports
+			</div>
+			<div id="birreports">
+			BIR Reports
+			</div>
+			<div id="cbnreports">
+			CBN Reports
+			</div>
+			<div id="chireports">
+			CHI Reports
+			</div>
+			<div id="cmrreports">
+			CMR Reports
+			</div>
+			<div id="depreports">
+			DEP Reports
+			</div>
+			<div id="dthreports">
+			DTH Reports
+			</div>
+			<div id="nbcreports">
+			NBC Reports
+			</div>
+			<div id="pncreports">
+			PNC Reports
+			</div>
+			<div id="prereports">
+			PRE Reports
+			</div>
+			<div id="rarreports">
+			RAR Reports
+			</div>
+			<div id="redreports">
+			RED Reports
+			</div>
+			<div id="refreports">
+			REF Reports
+			</div>
+			<div id="resreports">
+			RES Reports
+			</div>
+			<div id="riskreports">
+			RISK Reports
+			</div>
+			
+			dsb- {{  display.rpts  }} -khjb-->
+			  <table >
+        {%  for rpt in display.rpts %}
+          <tr>
+            <td>{{  rpt['report_type'] }}</td>
+            <td>{{  rpt['nom'] }}</td>
+          </tr>
+        {%  endfor  %}
+      </table>
+    
+
+			
 					</div>
 			      {%  endblock  %}
 
