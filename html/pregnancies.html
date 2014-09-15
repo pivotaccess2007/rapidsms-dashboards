@@ -40,7 +40,7 @@
 			
       <div id="LMPinrelativetopregn">
         <!--  <img src="{{ static_path }}/images/pregnancy/LMPinrelativetopregn.png">  -->
-		under 18:   <a href="{{ nav.link("/tables/mothers?subcat=young_mother") }}"><strong>{{ dat.young_mother }}</strong></a>
+		Young Pregnancy:   <a href="{{ nav.link("/tables/mothers?subcat=young_mother") }}"><strong>{{ dat.young_mother }}</strong></a>
 		</div>
      
      <!-- location -->
@@ -51,15 +51,86 @@
 			<div id="OnRoute"><img src="{{ static_path }}/images/birthreport/OnRoute.png"></div>
 			<div id="Clinic"><img src="{{ static_path }}/images/birthreport/Layer15.png"></div>
 			
-			<div id="Hospitalnumber">656</div>
-			<div id="Homenumber">578</div>
-			<div id="OnRoutenumber">021</div>
-			<div id="Clinicnumber">8697</div>
+			<div id="Hospitalnumber">{{ dat.at_hospital }}</div>
+			<div id="Homenumber">{{ dat.at_home }}</div>
+			<div id="OnRoutenumber">{{ dat.en_route }}</div>
+			<div id="Clinicnumber">{{ dat.at_clinic }}</div>
 			
 	<!--  -->
      
      <!--  -->
-     <div id="aa"><img src="{{ static_path }}/images/redalert/hex.png"></div>
+    
+     
+     <div id="problemfree">Problem Free: <strong>{{ dat.no_problem }}</strong></div>
+     <div id="nopreviousrisks">No Previous Risk: <strong>{{ dat.no_prev_risks }}</strong></div>
+     <div id="rapidbreathing">Rapid Breathing: <strong>{{ dat.rapid_breathing }}</strong></div>
+     <div id="multiples">Multiples: <strong>{{ dat.multiples }}</strong></div>
+     <div id="youngpreg">Young Pregnancies: <strong>{{ dat.no_prev_risks }}</strong></div>
+     <div id="asm">ASM Advice Given: <strong>{{ dat.asm_advice }}</strong></div>
+     <div id="referred">Referred: <strong>{{ dat.referred }}</strong></div>
+     <div id="seriouscase">History of Serious Cases: <strong>{{ dat.previous_serious_case }}</strong></div>
+     <div id="haemorrhage">History of Haemorrhage: <strong>{{ dat.previous_haemorrhage }}</strong></div>
+     <div id="sickness">Unspecified Sickness: <strong>{{ dat.mother_sick }}</strong></div>
+     <div id="convulsion">History of Convulsions: <strong>{{ dat.previous_convulsion }}</strong></div>
+     
+     <div style="top: 800px; left: -150px; position: absolute;">
+    
+     <div id="symptoms">Pregnancy Symptoms</div>
+    
+     		<div id="Layer3"><img src="{{ static_path }}/images/pregnancy/bluehex.png"></div>
+			<div id="Layer1copy_1"><img src="{{ static_path }}/images/pregnancy/bluehex.png"></div>
+			<div id="Layer1copy2"><img src="{{ static_path }}/images/pregnancy/bluehex.png"></div>
+			<div id="Layer1copy6"><img src="{{ static_path }}/images/pregnancy/bluehex.png"></div>
+			<div id="Layer1copy8"><img src="{{ static_path }}/images/pregnancy/bluehex.png"></div>
+			<div id="Layer1copy3"><img src="{{ static_path }}/images/pregnancy/bluehex.png"></div>
+			<div id="Layer1copy4"><img src="{{ static_path }}/images/pregnancy/bluehex.png"></div>
+			<div id="Layer1copy5"><img src="{{ static_path }}/images/pregnancy/bluehex.png"></div>
+			<div id="Layer1copy13"><img src="{{ static_path }}/images/pregnancy/bluehex.png"></div>
+			
+			<a href="{{ nav.link("/tables/pregcough") }}"><div id="COUGHING24">
+         COUGHING <br><br><strong>{{ dat.coughing }}</strong>
+			</div></a>
+			
+			<a href="{{ nav.link("/tables/pregdiarrhea") }}"> <div id="DIARRHEA33">
+        DIARRHEA<br><br><strong>{{ dat.diarrhoea }}</strong>
+			</div></a>
+			
+			 <a href="{{ nav.link("/tables/pregfever") }}"> <div id="FEVER12">
+       FEVER<br><br><strong>{{ dat.fever }}</strong>
+			</div></a>
+			
+			<a href="{{ nav.link("/tables/pregmalaria") }}">  <div id="MALARIA09">
+       MALARIA<br><br><strong>{{ dat.malaria }}</strong>
+			</div></a>
+			
+			 <a href="{{ nav.link("/tables/pregvomit") }}"> <div id="VOMITING18">
+       VOMITING<br><br><strong>{{ dat.vomiting }}</strong>
+			</div></a>
+		
+		<a href="{{ nav.link("/tables/pregstill") }}"> 	<div id="STILLBORN21">
+        FLACCID PARALYSIS<br><strong>{{ dat.jaundice }}</strong>
+			</div></a>
+		
+		<a href="{{ nav.link("/tables/pregedema") }}">  	<div id="EDEMA13">
+       EDEMA<br><br><strong>{{ dat.oedema }}</strong>
+			</div></a>
+			
+			<a href="{{ nav.link("/tables/pregpneumonia") }}">  <div id="PNEUMONIA21">
+       PNEUMONIAM<br><br><strong>{{ dat.pneumonia }}</strong>
+			</div></a>
+	
+		<a href="{{ nav.link("/tables/preganemia") }}"> 	<div id="CLEFTPALATE21">
+        SEVERE ANEMIA<br><br><strong>{{ dat.severe_anaemia }}</strong>
+			</div></a>
+			
+			<a href="{{ nav.link("/tables/pregneck") }}"> <div id="NECKSTIFFNESS">
+       NECK<br>STIFFNESS<br><strong>{{ dat.stiff_neck }}</strong>
+			</div></a>
+			
+			<a href="{{ nav.link("/tables/pregneck") }}"> <div id="NOPROBLEM">
+     </div>
+     </div>
+     
      <!--  -->
      
      

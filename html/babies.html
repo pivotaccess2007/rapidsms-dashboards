@@ -1,0 +1,94 @@
+{%  extends "novabase.html" %}
+{% set dat = display.nat[0] %}
+
+{% block title %}
+<title>Pregnancies</title>	
+{% endblock  %}
+
+
+{% block scripts %}
+<link href="{{ static_path }}/css/babies/styles.css" rel="stylesheet" type="text/css">
+
+{% endblock %}
+
+			{% block banner %}
+			<div id="bannertext">
+			<strong>Preventing</strong> the deaths of <strong>Pregnant Mothers</strong> and <strong>New Borns</strong> &amp; Improving <strong>Child Nutrition</strong>
+			</div>
+			<!-- <div id="bannericon"><img src="{{ static_path }}/images/pregnancy/Layer6.png"></div>-->
+			{%  endblock %}
+
+			
+
+
+{%  block   bodycontent %}
+		<div id="background2">
+			
+		
+			
+			
+			<div id="pregnancies"><img src="{{ static_path }}/images/babies/babies.png"></div>
+			
+			<div id="Pregnanciesconfirmed_0">
+			Number of Babies
+			</div>
+			<div id="layer_150" class="goodnum">
+             <a href="{{ nav.link("/tables/mothers") }}">{{  display.total|neat_numbers }} </a>
+			
+			</div>
+			<!-- Graphs -->
+			
+      <div id="boys">
+		Boys:   <a href="{{ nav.link("/tables/mothers?subcat=young_mother") }}"><strong>{{ dat.boy }}</strong></a>
+		</div>
+		<div id="girls">
+		Girls:   <a href="{{ nav.link("/tables/mothers?subcat=young_mother") }}"><strong>{{ dat.girl }}</strong></a>
+		</div>
+
+     
+     <!--  -->
+     <div style="top: 300px; left: -150px; position: absolute;">
+    
+     <div id="symptoms">Babies' Symptoms</div>
+    
+     		<div id="Layer3"><img src="{{ static_path }}/images/babies/bluehex.png"></div>
+			<div id="Layer1copy_1"><img src="{{ static_path }}/images/babies/bluehex.png"></div>
+			<div id="Layer1copy2"><img src="{{ static_path }}/images/babies/bluehex.png"></div>
+			<div id="Layer1copy3"><img src="{{ static_path }}/images/babies/bluehex.png"></div>
+			<div id="Layer1copy4"><img src="{{ static_path }}/images/babies/bluehex.png"></div>
+			<div id="Layer1copy5"><img src="{{ static_path }}/images/babies/bigbluehex.png"></div>
+			
+			
+			<a href="{{ nav.link("/tables/pregcough") }}"><div id="COUGHING24">
+         Cord Infection <br><br><strong>{{ dat.cord_infection }}</strong>
+			</div></a>
+			
+			<a href="{{ nav.link("/tables/pregdiarrhea") }}"> <div id="DIARRHEA33">
+        Adnormal Fontanelle<br><br><strong>{{ dat.abnormal_fontanelle }}</strong>
+			</div></a>
+			
+			 <a href="{{ nav.link("/tables/pregfever") }}"> <div id="FEVER12">
+       Congentail Malformation<br><br><strong>{{ dat.congenital_malformation }}</strong>
+			</div></a>
+			
+			<a href="{{ nav.link("/tables/pregmalaria") }}">  <div id="MALARIA09">
+       Disability<br><br><strong>{{ dat.disabled }}</strong>
+			</div></a>
+			
+			 <a href="{{ nav.link("/tables/pregvomit") }}"> <div id="VOMITING18">
+       Still Born<br><br><strong>{{ dat.stillborn }}</strong>
+			</div></a>
+		
+		<a href="{{ nav.link("/tables/pregstill") }}"> 	<div id="STILLBORN21">
+        No Problems<br><strong>{{ dat.no_problem }}</strong>
+			</div></a>
+		 </div>
+     </div>
+     
+     <!--  -->
+     
+     
+     
+			</div>
+			      {%  endblock  %}
+

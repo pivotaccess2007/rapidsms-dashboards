@@ -9,7 +9,7 @@
 	 margin-left: auto; 
 	 margin-right: auto; 
 	 width: 1000px;
-	 height:800px;
+	 height:700px;
 	 overflow: hidden;
 	 z-index:2;
 	}
@@ -108,17 +108,17 @@
 	 left: 376px; 
 	 top: 110px; 
 	 position: absolute; 
-	 width: 118px;
+	 width: 250px;
 	 height: 44px;
 	 z-index:11;
 	font-family: 'Open Sans', sans-serif;
 	font-size: 25px;
-	color: #f79242;
+	
 } 
 
  #layer_150 
 { 
-	 left: 393px; 
+	 left: 450px; 
 	 top: 157px; 
 	 position: absolute; 
 	 width: 62px;
@@ -136,12 +136,12 @@
 
 /***************************************/
 
- #LMPinrelativetopregn 
+ #boys 
 { 
-	 left: 500px;
+	 left: 450px;
 	top: 100px; 
 	position: absolute; 
-	width: 300px;
+	width: 50%;
 	float:left;
 	text-align: center;
 	height: 17px;
@@ -150,310 +150,239 @@
 	font-weight:lighter;
 	font-size: 30px;
 	color: #f79242;
-} 
-
- #LMPinrelativetopregn > strong 
-{ 
-	color: #000;
-	font-weight: lighter;
-	font-size: 35px;
 }
 
- #MonthlyPregnancyAvg9 
+#girls 
 { 
-	left:560px;
-	top: 150px; 
+	 left: 450px;
+	top: 180px; 
 	position: absolute; 
-	width: 300px;
-	float:right;
+	width: 50%;
+	float:left;
 	text-align: center;
-	height: 24px;
+	height: 17px;
 	z-index:3;
 	font-family: 'Open Sans', sans-serif;
 	font-weight:lighter;
 	font-size: 30px;
-	text-align: left;
 	color: #f79242;
 }
- #MonthlyPregnancyAvg9 > strong 
+
+/********************************************/
+
+ #symptoms
 { 
-	color: #000;
-	font-weight:lighter;
-	padding-left: 35px;
-		
-} 
-
-
-
-
-
-
-/*********************/
-
-
- #handwashpic 
-{ 
-	 left: 232px; 
-	 top: 620px; 
+	 left: 500px; 
+	 top: 10px; 
 	 position: absolute; 
-	 width: 89px;
-	 height: 90px;
-	 z-index:3;
-} 
-
- #handwashfacilities 
-{ 
-	 left: 192px; 
-	 top: 580px; 
-	 position: absolute; 
-	 width: 286px;
-	 height: 25px;
-	 z-index:3;
-	font-family: 'Open Sans', sans-serif;
-	font-weight: lighter;
-	font-size: 20px;
-} 
-
- #layer_12289 
-{ 
-	 left: 340px; 
-	 top: 610px; 
-	 position: absolute; 
-	 width: 250px;
-	 height: 31px;
-	 z-index:3;
-	font-family: 'Open Sans', sans-serif;
-	font-weight: lighter;
-	font-size: 18px;
-}
- #layer_12289>strong
-{ 
-	font-weight: lighter;
-	font-size: 45px; 
-} 
-
- #layer_10985 
-{ 
-	 left: 712px; 
-	 top: 610px; 
-	 position: absolute; 
-	 width: 250px;
-	 height: 31px;
-	 z-index:3;
-	font-family: 'Open Sans', sans-serif;
-	font-weight: lighter;
-	font-size: 18px;
-}
-#layer_10985 > strong
-{ 
-	font-weight: lighter;
-	font-size: 45px; 
-} 
-
- #ToiletFacilities 
-{ 
-	 left: 633px; 
-	 top: 580px; 
-	 position: absolute; 
-	 width: 214px;
-	 height: 25px;
-	 z-index:3;
-	font-family: 'Open Sans', sans-serif;
-	font-weight: lighter;
-	font-size: 20px;
-} 
-
- #Availabilityof 
-{ 
-	 left: 440px; 
-	 top: 550px; 
-	 position: absolute; 
-	 width: 213px;
-	 height: 33px;
-	 z-index:3;
-	font-family: 'Open Sans', sans-serif;
-	font-weight: bold;
-	font-size: 25px;
-} 
-
- #toiletpic 
-{ 
-	 left: 591px; 
-	 top: 620px; 
-	 position: absolute; 
-	 width: 102px;
-	 height: 102px;
-	 z-index:3;
+	 width: 300px;
+	 height: 107px;
+	 z-index:59;
+	font-family: 'Open Sans', sans-serif;	
+	font-size: 28px;
 	
 }
 
 
-/********************************/
 
-
-
-/********************************/
- #Layer1copy7 
+ #Layer3 
 { 
-	 left: 563px; 
-	 top: 300px; 
+	 left: 400px; 
+	 top: 80px; 
 	 position: absolute; 
-	 width: 92px;
-	 height: 106px;
-	 z-index:24;
+	 width: 67px;
+	 height: 77px;
+	 z-index:3;
+} 
+
+ #Layer1copy_1 
+{ 
+	 left: 500px; 
+	 top:80px; 
+	 position: absolute; 
+	 width: 68px;
+	 height: 78px;
+	 z-index:3;
+} 
+
+ #Layer1copy2 
+{ 
+	 left: 600px; 
+	 top: 80px; 
+	 position: absolute; 
+	 width: 68px;
+	 height: 77px;
+	 z-index:3;
 } 
 
 
-
- #Layer1copy9 
+ #Layer1copy3 
 { 
-	 left: 758px; 
-	 top: 300px; 
+	 left: 455px; 
+	 top: 170px; 
 	 position: absolute; 
-	 width: 92px;
-	 height: 106px;
-	 z-index:26;
+	 width: 68px;
+	 height: 78px;
+	 z-index:3;
+}
+
+ #Layer1copy4 
+{ 
+	 left: 550px; 
+	 top: 170px; 
+	 position: absolute; 
+	 width: 68px;
+	 height: 78px;
+	 z-index:3;
 } 
 
- #Layer1copy10 
+ #Layer1copy5 
 { 
-	 left: 709px; 
-	 top: 385px; 
+	 left: 750px; 
+	 top: 100px; 
 	 position: absolute; 
-	 width: 92px;
-	 height: 106px;
-	 z-index:27;
+	 width: 67px;
+	 height: 78px;
+	 z-index:3;
 } 
 
- #Layer1copy11 
-{ 
-	 left: 612px; 
-	 top: 385px; 
-	 position: absolute; 
-	 width: 92px;
-	 height: 106px;
-	 z-index:28;
-} 
+#Layer1copy12:hover
+{
+alpha: 0.6;
+}
 
 
- #Layer11 
-{ 
-	 left: 266px; 
-	 top: 350px; 
-	 position: absolute; 
-	 width: 253px;
-	 height: 132px;
-	 z-index:30;
-} 
 
  #COUGHING24 
 { 
-	 left: 565px; 
-	 top: 320px; 
+	 left: 400px; 
+	 top: 100px; 
 	 position: absolute; 
-	 width: 85px;
-	 height: 61px;
-	 z-index:31;
+	 width: 63px;
+	 height: 45px;
+	 z-index:3;
 	font-family: 'Open Sans', sans-serif;
 	font-weight: normal;
-	font-size: 17px;
+	font-size: 15px;
 }
 #COUGHING24 > strong
 {
-	margin-left: 30px;
-	font-size: 30px
+	margin-left: 20px;
+	font-size: 20px
 }
  #COUGHING24:hover
 { 
 	color:#fff;
 	cursor:pointer;
-} 
+}
 
-
-
- #FEVER12 
+ #DIARRHEA33 
 { 
-	 left: 750px; 
-	 top: 320px; 
+	 left: 500px; 
+	 top: 95px; 
 	 position: absolute; 
-	 width: 47px;
-	 height: 66px;
-	 z-index:33;
+	 width: 59px;
+	 height: 49px;
+	 z-index:3;
 	font-family: 'Open Sans', sans-serif;
 	font-weight: normal;
-	font-size: 17px;
+	font-size: 15px;
+} 
+#DIARRHEA33 > strong
+{
+	margin-left: 20px;
+	font-size: 20px
+}
+ #DIARRHEA33:hover
+{ 
+	color:#fff;
+	cursor:pointer;
+}
+ #FEVER12 
+{ 
+	 left: 620px; 
+	 top: 90px; 
+	 position: absolute; 
+	 width: 36px;
+	 height: 49px;
+	 z-index:3;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: normal;
+	font-size: 15px;
 }
 #FEVER12 > strong
 {
-	margin-left: 30px;
-	font-size: 30px
-}
+	margin-left: 10px;
+	font-size: 20px
+}	
  #FEVER12:hover
 { 
 	color:#fff;
 	cursor:pointer;
-}  
-
+}
  #MALARIA09 
 { 
-	 left: 621px; 
-	 top: 400px; 
+	 left: 470px; 
+	 top: 200px; 
 	 position: absolute; 
-	 width: 71px;
-	 height: 65px;
-	 z-index:34;
+	 width: 53px;
+	 height: 49px;
+	 z-index:3;
 	font-family: 'Open Sans', sans-serif;
 	font-weight: normal;
-	font-size: 17px;
+	font-size: 15px;
 }
 #MALARIA09 > strong
 {
 	margin-left: 20px;
-	font-size: 30px
+	font-size: 20px
 }
  #MALARIA09:hover
 { 
 	color:#fff;
 	cursor:pointer;
-} 
-
+}
  #VOMITING18 
 { 
-	 left: 715px; 
-	 top: 400px; 
+	 left: 560px; 
+	 top: 200px; 
 	 position: absolute; 
-	 width: 79px;
-	 height: 66px;
-	 z-index:35;
+	 width: 59px;
+	 height: 49px;
+	 z-index:3;
 	font-family: 'Open Sans', sans-serif;
 	font-weight: normal;
-	font-size: 17px;
+	font-size: 15px;
 }
 #VOMITING18 > strong
 {
 	margin-left: 20px;
-	font-size: 30px
+	font-size: 20px
 }
  #VOMITING18:hover
 { 
 	color:#fff;
 	cursor:pointer;
-}  
-
-
- #RedAlertReportSympto 
+}
+ #STILLBORN21 
 { 
-	 left: 285px; 
-	 top: 350px; 
+	 left: 780px; 
+	 top: 150px; 
 	 position: absolute; 
-	 width: 147px;
-	 height: 102px;
-	 z-index:37;
+	 width: 165px;
+	 height: 48px;
+	 z-index:3;
 	font-family: 'Open Sans', sans-serif;
 	font-weight: normal;
-	font-size: 27px;
+	font-size: 22px;
+}
+#STILLBORN21 > strong
+{
+	margin-left: 25px;
+	font-size: 35px
+}
+ #STILLBORN21:hover
+{ 
 	color:#fff;
-} 
-
-
-
+	cursor:pointer;
+}

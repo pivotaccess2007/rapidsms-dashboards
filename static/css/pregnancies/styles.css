@@ -9,7 +9,7 @@
 	 margin-left: auto; 
 	 margin-right: auto; 
 	 width: 1000px;
-	 height:1000px;
+	 height:1100px;
 	 overflow: hidden;
 	 z-index:2;
 	}
@@ -138,8 +138,8 @@
 
  #LMPinrelativetopregn 
 { 
-	 left: 100px;
-	top: 300px; 
+	 left: 450px;
+	top: 130px; 
 	position: absolute; 
 	width: 50%;
 	float:left;
@@ -158,7 +158,7 @@
  #Hospital 
 { 
 	 left: 480px; 
-	 top: 400px; 
+	 top: 250px; 
 	 position: absolute; 
 	 width: 103px;
 	 height: 103px;
@@ -168,7 +168,7 @@
  #Home 
 { 
 	 left: 192px; 
-	 top: 400px; 
+	 top: 250px; 
 	 position: absolute; 
 	 width: 103px;
 	 height: 104px;
@@ -178,7 +178,7 @@
  #OnRoute 
 { 
 	 left: 627px; 
-	 top: 400px; 
+	 top: 250px; 
 	 position: absolute; 
 	 width: 105px;
 	 height: 105px;
@@ -188,7 +188,7 @@
  #Clinic 
 { 
 	 left: 338px; 
-	 top: 400px; 
+	 top: 250px; 
 	 position: absolute; 
 	 width: 106px;
 	 height: 107px;
@@ -197,7 +197,7 @@
  #Hospitalnumber 
 { 
 	 left: 480px; 
-	 top: 550px; 
+	 top: 400px; 
 	 position: absolute; 
 	 width: 103px;
 	 height: 103px;
@@ -214,7 +214,7 @@
  #Homenumber
  { 
 	 left: 192px; 
-	 top: 550px; 
+	 top: 400px; 
 	 position: absolute; 
 	 width: 103px;
 	 height: 104px;
@@ -231,7 +231,7 @@
  #OnRoutenumber
 { 
 	 left: 627px; 
-	 top: 550px; 
+	 top: 400px; 
 	 position: absolute; 
 	 width: 105px;
 	 height: 105px;
@@ -248,7 +248,7 @@
  #Clinicnumber
 { 
 	 left: 338px; 
-	 top: 550px; 
+	 top: 400px; 
 	 position: absolute; 
 	 width: 106px;
 	 height: 107px;
@@ -265,18 +265,567 @@
 
 /**********************************************/
 
- #aa
+
+ #problemfree
 { 
-	 left: 338px; 
-	 top: 550px; 
+	 left: 200px; 
+	 top: 480px; 
 	 position: absolute; 
-	 width: 106px;
+	 width: 206px;
 	 height: 107px;
 	 z-index:59;
 	font-family: 'Open Sans', sans-serif;	
-	font-size: 32px;
+	font-size: 18px;
 	color: #0b8127;
+}
+ #problemfree > strong
+{ 
+	font-family: 'Open Sans', sans-serif;	
+	font-size: 25px;
+	color: #000;
+	padding-left: 5px;
+}
+
+
+ #nopreviousrisks
+{ 
+	 left: 550px; 
+	 top: 480px; 
+	 position: absolute; 
+	 width: 250px;
+	 height: 107px;
+	 z-index:59;
+	font-family: 'Open Sans', sans-serif;	
+	font-size: 18px;
+	color: #0b8127;
+}
+ #nopreviousrisks > strong
+{ 
+	font-family: 'Open Sans', sans-serif;	
+	font-size: 25px;
+	color: #000;
+	padding-left: 5px;
+}
+
+
+ #rapidbreathing
+{ 
+	 left: 200px; 
+	 top: 550px; 
+	 position: absolute; 
+	 width: 250px;
+	 height: 107px;
+	 z-index:59;
+	font-family: 'Open Sans', sans-serif;	
+	font-size: 18px;
+	color: #0b8127;
+}
+ #rapidbreathing > strong
+{ 
+	font-family: 'Open Sans', sans-serif;	
+	font-size: 25px;
+	color: #000;
+	padding-left: 5px;
+}
+
+
+ #multiples
+{ 
+	 left: 550px; 
+	 top: 550px; 
+	 position: absolute; 
+	 width: 250px;
+	 height: 107px;
+	 z-index:59;
+	font-family: 'Open Sans', sans-serif;	
+	font-size: 18px;
+	color: #0b8127;
+}
+ #multiples > strong
+{ 
+	font-family: 'Open Sans', sans-serif;	
+	font-size: 25px;
+	color: #000;
+	padding-left: 5px;
+}
+
+
+ #youngpreg
+{ 
+	 left: 200px; 
+	 top: 600px; 
+	 position: absolute; 
+	 width: 250px;
+	 height: 107px;
+	 z-index:59;
+	font-family: 'Open Sans', sans-serif;	
+	font-size: 18px;
+	color: #0b8127;
+}
+ #youngpreg > strong
+{ 
+	font-family: 'Open Sans', sans-serif;	
+	font-size: 25px;
+	color: #000;
+	padding-left: 5px;
+}
+
+
+ #asm
+{ 
+	 left: 550px; 
+	 top: 600px; 
+	 position: absolute; 
+	 width: 250px;
+	 height: 107px;
+	 z-index:59;
+	font-family: 'Open Sans', sans-serif;	
+	font-size: 18px;
+	color: #0b8127;
+}
+ #asm > strong
+{ 
+	font-family: 'Open Sans', sans-serif;	
+	font-size: 25px;
+	color: #000;
+	padding-left: 5px;
+}
+
+
+ #referred
+{ 
+	 left: 200px; 
+	 top: 650px; 
+	 position: absolute; 
+	 width: 250px;
+	 height: 107px;
+	 z-index:59;
+	font-family: 'Open Sans', sans-serif;	
+	font-size: 18px;
+	color: #0b8127;
+}
+ #referred > strong
+{ 
+	font-family: 'Open Sans', sans-serif;	
+	font-size: 25px;
+	color: #000;
+	padding-left: 5px;
+}
+
+
+#seriouscase
+{ 
+	 left: 550px; 
+	 top: 650px; 
+	 position: absolute; 
+	 width: 250px;
+	 height: 107px;
+	 z-index:59;
+	font-family: 'Open Sans', sans-serif;	
+	font-size: 18px;
+	color: #0b8127;
+}
+ #seriouscase > strong
+{ 
+	font-family: 'Open Sans', sans-serif;	
+	font-size: 25px;
+	color: #000;
+	padding-left: 5px;
+}
+
+
+
+#haemorrhage
+{ 
+	 left: 200px; 
+	 top: 700px; 
+	 position: absolute; 
+	 width: 250px;
+	 height: 107px;
+	 z-index:59;
+	font-family: 'Open Sans', sans-serif;	
+	font-size: 18px;
+	color: #0b8127;
+}
+ #haemorrhage > strong
+{ 
+	font-family: 'Open Sans', sans-serif;	
+	font-size: 25px;
+	color: #000;
+	padding-left: 5px;
+}
+
+
+#sickness
+{ 
+	 left: 550px; 
+	 top: 700px; 
+	 position: absolute; 
+	 width: 250px;
+	 height: 107px;
+	 z-index:59;
+	font-family: 'Open Sans', sans-serif;	
+	font-size: 18px;
+	color: #0b8127;
+}
+ #sickness > strong
+{ 
+	font-family: 'Open Sans', sans-serif;	
+	font-size: 25px;
+	color: #000;
+	padding-left: 5px;
+}
+
+
+#convulsion
+{ 
+	 left: 200px; 
+	 top: 750px; 
+	 position: absolute; 
+	 width: 250px;
+	 height: 107px;
+	 z-index:59;
+	font-family: 'Open Sans', sans-serif;	
+	font-size: 18px;
+	color: #0b8127;
+}
+ #convulsion > strong
+{ 
+	font-family: 'Open Sans', sans-serif;	
+	font-size: 25px;
+	color: #000;
+	padding-left: 5px;
 }
 
 
 /*******************************************/
+ #symptoms
+{ 
+	 left: 500px; 
+	 top: 10px; 
+	 position: absolute; 
+	 width: 300px;
+	 height: 107px;
+	 z-index:59;
+	font-family: 'Open Sans', sans-serif;	
+	font-size: 28px;
+	
+}
+
+
+
+ #Layer3 
+{ 
+	 left: 395px; 
+	 top: 80px; 
+	 position: absolute; 
+	 width: 67px;
+	 height: 77px;
+	 z-index:3;
+} 
+
+ #Layer1copy_1 
+{ 
+	 left: 468px; 
+	 top:80px; 
+	 position: absolute; 
+	 width: 68px;
+	 height: 78px;
+	 z-index:3;
+} 
+
+ #Layer1copy2 
+{ 
+	 left: 541px; 
+	 top: 80px; 
+	 position: absolute; 
+	 width: 68px;
+	 height: 77px;
+	 z-index:3;
+} 
+
+ #Layer1copy6 
+{ 
+	 left: 613px; 
+	 top: 80px; 
+	 position: absolute; 
+	 width: 67px;
+	 height: 77px;
+	 z-index:3;
+} 
+
+ #Layer1copy7 
+{ 
+	 left: 650px; 
+	 top: 80px; 
+	 position: absolute; 
+	 width: 67px;
+	 height: 77px;
+	 z-index:3;
+} 
+
+ #Layer1copy8 
+{ 
+	 left: 686px; 
+	 top: 80px; 
+	 position: absolute; 
+	 width: 68px;
+	 height: 77px;
+	 z-index:3;
+} 
+
+ #Layer1copy3 
+{ 
+	 left: 431px; 
+	 top: 140px; 
+	 position: absolute; 
+	 width: 68px;
+	 height: 78px;
+	 z-index:3;
+}
+
+ #Layer1copy31
+{ 
+	 left: 300px; 
+	 top: 80px; 
+	 position: absolute; 
+	 width: 68px;
+	 height: 78px;
+	 z-index:4;
+}
+
+ #Layer1copy4 
+{ 
+	 left: 504px; 
+	 top: 140px; 
+	 position: absolute; 
+	 width: 68px;
+	 height: 78px;
+	 z-index:3;
+} 
+
+ #Layer1copy5 
+{ 
+	 left: 577px; 
+	 top: 140px; 
+	 position: absolute; 
+	 width: 67px;
+	 height: 78px;
+	 z-index:3;
+} 
+
+#Layer1copy12:hover
+{
+alpha: 0.6;
+}
+
+ #Layer1copy13 
+{ 
+	 left: 360px; 
+	 top: 140px; 
+	 position: absolute; 
+	 width: 284px;
+	 height: 144px;
+	 z-index:3;
+} 
+
+ #COUGHING24 
+{ 
+	 left: 396px; 
+	 top: 95px; 
+	 position: absolute; 
+	 width: 63px;
+	 height: 45px;
+	 z-index:3;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: normal;
+	font-size: 12px;
+}
+#COUGHING24 > strong
+{
+	margin-left: 20px;
+	font-size: 20px
+}
+ #COUGHING24:hover
+{ 
+	color:#fff;
+	cursor:pointer;
+}
+
+ #DIARRHEA33 
+{ 
+	 left: 469px; 
+	 top: 95px; 
+	 position: absolute; 
+	 width: 59px;
+	 height: 49px;
+	 z-index:3;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: normal;
+	font-size: 11px;
+} 
+#DIARRHEA33 > strong
+{
+	margin-left: 20px;
+	font-size: 20px
+}
+ #DIARRHEA33:hover
+{ 
+	color:#fff;
+	cursor:pointer;
+}
+ #FEVER12 
+{ 
+	 left: 555px; 
+	 top: 90px; 
+	 position: absolute; 
+	 width: 36px;
+	 height: 49px;
+	 z-index:3;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: normal;
+	font-size: 12px;
+}
+#FEVER12 > strong
+{
+	margin-left: 10px;
+	font-size: 20px
+}	
+ #FEVER12:hover
+{ 
+	color:#fff;
+	cursor:pointer;
+}
+ #MALARIA09 
+{ 
+	 left: 437px; 
+	 top: 150px; 
+	 position: absolute; 
+	 width: 53px;
+	 height: 49px;
+	 z-index:3;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: normal;
+	font-size: 12px;
+}
+#MALARIA09 > strong
+{
+	margin-left: 20px;
+	font-size: 20px
+}
+ #MALARIA09:hover
+{ 
+	color:#fff;
+	cursor:pointer;
+}
+ #VOMITING18 
+{ 
+	 left: 507px; 
+	 top: 150px; 
+	 position: absolute; 
+	 width: 59px;
+	 height: 49px;
+	 z-index:3;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: normal;
+	font-size: 12px;
+}
+#VOMITING18 > strong
+{
+	margin-left: 20px;
+	font-size: 20px
+}
+ #VOMITING18:hover
+{ 
+	color:#fff;
+	cursor:pointer;
+}
+ #STILLBORN21 
+{ 
+	 left: 577px; 
+	 top: 150px; 
+	 position: absolute; 
+	 width: 65px;
+	 height: 48px;
+	 z-index:3;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: normal;
+	font-size: 12px;
+}
+#STILLBORN21 > strong
+{
+	margin-left: 20px;
+	font-size: 20px
+}
+ #STILLBORN21:hover
+{ 
+	color:#fff;
+	cursor:pointer;
+}
+ #EDEMA13 
+{ 
+	 left: 624px; 
+	 top: 90px; 
+	 position: absolute; 
+	 width: 42px;
+	 height: 49px;
+	 z-index:3;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: normal;
+	font-size: 12px;
+}
+#EDEMA13 > strong
+{
+	margin-left: 10px;
+	font-size: 20px
+}
+ #EDEMA13:hover
+{ 
+	color:#fff;
+	cursor:pointer;
+}
+
+ #PNEUMONIA21 
+{ 
+	 left: 685px; 
+	 top: 100px; 
+	 position: absolute; 
+	 width: 72px;
+	 height: 48px;
+	 z-index:3;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: normal;
+	font-size: 10px;
+}
+#PNEUMONIA21 > strong
+{
+	margin-left: 20px;
+	font-size: 20px
+}
+ #PNEUMONIA21:hover
+{ 
+	color:#fff;
+	cursor:pointer;
+}
+ #NECKSTIFFNESS 
+{ 
+	 left: 368px; 
+	 top: 150px; 
+	 position: absolute; 
+	 width: 48px;
+	 height: 44px;
+	 z-index:3;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: normal;
+	font-size: 12px;
+}
+#NECKSTIFFNESS > strong
+{
+	margin-left: 15px;
+	font-size: 20px
+}
+ #NECKSTIFFNESS:hover
+{ 
+	color:#fff;
+	cursor:pointer;
+}
