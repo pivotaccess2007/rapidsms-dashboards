@@ -166,26 +166,35 @@
 
  #layer_1121
 { 
-	 left: 765px; 
+	 left: 620px; 
 	 top: 116px; 
 	 position: absolute; 
-	 width: 37px;
+	 width: 280px;
 	 height: 31px;
 	 z-index:55;
 	font-family: 'Open Sans', sans-serif;
+	font-size: 15px;
+}
+ #layer_1121 > strong
+{ 
 	font-size: 25px;
 } 
 
+
  #Thoseunknown 
 { 
-	 left: 662px; 
+	 left: 620px; 
 	 top: 71px; 
 	 position: absolute; 
-	 width: 87px;
+	 width: 280px;
 	 height: 39px;
 	 z-index:56;
 	font-family: 'Open Sans', sans-serif;
 	font-size: 15px;
+}
+#Thoseunknown > strong
+{ 
+	font-size: 25px;
 } 
 
  #WithinFirsthourPic 
