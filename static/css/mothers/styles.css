@@ -9,7 +9,7 @@
 	 margin-left: auto; 
 	 margin-right: auto; 
 	 width: 1000px;
-	 height:1000px;
+	 height:800px;
 	 overflow: hidden;
 	 z-index:2;
 	}
@@ -138,10 +138,10 @@
 
  #LMPinrelativetopregn 
 { 
-	 left: 100px;
-	top: 300px; 
+	 left: 500px;
+	top: 100px; 
 	position: absolute; 
-	width: 50%;
+	width: 300px;
 	float:left;
 	text-align: center;
 	height: 17px;
@@ -161,10 +161,10 @@
 
  #MonthlyPregnancyAvg9 
 { 
-	 left: 500px;
-	top: 300px; 
+	left:560px;
+	top: 150px; 
 	position: absolute; 
-	width: 50%;
+	width: 300px;
 	float:right;
 	text-align: center;
 	height: 24px;
@@ -194,7 +194,7 @@
  #handwashpic 
 { 
 	 left: 232px; 
-	 top: 820px; 
+	 top: 620px; 
 	 position: absolute; 
 	 width: 89px;
 	 height: 90px;
@@ -204,7 +204,7 @@
  #handwashfacilities 
 { 
 	 left: 192px; 
-	 top: 780px; 
+	 top: 580px; 
 	 position: absolute; 
 	 width: 286px;
 	 height: 25px;
@@ -217,7 +217,7 @@
  #layer_12289 
 { 
 	 left: 340px; 
-	 top: 810px; 
+	 top: 610px; 
 	 position: absolute; 
 	 width: 250px;
 	 height: 31px;
@@ -235,7 +235,7 @@
  #layer_10985 
 { 
 	 left: 712px; 
-	 top: 810px; 
+	 top: 610px; 
 	 position: absolute; 
 	 width: 250px;
 	 height: 31px;
@@ -253,7 +253,7 @@
  #ToiletFacilities 
 { 
 	 left: 633px; 
-	 top: 780px; 
+	 top: 580px; 
 	 position: absolute; 
 	 width: 214px;
 	 height: 25px;
@@ -266,7 +266,7 @@
  #Availabilityof 
 { 
 	 left: 440px; 
-	 top: 750px; 
+	 top: 550px; 
 	 position: absolute; 
 	 width: 213px;
 	 height: 33px;
@@ -279,7 +279,7 @@
  #toiletpic 
 { 
 	 left: 591px; 
-	 top: 820px; 
+	 top: 620px; 
 	 position: absolute; 
 	 width: 102px;
 	 height: 102px;
@@ -296,7 +296,7 @@
  #Layer1copy7 
 { 
 	 left: 563px; 
-	 top: 461px; 
+	 top: 300px; 
 	 position: absolute; 
 	 width: 92px;
 	 height: 106px;
@@ -308,7 +308,7 @@
  #Layer1copy9 
 { 
 	 left: 758px; 
-	 top: 461px; 
+	 top: 300px; 
 	 position: absolute; 
 	 width: 92px;
 	 height: 106px;
@@ -318,7 +318,7 @@
  #Layer1copy10 
 { 
 	 left: 709px; 
-	 top: 549px; 
+	 top: 385px; 
 	 position: absolute; 
 	 width: 92px;
 	 height: 106px;
@@ -328,7 +328,7 @@
  #Layer1copy11 
 { 
 	 left: 612px; 
-	 top: 549px; 
+	 top: 385px; 
 	 position: absolute; 
 	 width: 92px;
 	 height: 106px;
@@ -339,7 +339,7 @@
  #Layer11 
 { 
 	 left: 266px; 
-	 top: 471px; 
+	 top: 350px; 
 	 position: absolute; 
 	 width: 253px;
 	 height: 132px;
@@ -349,7 +349,7 @@
  #COUGHING24 
 { 
 	 left: 565px; 
-	 top: 487px; 
+	 top: 320px; 
 	 position: absolute; 
 	 width: 85px;
 	 height: 61px;
@@ -360,7 +360,7 @@
 }
 #COUGHING24 > strong
 {
-	margin-left: 20px;
+	margin-left: 30px;
 	font-size: 30px
 }
  #COUGHING24:hover
@@ -373,8 +373,8 @@
 
  #FEVER12 
 { 
-	 left: 780px; 
-	 top: 486px; 
+	 left: 750px; 
+	 top: 320px; 
 	 position: absolute; 
 	 width: 47px;
 	 height: 66px;
@@ -385,7 +385,7 @@
 }
 #FEVER12 > strong
 {
-	margin-left: 20px;
+	margin-left: 30px;
 	font-size: 30px
 }
  #FEVER12:hover
@@ -397,7 +397,7 @@
  #MALARIA09 
 { 
 	 left: 621px; 
-	 top: 570px; 
+	 top: 400px; 
 	 position: absolute; 
 	 width: 71px;
 	 height: 65px;
@@ -420,7 +420,7 @@
  #VOMITING18 
 { 
 	 left: 715px; 
-	 top: 574px; 
+	 top: 400px; 
 	 position: absolute; 
 	 width: 79px;
 	 height: 66px;
@@ -444,7 +444,7 @@
  #RedAlertReportSympto 
 { 
 	 left: 285px; 
-	 top: 490px; 
+	 top: 350px; 
 	 position: absolute; 
 	 width: 147px;
 	 height: 102px;

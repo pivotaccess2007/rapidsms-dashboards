@@ -1,0 +1,388 @@
+
+
+
+ #background2 
+{ 
+	 left: 0px; 
+	 top: 0px; 
+	 position: relative; 
+	 margin-left: auto; 
+	 margin-right: auto; 
+	 width: 1000px;
+	 height:700px;
+	 overflow: hidden;
+	 z-index:2;
+	}
+
+
+ #Layer7copy 
+{ 
+	 left: 65px; 
+	 top: 20px; 
+	 position: absolute; 
+	 width: 857px;
+	 height: 516px;
+	 z-index:2;
+}
+
+ #Layer7copy_0 
+{ 
+	 left: 63px; 
+	 top: 787px; 
+	 position: absolute; 
+	 width: 857px;
+	 height: 272px;
+	 z-index:3;
+} 
+
+
+
+ #Layer1copy 
+{ 
+	background: url(../../images/pregnancy/banner_background1.png) repeat-x;
+	 left: 0px; 
+	 top: 0px; 
+	 position: absolute; 
+	 width: 100%;
+	 height: 44px;
+	 z-index:3;
+	border-radius:5px;
+} 
+
+ #Layer1 
+{ 
+	 left: 0px; 
+	 top: 0px; 
+	background-color: #fff;
+	 position: absolute; 
+	 width: 50%;
+	opacity: 0.5;
+	 height: 44px;
+	 z-index:4;
+} 
+
+
+
+/*********************************/
+
+ #pregnancies 
+{ 
+	 left: 262px; 
+	 top: 50px; 
+	 position: absolute; 
+	 width: 83px;
+	 height: 163px;
+	 z-index:9;
+} 
+
+ #Pregnanciesconfirmed 
+{ 
+	 left: 560px; 
+	 top: 120px; 
+	 position: absolute; 
+	 width: 320px;
+	 height: 53px;
+	 z-index:10;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 25px;
+	color: #f79242;
+}
+
+ #Pregnanciesconfirmednumber 
+{ 
+	 left: 660px; 
+	 top: 170px; 
+	 position: absolute; 
+	 width: 320px;
+	 height: 53px;
+	 z-index:10;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: bold;
+	font-size: 30px;
+	
+}
+
+
+ #Pregnanciesconfirmed_0 
+{ 
+	 left: 376px; 
+	 top: 110px; 
+	 position: absolute; 
+	 width: 250px;
+	 height: 44px;
+	 z-index:11;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 25px;
+	
+} 
+
+ #layer_150 
+{ 
+	 left: 450px; 
+	 top: 157px; 
+	 position: absolute; 
+	 width: 62px;
+	 height: 28px;
+	 z-index:12;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 30px;
+	font-weight:bold;
+}
+#layer_150 > a
+{
+	color:#493913;
+}
+
+
+/***************************************/
+
+ #boys 
+{ 
+	 left: 450px;
+	top: 100px; 
+	position: absolute; 
+	width: 50%;
+	float:left;
+	text-align: center;
+	height: 17px;
+	z-index:3;
+	font-family: 'Open Sans', sans-serif;
+	font-weight:lighter;
+	font-size: 30px;
+	color: #f79242;
+}
+
+#girls 
+{ 
+	 left: 450px;
+	top: 180px; 
+	position: absolute; 
+	width: 50%;
+	float:left;
+	text-align: center;
+	height: 17px;
+	z-index:3;
+	font-family: 'Open Sans', sans-serif;
+	font-weight:lighter;
+	font-size: 30px;
+	color: #f79242;
+}
+
+/********************************************/
+
+ #symptoms
+{ 
+	 left: 500px; 
+	 top: 10px; 
+	 position: absolute; 
+	 width: 300px;
+	 height: 107px;
+	 z-index:59;
+	font-family: 'Open Sans', sans-serif;	
+	font-size: 28px;
+	
+}
+
+
+
+ #Layer3 
+{ 
+	 left: 400px; 
+	 top: 80px; 
+	 position: absolute; 
+	 width: 67px;
+	 height: 77px;
+	 z-index:3;
+} 
+
+ #Layer1copy_1 
+{ 
+	 left: 500px; 
+	 top:80px; 
+	 position: absolute; 
+	 width: 68px;
+	 height: 78px;
+	 z-index:3;
+} 
+
+ #Layer1copy2 
+{ 
+	 left: 600px; 
+	 top: 80px; 
+	 position: absolute; 
+	 width: 68px;
+	 height: 77px;
+	 z-index:3;
+} 
+
+
+ #Layer1copy3 
+{ 
+	 left: 455px; 
+	 top: 170px; 
+	 position: absolute; 
+	 width: 68px;
+	 height: 78px;
+	 z-index:3;
+}
+
+ #Layer1copy4 
+{ 
+	 left: 550px; 
+	 top: 170px; 
+	 position: absolute; 
+	 width: 68px;
+	 height: 78px;
+	 z-index:3;
+} 
+
+ #Layer1copy5 
+{ 
+	 left: 750px; 
+	 top: 100px; 
+	 position: absolute; 
+	 width: 67px;
+	 height: 78px;
+	 z-index:3;
+} 
+
+#Layer1copy12:hover
+{
+alpha: 0.6;
+}
+
+
+
+ #COUGHING24 
+{ 
+	 left: 400px; 
+	 top: 100px; 
+	 position: absolute; 
+	 width: 63px;
+	 height: 45px;
+	 z-index:3;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: normal;
+	font-size: 15px;
+}
+#COUGHING24 > strong
+{
+	margin-left: 20px;
+	font-size: 20px
+}
+ #COUGHING24:hover
+{ 
+	color:#fff;
+	cursor:pointer;
+}
+
+ #DIARRHEA33 
+{ 
+	 left: 500px; 
+	 top: 95px; 
+	 position: absolute; 
+	 width: 59px;
+	 height: 49px;
+	 z-index:3;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: normal;
+	font-size: 15px;
+} 
+#DIARRHEA33 > strong
+{
+	margin-left: 20px;
+	font-size: 20px
+}
+ #DIARRHEA33:hover
+{ 
+	color:#fff;
+	cursor:pointer;
+}
+ #FEVER12 
+{ 
+	 left: 620px; 
+	 top: 90px; 
+	 position: absolute; 
+	 width: 36px;
+	 height: 49px;
+	 z-index:3;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: normal;
+	font-size: 15px;
+}
+#FEVER12 > strong
+{
+	margin-left: 10px;
+	font-size: 20px
+}	
+ #FEVER12:hover
+{ 
+	color:#fff;
+	cursor:pointer;
+}
+ #MALARIA09 
+{ 
+	 left: 470px; 
+	 top: 200px; 
+	 position: absolute; 
+	 width: 53px;
+	 height: 49px;
+	 z-index:3;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: normal;
+	font-size: 15px;
+}
+#MALARIA09 > strong
+{
+	margin-left: 20px;
+	font-size: 20px
+}
+ #MALARIA09:hover
+{ 
+	color:#fff;
+	cursor:pointer;
+}
+ #VOMITING18 
+{ 
+	 left: 560px; 
+	 top: 200px; 
+	 position: absolute; 
+	 width: 59px;
+	 height: 49px;
+	 z-index:3;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: normal;
+	font-size: 15px;
+}
+#VOMITING18 > strong
+{
+	margin-left: 20px;
+	font-size: 20px
+}
+ #VOMITING18:hover
+{ 
+	color:#fff;
+	cursor:pointer;
+}
+ #STILLBORN21 
+{ 
+	 left: 780px; 
+	 top: 150px; 
+	 position: absolute; 
+	 width: 165px;
+	 height: 48px;
+	 z-index:3;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: normal;
+	font-size: 22px;
+}
+#STILLBORN21 > strong
+{
+	margin-left: 25px;
+	font-size: 35px
+}
+ #STILLBORN21:hover
+{ 
+	color:#fff;
+	cursor:pointer;
+}

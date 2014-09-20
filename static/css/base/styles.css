@@ -22,7 +22,7 @@ body {
 	 margin-left: auto; 
 	 margin-right: auto; 
 	 width: 1200px;
-	 height: 190px; 
+	 height: 200px; 
 	 overflow: hidden;
 }
 
@@ -64,7 +64,7 @@ body {
 	 top: 0px; 
 	 position: absolute; 
 	 width: 100%;
-	 height: 130px;
+	 height: 140px;
 	 z-index:8;
 } 
 
@@ -81,7 +81,19 @@ body {
  #bannertext 
 { 
 	left: 441px; 
-	top: 70px; 
+	top: 100px; 
+	position: absolute; 
+	width: 476px;
+	height: 78px;
+	z-index:68;
+	font-family: 'Open Sans', sans-serif;
+	font-weight:lighter;
+	font-size: 15px;
+}
+ #pagetitle 
+{ 
+	left: 600px; 
+	top: 65px; 
 	position: absolute; 
 	width: 476px;
 	height: 78px;
@@ -89,6 +101,7 @@ body {
 	font-family: 'Open Sans', sans-serif;
 	font-weight:lighter;
 	font-size: 20px;
+	text-transform: uppercase;
 } 
 
  #bannericon 
@@ -394,7 +407,7 @@ body {
 { 
 	background: url(../../images/pregnancy/banner_background1.png) repeat-x;
 	 left: 0px; 
-	 top: 130px; 
+	 top: 140px; 
 	 position: absolute; 
 	 width: 100%;
 	 height: 62px;

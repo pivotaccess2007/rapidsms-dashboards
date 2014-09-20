@@ -28,7 +28,7 @@
 			<div id="PregnanciesConfirmed1">Pregnancies Confirmed</div>
 			</div>
 			
-			<div id="ExpectedDeliveries"><a href='/dashboards/{{ nav.link("delivery") }}'>Expected Deliveries</a></div>
+			<div id="ExpectedDeliveries"><a href='/dashboards/{{ nav.link("delivery") }}'> Deliveries</a></div>
 			
 			
 			<div id="Layer7copy"><img src="{{ static_path }}/images/pregnancy/Layer7copy.png"></div>
@@ -43,7 +43,7 @@
 			Pregnancies Confirmed
 			</div>
 			<div id="layer_150" class="goodnum">
-             <a href="{{ nav.link("/tables/pregnancy") }}"> {{  display.total  }}</a>
+             <a href="{{ nav.link("/tables/pregnancy") }}"> {{  display.total|neat_numbers  }}</a>
 			</div>
 			<!-- Graphs -->
 			<div id="lmpgraph">
@@ -54,7 +54,7 @@
 			
       <div id="LMPinrelativetopregn">
         <!--  <img src="{{ static_path }}/images/pregnancy/LMPinrelativetopregn.png">  -->
-        Pregnancy Confirmation Delay (in Months)      
+        Pregnancy Confirmation Age (in Months)      
       </div>
       <div id="MonthlyPregnancyAvg9">
               
@@ -129,7 +129,7 @@
 			</div></a>
 			
 			<a href="{{ nav.link("/tables/pregdiarrhea") }}"> <div id="DIARRHEA33">
-        DIARRHEA33<br><br><strong>{{  display.info.diarrhoea  }}</strong>
+        DIARRHEA<br><br><strong>{{  display.info.diarrhoea  }}</strong>
 			</div></a>
 			
 			 <a href="{{ nav.link("/tables/pregfever") }}"> <div id="FEVER12">
@@ -145,7 +145,7 @@
 			</div></a>
 		
 		<a href="{{ nav.link("/tables/pregstill") }}"> 	<div id="STILLBORN21">
-        FRACCID PARALYSIS<br><strong>{{ display.info.stillb  }}</strong>
+        FLACCID PARALYSIS<strong>{{ display.info.stillb  }}</strong>
 			</div></a>
 		
 		<a href="{{ nav.link("/tables/pregedema") }}">  	<div id="EDEMA13">
@@ -240,11 +240,11 @@
 			</div>
 			<div id="kgs23">
 			45 to 55 Kgs<br>
-			<strong>6545</strong>
+			<strong>6,545</strong>
 			</div>
 			<div id="Morethan2KGs">
 			More than 65kgs
-			<br><strong>5642</strong>
+			<br><strong>5,642</strong>
 			</div>
 			<div id="layer_2315">
 			25%
@@ -311,7 +311,7 @@ $(function () {
                 }
             },
             series: [{
-                name: 'LMP Known in terms of months',
+                name: 'Number of Pregnancies',
                 data: lmps
     
             }]

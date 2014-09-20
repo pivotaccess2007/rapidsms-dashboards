@@ -25,28 +25,27 @@
 		<div id="background2">
 			
 		
-			
-			
 			<div id="pregnancies"><img src="{{ static_path }}/images/pregnancy/pregnancies.png"></div>
-			<div id="Pregnanciesconfirmed">
+			<!--  <div id="Pregnanciesconfirmed">
 			With Previous Pregnancy:</div>
 			<div id="Pregnanciesconfirmednumber">
-			{{  (display.pregs - display.total)|neat_numbers  }}</div>
+			{{  (display.pregs - display.total)|neat_numbers  }}</div>-->
 			<div id="Pregnanciesconfirmed_0">
 			Mothers
 			</div>
 			<div id="layer_150" class="goodnum">
-             <a href="{{ nav.link("/tables/pregnancy") }}">{{  display.total|neat_numbers }} </a>
+             <a href="{{ nav.link("/tables/mothers") }}">{{  display.total|neat_numbers }} </a>
+			
 			</div>
 			<!-- Graphs -->
 			
       <div id="LMPinrelativetopregn">
         <!--  <img src="{{ static_path }}/images/pregnancy/LMPinrelativetopregn.png">  -->
-		under 18:   <strong>{{ dat.young_mother }}</strong>
+		under 18:   <a href="{{ nav.link("/tables/mothers?subcat=young_mother") }}"><strong>{{ dat.young_mother }}</strong></a>
 		</div>
-      <div id="MonthlyPregnancyAvg9">
-      Over 35: <strong>{{ dat.old }}</strong> 
-      </div>
+        <div id="MonthlyPregnancyAvg9">
+      	Over 35: <strong>{{ dat.old }}</strong> 
+      	</div>
 			<!--  -->
 			
 			<div id="Layer1copy7"><img src="{{ static_path }}/images/redalert/hex.png"></div>
@@ -57,20 +56,20 @@
 			
 			<div id="Layer11"><img src="{{ static_path }}/images/redalert/Layer11.png"></div>
 			<div id="COUGHING24">
-			OBSTETRIC SURGERY <br><strong>{{dat.surgeries}}</strong>
+			<a href="{{ nav.link("/tables/mothers?subcat=surgeries") }}">OBSTETRIC SURGERY <br><strong>{{dat.surgeries}}</strong></a>
 			</div>
 			<div id="FEVER12">
-			MISSCARRIED<br><strong>{{dat.miscarries}}</strong>
+			<a href="{{ nav.link("/tables/mothers?subcat=miscarries") }}">MISSCARRIED<br><br><strong>{{dat.miscarries}}</strong></a>
 			</div>
 			<div id="MALARIA09">
-			HOME DELIVERY<br><strong>{{dat.prev_home_deliv}}</strong>
+			<a href="{{ nav.link("/tables/mothers?subcat=prev_home_deliv") }}">HOME DELIVERY<br><strong>{{dat.prev_home_deliv}}</strong></a>
 			</div>
 			<div id="VOMITING18">
-			CHRONIC DISEASE<br><strong>{{dat.chronic_disease}}</strong>
+			<a href="{{ nav.link("/tables/mothers?subcat=chronic_disease") }}">CHRONIC DISEASE<br><strong>{{dat.chronic_disease}}</strong></a>
 			</div>
 			
 			<div id="RedAlertReportSympto">
-			Red Alert Report Symptoms
+			High Risk Cases
 			</div>
 			
 			

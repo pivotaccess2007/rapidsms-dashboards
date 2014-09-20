@@ -9,7 +9,7 @@
 	 margin-left: auto; 
 	 margin-right: auto; 
 	 width: 1000px;
-	 height:300px;
+	 height: 700px;
 	 overflow: hidden;
 	 z-index:2;
 	}
@@ -133,3 +133,195 @@
 	color:#493913;
 }
 
+ #ancreports 
+{ 
+	 left: 376px; 
+	 top: 250px; 
+	 position: absolute; 
+	 width: 118px;
+	 height: 44px;
+	 z-index:11;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 18px;
+	color: #000;
+}
+
+ #birreports 
+{ 
+	 left: 676px; 
+	 top: 250px; 
+	 position: absolute; 
+	 width: 118px;
+	 height: 44px;
+	 z-index:11;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 18px;
+	color: #000;
+}
+
+ #cbnreports 
+{ 
+	 left: 376px; 
+	 top: 300px; 
+	 position: absolute; 
+	 width: 118px;
+	 height: 44px;
+	 z-index:11;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 18px;
+	color: #000;
+}
+
+ #chireports 
+{ 
+	 left: 676px; 
+	 top: 300px; 
+	 position: absolute; 
+	 width: 118px;
+	 height: 44px;
+	 z-index:11;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 18px;
+	color: #000;
+}
+
+ #cmrreports 
+{ 
+	 left: 376px; 
+	 top: 350px; 
+	 position: absolute; 
+	 width: 118px;
+	 height: 44px;
+	 z-index:11;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 18px;
+	color: #000;
+}
+
+ #depreports 
+{ 
+	 left: 676px; 
+	 top: 350px; 
+	 position: absolute; 
+	 width: 118px;
+	 height: 44px;
+	 z-index:11;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 18px;
+	color: #000;
+}
+
+ #dthreports 
+{ 
+	 left: 376px; 
+	 top: 400px; 
+	 position: absolute; 
+	 width: 118px;
+	 height: 44px;
+	 z-index:11;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 18px;
+	color: #000;
+}
+
+ #nbcreports 
+{ 
+	 left: 676px; 
+	 top: 400px; 
+	 position: absolute; 
+	 width: 118px;
+	 height: 44px;
+	 z-index:11;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 18px;
+	color: #000;
+}
+
+ #pncreports 
+{ 
+	 left: 376px; 
+	 top: 450px; 
+	 position: absolute; 
+	 width: 118px;
+	 height: 44px;
+	 z-index:11;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 18px;
+	color: #000;
+}
+
+ #prereports 
+{ 
+	 left: 676px; 
+	 top: 450px; 
+	 position: absolute; 
+	 width: 118px;
+	 height: 44px;
+	 z-index:11;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 18px;
+	color: #000;
+}
+
+ #rarreports 
+{ 
+	 left: 376px; 
+	 top: 500px; 
+	 position: absolute; 
+	 width: 118px;
+	 height: 44px;
+	 z-index:11;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 18px;
+	color: #000;
+}
+
+ #redreports 
+{ 
+	 left: 676px; 
+	 top: 500px; 
+	 position: absolute; 
+	 width: 118px;
+	 height: 44px;
+	 z-index:11;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 18px;
+	color: #000;
+} 
+ #refreports 
+{ 
+	 left: 376px; 
+	 top: 550px; 
+	 position: absolute; 
+	 width: 118px;
+	 height: 44px;
+	 z-index:11;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 18px;
+	color: #000;
+}
+
+ #resreports 
+{ 
+	 left: 676px; 
+	 top: 550px; 
+	 position: absolute; 
+	 width: 118px;
+	 height: 44px;
+	 z-index:11;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 18px;
+	color: #000;
+} 
+ #riskreports 
+{ 
+	 left: 550px; 
+	 top: 600px; 
+	 position: absolute; 
+	 width: 118px;
+	 height: 44px;
+	 z-index:11;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 18px;
+	color: #000;
+}
