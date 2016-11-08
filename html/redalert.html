@@ -1,97 +1,26 @@
 {%  extends "novabase.html" %}
+{%  block title %}Red Alerts {%  endblock  %}
+{%  block subtitle %} Red Alerts {%  endblock  %}
+{%  block trunkstyle  %} style="background: url('{{ static_path }}/images/anc.jpg') no-repeat fixed center"{%  endblock  %}
+{%  block mainpart  %}
 
-{% block title %}
-<title>Vaccination</title>	
-{% endblock  %}
+<table>
+    <thead>
+      <tr>
+        {%  for fld in display.fields %}
+          <th>{{  fld[0]  }}</th>
+        {%  endfor  %}
+      </tr>
+    </thead>
+    <tbody>
+        {%  for ra in display.nat.list() %}
+          <tr>
+            {%  for fld in display.fields %}
+              <td>{{  ra[fld[1]]  }}</td>
+            {%  endfor  %}
+          </tr>
+        {%  endfor  %}
+    </tbody>
+</table>
 
-
-           {% block banner %}
-			<div id="bannertext">
-			Attending to <strong>Mothers</strong> in <strong>Critical Need</strong> and those in <strong>Emergenies</strong>
-			</div>
-			<!--  <div id="bannericon"><img src="{{ static_path }}/images/redalert/redalerticon.png"></div>-->
-			{%  endblock %}
-
-
-{% block scripts %}
-	<link href="{{ static_path }}/css/redalert/styles.css" rel="stylesheet" type="text/css">
-
-{% endblock %}
-{%  block   bodycontent %}
-	<div id="background2">
-			
-			<div id="Layer73939"><img src="{{ static_path }}/images/redalert/Layer73939.png"></div>
-			<div id="Layer73939copy"><img src="{{ static_path }}/images/redalert/Layer73939copy.png"  ></div>
-			<div id="NumberofRedAlertRepo">Number of Red Alerts</div>
-			
-			<div id="layer_500"><img src="{{ static_path }}/images/redalert/layer_500.png"></div>
-			<div id="layer_5001">Responsed</div>
-			<div id="Layer1">
-			{{display.total_res}}
-			</div>
-			
-			<div id="darkblue"><img src="{{ static_path }}/images/redalert/darkblue.png"></div>
-			<div id="Layer3">
-			{{display.positive_res}}
-			</div>
-			<div id="Layer4"><img src="{{ static_path }}/images/redalert/Layer4.png"></div>
-			<div id="Layer5">
-			{{display.negative_res}}
-			</div>
-			<div id="Layer6">Deaths After Red Alert</div>
-			<div id="Layer7">Patients Directly Referred</div>
-			<div id="layer_543"><img src="{{ static_path }}/images/redalert/layer_543.png"></div>
-			<div id="Layer8">
-			{{display.total}}
-			</div>
-			
-			<div id="Layer1copy7"><img src="{{ static_path }}/images/redalert/hex.png"></div>
-			<div id="Layer1copy8"><img src="{{ static_path }}/images/redalert/hex.png"></div>
-			<div id="Layer1copy9"><img src="{{ static_path }}/images/redalert/hex.png"></div>
-			<div id="Layer1copy10"><img src="{{ static_path }}/images/redalert/hex.png"></div>
-			<div id="Layer1copy11"><img src="{{ static_path }}/images/redalert/hex.png"></div>
-			<div id="Layer1copy12"><img src="{{ static_path }}/images/redalert/hex.png"></div>
-			<div id="Layer11"><img src="{{ static_path }}/images/redalert/Layer11.png"></div>
-			<div id="COUGHING24">
-			AP <br><br><strong>{{display.ap}}</strong>
-			</div>
-			<div id="DIARRHEA33">
-			CO <br><br><strong>{{display.co}}</strong>
-			</div>
-			<div id="FEVER12">
-			HE <br><br><strong>{{display.he}}</strong>
-			</div>
-			<div id="MALARIA09">
-			MC <br><br><strong>{{display.mc}}</strong>
-			</div>
-			<div id="VOMITING18">
-			PA <br><br><strong>{{display.pa}}</strong>
-			</div>
-			<div id="NECKSTIFFNESS">
-			PS <br><strong>{{display.ps}}</strong>
-			</div>
-			<div id="RedAlertReportSympto">
-			Red Alert Report Symptoms
-			</div>
-			
-			
-			
-			<div id="layer_20">{{display.no_ambulance_res}}</div>
-			<div id="layer_43">{{display.ambulance_late_res}}</div>
-			<div id="layer_90">{{display.ambulance_ontime_res}}</div>
-			<div id="noresponse">No Response:</div>
-			<div id="ontime">On Time: </div>
-			<div id="ambulanceresponse">Ambulance Repsonse: </div>
-			<div id="late">Late: </div>
-			<div id="layer_201">20</div>
-			<div id="layer_431">43</div>
-			<div id="layer_901">90</div>
-			<div id="noresponse1">No Response: </div>
-			<div id="late1">Late: </div>
-			<div id="ontime1">On Time: </div>
-			<div id="chwresponse">CHW Response: </div>
-			<div id="mobilefoneimg"><img src="{{ static_path }}/images/redalert/mobilefoneimg.png"></div>
-			<div id="ambulanceimg"><img src="{{ static_path }}/images/redalert/ambulanceimg.png"></div>
-	</div>
-			
-{% endblock %}
+{%  endblock  %}

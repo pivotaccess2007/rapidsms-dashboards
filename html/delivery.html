@@ -1,86 +1,71 @@
-{%  extends "novabase.html" %}
-
-{% block title %}
-<title>Delivery</title>	
-{% endblock  %}
-
-
-{% block scripts %}
-<link href="{{ static_path }}/css/delivery/styles.css" rel="stylesheet" type="text/css">
-    
+{%  extends "deliverybase.html" %}
+{% block menu %}
+ <li class="homelink">
+            <a href="/dashboards/predash"><span>Pregnancies</span></a>
+          </li>
+          <li class="homelink">
+            <a href="/dashboards/ancdash"><span>ANC</span></a>
+          </li>
+          <li class="homelink">
+            <a href="/dashboards/delivery"><span>Deliveries Notifications</span></a>
+          </li>
+          <li class="homelink">
+            <a href="/dashboards/delivery"><span>Deliveries</span></a>
+          </li>
+         
+          
+           
 {% endblock %}
 
 
-{% block banner %}
-			<div id="bannertext">
-			<strong>Preventing</strong> the deaths of <strong>Pregnant Mothers</strong> and <strong>New Borns</strong> &amp; Improving <strong>Child Nutrition</strong>
-			</div>
-			<!-- <div id="bannericon"><img src="{{ static_path }}/images/pregnancy/Layer6.png"></div>-->
-			{%  endblock %}
+{% block position %}
 
-			
+<li>&#187; Delivery</li>
 
-{%  block   bodycontent %}
-		
-		<div id="background2">
-		
-			<div id="Layer1copy">
-			<div id="Layer15"></div>
-			<div id="PregnanciesConfirmed"><a href='/dashboards/{{ nav.link("pregnancy") }}'>Pregnancies Confirmed</a></div>
-			</div>
-			<div id="ExpectedDeliveries"><a href='/dashboards/{{ nav.link("delivery") }}'> Deliveries</a></div>
-			
-		
-		<!-- preg -->
-			<div id="ccmvcmr"><img src="{{ static_path }}/images/delivery/ccmvcmr.png"></div>
-			<div id="motherpic"><img src="{{ static_path }}/images/delivery/motherpic.png"></div>
-			<div id="ExpectedDeliveries98">
-			 Deliveries:
-			</div>
-			<div id="layer_98_1">
-			<a href="{{ nav.link("/tables/delivery") }}">{{  display.expected|neat_numbers }}</a>
-			</div>
-			<div class="deeper">
-			<div class="triangle-border top" id="here_table">
-			</div>
-			</div>
-			
-			
-			<div id="UnknownDeliveries23">
-			Expected Deliveries:
-			</div>
-			
-			<div id="unreported">
-			Unreported Deliveries: 
-			</div>
-			
-			
-			<div id="layer_23_0">
-		<!-- {{  display.unknowns|neat_numbers }}-->
-			</div>
-			<div class="deeper1">
-			<div class="triangle-border1 top" id="here_table1">
-			</div>
-			</div>
-			
-			
-		<!-- location -->
-			
-			<div id="DeliveryLocations">
-			Delivery Locations:
-			</div>
-			{%  for nom, loc in [('home', 'home'), ('Clinic', 'clinic'), ('Hospital', 'hospital'), ('Route', 'enroute')] %}
-			<div id="{{ nom }}">
-			{{ display.locations[loc]|neat_numbers }}
-			</div>
-			{%  endfor  %}
-			
-			
-			<div id="Hospital1"><img src="{{ static_path }}/images/delivery/Hospital.png"></div>
-			<div id="home1"><img src="{{ static_path }}/images/delivery/home.png"></div>
-			<div id="OnRoute"><img src="{{ static_path }}/images/delivery/OnRoute.png"></div>
-			<div id="clinic"><img src="{{ static_path }}/images/delivery/clinic.png"></div>
-			
-					
-</div>
+{% endblock %}
+
+{%  block mainpart  %}
+  <div class="smallcontainer">
+   
+     <img class="icon" src="{{  static_path }}/images/delivery.jpg" />
+    <div class="infoname" style="font-size: 20px;">Deliveries in Next Week</div>
+    <div class="infodata goodnum">
+      <a href="{{ nav.link("/tables/delivery") }}">{{  display.births|neat_numbers }}</a>
+    </div>
+    
+    <div class="infoname" style="font-size: 20px;">Deliveries in Next two Weeks</div>
+    <div class="infodata goodnum">
+      <a href="{{ nav.link("/tables/delivery") }}">{{  display.births|neat_numbers }}</a>
+    </div>
+    
+    
+    
+  </div>
+  <div class="humblecontainer">
+  <div class="infopair" style="display:block">
+      <div class="prem" style="display: inline; float:left;padding-right:30px;">
+        <div class="infoname">Total Deliveries</div>
+        <div class="number">{{  display.expected|neat_numbers }}</div>
+      </div>
+      <div class="scnd" style="">
+        <div class="infoname">Untracked Deliveries</div>
+        <div class="number">{{  display.unknowns|neat_numbers }}</div>
+      </div>
+    </div>
+  
+    <div class="infoname" style="padding-left:150px; padding-top:50px;">Delivery Locations</div>
+    <div class="vals">
+      {%  for nom, loc in [('Home', 'home'), ('Clinic', 'clinic'), ('Hospital', 'hospital'), ('En Route', 'enroute')] %}
+        
+    <div class="datapoint">
+    <div class="descr">{{ nom }}</div>
+    <div class="number">{{ display.locations[loc]|neat_numbers }}</div>
+    </div>
+      {%  endfor  %}
+    </div>
+    
+  </div>
+
+
+
 {%  endblock  %}

@@ -1,130 +1,42 @@
 {%  extends "novabase.html" %}
+{%  block title %}Nutrition {%  endblock  %}
+{%  block subtitle %} Nutrition {%  endblock  %}
+{%  block trunkstyle  %} style="background: url('{{ static_path }}/images/anc.jpg') no-repeat fixed center"{%  endblock  %}
+{%  block mainpart  %}
+<div class="smallcontainer" style="padding-top:50px;">
 
-{% block title %}
-<title>Nutrition</title>	
-{% endblock  %}
-
-
-{% block scripts %}
-	<link href="{{ static_path }}/css/nutrition/styles.css" rel="stylesheet" type="text/css">
-	<link href="{{ static_path }}/css/nutrition/meter.css" rel="stylesheet" type="text/css">
+   <div class="space">   
+<div class="datapointrisks">
+    <div class="moreoptions startshidden" > <a href="">View by Location</a></div>
+    <img src="{{  static_path }}/images/underwieght.png" />
+  </div>
+  <div class="descrrisk1">underweight: <a>231</a></div>
+ </div>
  
-{% endblock %}
-
-
-{% block banner %}
-			<div id="bannertext">
-			<strong>observing</strong> Mother and child <strong>Nutrition Patterns</strong> and <strong>Predicting possible Risks</strong> and complications
-			</div>
-			<!--  <div id="bannericon"><img src="{{ static_path }}/images/nutrition/VectorSmartObject.png"></div>-->
-			{%  endblock %}
-
-
-{%  block   bodycontent %}
-
-			
-			<div id="background2">
-			
-			
-			<div id="ccmvcmrcopy4"><img src="{{ static_path }}/images/nutrition/ccmvcmrcopy4.png"></div>
-			
-			<div id="ccmvcmrcopy5"><img src="{{ static_path }}/images/nutrition/ccmvcmrcopy5.png"></div>
-			
-			<!-- 
-			<div id="VectorSmartObject_0"><img src="{{ static_path }}/images/nutrition/VectorSmartObject_0.png"></div>
-			<div id="Childnotbebreastfeed"><img src="{{ static_path }}/images/nutrition/Childnotbebreastfeed.png"></div>
-			<div id="layer_11"><img src="{{ static_path }}/images/nutrition/layer_11.png"></div>
-			<div id="layer_108"><img src="{{ static_path }}/images/nutrition/layer_108.png"></div>
-			-->
-			<div id="ccmvcmrcopy2"><img src="{{ static_path }}/images/nutrition/ccmvcmrcopy2.png"></div>
-			<div id="breastfeedingtitle">Breasting Feeding</div>
-			<div id="VectorSmartObject_0"><img src="{{ static_path }}/images/nutrition/VectorSmartObject_0.png"></div>
-			<div id="childbeingbreastfeed">Children being breast Fed</div>
-			<div id="layer_118">234</div>
-			<div id="Childnotbebreastfeed"><img src="{{ static_path }}/images/nutrition//Childnotbebreastfeed.png"></div>
-			<div id="layer_34">125</div>
-			<div id="childnotbreastfeed">Children not being breastfed</div>
-			
-			<div id="layer_1121">Exculsive Breast Feeding: <strong> 233</strong></div>
-			<div id="Thoseunknown">Comlimentary breast Feeding:<strong> 567</strong></div>
-			<div id="WithinFirsthourPic"><img src="{{ static_path }}/images/nutrition/WithinFirsthourPic.png"></div>
-			<div id="Breastfeedwithinthef">Breast fed within the first hour</div>
-			<div id="layer_108">121</div>
-			
-			
-			<!--  -->
-			<div id="ccmvcmrcopy3"><img src="{{ static_path }}/images/nutrition/ccmvcmrcopy3.png"></div>
-			
-			<div id="Month1">First Month</div>
-			<div id="Layer1copy2_0" class="meter orange"><span id="firstmonth" style="width: 40%"></span>
-			<div id="layer_79">{{  display.bfirstm}}35</div>
-			</div>
-			<div id="Month2">second Month</div>
-			<div id="Layer11" class="meter orange"><span id="secondmonth" style="width: 76%"></span>
-			<div id="layer_112">{{  display.bsecondm  }}54</div>
-			</div>
-			<div id="Month3">Thrid Month</div>
-			<div id="Layer1copy_0" class="meter orange"><span id="thridmonth" style="width: 33%"></span>
-			<div id="layer_84">{{  display.bthridm  }}12</div>
-			</div>
-			<div id="Month4">Fourth Month</div>
-			<div id="Layer1copy5" class="meter orange"><span id="fourthmonth" style="width: 90%"></span>
-			<div id="layer_76">{{  display.bfourthm  }}87</div>
-			</div>
-			<div id="Month5">Fifth Month</div>
-			<div id="Layer1copy3" class="meter orange"><span id="fifthmonth" style="width: {{ display.fifthpc  }}54%"></span>
-			<div id="layer_55">{{  display.bfifthm  }}23</div>
-			</div>
-			<div id="Month6">Sixth Month</div>
-			<div id="Layer1copy4" class="meter orange"><span id="" style="width: {{ display.sixthpc  }}23%"></span>
-			<div id="layer_42">{{  display.bsixthm  }}98</div>
-			</div>
-			<div id="Monthlybreastfeeding">Monthly breast feeding patterns</div>
-			
-			
-			<!--  -->
-			<div id="ProportionofPregnant1">proportion of pregnant women whose height &lt; 150cm at 1st ANC</div>
-			<div id="layer_152">{{ display.protion1pc  }}12%</div>
-			<div id="Proportionofpregnant">Proportion of pregnant women with BMI &lt; 18.5 at 1st ANC</div>
-			<div id="layer_44">{{ display.protion2pc  }}33%</div>
-			<div id="Proportionoflivebirt1">Proportion of live birth weights below 2.5kg</div>
-			<div id="layer_29">{{  display.protion3pc  }}16%</div>
-			<div id="proportionoflivebirt">Proportion of live births breastfed within 1st hours</div>
-			<div id="layer_822">{{ display.protion4pc  }}34%</div>
-			<div id="Proportionofchildren1">Proportion of children whose height is measured 6 months old</div>
-			<div id="layer_27">{{  display.protion5pc  }}65%</div>
-			<div id="proportionofchildren">Proportion of children whose height is measured 9 months old</div>
-			<div id="layer_46">{{ display.protion6pc  }}19%</div>
-			<div id="proportionofchildren_0">Proportion of children whose height is measured 18 months old</div>
-			<div id="layer_56">{{  display.protion7pc  }}19%</div>
-			<div id="proportionofchildren_1">Proportion of children whose height is measured 24 months old</div>
-			<div id="layer_73">{{display.protion8pc  }}11%</div>
-			
-			<!--  -->
-			<div id="Layer12"><img src="{{ static_path }}/images/nutrition/Layer12.png"></div>
-			<div id="UnderWeight">Under Weight: </div>
-			<div id="OverWeight">Over Weight:</div>
-			<div id="layer_7869">{{  display.under  }}342 <span id="underwieghtpercent"> {{display.underwpc  }}45%</span></div>
-			<div id="top">{{  display.over  }}43<span id="overweightpercent"> {{ display.overwpc  }}23%</span></div>
-			<div id="Layer13"><img src="{{ static_path }}/images/nutrition/Layer13.png"></div>
-			
-			
-			<!--  -->
-			<div id="MalnutritionCases">Malnutrition</div>
-			<div id="waisting">Waisting:</div>
-			<div id="layer_224">{{  display.waisting  }}322</div>
-			<div id="stunting">Stunting:</div>
-			<div id="layer_98">{{  display.stunting  }}532</div>
-			
-			<div id="Numberofmalnutrition">
-			Number of malnutrition cases in <strong>first month, First Year</strong> and <strong>Second Year</strong>
-			</div>
-			<div id="layer_11_0"><img src="{{ static_path }}/images/nutrition/layer_11_0.png"></div>
-			<div id="month1number">{{  display.onemonth  }}74</div>
-			<div id="At1year"><img src="{{ static_path }}/images/nutrition/At1year.png"></div>
-			<div id="year1number">{{  display.oneyear  }}93</div>
-			<div id="At2years"><img src="{{ static_path }}/images/nutrition/At2years.png"></div>
-			<div id="years2number">{{  display.twoyears  }}77</div>
-			
-</div>
+ <div class="space">   
+<div class="datapointrisks">
+    <div class="moreoptions startshidden" > <a href="">View by Location</a></div>
+    <img src="{{  static_path }}/images/breastfeeding.jpg" style="max-height:120px;" />
+  </div>
+  <div class="descrrisk1">Breast Fed: <a>231</a></div>
+ </div>
+ 
+  </div>
+  <div class="humblecontainer">
+  <div class="descrrisk1" >
+    <span>Waisting:<a>234</a></span>
+    <span>stunting:<a>304</a></span><br><br>
+    <br><br></div>
+    <div style="padding-left: 150px;">
+    <div class="datapoint">
+    <div class="descr">Exclusive</div>
+    <div class="number"><a>654</a></div>
+  </div>
+  <div class="datapoint">
+    <div class="descr">Complementry</div>
+    <div class="number"><a>654</a></div>
+  </div>
+  </div>
+   </div>
+  
 {%  endblock  %}

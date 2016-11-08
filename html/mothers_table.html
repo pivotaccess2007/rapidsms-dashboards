@@ -1,65 +1,27 @@
-{%  extends "novabase.html" %}
-
-{% block title %}
-<title>Pregnancies Confirmed</title>	
-{% endblock  %}
-
-
-           {% block banner %}
-			<div id="bannertext">
-			<strong>Preventing</strong> the deaths of <strong>Pregnant Mothers</strong> and <strong>New Borns</strong> &amp; Improving <strong>Child Nutrition</strong>
-			</div>
-			<div id="bannericon"><img src="{{ static_path }}/images/pregnancy/Layer6.png"></div>
-			{%  endblock %}
-
-
-{% block scripts %}
-	
-	<link href="{{ static_path }}/css/tables/styles.css" rel="stylesheet" type="text/css">
-	
-{% endblock %}
-{%  block   bodycontent %}
-   
-     <div id="background2" style=" margin-left: auto; margin-right: auto; width: 1000px; height: 900px; font-family: 'Open Sans', sans-serif; font-size: 15px;">
-{{  display.nat.count() }} Records
-<button type="button">Export</button>
-{%  set cpg, rng, pgs = nav.pages(display.nat) %}
-
-<br>
-<br>
-<div style="height: 650px; overflow: scroll; " >
-
-<table>
-  <thead>
-    <tr>
-      <th>#</th>
-      {%  for col in display.cols %}
-        <th>{{  col[1] }}</th>
-      {%  endfor  %}
-    </tr>
-  </thead>
-  <tbody>
-    {#  {%  for row in display.nat.list() %}  #}
-    {%  for row in display.nat[rng[0]:rng[1]] %}
-      <tr class="{{ loop.cycle('even', 'odd')  }}">
-        <td class="cnt">{{  rng[0] + loop.index  }}</td>
-        {%  for col in display.cols %}
-          <td>{{  row[col[0]]  }}</td>
-        {%  endfor  %}
-      </tr>
-    {%  endfor  %}
-  </tbody>
-</table>
+{%  extends "basicmothers.html" %}
+{%  block mainpart  %}
+  {% if display.locateds %} 
+	<div>
+		<table class="locationtable"> 
+		   <theader>
+			{% if display.locateds[0].province_name %}<th>Province</th> {% endif %}
+			{% if display.locateds[0].district_name %}<th>District</th> {% endif %}
+			{% if display.locateds[0].location_name %}<th>HealthCentre</th> {% endif %}   
+			<th>Total</th>
+		   </theader>
+			{% for lc in display.locateds %} 
+			   <tr>
+				{% if lc.province_name %}<td><a href="#" onclick="addInURL('province', {{lc.province_id}});">{{lc.province_name}}</a></td> {% endif %}
+				{% if lc.district_name %}<td><a href="#" onclick="addInURL('district', {{lc.district_id}});">{{lc.district_name}}</a></td> {% endif %}
+				{% if lc.location_name %}<td><a href="#" onclick="addInURL('hc', {{lc.location_id}});">{{lc.location_name}}</a></td> {% endif %}   
+				<td><a href="#" onclick="getTotal( {%if lc.province_id %}{{lc.province_id }} {%else%}''{%endif%}, {%if lc.district_id %}{{lc.district_id }} {%else%}''{%endif%}, {%if lc.location_id %}{{lc.location_id }} {%else%}''{%endif%} );">{{lc.total}}</a></td>
+			   </tr>
+			{% endfor %}
+		</table>
 	</div>
-	<div style="margin-left: 20%; margin-right: auto; width: 500px; overflow: scroll; padding-top: 20px;">
-	 prev
-	 {%  for page  in pgs  %}
-     {%  if cpg == page  %}{{  loop.index  }}{%  else  %}<a href="./{{ nav.link(ref, page = page)  }}">{{ loop.index  }}-</a>{% endif %}
-     {%  endfor  %}
-     Next
- 	</div>
-	
-	</div>
-</body>
-</html>
- {% endblock  %}
+
+  {%else%}
+  {%  include "basictable.html"  %}
+  {% endif %}
+
+{%  endblock  %}

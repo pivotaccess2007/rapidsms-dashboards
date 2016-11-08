@@ -1,361 +1,111 @@
-{%  extends "novabase.html" %}
-
-{% block title %}
-<title>Pregnancies Confirmed</title>	
-{% endblock  %}
-
-
-{% block scripts %}
-<link href="{{ static_path }}/css/pregnancy/styles.css" rel="stylesheet" type="text/css">
-    <script src="{{ static_path }}/js/pregnancy/highcharts.js"></script>
-{% endblock %}
-
-			{% block banner %}
-			<div id="bannertext">
-			<strong>Preventing</strong> the deaths of <strong>Pregnant Mothers</strong> and <strong>New Borns</strong> &amp; Improving <strong>Child Nutrition</strong>
-			</div>
-			<!-- <div id="bannericon"><img src="{{ static_path }}/images/pregnancy/Layer6.png"></div>-->
-			{%  endblock %}
-
-			
-
-
-{%  block   bodycontent %}
-		<div id="background2">
-			
-			<div id="Layer1copy">
-			<div id="Layer1"></div>
-			<div id="PregnanciesConfirmed1">Pregnancies Confirmed</div>
-			</div>
-			
-			<div id="ExpectedDeliveries"><a href='/dashboards/{{ nav.link("delivery") }}'> Deliveries</a></div>
-			
-			
-			<div id="Layer7copy"><img src="{{ static_path }}/images/pregnancy/Layer7copy.png"></div>
-			<div id="Layer7copy_0"><img src="{{ static_path }}/images/pregnancy/Layer7copy_0.png"></div>
-			<div id="Layer7copy_1"><img src="{{ static_path }}/images/pregnancy/Layer7copy_1.png"></div>
-			<div id="pregnancies"><img src="{{ static_path }}/images/pregnancy/pregnancies.png"></div>
-			<div id="Pregnanciesconfirmed">
-			Pregnancies Confirmed and Expected deliveries are gathered nation
-			wide by the community health workers using rapid SMS system
-			</div>
-			<div id="Pregnanciesconfirmed_0">
-			Pregnancies Confirmed
-			</div>
-			<div id="layer_150" class="goodnum">
-             <a href="{{ nav.link("/tables/pregnancy") }}"> {{  display.total|neat_numbers  }}</a>
-			</div>
-			<!-- Graphs -->
-			<div id="lmpgraph">
-			</div>
-			<div id="monthlyavggrph">
-			</div>
-			
-			
-      <div id="LMPinrelativetopregn">
-        <!--  <img src="{{ static_path }}/images/pregnancy/LMPinrelativetopregn.png">  -->
-        Pregnancy Confirmation Age (in Months)      
+{%  extends "basicpreg.html" %}
+{%  block mainpart  %}
+  <div class="smallcontainer">
+    <div class="infoname">Total Pregnancies Confirmed</div>
+    <div class="infodata goodnum">
+      <a href="{{ nav.link("/tables/pregnancy") }}">{{  display.total|neat_numbers }}</a>
+    </div>
+  </div>
+  <div class="humblecontainer">
+    <div class="explanation"><!-- Graphs  --></div>
+    <div class="charter">
+      <div class="chart">
+        <div class="title">LMP Relative to Pregnancy Confirmation</div>
+        <div class="data">
+          {%  for lmp in display.lmps  %}
+            <div class="datapoint" style="height: {{  "%.2f" % lmp.rpc  }}%">
+              <div class="value">{{  lmp.value|neat_numbers  }}</div>
+              <div class="label">Month {{  loop.index  }}</div>
+            </div>
+          {%  endfor  %}
+        </div>
       </div>
-      <div id="MonthlyPregnancyAvg9">
-              
-        <!--  <img src="{{ static_path }}/images/pregnancy/MonthlyPregnancyAvg9.png">  -->
-        Monthly Pregnancy Confirmed Vs Monthyly Expected Pregnancy
-      
+      <div class="chart">
+        <div class="title">Monthly Pregnancy Average: {{  "%.2f" % display.monthavg }}</div>
+        <div class="data">
+          {%  for ma in display.monthavgs  %}
+            <div class="datapoint" style="height: {{  "%.2f" % ma.rpc }}%">
+              <div class="value">{{  ma.value|neat_numbers  }}</div>
+              <div class="label">{{  ['', 'Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'][loop.index]  }}</div>
+            </div>
+          {%  endfor  %}
+        </div>
       </div>
-			<!--  -->
-			
-			<!-- Risks -->
-			<div id="VectorSmartObject"><img src="{{ static_path }}/images/pregnancy/VectorSmartObject.png"></div>
-			
-			<div id="risks78">
-              {{  display.pr  }}
-			<div id="risks69">
-			{{  "%.2f" % display.prpc  }}%
-			</div>
-			</div>
-			<div id="numberofmotherpr">
-			PR
-			</div>
-			
-			<div id="risks65">
-              {{  display.aa  }}
-			<div id="risks66">
-			 {{ "%.2f" % display.aapc  }}%
-			</div>
-			</div>
-			
-			<div id="numberofmotherswell">
-			AA(ASM):
-			</div>
-			<div id="Layer2"><img src="{{ static_path }}/images/pregnancy/redriskdot2.png"></div>
-			<div id="Layer1copy_0"><img src="{{ static_path }}/images/pregnancy/redriskdot3.png"></div>
-			<div id="ReportedRisks">
-			Reported Risks
-			</div>
-			<div class="goodnum" id="layer_129">
-            <a href="{{ nav.link("/tables/risks") }}">   {{  display.risks }}</a>
-			</div>
-			<div id="layer_89">
-              {{  "%.2f" % display.riskpc  }}%
-			</div>
-			<div id="ResultsReported">
-			Risk Response
-			</div>
-			<div id="layer_89_0">
-              {{  display.rezes }}
-			</div>
-			<div id="layer_75">
-              {{  "%.2f" % display.rezpc }}%
-			</div>
-			<!--  -->
-			<!-- Symptoms -->
-			<div id="Layer3"><img src="{{ static_path }}/images/pregnancy/bluehex.png"></div>
-			<div id="Layer1copy_1"><img src="{{ static_path }}/images/pregnancy/bluehex.png"></div>
-			<div id="Layer1copy2"><img src="{{ static_path }}/images/pregnancy/bluehex.png"></div>
-			<div id="Layer1copy6"><img src="{{ static_path }}/images/pregnancy/bluehex.png"></div>
-			<div id="Layer1copy7"></div>
-			<div id="Layer1copy8"><img src="{{ static_path }}/images/pregnancy/bluehex.png"></div>
-			<div id="Layer1copy3"><img src="{{ static_path }}/images/pregnancy/bluehex.png"></div>
-			<div id="Layer1copy4"><img src="{{ static_path }}/images/pregnancy/bluehex.png"></div>
-			<div id="Layer1copy5"><img src="{{ static_path }}/images/pregnancy/bluehex.png"></div>
-			<div id="Layer1copy9"></div>
-			<div id="Layer1copy10"></div>
-			<div id="Layer1copy11"></div>
-			<div id="Layer1copy12"></div>
-			<div id="Layer1copy13"><img src="{{ static_path }}/images/pregnancy/bluehex.png"></div>
-			
-			<a href="{{ nav.link("/tables/pregcough") }}"><div id="COUGHING24">
-         COUGHING <br><br><strong>{{ display.info.coughing }}</strong>
-			</div></a>
-			
-			<a href="{{ nav.link("/tables/pregdiarrhea") }}"> <div id="DIARRHEA33">
-        DIARRHEA<br><br><strong>{{  display.info.diarrhoea  }}</strong>
-			</div></a>
-			
-			 <a href="{{ nav.link("/tables/pregfever") }}"> <div id="FEVER12">
-       FEVER<br><br><strong>{{ display.info.fever  }}</strong>
-			</div></a>
-			
-			<a href="{{ nav.link("/tables/pregmalaria") }}">  <div id="MALARIA09">
-       MALARIA<br><br><strong>{{ display.info.malaria  }}</strong>
-			</div></a>
-			
-			 <a href="{{ nav.link("/tables/pregvomit") }}"> <div id="VOMITING18">
-       VOMITING<br><br><strong>{{  display.info.vomiting  }}</strong>
-			</div></a>
-		
-		<a href="{{ nav.link("/tables/pregstill") }}"> 	<div id="STILLBORN21">
-        FLACCID PARALYSIS<strong>{{ display.info.stillb  }}</strong>
-			</div></a>
-		
-		<a href="{{ nav.link("/tables/pregedema") }}">  	<div id="EDEMA13">
-       EDEMA<br><br><strong>{{ display.info.oedema  }}</strong>
-			</div></a>
-			
-			<a href="{{ nav.link("/tables/pregpneumonia") }}">  <div id="PNEUMONIA21">
-       PNEUMONIAM<br><br><strong>{{  display.info.pneumo  }}</strong>
-			</div></a>
-	
-		<a href="{{ nav.link("/tables/preganemia") }}"> 	<div id="CLEFTPALATE21">
-        SEVERE ANEMIA<br><br><strong>{{ display.info.ibibari  }}</strong>
-			</div></a>
-			
-			<a href="{{ nav.link("/tables/pregneck") }}"> <div id="NECKSTIFFNESS">
-       NECK<br>STIFFNESS<br><strong>{{ display.info.necks  }}</strong>
-			</div></a>
-			
-			<a href="{{ nav.link("/tables/pregneck") }}"> <div id="NOPROBLEM">
-       NO SYMPTOMS: <strong>{{ display.info.necks  }}</strong>
-			</div></a>
-			
-			
-			
-			<div id="motherssympotmpic">
-			<img src="{{ static_path }}/images/pregnancy/motherssympotmpic.png">
-			</div>
-			
-			<div id="MothersSymptoms">
-			SYMPTOMS
-			</div>
-			
-			<!--  -->
-			
-			
-			
-			<!-- handwash Toilet -->
-			<div id="handwashpic"><img src="{{ static_path }}/images/pregnancy/handwashpic.png"></div>
-			<div id="handwashfacilities">
-			Hand Washing Facilities
-			</div>
-			<a href="{{ nav.link("/tables/handwash") }}"><div id="layer_12289">
-              <strong class="goodnum">{{  display.handw }}</strong>- {{ "%.2f" % display.handpc  }}%
-			</div></a>
-			
-			<a href="{{ nav.link("/tables/toilets") }}"><div id="layer_10985">
-              <strong class="goodnum">{{  display.toilets }}</strong>- {{ "%.2f" % display.toilpc  }}%
-			</div></a>
-			
-			<div id="ToiletFacilities">
-			Toilet Facilities
-			</div>
-			<div id="Availabilityof">
-			Availability of:</div>
-			<div id="toiletpic"><img src="{{ static_path }}/images/pregnancy/toiletpic.png"></div>
-			<!--  -->
-			
-			<!-- bmi -->
-			<div id="LESSTHAN1990"><img src="{{ static_path }}/images/pregnancy/LESSTHAN1990.png"></div>
-			<div id="MORETHE2521"><img src="{{ static_path }}/images/pregnancy/MORETHE2521.png"></div>
-			<div id="MORETHAN25">
-			MORE THAN 25
-			</div>
-			<a href="{{ nav.link("/tables/highbmi") }}"><div id="layer_21" class="goodnum">
-              {{  display.fats  }}
-			</div></a>
-			
-			<div id="LESSTHAN19" class="goodnum">
-			LESS THAN 19
-			</div>
-			<a href="{{ nav.link("/tables/lowbmi") }}"><div id="layer_90" class="goodnum">
-              {{  display.thins  }}
-			</div></a>
-			
-			<div id="BMI"><img src="{{ static_path }}/images/pregnancy/BMI.png"></div>
-			<div id="BMIBODYMASSINDEXismo">
-			<strong>BMI</strong> (Body Mass Index) is monitored in mothers to avoid complications pregnancies Healthy BMI is 
-			considers from 19 - 25
-			</div>
-			
-			
-			<!-- weight -->
-			<div id="ccmvcmrcopy"><img src="{{ static_path }}/images/birthreport/ccmvcmrcopy.png"></div>
-			<div id="Layer16">
-			<img src="{{ static_path }}/images/birthreport/Layer16.png">
-			</div>
-			<div id="Layer17"></div>
-			<div id="Layer18"><img src="{{ static_path }}/images/birthreport/Layer18.png"></div>
-			<div id="Lessthan2KGs">
-			Less than 45kg<br>
-			<strong>{{ display.thins|neat_numbers }}</strong>
-			</div>
-			<div id="kgs23">
-			45 to 55 Kgs<br>
-			<strong>6,545</strong>
-			</div>
-			<div id="Morethan2KGs">
-			More than 65kgs
-			<br><strong>5,642</strong>
-			</div>
-			<div id="layer_2315">
-			25%
-			</div>
-			<div id="layer_11477">
-			55%
-			</div>
-			<div id="Weightcomparisions">
-			Weight comparisions
-			</div>
-			<div id="layer_188">
-			 54%
-			</div>
-			<div id="Childwieghtismonitor">
-			<strong>Mothers' Weight</strong> is monitored by community health workers
-			and community centers nationally to keep track of mothers' nutrition statuses 
-			</div>
-			
-			</div>
-<script type="text/javascript" >
-//REVENCE                                                                                     
-//var lmps = "{% for l in display.lmps %} {% if not loop.index == 1 %},{% endif %}{{l.value}}-{{l.pc}}-{{l.rpc}} {% endfor %}";
-//MARVIN
-var lmps = "{% for l in display.lmps %} {% if not loop.index == 1 %},{% endif %}{{l.value}}{% endfor %}".split(",").map(Number);
-//alert(lmps);
-$(function () {
-        $('#lmpgraph').highcharts({
-            chart: {
-                type: 'column'
-            },
-            
-            xAxis: {
-                categories: [
-                    '1',
-                    '2',
-                    '3',
-                    '4',
-                    '5',
-                    '6',
-                    '7',
-                    '8',
-                    '9'
-                    
-                ]
-            },
-            yAxis: {
-                min: 0,
-                title: {
-                    text: 'Pregnancies Reported'
-                }
-            },
-            tooltip: {
-                headerFormat: '<span style="font-size:10px">{point.key}</span><table>',
-                pointFormat: '<tr><td style="color:{series.color};padding:0">{series.name}: </td>' +
-                    '<td style="padding:0"><b>{point.y:.1f} </b></td></tr>',
-                footerFormat: '</table>',
-                shared: true,
-                useHTML: true
-            },
-            plotOptions: {
-                column: {
-                    pointPadding: 0.2,
-                    borderWidth: 0
-                }
-            },
-            series: [{
-                name: 'Number of Pregnancies',
-                data: lmps
-    
-            }]
-        });
-    });
-
-//REVENCE                                                                                     
-//var monthavgs = "{% for m in display.monthavgs %} {% if not loop.index == 1 %},{% endif %}{{m.value}}-{{m.pc}}-{{m.rpc}} {% endfor %}";
-//MARVIN
-var monthavgs = "{% for m in display.monthavgs %} {% if not loop.index == 1 %},{% endif %}{{m.value}}{% endfor %}".split(",").map(Number);
-//alert(monthavgs);
-
-$(function () {
-    $('#monthlyavggrph').highcharts({
-        
-        xAxis: {
-            categories: ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun',
-                'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec']
-        },
-        yAxis: {
-            title: {
-                text: 'Pregnancies Confirmed'
-            },
-            plotLines: [{
-                value: 0,
-                width: 1,
-                color: '#808080'
-            }]
-        },
-        tooltip: {
-            valueSuffix: ''
-        },
-        
-        series: [{
-            name: 'Pregnancies Confirmed',
-            data: monthavgs
-        }, {
-            name: 'Expected Pregnancies',
-            data: [20, 80, 57, 63, 170, 80, 38, 71, 111, 93, 134, 90]
-        }]
-    });
-});
-
-</script>
-			<!--  -->
-      {%  endblock  %}
-
+    </div>
+  </div>
+  <div class="largecontainer">
+    <div class="infopair">
+      <div class="prem">
+        <div class="infoname">Reported Risks</div>
+        <div class="sum"><a href="/tables/{{  nav.link("risks")  }}">{{  display.risks|neat_numbers }}</a></div>
+        <div class="percent">{{  "%.2f" % display.riskpc }}</div>
+      </div>
+      <div class="scnd">
+        <div class="infoname">Results Reported</div>
+        <div class="sum">{{  display.rezes|neat_numbers }}</div>
+        <div class="percent">{{  "%.2f" % display.rezpc }}</div>
+          
+      </div>
+    </div>
+    <div class="infopair">
+      <div class="prem">
+        <div class="infoname">Recoveries due to Intervention</div>
+        <div class="sum">{{  display.aa|neat_numbers }}</div>
+        <div class="percent">{{  "%.2f" % display.aapc }}</div>
+      </div>
+      <div class="scnd">
+        <div class="infoname">Recoveries due to Referral</div>
+        <div class="sum">{{  display.pr|neat_numbers }}</div>
+        <div class="percent">{{  "%.2f" % display.prpc }}</div>
+          
+      </div>
+    </div>
+  </div>
+  <div class="humblecontainer">
+    <div class="explanation">Mothers’ Symptoms</div>
+    <div class="vals">
+      {%  for nom, cle, lk in [
+        ('Coughing', 'coughing', 'pregcough'),
+        ('Diarrhœa', 'diarrhoea', 'pregdiarrhea'),
+        ('Fever', 'fever', 'pregfever'),
+        ('Malaria', 'malaria', 'pregmalaria'),
+        ('Vomiting', 'vomiting', 'pregvomit'),
+        ('Œdema', 'oedema', 'pregedema'),
+        ('Jaundice', 'jaun', 'pregjaundice'),
+        ('Pneumonia', 'pneumo', 'pregpneumonia'),
+        ('Anaemia', 'anaemia', 'preganemia'),
+        ('Neck Stiffness', 'necks', 'pregneck')
+    ] %}
+      <div class="dispval">
+        <div class="ttl">{{ nom }}</div>
+        <div class="dat">{% if  display.info[cle] %}<a href="/tables/{{  nav.link(lk)  }}">{{  display.info[cle]  }}</a>{%  else  %}{{  display.info[cle] }}{%  endif %}</div>
+      </div>
+    {%  endfor  %}
+    </div>
+  </div>
+  <div class="largecontainer">
+    <div class="infopair">
+      <div class="prem">
+        <div class="infoname">Hand-washing Facilities</div>
+        <div class="sum">{{  display.handw|neat_numbers }}</div>
+        <div class="percent">{{  "%.2f" % display.handpc }}</div>
+      </div>
+      <div class="scnd">
+        <div class="infoname">Toilet Facilities</div>
+        <div class="sum">{{  display.toilets|neat_numbers }}</div>
+        <div class="percent">{{  "%.2f" % display.toilpc }}</div>
+          
+      </div>
+    </div>
+    <div class="infopair">
+      <div class="prem">
+        <div class="infoname">Underweight</div>
+        <div class="sum">{{  display.thins|neat_numbers }}</div>
+      </div>
+      <div class="scnd">
+        <div class="infoname">Overweight</div>
+        <div class="sum">{{  display.fats|neat_numbers }}</div>
+      </div>
+    </div>
+  </div>
+{%  endblock  %}
